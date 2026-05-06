@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "Red Flag Sim"
-  text: "掌握飞行的艺术"
-  tagline: 你不是在驾驶一个会飞的模型，而是在管理一架战斗机。学习、认证、并保持状态。
+  name: "Red Flag Sim Doc"
+  text: "Master the Art of Flight"
+  tagline: Learn, qualify, and stay current.
   actions:
     - theme: brand
       text: 开始训练

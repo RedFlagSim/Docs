@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "Red Flag Sim"
-  text: "공식 문서"
-  tagline: 비행 운용 매뉴얼 및 시스템 레퍼런스.
+  name: "Red Flag Sim Doc"
+  text: "Master the Art of Flight"
+  tagline: Learn, qualify, and stay current.
   actions:
     - theme: brand
       text: 기본 조작
