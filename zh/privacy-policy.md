@@ -1,73 +1,75 @@
-**Privacy Policy**
+**隐私政策**
 
-This privacy policy applies to the Red Flag Sim  app (hereby referred to as "Application") for mobile devices that was created by 株式会社ブルードット(BLUEDOT Inc.) (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+本隐私政策适用于由 株式会社ブルードット(BLUEDOT Inc.)（以下简称“服务提供商”）作为免费服务创建的移动设备应用程序 Red Flag Sim（以下简称“本应用程序”）。本服务按“原样”提供。
 
-**Information Collection and Use**
+**信息收集与使用**
 
-The Application collects information when you download and use it. This information may include information such as
+本应用程序在您下载和使用时会收集信息。这些信息可能包括：
 
-*   The time spent on the Application
+*   在应用程序上花费的时间
 
-*   The operating system you use on your mobile device
+*   您在移动设备上使用的操作系统
 
-The Application does not gather precise information about the location of your mobile device.
+本应用程序不会收集有关您移动设备位置的精确信息。
 
-The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
+服务提供商可能会不时使用您提供的信息与您联系，以提供重要信息、必要的通知和营销促销。
 
-For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to dev@redflagsim.com. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+为了获得更好的体验，在使用本应用程序时，服务提供商可能会要求您提供某些个人身份信息，包括但不限于 dev@redflagsim.com。服务提供商请求的信息将由其保留，并按照本隐私政策所述使用。
 
-**Third Party Access**
+**第三方访问**
 
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+仅定期将汇总的、匿名的数据传输到外部服务，以帮助服务提供商改进本应用程序及其服务。服务提供商可能会按照本隐私声明所述的方式与第三方共享您的信息。
 
-Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
+请注意，本应用程序利用第三方服务，这些服务在处理数据方面有其自己的隐私政策。以下是本应用程序使用的第三方服务提供商的隐私政策链接：
 
 *   [Google Play Services](https://www.google.com/policies/privacy/)
 
-The Application uses Unity Authentication(A white-labeled authentication solution that enables game developers to provide seamless and secure access to Unity Gaming Services for their players.) as the default user authentication method. Below are the links to the Unity Authentication Service:
+本应用程序使用 Unity Authentication（一种白标签身份验证解决方案，使游戏开发人员能够为其玩家提供对 Unity 游戏服务的无缝且安全的访问）作为默认的用户身份验证方法。以下是 Unity 身份验证服务的链接：
 
 *   [Unity Authentication](https://docs.unity.com/ugs/en-us/manual/authentication/manual/privacy-overview)
 
 *   [Unity Player Accounts](https://docs.unity.com/ugs/en-us/manual/authentication/manual/data-privacy-unity-player-accounts)
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+**信息披露**
 
-*   as required by law, such as to comply with a subpoena, or similar legal process;
+服务提供商可能会披露用户提供的信息和自动收集的信息：
 
-*   when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
+*   根据法律要求，例如遵守传票或类似的法律程序；
 
-*   with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+*   当他们真诚地认为披露对于保护其权利、保护您的安全或他人的安全、调查欺诈或回应政府请求是必要的；
 
-**Opt-Out Rights**
+*   与代表其工作的受信任服务提供商共享，这些提供商无权独立使用我们披露给他们的信息，并已同意遵守本隐私声明中规定的规则。
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+**退出权利**
 
-**Data Retention Policy**
+通过卸载本应用程序，您可以轻松停止本应用程序收集所有信息。您可以使用移动设备的一部分或通过移动应用程序市场或网络提供的标准卸载过程。
 
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at  dev@redflagsim.com and they will respond in a reasonable time.
+**数据保留政策**
 
-**Children**
+只要您使用本应用程序，服务提供商就会保留用户提供的数据，并在之后的一段合理时间内保留。如果您希望他们删除您通过本应用程序提供的用户提供的数据，请通过 dev@redflagsim.com 与他们联系，他们将在合理的时间内做出回应。
 
-The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+**儿童隐私**
 
-The Application does not address anyone under the age of 13\. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discover that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider (dev@redflagsim.com) so that they will be able to take the necessary actions.
+服务提供商不会通过本应用程序故意向 13 岁以下的儿童征集数据或向其进行营销。
 
-**Security**
+本应用程序不针对 13 岁以下的任何人。服务提供商不会故意收集 13 岁以下儿童的个人身份信息。如果服务提供商发现 13 岁以下的儿童提供了个人信息，服务提供商将立即从其服务器中删除这些信息。如果您是父母或监护人，并且您知道您的孩子已向我们提供了个人信息，请联系服务提供商 (dev@redflagsim.com)，以便他们能够采取必要的行动。
 
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+**安全**
 
-**Changes**
+服务提供商关注保护您信息的机密性。服务提供商提供物理、电子和程序保障措施，以保护服务提供商处理和维护的信息。
 
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+**变更**
 
-This privacy policy is effective as of 2025-01-01
+本隐私政策可能会因任何原因不时更新。服务提供商将通过更新此页面并发布新的隐私政策来通知您隐私政策的任何变更。建议您定期查阅本隐私政策以了解任何变更，因为继续使用即被视为批准所有变更。
 
-**Your Consent**
+本隐私政策自 2025-01-01 起生效
 
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+**您的同意**
 
-**Contact Us**
+通过使用本应用程序，您即表示同意按照本隐私政策目前及我们修订后的规定处理您的信息。
 
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at dev@redflagsim.com.
+**联系我们**
+
+如果您在使用本应用程序时对隐私有任何疑问，或对做法有疑问，请通过电子邮件 dev@redflagsim.com 联系服务提供商。
 
 * * *

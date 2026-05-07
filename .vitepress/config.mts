@@ -148,6 +148,7 @@ const zhTwNav = [
   { text: '關於', link: '/zh-tw/about' },
   { text: '基礎操作', link: '/zh-tw/basics/mobile-platform' },
   { text: '飛機模組', link: '/zh-tw/aircraft/index' },
+  { text: '隱私政策', link: '/zh-tw/privacy-policy' },
   { text: 'FAQ', link: '/zh-tw/faq' }
 ]
 
@@ -219,6 +220,7 @@ const jaNav = [
   { text: 'プロジェクトについて', link: '/ja/about' },
   { text: '基本操作', link: '/ja/basics/mobile-platform' },
   { text: '機体モジュール', link: '/ja/aircraft/index' },
+  { text: 'プライバシーポリシー', link: '/ja/privacy-policy' },
   { text: 'FAQ', link: '/ja/faq' }
 ]
 
@@ -290,6 +292,7 @@ const ruNav = [
   { text: 'О проекте', link: '/ru/about' },
   { text: 'Основы', link: '/ru/basics/mobile-platform' },
   { text: 'Модули самолётов', link: '/ru/aircraft/index' },
+  { text: 'Политика конфиденциальности', link: '/ru/privacy-policy' },
   { text: 'FAQ', link: '/ru/faq' }
 ]
 
@@ -361,6 +364,7 @@ const deNav = [
   { text: 'Über das Projekt', link: '/de/about' },
   { text: 'Grundlagen', link: '/de/basics/mobile-platform' },
   { text: 'Flugzeugmodule', link: '/de/aircraft/index' },
+  { text: 'Datenschutzerklärung', link: '/de/privacy-policy' },
   { text: 'FAQ', link: '/de/faq' }
 ]
 
@@ -432,6 +436,7 @@ const esNav = [
   { text: 'Acerca de', link: '/es/about' },
   { text: 'Conceptos básicos', link: '/es/basics/mobile-platform' },
   { text: 'Módulos de aeronaves', link: '/es/aircraft/index' },
+  { text: 'Política de privacidad', link: '/es/privacy-policy' },
   { text: 'FAQ', link: '/es/faq' }
 ]
 
@@ -503,6 +508,7 @@ const frNav = [
   { text: 'À propos', link: '/fr/about' },
   { text: 'Bases', link: '/fr/basics/mobile-platform' },
   { text: 'Modules d\'aéronefs', link: '/fr/aircraft/index' },
+  { text: 'Politique de confidentialité', link: '/fr/privacy-policy' },
   { text: 'FAQ', link: '/fr/faq' }
 ]
 
@@ -574,6 +580,7 @@ const koNav = [
   { text: '프로젝트 소개', link: '/ko/about' },
   { text: '기본 조작', link: '/ko/basics/mobile-platform' },
   { text: '항공기 모듈', link: '/ko/aircraft/index' },
+  { text: '개인정보 처리방침', link: '/ko/privacy-policy' },
   { text: 'FAQ', link: '/ko/faq' }
 ]
 
