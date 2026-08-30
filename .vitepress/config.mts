@@ -1,3 +1,4 @@
+
 import { defineConfig } from 'vitepress'
 
 const enNav = [
@@ -651,7 +652,7 @@ const koSidebar = [
 export default defineConfig({
   title: 'Red Flag Sim',
   description: '官方文档',
-  base: '/Docs/',
+  base: '/',
   locales: {
     root: {
       label: 'English',
