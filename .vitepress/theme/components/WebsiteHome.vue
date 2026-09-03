@@ -303,7 +303,7 @@ const galleryImages = Object.entries(screenshotModules)
 
 const promoVideoItems = promoVideos.map((video) => ({
   ...video,
-  embedUrl: `https://www.youtube-nocookie.com/embed/${video.youtubeId}`,
+  embedUrl: `https://www.youtube-nocookie.com/embed/${video.youtubeId}${video.startSeconds ? `?start=${video.startSeconds}` : ''}`,
   thumbnailUrl: `https://i.ytimg.com/vi/${video.youtubeId}/mqdefault.jpg`
 }))
 const activePromoVideoIndex = ref(0)
