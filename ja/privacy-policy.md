@@ -203,7 +203,7 @@ Google Play はデベロッパーに対し、サードパーティ SDK が処理
 
 データの削除をリクエストされる場合は、以下のメールアドレスまでご連絡ください。
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 リクエストを確認するために、関連するゲームアカウント、プレイヤー ID、または購入記録を識別するために必要な情報の提供をお願いする場合があります。リクエストの処理に関係のない追加の個人情報の提供をお願いすることはありません。
 
@@ -229,7 +229,7 @@ Google Play はデベロッパーに対し、サードパーティ SDK が処理
 
 保護者の方が、お子様が当社に個人情報を提供したと判断された場合は、以下のメールアドレスまでご連絡ください。
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 ---
 
@@ -262,7 +262,7 @@ Google Play はデベロッパーに対し、サードパーティ SDK が処理
 
 これらの権利を行使される場合は、以下のメールアドレスまでご連絡ください。
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 合理的な期間内にリクエストを処理します。
 
@@ -284,4 +284,4 @@ Google Play はデベロッパーに対し、サードパーティ SDK が処理
 
 **株式会社ブルードット（BLUEDOT Inc.）**
 アプリ名：Red Flag Sim
-連絡先メールアドレス：dev@redflagsim.com
+連絡先メールアドレス：support@redflagsim.com

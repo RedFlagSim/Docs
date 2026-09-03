@@ -19,7 +19,7 @@ Vous pouvez envoyer un e-mail directement à notre adresse e-mail de développeu
 
 <div class="feedback-card">
   <p><strong>E-mail du développeur :</strong></p>
-  <p><a href="mailto:dev@redflagsim.com?subject=Red%20Flag%20Sim%20Feedback" class="email-link">dev@redflagsim.com</a></p>
+  <p><a href="mailto:support@redflagsim.com?subject=Red%20Flag%20Sim%20Feedback" class="email-link">support@redflagsim.com</a></p>
 </div>
 
 ### Informations suggérées

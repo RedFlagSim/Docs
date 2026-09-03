@@ -12,7 +12,7 @@ next: false
 ## Связь и обратная связь
 
 - Сообщайте об ошибках и предложениях через страницу [обратной связи](/ru/feedback).
-- Email команды разработки: [dev@redflagsim.com](mailto:dev@redflagsim.com?subject=Red%20Flag%20Sim%20Support)
+- Email команды разработки: [support@redflagsim.com](mailto:support@redflagsim.com?subject=Red%20Flag%20Sim%20Support)
 - Ответы на типовые вопросы находятся в разделе [FAQ](/ru/faq).
 
 ## Политики

@@ -56,4 +56,4 @@ Ja. Systemverhalten, Zugriffsregeln, Wertungsgrenzen und UI-Abläufe können ang
 
 ### Wie melde ich Fehler oder erhalte Hilfe zum Konto?
 
-Schreibe an **dev@redflagsim.com** oder folge der Seite [Feedback](/de/feedback). Nenne Spielversion, Gerät, Betriebssystem, gegebenenfalls Spieler-ID, Reproduktionsschritte, erwartetes und tatsächliches Ergebnis sowie verfügbare Bilder oder Videos. Datenlöschanfragen sind in der [Datenschutzerklärung](/de/privacy-policy) beschrieben.
+Schreibe an **support@redflagsim.com** oder folge der Seite [Feedback](/de/feedback). Nenne Spielversion, Gerät, Betriebssystem, gegebenenfalls Spieler-ID, Reproduktionsschritte, erwartetes und tatsächliches Ergebnis sowie verfügbare Bilder oder Videos. Datenlöschanfragen sind in der [Datenschutzerklärung](/de/privacy-policy) beschrieben.

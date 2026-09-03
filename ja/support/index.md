@@ -12,7 +12,7 @@ next: false
 ## お問い合わせとフィードバック
 
 - 不具合、機能要望、プレイ体験に関するご意見は[ユーザーフィードバック](/ja/feedback)からお送りください。
-- 開発チームへのメール：[dev@redflagsim.com](mailto:dev@redflagsim.com?subject=Red%20Flag%20Sim%20Support)
+- 開発チームへのメール：[support@redflagsim.com](mailto:support@redflagsim.com?subject=Red%20Flag%20Sim%20Support)
 - 設定や基本操作については[よくある質問](/ja/faq)をご確認ください。
 
 ## ポリシー

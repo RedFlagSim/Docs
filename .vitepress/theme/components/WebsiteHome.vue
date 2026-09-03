@@ -2,6 +2,8 @@
 import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
 import { useData, withBase } from 'vitepress'
 import { promoVideos } from '../data/promoVideos'
+import appIcon from '../../../assets/app-icon-1.png?url'
+import heroImage from '../../../assets/home/redflagsim-hero.jpg?url'
 
 const { lang } = useData()
 
@@ -351,7 +353,7 @@ const content = computed(() => ({
   storeCards: [
     {
       mark: 'iOS',
-      icon: '/assets/app-icon-1.png',
+      icon: appIcon,
       title: 'iOS / iPadOS',
       detail: '',
       action: copy.value.appStore,
@@ -359,7 +361,7 @@ const content = computed(() => ({
     },
     {
       mark: 'A',
-      icon: '/assets/app-icon-1.png',
+      icon: appIcon,
       title: 'Android',
       detail: '',
       action: copy.value.googlePlay,
@@ -398,7 +400,6 @@ const content = computed(() => ({
   ]
 }))
 
-const heroImage = withBase('/assets/home/redflagsim-hero.jpg')
 const aboutLink = computed(() => withBase(`${copy.value.prefix}/about`))
 const blogLink = computed(() => withBase(`${copy.value.prefix}/blog/`))
 </script>
@@ -442,7 +443,7 @@ const blogLink = computed(() => withBase(`${copy.value.prefix}/blog/`))
           <img
             v-if="card.icon"
             class="rfs-platform-card__icon"
-            :src="withBase(card.icon)"
+            :src="card.icon"
             alt="RedFlagSim"
           >
           <span v-else class="rfs-platform-card__mark" aria-hidden="true">{{ card.mark }}</span>

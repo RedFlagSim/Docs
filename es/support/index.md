@@ -12,7 +12,7 @@ Encuentra ayuda, envía comentarios, consulta la información de privacidad o si
 ## Contacto y comentarios
 
 - Envía errores, solicitudes de funciones y sugerencias mediante [Comentarios](/es/feedback).
-- Correo del equipo de desarrollo: [dev@redflagsim.com](mailto:dev@redflagsim.com?subject=Red%20Flag%20Sim%20Support)
+- Correo del equipo de desarrollo: [support@redflagsim.com](mailto:support@redflagsim.com?subject=Red%20Flag%20Sim%20Support)
 - Consulta las [preguntas frecuentes](/es/faq) para resolver dudas de configuración y uso.
 
 ## Políticas

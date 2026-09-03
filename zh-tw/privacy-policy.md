@@ -203,7 +203,7 @@ Google Play 要求開發者在 Data safety 表單中說明應用收集和共享�
 
 如需請求刪除數據，請通過以下郵箱聯繫我們：
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 為確認請求，我們可能需要用戶提供必要資訊，以便識別相關遊戲帳號、玩家 ID 或購買記錄。我們不會要求用戶提供與處理請求無關的額外個人資訊。
 
@@ -229,7 +229,7 @@ Google Play 要求開發者在 Data safety 表單中說明應用收集和共享�
 
 如果您是父母或監護人，並認為您的孩子向我們提供了個人資訊，請通過以下郵箱聯繫我們：
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 ---
 
@@ -262,7 +262,7 @@ Google Play 要求開發者在 Data safety 表單中說明應用收集和共享�
 
 如需行使相關權利，請通過以下郵箱聯繫我們：
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 我們將在合理時間內處理請求。
 
@@ -284,4 +284,4 @@ Google Play 要求開發者在 Data safety 表單中說明應用收集和共享�
 
 **株式会社ブルードット（BLUEDOT Inc.）**
 應用名稱：Red Flag Sim
-聯繫郵箱：dev@redflagsim.com
+聯繫郵箱：support@redflagsim.com

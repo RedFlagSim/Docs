@@ -19,7 +19,7 @@ next: false
 
 <div class="feedback-card">
   <p><strong>開発者メールアドレス：</strong></p>
-  <p><a href="mailto:dev@redflagsim.com?subject=Red%20Flag%20Sim%20Feedback" class="email-link">dev@redflagsim.com</a></p>
+  <p><a href="mailto:support@redflagsim.com?subject=Red%20Flag%20Sim%20Feedback" class="email-link">support@redflagsim.com</a></p>
 </div>
 
 ### 記載を推奨する情報

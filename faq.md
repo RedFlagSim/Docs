@@ -56,4 +56,4 @@ Yes. System behavior, access rules, scoring thresholds, and UI workflows may be 
 
 ### How should I report a bug or request account help?
 
-Email **dev@redflagsim.com** or follow the [Feedback](/feedback) page. Include the game version, device model, operating-system version, player ID when relevant, reproduction steps, expected and actual results, and screenshots or video if available. For privacy or deletion requests, see the [Privacy Policy](/privacy-policy).
+Email **support@redflagsim.com** or follow the [Feedback](/feedback) page. Include the game version, device model, operating-system version, player ID when relevant, reproduction steps, expected and actual results, and screenshots or video if available. For privacy or deletion requests, see the [Privacy Policy](/privacy-policy).

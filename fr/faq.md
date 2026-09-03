@@ -56,4 +56,4 @@ Oui. Comportements, accès, seuils de notation et parcours d'interface peuvent �
 
 ### Comment signaler un bug ou demander de l'aide ?
 
-Écrivez à **dev@redflagsim.com** ou suivez la page [Commentaires](/fr/feedback). Indiquez version, appareil, système, ID joueur si utile, étapes, résultat attendu et réel, et images ou vidéos disponibles. Pour les demandes de suppression, consultez la [Politique de confidentialité](/fr/privacy-policy).
+Écrivez à **support@redflagsim.com** ou suivez la page [Commentaires](/fr/feedback). Indiquez version, appareil, système, ID joueur si utile, étapes, résultat attendu et réel, et images ou vidéos disponibles. Pour les demandes de suppression, consultez la [Politique de confidentialité](/fr/privacy-policy).

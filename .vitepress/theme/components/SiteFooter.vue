@@ -97,7 +97,7 @@ const groups = computed(() => {
         [copy.value.support[1], `${prefix}/feedback`],
         [copy.value.support[2], `${prefix}/privacy-policy`],
         ['Instagram', 'https://www.instagram.com/carrier_landing_hd/'],
-        [copy.value.support[3], 'mailto:dev@redflagsim.com']
+        [copy.value.support[3], 'mailto:support@redflagsim.com']
       ]
     }
   ]

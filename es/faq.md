@@ -56,4 +56,4 @@ Sí. Comportamiento, acceso, umbrales y flujos de interfaz pueden ajustarse. El 
 
 ### ¿Cómo informo de un error o pido ayuda?
 
-Escribe a **dev@redflagsim.com** o sigue la página de [Comentarios](/es/feedback). Incluye versión, dispositivo, sistema, ID de jugador cuando proceda, pasos, resultado esperado y real, e imágenes o vídeo disponibles. Para eliminación de datos, consulta la [Política de privacidad](/es/privacy-policy).
+Escribe a **support@redflagsim.com** o sigue la página de [Comentarios](/es/feedback). Incluye versión, dispositivo, sistema, ID de jugador cuando proceda, pasos, resultado esperado y real, e imágenes o vídeo disponibles. Para eliminación de datos, consulta la [Política de privacidad](/es/privacy-policy).

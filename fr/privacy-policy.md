@@ -203,7 +203,7 @@ Les utilisateurs peuvent demander la suppression des données liées à leur com
 
 Pour demander la suppression des données, veuillez nous contacter à l'adresse suivante :
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 Pour confirmer une demande, nous pouvons avoir besoin que l'utilisateur fournisse les informations nécessaires pour identifier le compte de jeu concerné, l'ID du joueur ou le dossier d'achat. Nous ne demanderons pas aux utilisateurs d'informations personnelles supplémentaires sans rapport avec le traitement de la demande.
 
@@ -229,7 +229,7 @@ Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants d
 
 Si vous êtes un parent ou un tuteur et que vous pensez que votre enfant nous a fourni des informations personnelles, veuillez nous contacter à l'adresse suivante :
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 ---
 
@@ -262,7 +262,7 @@ Conformément aux lois applicables, les utilisateurs peuvent disposer des droits
 
 Pour exercer les droits correspondants, veuillez nous contacter à l'adresse suivante :
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 Nous traiterons les demandes dans un délai raisonnable.
 
@@ -284,4 +284,4 @@ Si vous avez des questions concernant cette politique de confidentialité, les m
 
 **BLUEDOT Inc. (株式会社ブルードット)**
 Nom de l'application : Red Flag Sim
-E-mail de contact : dev@redflagsim.com
+E-mail de contact : support@redflagsim.com

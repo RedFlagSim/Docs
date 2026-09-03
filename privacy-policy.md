@@ -203,7 +203,7 @@ Users may request the deletion of data related to their game account, including 
 
 To request data deletion, please contact us at:
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 To confirm a request, we may need the user to provide necessary information to identify the relevant game account, player ID, or purchase record. We will not ask users for additional personal information unrelated to processing the request.
 
@@ -229,7 +229,7 @@ We do not knowingly collect personal information from children under 13. If we d
 
 If you are a parent or guardian and believe your child has provided us with personal information, please contact us at:
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 ---
 
@@ -262,7 +262,7 @@ Depending on applicable laws, users may have the following rights:
 
 To exercise relevant rights, please contact us at:
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 We will process requests within a reasonable timeframe.
 
@@ -284,4 +284,4 @@ If you have any questions regarding this Privacy Policy, data processing methods
 
 **BLUEDOT Inc. (株式会社ブルードット)**
 Application Name: Red Flag Sim
-Contact Email: dev@redflagsim.com
+Contact Email: support@redflagsim.com

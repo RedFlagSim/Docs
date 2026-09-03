@@ -12,7 +12,7 @@ next: false
 ## 문의 및 의견
 
 - 버그, 기능 제안, 플레이 경험에 관한 의견은 [사용자 의견](/ko/feedback) 페이지로 보내 주세요.
-- 개발팀 이메일: [dev@redflagsim.com](mailto:dev@redflagsim.com?subject=Red%20Flag%20Sim%20Support)
+- 개발팀 이메일: [support@redflagsim.com](mailto:support@redflagsim.com?subject=Red%20Flag%20Sim%20Support)
 - 설정과 기본 조작은 [자주 묻는 질문](/ko/faq)을 확인해 주세요.
 
 ## 정책

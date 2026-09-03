@@ -12,7 +12,7 @@ next: false
 ## 聯絡與反饋
 
 - 透過[用戶反饋](/zh-tw/feedback)提交錯誤、功能建議與遊戲體驗意見。
-- 傳送郵件至開發團隊：[dev@redflagsim.com](mailto:dev@redflagsim.com?subject=Red%20Flag%20Sim%20Support)。
+- 傳送郵件至開發團隊：[support@redflagsim.com](mailto:support@redflagsim.com?subject=Red%20Flag%20Sim%20Support)。
 - 在[常見問題](/zh-tw/faq)中查找平台設定與基礎操作說明。
 
 ## 政策

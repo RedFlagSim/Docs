@@ -203,7 +203,7 @@ Nutzer können die Löschung von Daten im Zusammenhang mit ihrem Spielkonto bean
 
 Um die Löschung von Daten zu beantragen, kontaktieren Sie uns bitte unter:
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 Um eine Anfrage zu bestätigen, müssen wir den Nutzer möglicherweise bitten, notwendige Informationen bereitzustellen, um das relevante Spielkonto, die Spieler-ID oder den Kaufbeleg zu identifizieren. Wir werden Nutzer nicht nach zusätzlichen personenbezogenen Daten fragen, die nicht mit der Bearbeitung der Anfrage in Zusammenhang stehen.
 
@@ -229,7 +229,7 @@ Wir erfassen nicht wissentlich personenbezogene Daten von Kindern unter 13 Jahre
 
 Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und glauben, dass Ihr Kind uns personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte unter:
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 ---
 
@@ -262,7 +262,7 @@ Gemäß geltendem Recht können Nutzer die folgenden Rechte haben:
 
 Um relevante Rechte auszuüben, kontaktieren Sie uns bitte unter:
 
-**dev@redflagsim.com**
+**support@redflagsim.com**
 
 Wir werden Anfragen innerhalb eines angemessenen Zeitrahmens bearbeiten.
 
@@ -284,4 +284,4 @@ Wenn Sie Fragen zu dieser Datenschutzerklärung, den Datenverarbeitungsmethoden,
 
 **BLUEDOT Inc. (株式会社ブルードット)**
 Anwendungsname: Red Flag Sim
-Kontakt-E-Mail: dev@redflagsim.com
+Kontakt-E-Mail: support@redflagsim.com
