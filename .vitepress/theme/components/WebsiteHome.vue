@@ -38,7 +38,7 @@ const copies: Record<string, HomeCopy> = {
     subtitle: ['High-Fidelity Flight Simulation.', 'Within Reach.'],
     about: 'What is RedFlagSim?',
     promo: 'Promo Video',
-    promoGallery: 'Promo Video Gallery',
+    promoGallery: 'Video Gallery',
     gallery: 'Screenshot Gallery',
     screenshot: 'Screenshot',
     closeGallery: 'Close gallery',
