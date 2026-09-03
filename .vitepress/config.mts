@@ -1,3 +1,4 @@
+
 import { defineConfig } from 'vitepress'
 
 const docsRewrites = {
