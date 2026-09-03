@@ -1,38 +1,27 @@
-# Guide des commandes sur plateforme mobile
+# Manuel de pilotage sur plateforme mobile
 
-Sur les appareils mobiles, Red Flag Sim s'engage à vous offrir une expérience de pilotage aussi proche que possible de la réalité. En exploitant les gyroscopes et accéléromètres de haute précision de votre appareil, votre téléphone se transforme en un « manche à balai simulé » ultra-sensible.
+Ce document s'applique aux appareils mobiles iOS/Android.
 
-## Commandes par inclinaison (Tilt Control)
+## Règle d'or : Tenue verticale
 
-Contrairement aux joysticks virtuels traditionnels, Red Flag Sim utilise l'**inclinaison par gravité** comme méthode principale de pilotage. Cela vous permet de contrôler précisément l'attitude de l'avion via des mouvements physiques intuitifs tout en surveillant les instruments du cockpit.
+**C'est l'étape fondamentale pour établir un contrôle précis de l'attitude de vol :**
 
-### Posture de base : Tenue verticale
+![Schéma de posture](/assets/tilt-guide.png)
 
-> [!IMPORTANT]
-> **Ne tenez PAS le téléphone à l'horizontale (à plat).**
-> 
-> Pour garantir la précision des algorithmes d'attitude et obtenir le meilleur couple de commande, vous devez tenir le téléphone **verticalement**.
+*   **❌ FAUX** : Tenir le téléphone à plat ou à l'horizontale. Cela désactive les algorithmes d'attitude et limite considérablement la course physique de vos poignets pour le contrôle du tangage.
+*   **✅ CORRECT** : Tenez l'appareil à deux mains, en gardant l'écran **perpendiculaire au sol** (orienté directement face à vous).
 
-*   **Position neutre** : Tenez l'appareil à deux mains par les côtés, l'écran perpendiculaire au sol et face à vous.
-*   **Commande de tangage (Pitch - Gouverne de profondeur)** :
-    *   **Tirer (Monter)** : Inclinez le haut du téléphone vers l'**arrière** (vers vous).
-    *   **Pousser (Piquer)** : Inclinez le haut du téléphone vers l'**avant** (à l'opposé de vous).
-*   **Commande de roulis (Roll - Ailerons)** :
-    *   **Inclinaison gauche/droite** : Faites pivoter le téléphone vers la gauche ou la droite, comme si vous tourniez un volant.
+### Pourquoi la tenue doit-elle être verticale ?
+1.  **Alignement biomécanique** : L'orientation verticale reproduit parfaitement l'axe de rotation physique d'un manche central ou latéral d'un avion de chasse réel.
+2.  **Synchronisation avec l'horizon** : Vos yeux, l'écran et l'horizon du cockpit virtuel sont alignés sur le même système de référence spatiale, ce qui minimise le risque de désorientation spatiale (vertige) lors des manœuvres à forte charge G.
+3.  **Amplitude optimale pour les micro-commandes** : Dans cette posture, vos poignets disposent naturellement de l'amplitude maximale de mouvement pour les commandes de tangage (avant/arrière) et de roulis (gauche/droite).
 
-### Pourquoi la tenue verticale ?
+## Logique de commande
 
-1.  **Alignement biomécanique** : La tenue verticale simule le mouvement d'un pilote tenant un manche central ou latéral.
-2.  **Amplitude de commande accrue** : En position verticale, l'amplitude de mouvement du poignet pour le tangage est maximisée, offrant un contrôle plus fin de l'appareil.
-3.  **Alignement visuel** : En tenant le téléphone verticalement, la perspective du cockpit virtuel s'aligne sur votre ligne de mire naturelle, ce qui renforce l'immersion et réduit le mal des transports.
+*   **Contrôle du tangage (Pitch - Gouverne de profondeur)** : Inclinez le haut du téléphone vers l'**arrière** (vers vous) pour lever le nez et monter ; inclinez-le vers l'**avant** (vers l'extérieur) pour piquer et descendre.
+*   **Contrôle du roulis (Roll - Ailerons)** : Faites pivoter le téléphone vers la gauche ou la droite, comme si vous tourniez un volant.
 
-## Conseils d'optimisation
+## Calibrage avant-vol et conseils de précision
 
-### 1. Calibrage de l'appareil
-Avant d'entrer dans le cockpit ou de commencer une mission, adoptez votre position assise la plus confortable, tenez fermement le téléphone verticalement et appuyez sur le bouton **"CALIBRATE" (Calibrer)** de l'interface. Le système enregistrera l'angle d'inclinaison actuel comme position neutre (point zéro).
-
-### 2. Réglages de sensibilité
-Les performances des capteurs variant selon les appareils, vous pouvez ajuster les courbes de sensibilité de l'inclinaison dans les paramètres système. Si l'avion vous semble trop nerveux, essayez de baisser la sensibilité pour un pilotage plus fluide.
-
-### 3. Points d'appui
-Lors de manœuvres précises comme le combat aérien ou le ravitaillement en vol, il est recommandé de poser les coudes sur les genoux ou les accoudoirs. Cela aide à stabiliser les micro-mouvements et améliore la précision globale.
+1.  **Définir la ligne de référence (Calibrage)** : Avant d'entrer dans le cockpit ou de lancer une mission, installez-vous confortablement, tenez fermement l'appareil à la verticale et appuyez sur **"CALIBRATE"**. Le système enregistrera l'angle actuel comme point zéro neutre.
+2.  **Stabiliser vos commandes** : Lors d'opérations de haute précision – telles que le vol en formation serrée, le ravitaillement en vol ou le combat tournoyant (dogfight) –, posez vos coudes sur vos genoux ou sur les accoudoirs. Cela permet de filtrer les tremblements et d'atteindre une précision de pilotage de l'ordre du sous-degré.

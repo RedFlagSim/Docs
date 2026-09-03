@@ -1,3 +1,8 @@
+---
+title: Über RedFlagSim
+sidebar: false
+---
+
 ![Red Flag Sim](/assets/title_f15c.png)
 
 # Über das Projekt

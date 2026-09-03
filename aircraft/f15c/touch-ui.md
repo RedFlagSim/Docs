@@ -296,14 +296,14 @@ When radar is in LRW/TWS mode, this controls pitch reference for antenna scan.
 <a id="item-26"></a>
 ### 26. Coolie Switch
 
-To be added.
+Used for page and display management. In the F-15C workflow, treat the coolie switch as a quick way to move cockpit attention between tactical pages without opening the main menu. Confirm the active display before using cursor or designate commands.
 
 [Back to top](#ui-terms-top)
 
 <a id="item-27"></a>
 ### 27. Weapon Release
 
-To be added.
+Releases the currently selected missile or store when master arm is ON and the selected weapon is ready. For air-to-air missiles, confirm target source, range cue, and aircraft attitude before pressing. This button is separate from the gun trigger.
 
 [Back to top](#ui-terms-top)
 

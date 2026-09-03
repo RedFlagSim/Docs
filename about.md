@@ -1,3 +1,8 @@
+---
+title: About RedFlagSim
+sidebar: false
+---
+
 ![Red Flag Sim](/assets/title_f15c.png)
 
 # About Red Flag Sim
@@ -34,10 +39,11 @@ Every successful qualification is recorded in your pilot file. But a pilot's ski
 ## Development Roadmap
 
 Our mission is to bring serious military aviation simulation to more platforms while maintaining its core depth. Our current milestones include:
-- **Global Map System:** A world built for global-scale operations.
-- **Aircraft Expansion:** More legendary airframes, each modeled to the same technical baseline.
-- **Multiplayer Combat:** Cross-platform matchmaking for the ultimate test of skill.
-- **Full Platform Support:** Bringing the Eagle to PC, Mac, and consoles.
+- **High-Precision Map System:** A new high-precision map system designed for rapid scenario creation.
+- **FLIR Pod and Air-to-Ground Radar Displays:** Forward-looking infrared targeting pod imagery and ground-mapping radar displays for strike, reconnaissance, and target identification workflows.
+- **Multiplayer Combat:** Online combat with cross-platform matchmaking and shared multiplayer sessions across supported platforms.
+- **Tacview-Style Replay System:** A tactical debriefing and replay tool for reviewing flight paths, engagements, weapon launches, and mission outcomes.
+- **Full Platform Support:** After iOS and Android, expand to Apple and Meta VR devices, then PC and Mac, followed by console platforms.
 
 ---
 

@@ -1,3 +1,11 @@
+---
+title: Privacy Policy
+sidebar: false
+prev: false
+next: false
+pageClass: rfs-legal-page
+---
+
 # Red Flag Sim Privacy Policy
 
 **Effective Date: May 7, 2026**

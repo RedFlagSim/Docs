@@ -2,8 +2,8 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 const ROOT = process.cwd()
-const SOURCE_DIRS = ['basics', 'aircraft']
-const SOURCE_ROOT_FILES = ['index.md', 'about.md', 'faq.md']
+const SOURCE_DIRS = ['basics', 'aircraft', 'game', 'blog', 'support']
+const SOURCE_ROOT_FILES = ['index.md', 'about.md', 'faq.md', 'feedback.md', 'privacy-policy.md']
 const LOCALES = ['zh', 'zh-tw', 'ja', 'ru', 'de', 'es', 'fr', 'ko']
 
 function walkMarkdownFiles(relDir) {

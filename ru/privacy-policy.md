@@ -1,3 +1,11 @@
+---
+title: Политика конфиденциальности
+sidebar: false
+prev: false
+next: false
+pageClass: rfs-legal-page
+---
+
 # Политика конфиденциальности Red Flag Sim
 
 **Дата вступления в силу: 7 мая 2026 г.**

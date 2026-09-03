@@ -1,33 +1,37 @@
-# Introduction
+# La référence absolue de la supériorité aérienne : F-15C Eagle
 
-![Image de couverture F-15C](/assets/F-15C/header.jpg)
+![F-15C En-tête](/assets/F-15C/header.jpg)
 
-Le F-15C est le premier module jouable de Red Flag Sim et sert également de référence unifiée en matière de technologie et de qualité pour tous les modules à venir. Tant que les autres appareils en développement n'ont pas finalisé leurs systèmes avioniques dédiés, certaines implémentations du F-15C seront utilisées temporairement comme solution de transition afin de garantir l'efficacité globale du développement et la cohérence des systèmes.
+Montez à bord du cockpit du chasseur lourd de supériorité aérienne le plus couronné de succès de l'histoire. Dans Red Flag Sim, le F-15C n'est pas seulement votre module de départ : il représente la référence technique au niveau du système pour tout le développement ultérieur. Ici, vous ne pilotez pas simplement un modèle 3D ; vous commandez une entité mécanique complexe où l'aérodynamique de haute fidélité, les capteurs physiques et une logique tactique complexe sont étroitement imbriqués.
 
-## Aérodynamique
+## Physique du vol : Au-delà de l'illusion du vol « sur rails »
 
-La modélisation aérodynamique suit des standards académiques et des méthodes d'ingénierie. Le cadre de modélisation, la définition des paramètres et la validation des résultats sont alignés autant que possible avec la recherche aéronautique rigoureuse. Le niveau d'ajustement entre les données aérodynamiques clés et les résultats réels en soufflerie dépasse 95%.
+Dans Red Flag Sim, le contrôle du vol n'est jamais réduit à une simple animation de trajectoire prédéfinie. Notre modèle aérodynamique, conçu à partir de données réelles de soufflerie, correspond à plus de 95 % à la physique du vol réel :
+*   **Gestion de l'énergie** : Chaque poussée ou traction sur le manche modifie dynamiquement l'équilibre entre l'énergie cinétique et la traînée aérodynamique.
+*   **Effets limites** : Lors de manœuvres à des angles d'attaque (AoA) élevés, vous ferez l'expérience de véritables secousses de la cellule (buffeting) et de signes de décrochage de la voilure.
+*   **Centre de gravité dynamique** : La consommation de carburant, le largage des réservoirs externes et le lancement des armes recalculent en temps réel la distribution de masse et les caractéristiques de trim de l'avion. Vous devez respecter les lois de la physique pour pousser ce lourd « Eagle » dans ses retranchements.
 
-## Radar de conduite de tir
+## Radar de tir : Maîtrisez le flux d'interception Doppler
 
-Les performances de détection sont modélisées avec haute précision à partir des équations radar réelles. La gestion des cibles et la fusion de pistes sont implémentées et optimisées avec des méthodes de niveau industriel.
+L'écran du radar AN/APG-63 n'est pas un générateur « magique de points ». C'est un capteur physique modélisé directement à partir de l'équation du radar et de la physique électromagnétique :
+*   **Physique du capteur** : Comprendre la surface équivalente radar (RCS) de la cible, le bruit de fond du sol (ground clutter) et les limites de balayage de l'antenne est essentiel pour survivre.
+*   **Modes tactiques** : De la recherche à longue portée (LRS) et du balayage pendant le suivi (TWS) au verrouillage de cible unique (STT), vous devez maîtriser la logique tactique de chaque mode radar.
+*   **Contre-mesures tactiques** : Les adversaires peuvent voler dans votre « Doppler Notch » (zone aveugle Doppler) pour briser le verrouillage. Vous devez contrer cela comme un vrai pilote de F-15C, en adaptant dynamiquement votre cap et votre aspect.
 
-## Affichages
+## Avionique tactique : Reconstruire la conscience situationnelle
 
-HUD, VSD, RWR et MPCD sont modélisés et simulés en haute fidélité à partir de documentation technique réelle. Police, taille, mise en page, espacement des caractères, dimensions des symboles et épaisseur des traits sont reproduits avec une fidélité proche de 100%. Le HMD actuel est limité par les sources publiques disponibles et utilise donc une approche approximative fondée sur les informations existantes et une extrapolation raisonnable.
+Le cockpit de l'avionique recréé au pixel près est conçu autour des flux de travail réels d'un pilote de chasse soumis à un stress extrême :
+*   **Recréation de précision** : La symbologie et la logique d'affichage du HUD (visualisation tête haute), du VSD (affichage de situation verticale) et du TEWS/RWR (récepteur d'alerte radar) sont directement modélisées à partir des manuels techniques réels.
+*   **Perception acoustique des menaces** : Les signaux d'avertissement du RWR (du balayage de recherche au verrouillage par missile) sont reproduits avec une précision d'ingénierie, vous permettant de classer les menaces et de déployer des contre-mesures uniquement à l'oreille.
 
-## Simulation système
+## Systèmes d'armes : Décision froide dans la « zone de non-retour »
 
-Les systèmes embarqués clés (hydraulique, alimentation électrique, carburant, navigation et conduite de tir) sont implémentés en profondeur. Architecture système, propagation des états, interaction des sous-systèmes et logique d'exécution sont conçues pour rester au plus proche du réel.
+Contrairement aux jeux d'arcade qui reposent sur un simple signal de verrouillage, dans Red Flag Sim, le lancement d'un missile n'est que l'étape finale d'une interception tactique complexe :
+*   **Analyse de la zone d'emploi (WEZ)** : Vous devez interpréter les indicateurs de la zone de lancement dynamique (DLZ) sur le HUD, en surveillant la portée maximale (Rmax) et la zone critique de **non-retour (Rne)**.
+*   **Interception cinétique** : Les différences d'altitude, la vitesse de lancement et l'angle d'aspect de la cible déterminent si votre AIM-120 AMRAAM ou AIM-9 Sidewinder conserve l'énergie cinétique terminale requise pour frapper. Chaque lancement est un calcul froid, pas une simple pression sur un bouton.
 
-## Système de propulsion
+## Progression du pilote : Obtenez votre certification de F-15C
 
-L'ajustement de poussée est réalisé à partir des courbes réelles d'accélération et de l'enveloppe de vol en palier, combinées au modèle de traînée aérodynamique. Des algorithmes avancés de dynamique des turboréacteurs reproduisent fidèlement la réponse en régime et les caractéristiques dynamiques selon les états de vol.
-
-## Cockpit
-
-La grande majorité des instruments mécaniques est fonctionnelle et pilotée selon la logique réelle. Une partie des systèmes embarqués peut être opérée et gérée directement via le cockpit cliquable.
-
-## Armement
-
-L'ensemble des systèmes d'armement réellement exploitables sur le F-15C est reproduit intégralement. Toutes les armes sont simulées sur des modèles aérodynamiques de haute précision et utilisent des algorithmes proches de la logique de combat réelle pour le calcul d'enveloppe de portée et l'évaluation des conditions de tir.
+Maîtriser le F-15C est votre examen de passage pour devenir un pilote de chasse certifié dans Red Flag Sim :
+*   **Cursus systématique** : Progressez du vol aux instruments (IFR) et du vol en formation serrée aux interceptions radar BVR (au-delà de la portée visuelle) et au combat aérien rapproché (ACM).
+*   **Historique numérique** : Chacun de vos atterrissages, dépassements de charges G et l'efficacité de l'utilisation des armes sont enregistrés par le système d'analyse tactique. Réussissez les évaluations pour déverrouiller votre **Certification de Piloto de F-15C** et conservez votre statut actif (Current) dans la base de données des pilotes.

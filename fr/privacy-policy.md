@@ -1,3 +1,11 @@
+---
+title: Politique de confidentialité
+sidebar: false
+prev: false
+next: false
+pageClass: rfs-legal-page
+---
+
 # Politique de confidentialité de Red Flag Sim
 
 **Date d'entrée en vigueur : 7 mai 2026**

@@ -1,3 +1,11 @@
+---
+title: 개인정보 처리방침
+sidebar: false
+prev: false
+next: false
+pageClass: rfs-legal-page
+---
+
 # Red Flag Sim 개인정보 처리방침
 
 **시행일: 2026년 5월 7일**

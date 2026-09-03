@@ -1,38 +1,39 @@
-# Mobile Platform Controls
+# Mobile Platform Pilot's Manual
 
-On mobile devices, Red Flag Sim is committed to providing a flight control experience as close to reality as possible. By leveraging high-precision gyroscopes and accelerometers, your phone is transformed into a sensitive "Simulated Flight Stick."
+This document applies to iOS/Android mobile devices.
 
-## Tilt Controls
+## Core Rule: Vertical Grip
 
-Unlike traditional virtual joysticks, Red Flag Sim uses **Gravity Tilt** as the core flight control method. This allows you to precisely control the aircraft's attitude through intuitive physical movements while monitoring the cockpit instruments.
+**This is the fundamental step to establishing precise attitude control:**
 
-### Core Grip: Vertical Orientation
+![Grip Posture Diagram](/assets/tilt-guide.png)
 
-> [!IMPORTANT]
-> **DO NOT hold the phone flat/horizontal.**
-> 
-> To ensure the accuracy of the attitude algorithms and achieve the best control torque, you must hold the phone **vertically**.
+*   **❌ WRONG**: Holding the phone flat or horizontal. In this posture, the roll and yaw axes couple, making roll input difficult to distinguish reliably.
+*   **✅ STANDARD**: Hold the device with both hands, keeping the screen **vertical to the ground** (directly facing you).
 
-*   **Neutral Position**: Hold the device with both hands on the sides, screen perpendicular to the ground, facing you directly.
-*   **Pitch Control (Elevators)**:
-    *   **Pull Back (Climb)**: Tilt the top of the phone **backward** (toward your body).
-    *   **Push Forward (Dive)**: Tilt the top of the phone **forward** (away from your body).
-*   **Roll Control (Ailerons)**:
-    *   **Bank Left/Right**: Rotate the phone to the left or right, similar to turning a steering wheel.
+### Why Must the Grip Be Vertical?
 
-### Why Vertical Orientation?
+Motion control needs the roll axis to remain clear and distinguishable. When the device is laid flat, the roll and yaw axes couple during attitude solving, so the system can no longer reliably tell whether the player is commanding roll or yaw. For motion control, the upright grip must be used as the baseline posture.
 
-1.  **Biomechanical Alignment**: Vertical orientation simulates the movement of a pilot holding a center stick or side stick.
-2.  **Increased Control Throw**: In a vertical state, the range of motion for wrist pitching is maximized, providing finer control over the aircraft.
-3.  **Visual Alignment**: When holding the phone vertically, the virtual cockpit perspective aligns with your natural line of sight, enhancing immersion and reducing motion sickness.
+## Control Inputs
 
-## Optimization Tips
+*   **Pitch Control (Elevators)**: Tilt the top of the phone **backward** (toward your body) to pull up and climb; tilt it **forward** (away from your body) to push down and dive.
+*   **Roll Control (Ailerons)**: Rotate the phone left or right, similar to turning a steering wheel.
 
-### 1. Device Calibration
-Before entering the cockpit or starting a mission, assume your most comfortable sitting position, hold the phone steadily in its vertical orientation, and tap the **"CALIBRATE"** button on the UI. The system will record the current tilt angle as the zero-point neutral position.
+## Touch Virtual Joystick
 
-### 2. Sensitivity Settings
-Since sensor performance varies across devices, you can adjust the tilt sensitivity curves in the system settings. If the aircraft feels twitchy, try lowering the sensitivity for a smoother flight experience.
+As an alternative to motion control, the mobile version also supports an on-screen virtual joystick. Select the virtual joystick control mode before flight when you want to keep the device stationary.
 
-### 3. Support Points
-During precise maneuvers like air-to-air combat or aerial refueling, it is recommended to rest your elbows on your knees or armrests. This helps stabilize micro-movements and improves overall precision.
+*   **Pitch Control**: Drag the stick **down** to pull up and **up** to push the nose down.
+*   **Roll Control**: Drag the stick left or right to command the corresponding roll direction.
+*   **Return to Neutral**: Release the stick and it automatically returns to the center position.
+
+The vertical-grip and calibration requirements above apply only to motion control. When using the touch virtual joystick, the device can be held in any comfortable viewing position.
+
+## Pre-Flight Setup & Precision Tips
+
+1.  **Establish Your Baseline (Calibration)**: Before entering the cockpit or launching a mission, assume your comfortable cockpit seating position, hold the device steadily upright, open the main menu, and tap **"CALIBRATE"** in the main menu. The system will record the current angle as your zero-point neutral baseline.
+
+    ![CALIBRATE location in the main menu](/assets/mobile-main-menu-calibrate-placeholder.png)
+
+2.  **Stabilize Your Controls**: During high-precision operations—such as tight formations, aerial refueling, or close-range dogfights—rest your elbows on your knees or armrests. This filters out body tremors and enables sub-degree maneuvering precision.

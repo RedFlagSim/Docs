@@ -1,3 +1,8 @@
+---
+title: RedFlagSim 소개
+sidebar: false
+---
+
 ![Red Flag Sim](/assets/title_f15c.png)
 
 # 프로젝트 소개

@@ -1,10 +1,20 @@
 import DefaultTheme from 'vitepress/theme'
-import { onMounted } from 'vue'
+import { h, onMounted } from 'vue'
 import { useRouter } from 'vitepress'
+import SiteFooter from './components/SiteFooter.vue'
+import WebsiteHome from './components/WebsiteHome.vue'
 import './custom.css'
 
 export default {
   extends: DefaultTheme,
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'layout-bottom': () => h(SiteFooter)
+    })
+  },
+  enhanceApp({ app }) {
+    app.component('WebsiteHome', WebsiteHome)
+  },
   setup() {
     const router = useRouter()
     

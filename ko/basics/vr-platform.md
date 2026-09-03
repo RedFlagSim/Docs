@@ -1,3 +1,5 @@
 # VR 플랫폼
 
-> TODO: Add localized content for VR 플랫폼.
+Red Flag Sim은 Apple Vision Pro 버전과 Meta VR 버전 출시를 계획하고 있습니다.
+
+VR 이식은 모바일 버전의 품질과 안정성이 목표 수준에 도달한 뒤 시작합니다. 플랫폼별 조작 방식, 인터랙션 설계, 성능 목표 및 출시 일정은 VR 개발이 시작된 후 공개합니다.

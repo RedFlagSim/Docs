@@ -1,3 +1,11 @@
+---
+title: プライバシーポリシー
+sidebar: false
+prev: false
+next: false
+pageClass: rfs-legal-page
+---
+
 # Red Flag Sim プライバシーポリシー
 
 **発効日：2026年5月7日**

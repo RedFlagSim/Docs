@@ -1,25 +1,60 @@
 import { defineConfig } from 'vitepress'
 
+const docsRewrites = {
+  'basics/:path*': 'Docs/basics/:path*',
+  'game/:path*': 'Docs/game/:path*',
+  'aircraft/:path*': 'Docs/aircraft/:path*',
+  'zh/basics/:path*': 'zh/Docs/basics/:path*',
+  'zh/game/:path*': 'zh/Docs/game/:path*',
+  'zh/aircraft/:path*': 'zh/Docs/aircraft/:path*',
+  'zh-tw/basics/:path*': 'zh-tw/Docs/basics/:path*',
+  'zh-tw/game/:path*': 'zh-tw/Docs/game/:path*',
+  'zh-tw/aircraft/:path*': 'zh-tw/Docs/aircraft/:path*',
+  'ja/basics/:path*': 'ja/Docs/basics/:path*',
+  'ja/game/:path*': 'ja/Docs/game/:path*',
+  'ja/aircraft/:path*': 'ja/Docs/aircraft/:path*',
+  'ru/basics/:path*': 'ru/Docs/basics/:path*',
+  'ru/game/:path*': 'ru/Docs/game/:path*',
+  'ru/aircraft/:path*': 'ru/Docs/aircraft/:path*',
+  'de/basics/:path*': 'de/Docs/basics/:path*',
+  'de/game/:path*': 'de/Docs/game/:path*',
+  'de/aircraft/:path*': 'de/Docs/aircraft/:path*',
+  'es/basics/:path*': 'es/Docs/basics/:path*',
+  'es/game/:path*': 'es/Docs/game/:path*',
+  'es/aircraft/:path*': 'es/Docs/aircraft/:path*',
+  'fr/basics/:path*': 'fr/Docs/basics/:path*',
+  'fr/game/:path*': 'fr/Docs/game/:path*',
+  'fr/aircraft/:path*': 'fr/Docs/aircraft/:path*',
+  'ko/basics/:path*': 'ko/Docs/basics/:path*',
+  'ko/game/:path*': 'ko/Docs/game/:path*',
+  'ko/aircraft/:path*': 'ko/Docs/aircraft/:path*'
+}
+
 const enNav = [
-  { text: 'About', link: '/about' },
-  { text: 'Basics', link: '/basics/mobile-platform' },
-  { text: 'Aircraft Modules', link: '/aircraft/index' },
-  { text: 'FAQ', link: '/faq' }
+  { text: 'Docs', link: '/Docs/' },
+  { text: 'Dev Blog', link: '/blog/' },
+  { text: 'Support', link: '/support/' }
 ]
 
 const enSidebar = [
   {
-    text: 'About',
+    text: 'Basics',
     items: [
-      { text: 'Positioning & Development Status', link: '/about' }
+      { text: 'Mobile Platform', link: '/Docs/basics/mobile-platform' },
+      { text: 'VR Platform', link: '/Docs/basics/vr-platform' },
+      { text: 'Game Controller', link: '/Docs/basics/game-controller' }
     ]
   },
   {
-    text: 'Basics',
+    text: 'Game',
     items: [
-      { text: 'Mobile Platform', link: '/basics/mobile-platform' },
-      { text: 'VR Platform', link: '/basics/vr-platform' },
-      { text: 'Tac Editor', link: '/basics/tac-editor' }
+      { text: 'Overview', link: '/Docs/game/index' },
+      { text: 'Account & Profile', link: '/Docs/game/account-profile' },
+      { text: 'Career XP', link: '/Docs/game/career-xp' },
+      { text: 'Qualifications', link: '/Docs/game/qualifications' },
+      { text: 'Medals', link: '/Docs/game/medals' },
+      { text: 'Patches', link: '/Docs/game/patches' },
+      { text: 'Tac Editor', link: '/Docs/basics/tac-editor' }
     ]
   },
   {
@@ -29,69 +64,78 @@ const enSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/aircraft/f15c/introduction' },
-          { text: 'Touch UI', link: '/aircraft/f15c/touch-ui' },
-          { text: 'HUD', link: '/aircraft/f15c/hud' },
-          { text: 'Navigation', link: '/aircraft/f15c/navigation' },
-          { text: 'Fire Control Radar', link: '/aircraft/f15c/fire-control-radar' },
-          { text: 'MPCD', link: '/aircraft/f15c/mpcd' },
-          { text: 'RWR', link: '/aircraft/f15c/rwr' },
-          { text: 'Weapons', link: '/aircraft/f15c/weapons' }
+          { text: 'Introduction', link: '/Docs/aircraft/f15c/introduction' },
+          { text: 'Touch UI', link: '/Docs/aircraft/f15c/touch-ui' },
+          { text: 'Cockpit Instruments', link: '/Docs/aircraft/f15c/cockpit-instruments' },
+          { text: 'HUD Operation', link: '/Docs/aircraft/f15c/hud-operation' },
+          { text: 'AN/APG-63(V)1 Radar', link: '/Docs/aircraft/f15c/radar' },
+          { text: 'Defensive Systems', link: '/Docs/aircraft/f15c/defensive-systems' },
+          { text: 'Air-to-Air Missiles', link: '/Docs/aircraft/f15c/air-to-air-missiles' },
+          { text: 'Radio Communications', link: '/Docs/aircraft/f15c/radio-communications' },
+          { text: 'Flight Theory', link: '/Docs/aircraft/f15c/flight-theory' },
+          { text: 'Combat Tactics', link: '/Docs/aircraft/f15c/combat-tactics' },
+          { text: 'Flight Dynamics', link: '/Docs/aircraft/f15c/flight-dynamics' },
+          { text: 'Checklists', link: '/Docs/aircraft/f15c/checklists' },
+          { text: 'Appendix: Acronyms', link: '/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
         text: 'F-5E',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/aircraft/f5e/introduction' }
+          { text: 'Introduction', link: '/Docs/aircraft/f5e/introduction' }
         ]
       },
       {
         text: 'F-16C',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/aircraft/f16c/introduction' }
+          { text: 'Introduction', link: '/Docs/aircraft/f16c/introduction' }
         ]
       },
       {
         text: 'A-10C',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/aircraft/a10c/introduction' }
+          { text: 'Introduction', link: '/Docs/aircraft/a10c/introduction' }
         ]
       },
       {
         text: 'F-15E',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/aircraft/f15e/introduction' }
+          { text: 'Introduction', link: '/Docs/aircraft/f15e/introduction' }
         ]
       }
     ]
-  },
-  { text: 'Privacy Policy', link: '/privacy-policy' }
+  }
 ]
 
 const zhNav = [
-  { text: '关于', link: '/zh/about' },
-  { text: '基础操作', link: '/zh/basics/mobile-platform' },
-  { text: '飞机模组', link: '/zh/aircraft/index' },
-  { text: 'FAQ', link: '/zh/faq' }
+  { text: 'Docs', link: '/zh/Docs/' },
+  { text: 'Dev Blog', link: '/zh/blog/' },
+  { text: '支持', link: '/zh/support/' }
 ]
 
 const zhSidebar = [
   {
-    text: '关于',
+    text: '基础操作',
     items: [
-      { text: '游戏定位与开发状态', link: '/zh/about' }
+      { text: '移动平台', link: '/zh/Docs/basics/mobile-platform' },
+      { text: 'VR 平台', link: '/zh/Docs/basics/vr-platform' },
+      { text: '游戏手柄', link: '/zh/Docs/basics/game-controller' }
     ]
   },
   {
-    text: '基础操作',
+    text: '游戏',
     items: [
-      { text: '移动平台', link: '/zh/basics/mobile-platform' },
-      { text: 'VR 平台', link: '/zh/basics/vr-platform' },
-      { text: 'Tac 编辑器', link: '/zh/basics/tac-editor' }
+      { text: '概览', link: '/zh/Docs/game/index' },
+      { text: '账号与资料', link: '/zh/Docs/game/account-profile' },
+      { text: '生涯 XP', link: '/zh/Docs/game/career-xp' },
+      { text: '认证资质', link: '/zh/Docs/game/qualifications' },
+      { text: '奖牌', link: '/zh/Docs/game/medals' },
+      { text: '臂章', link: '/zh/Docs/game/patches' },
+      { text: 'Tac 编辑器', link: '/zh/Docs/basics/tac-editor' }
     ]
   },
   {
@@ -101,69 +145,78 @@ const zhSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: '简介', link: '/zh/aircraft/f15c/introduction' },
-          { text: '触摸 UI', link: '/zh/aircraft/f15c/touch-ui' },
-          { text: 'HUD', link: '/zh/aircraft/f15c/hud' },
-          { text: '导航', link: '/zh/aircraft/f15c/navigation' },
-          { text: '火控雷达', link: '/zh/aircraft/f15c/fire-control-radar' },
-          { text: 'MPCD', link: '/zh/aircraft/f15c/mpcd' },
-          { text: 'RWR', link: '/zh/aircraft/f15c/rwr' },
-          { text: '武器', link: '/zh/aircraft/f15c/weapons' }
+          { text: '简介', link: '/zh/Docs/aircraft/f15c/introduction' },
+          { text: '触摸 UI', link: '/zh/Docs/aircraft/f15c/touch-ui' },
+          { text: '驾驶舱仪表', link: '/zh/Docs/aircraft/f15c/cockpit-instruments' },
+          { text: 'HUD 操作', link: '/zh/Docs/aircraft/f15c/hud-operation' },
+          { text: 'AN/APG-63(V)1 雷达', link: '/zh/Docs/aircraft/f15c/radar' },
+          { text: '对抗系统', link: '/zh/Docs/aircraft/f15c/defensive-systems' },
+          { text: '空对空导弹', link: '/zh/Docs/aircraft/f15c/air-to-air-missiles' },
+          { text: '无线电通信', link: '/zh/Docs/aircraft/f15c/radio-communications' },
+          { text: '理论训练', link: '/zh/Docs/aircraft/f15c/flight-theory' },
+          { text: '空战战术', link: '/zh/Docs/aircraft/f15c/combat-tactics' },
+          { text: '飞行动力学', link: '/zh/Docs/aircraft/f15c/flight-dynamics' },
+          { text: '检查单', link: '/zh/Docs/aircraft/f15c/checklists' },
+          { text: '附录：缩略词', link: '/zh/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
         text: 'F-5E',
         collapsed: false,
         items: [
-          { text: '简介', link: '/zh/aircraft/f5e/introduction' }
+          { text: '简介', link: '/zh/Docs/aircraft/f5e/introduction' }
         ]
       },
       {
         text: 'F-16C',
         collapsed: false,
         items: [
-          { text: '简介', link: '/zh/aircraft/f16c/introduction' }
+          { text: '简介', link: '/zh/Docs/aircraft/f16c/introduction' }
         ]
       },
       {
         text: 'A-10C',
         collapsed: false,
         items: [
-          { text: '简介', link: '/zh/aircraft/a10c/introduction' }
+          { text: '简介', link: '/zh/Docs/aircraft/a10c/introduction' }
         ]
       },
       {
         text: 'F-15E',
         collapsed: false,
         items: [
-          { text: '简介', link: '/zh/aircraft/f15e/introduction' }
+          { text: '简介', link: '/zh/Docs/aircraft/f15e/introduction' }
         ]
       }
     ]
-  },
-  { text: '隐私声明', link: '/zh/privacy-policy' }
+  }
 ]
 
 const zhTwNav = [
-  { text: '關於', link: '/zh-tw/about' },
-  { text: '基礎操作', link: '/zh-tw/basics/mobile-platform' },
-  { text: '飛機模組', link: '/zh-tw/aircraft/index' },
-  { text: 'FAQ', link: '/zh-tw/faq' }
+  { text: 'Docs', link: '/zh-tw/Docs/' },
+  { text: 'Dev Blog', link: '/zh-tw/blog/' },
+  { text: '支援', link: '/zh-tw/support/' }
 ]
 
 const zhTwSidebar = [
   {
-    text: '關於',
+    text: '基礎操作',
     items: [
-      { text: '遊戲定位與開發狀態', link: '/zh-tw/about' }
+      { text: '移動平台', link: '/zh-tw/Docs/basics/mobile-platform' },
+      { text: 'VR 平台', link: '/zh-tw/Docs/basics/vr-platform' },
+      { text: '遊戲手把', link: '/zh-tw/Docs/basics/game-controller' }
     ]
   },
   {
-    text: '基礎操作',
+    text: '遊戲',
     items: [
-      { text: '移動平台', link: '/zh-tw/basics/mobile-platform' },
-      { text: 'VR 平台', link: '/zh-tw/basics/vr-platform' },
-      { text: 'Tac 編輯器', link: '/zh-tw/basics/tac-editor' }
+      { text: '概覽', link: '/zh-tw/Docs/game/index' },
+      { text: '帳號與資料', link: '/zh-tw/Docs/game/account-profile' },
+      { text: '生涯 XP', link: '/zh-tw/Docs/game/career-xp' },
+      { text: '認證資質', link: '/zh-tw/Docs/game/qualifications' },
+      { text: '獎牌', link: '/zh-tw/Docs/game/medals' },
+      { text: '臂章', link: '/zh-tw/Docs/game/patches' },
+      { text: 'Tac 編輯器', link: '/zh-tw/Docs/basics/tac-editor' }
     ]
   },
   {
@@ -173,69 +226,78 @@ const zhTwSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: '簡介', link: '/zh-tw/aircraft/f15c/introduction' },
-          { text: '觸控 UI', link: '/zh-tw/aircraft/f15c/touch-ui' },
-          { text: 'HUD', link: '/zh-tw/aircraft/f15c/hud' },
-          { text: '導航', link: '/zh-tw/aircraft/f15c/navigation' },
-          { text: '火控雷達', link: '/zh-tw/aircraft/f15c/fire-control-radar' },
-          { text: 'MPCD', link: '/zh-tw/aircraft/f15c/mpcd' },
-          { text: 'RWR', link: '/zh-tw/aircraft/f15c/rwr' },
-          { text: '武器', link: '/zh-tw/aircraft/f15c/weapons' }
+          { text: '簡介', link: '/zh-tw/Docs/aircraft/f15c/introduction' },
+          { text: '觸控 UI', link: '/zh-tw/Docs/aircraft/f15c/touch-ui' },
+          { text: '駕駛艙儀表', link: '/zh-tw/Docs/aircraft/f15c/cockpit-instruments' },
+          { text: 'HUD 操作', link: '/zh-tw/Docs/aircraft/f15c/hud-operation' },
+          { text: 'AN/APG-63(V)1 雷達', link: '/zh-tw/Docs/aircraft/f15c/radar' },
+          { text: '防禦系統', link: '/zh-tw/Docs/aircraft/f15c/defensive-systems' },
+          { text: '空對空飛彈', link: '/zh-tw/Docs/aircraft/f15c/air-to-air-missiles' },
+          { text: '無線電通訊', link: '/zh-tw/Docs/aircraft/f15c/radio-communications' },
+          { text: '飛行理論', link: '/zh-tw/Docs/aircraft/f15c/flight-theory' },
+          { text: '空戰戰術', link: '/zh-tw/Docs/aircraft/f15c/combat-tactics' },
+          { text: '飛行動力學', link: '/zh-tw/Docs/aircraft/f15c/flight-dynamics' },
+          { text: '檢查單', link: '/zh-tw/Docs/aircraft/f15c/checklists' },
+          { text: '附錄：縮寫', link: '/zh-tw/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
         text: 'F-5E',
         collapsed: false,
         items: [
-          { text: '簡介', link: '/zh-tw/aircraft/f5e/introduction' }
+          { text: '簡介', link: '/zh-tw/Docs/aircraft/f5e/introduction' }
         ]
       },
       {
         text: 'F-16C',
         collapsed: false,
         items: [
-          { text: '簡介', link: '/zh-tw/aircraft/f16c/introduction' }
+          { text: '簡介', link: '/zh-tw/Docs/aircraft/f16c/introduction' }
         ]
       },
       {
         text: 'A-10C',
         collapsed: false,
         items: [
-          { text: '簡介', link: '/zh-tw/aircraft/a10c/introduction' }
+          { text: '簡介', link: '/zh-tw/Docs/aircraft/a10c/introduction' }
         ]
       },
       {
         text: 'F-15E',
         collapsed: false,
         items: [
-          { text: '簡介', link: '/zh-tw/aircraft/f15e/introduction' }
+          { text: '簡介', link: '/zh-tw/Docs/aircraft/f15e/introduction' }
         ]
       }
     ]
-  },
-  { text: '隱私政策', link: '/zh-tw/privacy-policy' }
+  }
 ]
 
 const jaNav = [
-  { text: 'プロジェクトについて', link: '/ja/about' },
-  { text: '基本操作', link: '/ja/basics/mobile-platform' },
-  { text: '機体モジュール', link: '/ja/aircraft/index' },
-  { text: 'FAQ', link: '/ja/faq' }
+  { text: 'Docs', link: '/ja/Docs/' },
+  { text: 'Dev Blog', link: '/ja/blog/' },
+  { text: 'サポート', link: '/ja/support/' }
 ]
 
 const jaSidebar = [
   {
-    text: 'プロジェクトについて',
+    text: '基本操作',
     items: [
-      { text: 'ゲームの位置づけと開発状況', link: '/ja/about' }
+      { text: 'モバイルプラットフォーム', link: '/ja/Docs/basics/mobile-platform' },
+      { text: 'VR プラットフォーム', link: '/ja/Docs/basics/vr-platform' },
+      { text: 'ゲームコントローラー', link: '/ja/Docs/basics/game-controller' }
     ]
   },
   {
-    text: '基本操作',
+    text: 'ゲーム',
     items: [
-      { text: 'モバイルプラットフォーム', link: '/ja/basics/mobile-platform' },
-      { text: 'VR プラットフォーム', link: '/ja/basics/vr-platform' },
-      { text: 'Tac エディタ', link: '/ja/basics/tac-editor' }
+      { text: '概要', link: '/ja/Docs/game/index' },
+      { text: 'アカウントとプロフィール', link: '/ja/Docs/game/account-profile' },
+      { text: 'キャリア XP', link: '/ja/Docs/game/career-xp' },
+      { text: '資格', link: '/ja/Docs/game/qualifications' },
+      { text: 'メダル', link: '/ja/Docs/game/medals' },
+      { text: 'パッチ', link: '/ja/Docs/game/patches' },
+      { text: 'Tac エディタ', link: '/ja/Docs/basics/tac-editor' }
     ]
   },
   {
@@ -245,69 +307,78 @@ const jaSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: '概要', link: '/ja/aircraft/f15c/introduction' },
-          { text: 'タッチ UI', link: '/ja/aircraft/f15c/touch-ui' },
-          { text: 'HUD', link: '/ja/aircraft/f15c/hud' },
-          { text: 'ナビゲーション', link: '/ja/aircraft/f15c/navigation' },
-          { text: '火器管制レーダー', link: '/ja/aircraft/f15c/fire-control-radar' },
-          { text: 'MPCD', link: '/ja/aircraft/f15c/mpcd' },
-          { text: 'RWR', link: '/ja/aircraft/f15c/rwr' },
-          { text: '武装', link: '/ja/aircraft/f15c/weapons' }
+          { text: '概要', link: '/ja/Docs/aircraft/f15c/introduction' },
+          { text: 'タッチ UI', link: '/ja/Docs/aircraft/f15c/touch-ui' },
+          { text: 'コックピット計器', link: '/ja/Docs/aircraft/f15c/cockpit-instruments' },
+          { text: 'HUD 操作', link: '/ja/Docs/aircraft/f15c/hud-operation' },
+          { text: 'AN/APG-63(V)1 レーダー', link: '/ja/Docs/aircraft/f15c/radar' },
+          { text: '防御システム', link: '/ja/Docs/aircraft/f15c/defensive-systems' },
+          { text: '空対空ミサイル', link: '/ja/Docs/aircraft/f15c/air-to-air-missiles' },
+          { text: '無線通信', link: '/ja/Docs/aircraft/f15c/radio-communications' },
+          { text: '飛行理論', link: '/ja/Docs/aircraft/f15c/flight-theory' },
+          { text: '空戦戦術', link: '/ja/Docs/aircraft/f15c/combat-tactics' },
+          { text: '飛行力学', link: '/ja/Docs/aircraft/f15c/flight-dynamics' },
+          { text: 'チェックリスト', link: '/ja/Docs/aircraft/f15c/checklists' },
+          { text: '付録：略語', link: '/ja/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
         text: 'F-5E',
         collapsed: false,
         items: [
-          { text: '概要', link: '/ja/aircraft/f5e/introduction' }
+          { text: '概要', link: '/ja/Docs/aircraft/f5e/introduction' }
         ]
       },
       {
         text: 'F-16C',
         collapsed: false,
         items: [
-          { text: '概要', link: '/ja/aircraft/f16c/introduction' }
+          { text: '概要', link: '/ja/Docs/aircraft/f16c/introduction' }
         ]
       },
       {
         text: 'A-10C',
         collapsed: false,
         items: [
-          { text: '概要', link: '/ja/aircraft/a10c/introduction' }
+          { text: '概要', link: '/ja/Docs/aircraft/a10c/introduction' }
         ]
       },
       {
         text: 'F-15E',
         collapsed: false,
         items: [
-          { text: '概要', link: '/ja/aircraft/f15e/introduction' }
+          { text: '概要', link: '/ja/Docs/aircraft/f15e/introduction' }
         ]
       }
     ]
-  },
-  { text: 'プライバシーポリシー', link: '/ja/privacy-policy' }
+  }
 ]
 
 const ruNav = [
-  { text: 'О проекте', link: '/ru/about' },
-  { text: 'Основы', link: '/ru/basics/mobile-platform' },
-  { text: 'Модули самолётов', link: '/ru/aircraft/index' },
-  { text: 'FAQ', link: '/ru/faq' }
+  { text: 'Docs', link: '/ru/Docs/' },
+  { text: 'Dev Blog', link: '/ru/blog/' },
+  { text: 'Поддержка', link: '/ru/support/' }
 ]
 
 const ruSidebar = [
   {
-    text: 'О проекте',
+    text: 'Основы',
     items: [
-      { text: 'Позиционирование и статус разработки', link: '/ru/about' }
+      { text: 'Мобильная платформа', link: '/ru/Docs/basics/mobile-platform' },
+      { text: 'VR платформа', link: '/ru/Docs/basics/vr-platform' },
+      { text: 'Геймпад', link: '/ru/Docs/basics/game-controller' }
     ]
   },
   {
-    text: 'Основы',
+    text: 'Игра',
     items: [
-      { text: 'Мобильная платформа', link: '/ru/basics/mobile-platform' },
-      { text: 'VR платформа', link: '/ru/basics/vr-platform' },
-      { text: 'Tac Редактор', link: '/ru/basics/tac-editor' }
+      { text: 'Обзор', link: '/ru/Docs/game/index' },
+      { text: 'Аккаунт и профиль', link: '/ru/Docs/game/account-profile' },
+      { text: 'Career XP', link: '/ru/Docs/game/career-xp' },
+      { text: 'Квалификации', link: '/ru/Docs/game/qualifications' },
+      { text: 'Медали', link: '/ru/Docs/game/medals' },
+      { text: 'Нашивки', link: '/ru/Docs/game/patches' },
+      { text: 'Tac Редактор', link: '/ru/Docs/basics/tac-editor' }
     ]
   },
   {
@@ -317,69 +388,78 @@ const ruSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: 'Введение', link: '/ru/aircraft/f15c/introduction' },
-          { text: 'Сенсорный UI', link: '/ru/aircraft/f15c/touch-ui' },
-          { text: 'HUD', link: '/ru/aircraft/f15c/hud' },
-          { text: 'Навигация', link: '/ru/aircraft/f15c/navigation' },
-          { text: 'Радар управления огнём', link: '/ru/aircraft/f15c/fire-control-radar' },
-          { text: 'MPCD', link: '/ru/aircraft/f15c/mpcd' },
-          { text: 'RWR', link: '/ru/aircraft/f15c/rwr' },
-          { text: 'Вооружение', link: '/ru/aircraft/f15c/weapons' }
+          { text: 'Введение', link: '/ru/Docs/aircraft/f15c/introduction' },
+          { text: 'Сенсорный UI', link: '/ru/Docs/aircraft/f15c/touch-ui' },
+          { text: 'Приборы кабины', link: '/ru/Docs/aircraft/f15c/cockpit-instruments' },
+          { text: 'Работа с HUD', link: '/ru/Docs/aircraft/f15c/hud-operation' },
+          { text: 'РЛС AN/APG-63(V)1', link: '/ru/Docs/aircraft/f15c/radar' },
+          { text: 'Оборонительные системы', link: '/ru/Docs/aircraft/f15c/defensive-systems' },
+          { text: 'Ракеты «воздух-воздух»', link: '/ru/Docs/aircraft/f15c/air-to-air-missiles' },
+          { text: 'Радиосвязь', link: '/ru/Docs/aircraft/f15c/radio-communications' },
+          { text: 'Теория полёта', link: '/ru/Docs/aircraft/f15c/flight-theory' },
+          { text: 'Тактика воздушного боя', link: '/ru/Docs/aircraft/f15c/combat-tactics' },
+          { text: 'Динамика полёта', link: '/ru/Docs/aircraft/f15c/flight-dynamics' },
+          { text: 'Контрольные карты', link: '/ru/Docs/aircraft/f15c/checklists' },
+          { text: 'Приложение: сокращения', link: '/ru/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
         text: 'F-5E',
         collapsed: false,
         items: [
-          { text: 'Введение', link: '/ru/aircraft/f5e/introduction' }
+          { text: 'Введение', link: '/ru/Docs/aircraft/f5e/introduction' }
         ]
       },
       {
         text: 'F-16C',
         collapsed: false,
         items: [
-          { text: 'Введение', link: '/ru/aircraft/f16c/introduction' }
+          { text: 'Введение', link: '/ru/Docs/aircraft/f16c/introduction' }
         ]
       },
       {
         text: 'A-10C',
         collapsed: false,
         items: [
-          { text: 'Введение', link: '/ru/aircraft/a10c/introduction' }
+          { text: 'Введение', link: '/ru/Docs/aircraft/a10c/introduction' }
         ]
       },
       {
         text: 'F-15E',
         collapsed: false,
         items: [
-          { text: 'Введение', link: '/ru/aircraft/f15e/introduction' }
+          { text: 'Введение', link: '/ru/Docs/aircraft/f15e/introduction' }
         ]
       }
     ]
-  },
-  { text: 'Политика конфиденциальности', link: '/ru/privacy-policy' }
+  }
 ]
 
 const deNav = [
-  { text: 'Über das Projekt', link: '/de/about' },
-  { text: 'Grundlagen', link: '/de/basics/mobile-platform' },
-  { text: 'Flugzeugmodule', link: '/de/aircraft/index' },
-  { text: 'FAQ', link: '/de/faq' }
+  { text: 'Docs', link: '/de/Docs/' },
+  { text: 'Dev Blog', link: '/de/blog/' },
+  { text: 'Support', link: '/de/support/' }
 ]
 
 const deSidebar = [
   {
-    text: 'Über das Projekt',
+    text: 'Grundlagen',
     items: [
-      { text: 'Spielpositionierung und Entwicklungsstand', link: '/de/about' }
+      { text: 'Mobile Plattform', link: '/de/Docs/basics/mobile-platform' },
+      { text: 'VR Plattform', link: '/de/Docs/basics/vr-platform' },
+      { text: 'Gamecontroller', link: '/de/Docs/basics/game-controller' }
     ]
   },
   {
-    text: 'Grundlagen',
+    text: 'Spiel',
     items: [
-      { text: 'Mobile Plattform', link: '/de/basics/mobile-platform' },
-      { text: 'VR Plattform', link: '/de/basics/vr-platform' },
-      { text: 'Tac Editor', link: '/de/basics/tac-editor' }
+      { text: 'Übersicht', link: '/de/Docs/game/index' },
+      { text: 'Konto & Profil', link: '/de/Docs/game/account-profile' },
+      { text: 'Career XP', link: '/de/Docs/game/career-xp' },
+      { text: 'Qualifikationen', link: '/de/Docs/game/qualifications' },
+      { text: 'Medaillen', link: '/de/Docs/game/medals' },
+      { text: 'Patches', link: '/de/Docs/game/patches' },
+      { text: 'Tac Editor', link: '/de/Docs/basics/tac-editor' }
     ]
   },
   {
@@ -389,69 +469,78 @@ const deSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: 'Einführung', link: '/de/aircraft/f15c/introduction' },
-          { text: 'Touch UI', link: '/de/aircraft/f15c/touch-ui' },
-          { text: 'HUD', link: '/de/aircraft/f15c/hud' },
-          { text: 'Navigation', link: '/de/aircraft/f15c/navigation' },
-          { text: 'Feuerleitradar', link: '/de/aircraft/f15c/fire-control-radar' },
-          { text: 'MPCD', link: '/de/aircraft/f15c/mpcd' },
-          { text: 'RWR', link: '/de/aircraft/f15c/rwr' },
-          { text: 'Waffen', link: '/de/aircraft/f15c/weapons' }
+          { text: 'Einführung', link: '/de/Docs/aircraft/f15c/introduction' },
+          { text: 'Touch UI', link: '/de/Docs/aircraft/f15c/touch-ui' },
+          { text: 'Cockpit-Instrumente', link: '/de/Docs/aircraft/f15c/cockpit-instruments' },
+          { text: 'HUD-Bedienung', link: '/de/Docs/aircraft/f15c/hud-operation' },
+          { text: 'AN/APG-63(V)1 Radar', link: '/de/Docs/aircraft/f15c/radar' },
+          { text: 'Defensivsysteme', link: '/de/Docs/aircraft/f15c/defensive-systems' },
+          { text: 'Luft-Luft-Raketen', link: '/de/Docs/aircraft/f15c/air-to-air-missiles' },
+          { text: 'Funkkommunikation', link: '/de/Docs/aircraft/f15c/radio-communications' },
+          { text: 'Flugtheorie', link: '/de/Docs/aircraft/f15c/flight-theory' },
+          { text: 'Luftkampftaktik', link: '/de/Docs/aircraft/f15c/combat-tactics' },
+          { text: 'Flugdynamik', link: '/de/Docs/aircraft/f15c/flight-dynamics' },
+          { text: 'Checklisten', link: '/de/Docs/aircraft/f15c/checklists' },
+          { text: 'Anhang: Abkürzungen', link: '/de/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
         text: 'F-5E',
         collapsed: false,
         items: [
-          { text: 'Einführung', link: '/de/aircraft/f5e/introduction' }
+          { text: 'Einführung', link: '/de/Docs/aircraft/f5e/introduction' }
         ]
       },
       {
         text: 'F-16C',
         collapsed: false,
         items: [
-          { text: 'Einführung', link: '/de/aircraft/f16c/introduction' }
+          { text: 'Einführung', link: '/de/Docs/aircraft/f16c/introduction' }
         ]
       },
       {
         text: 'A-10C',
         collapsed: false,
         items: [
-          { text: 'Einführung', link: '/de/aircraft/a10c/introduction' }
+          { text: 'Einführung', link: '/de/Docs/aircraft/a10c/introduction' }
         ]
       },
       {
         text: 'F-15E',
         collapsed: false,
         items: [
-          { text: 'Einführung', link: '/de/aircraft/f15e/introduction' }
+          { text: 'Einführung', link: '/de/Docs/aircraft/f15e/introduction' }
         ]
       }
     ]
-  },
-  { text: 'Datenschutzerklärung', link: '/de/privacy-policy' }
+  }
 ]
 
 const esNav = [
-  { text: 'Acerca de', link: '/es/about' },
-  { text: 'Conceptos básicos', link: '/es/basics/mobile-platform' },
-  { text: 'Módulos de aeronaves', link: '/es/aircraft/index' },
-  { text: 'FAQ', link: '/es/faq' }
+  { text: 'Docs', link: '/es/Docs/' },
+  { text: 'Dev Blog', link: '/es/blog/' },
+  { text: 'Soporte', link: '/es/support/' }
 ]
 
 const esSidebar = [
   {
-    text: 'Acerca de',
+    text: 'Conceptos básicos',
     items: [
-      { text: 'Posicionamiento y estado de desarrollo', link: '/es/about' }
+      { text: 'Plataforma móvil', link: '/es/Docs/basics/mobile-platform' },
+      { text: 'Plataforma VR', link: '/es/Docs/basics/vr-platform' },
+      { text: 'Mando de juego', link: '/es/Docs/basics/game-controller' }
     ]
   },
   {
-    text: 'Conceptos básicos',
+    text: 'Juego',
     items: [
-      { text: 'Plataforma móvil', link: '/es/basics/mobile-platform' },
-      { text: 'Plataforma VR', link: '/es/basics/vr-platform' },
-      { text: 'Editor Tac', link: '/es/basics/tac-editor' }
+      { text: 'Resumen', link: '/es/Docs/game/index' },
+      { text: 'Cuenta y perfil', link: '/es/Docs/game/account-profile' },
+      { text: 'Career XP', link: '/es/Docs/game/career-xp' },
+      { text: 'Calificaciones', link: '/es/Docs/game/qualifications' },
+      { text: 'Medallas', link: '/es/Docs/game/medals' },
+      { text: 'Parches', link: '/es/Docs/game/patches' },
+      { text: 'Editor Tac', link: '/es/Docs/basics/tac-editor' }
     ]
   },
   {
@@ -461,69 +550,78 @@ const esSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: 'Introducción', link: '/es/aircraft/f15c/introduction' },
-          { text: 'Interfaz táctil', link: '/es/aircraft/f15c/touch-ui' },
-          { text: 'HUD', link: '/es/aircraft/f15c/hud' },
-          { text: 'Navegación', link: '/es/aircraft/f15c/navigation' },
-          { text: 'Radar de control de tiro', link: '/es/aircraft/f15c/fire-control-radar' },
-          { text: 'MPCD', link: '/es/aircraft/f15c/mpcd' },
-          { text: 'RWR', link: '/es/aircraft/f15c/rwr' },
-          { text: 'Armas', link: '/es/aircraft/f15c/weapons' }
+          { text: 'Introducción', link: '/es/Docs/aircraft/f15c/introduction' },
+          { text: 'Interfaz táctil', link: '/es/Docs/aircraft/f15c/touch-ui' },
+          { text: 'Instrumentos de cabina', link: '/es/Docs/aircraft/f15c/cockpit-instruments' },
+          { text: 'Operación del HUD', link: '/es/Docs/aircraft/f15c/hud-operation' },
+          { text: 'Radar AN/APG-63(V)1', link: '/es/Docs/aircraft/f15c/radar' },
+          { text: 'Sistemas defensivos', link: '/es/Docs/aircraft/f15c/defensive-systems' },
+          { text: 'Misiles aire-aire', link: '/es/Docs/aircraft/f15c/air-to-air-missiles' },
+          { text: 'Comunicaciones por radio', link: '/es/Docs/aircraft/f15c/radio-communications' },
+          { text: 'Teoría de vuelo', link: '/es/Docs/aircraft/f15c/flight-theory' },
+          { text: 'Tácticas de combate aéreo', link: '/es/Docs/aircraft/f15c/combat-tactics' },
+          { text: 'Dinámica de vuelo', link: '/es/Docs/aircraft/f15c/flight-dynamics' },
+          { text: 'Listas de comprobación', link: '/es/Docs/aircraft/f15c/checklists' },
+          { text: 'Apéndice: abreviaturas', link: '/es/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
         text: 'F-5E',
         collapsed: false,
         items: [
-          { text: 'Introducción', link: '/es/aircraft/f5e/introduction' }
+          { text: 'Introducción', link: '/es/Docs/aircraft/f5e/introduction' }
         ]
       },
       {
         text: 'F-16C',
         collapsed: false,
         items: [
-          { text: 'Introducción', link: '/es/aircraft/f16c/introduction' }
+          { text: 'Introducción', link: '/es/Docs/aircraft/f16c/introduction' }
         ]
       },
       {
         text: 'A-10C',
         collapsed: false,
         items: [
-          { text: 'Introducción', link: '/es/aircraft/a10c/introduction' }
+          { text: 'Introducción', link: '/es/Docs/aircraft/a10c/introduction' }
         ]
       },
       {
         text: 'F-15E',
         collapsed: false,
         items: [
-          { text: 'Introducción', link: '/es/aircraft/f15e/introduction' }
+          { text: 'Introducción', link: '/es/Docs/aircraft/f15e/introduction' }
         ]
       }
     ]
-  },
-  { text: 'Política de privacidad', link: '/es/privacy-policy' }
+  }
 ]
 
 const frNav = [
-  { text: 'À propos', link: '/fr/about' },
-  { text: 'Bases', link: '/fr/basics/mobile-platform' },
-  { text: 'Modules d\'aéronefs', link: '/fr/aircraft/index' },
-  { text: 'FAQ', link: '/fr/faq' }
+  { text: 'Docs', link: '/fr/Docs/' },
+  { text: 'Dev Blog', link: '/fr/blog/' },
+  { text: 'Support', link: '/fr/support/' }
 ]
 
 const frSidebar = [
   {
-    text: 'À propos',
+    text: 'Bases',
     items: [
-      { text: 'Positionnement du jeu et état du développement', link: '/fr/about' }
+      { text: 'Plateforme mobile', link: '/fr/Docs/basics/mobile-platform' },
+      { text: 'Plateforme VR', link: '/fr/Docs/basics/vr-platform' },
+      { text: 'Manette de jeu', link: '/fr/Docs/basics/game-controller' }
     ]
   },
   {
-    text: 'Bases',
+    text: 'Jeu',
     items: [
-      { text: 'Plateforme mobile', link: '/fr/basics/mobile-platform' },
-      { text: 'Plateforme VR', link: '/fr/basics/vr-platform' },
-      { text: 'Éditeur Tac', link: '/fr/basics/tac-editor' }
+      { text: 'Vue d\'ensemble', link: '/fr/Docs/game/index' },
+      { text: 'Compte et profil', link: '/fr/Docs/game/account-profile' },
+      { text: 'Career XP', link: '/fr/Docs/game/career-xp' },
+      { text: 'Qualifications', link: '/fr/Docs/game/qualifications' },
+      { text: 'Médailles', link: '/fr/Docs/game/medals' },
+      { text: 'Patchs', link: '/fr/Docs/game/patches' },
+      { text: 'Éditeur Tac', link: '/fr/Docs/basics/tac-editor' }
     ]
   },
   {
@@ -533,69 +631,78 @@ const frSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/fr/aircraft/f15c/introduction' },
-          { text: 'Interface tactile', link: '/fr/aircraft/f15c/touch-ui' },
-          { text: 'HUD', link: '/fr/aircraft/f15c/hud' },
-          { text: 'Navigation', link: '/fr/aircraft/f15c/navigation' },
-          { text: 'Radar de conduite de tir', link: '/fr/aircraft/f15c/fire-control-radar' },
-          { text: 'MPCD', link: '/fr/aircraft/f15c/mpcd' },
-          { text: 'RWR', link: '/fr/aircraft/f15c/rwr' },
-          { text: 'Armement', link: '/fr/aircraft/f15c/weapons' }
+          { text: 'Introduction', link: '/fr/Docs/aircraft/f15c/introduction' },
+          { text: 'Interface tactile', link: '/fr/Docs/aircraft/f15c/touch-ui' },
+          { text: 'Instruments du cockpit', link: '/fr/Docs/aircraft/f15c/cockpit-instruments' },
+          { text: 'Utilisation du HUD', link: '/fr/Docs/aircraft/f15c/hud-operation' },
+          { text: 'Radar AN/APG-63(V)1', link: '/fr/Docs/aircraft/f15c/radar' },
+          { text: 'Systèmes défensifs', link: '/fr/Docs/aircraft/f15c/defensive-systems' },
+          { text: 'Missiles air-air', link: '/fr/Docs/aircraft/f15c/air-to-air-missiles' },
+          { text: 'Communications radio', link: '/fr/Docs/aircraft/f15c/radio-communications' },
+          { text: 'Théorie du vol', link: '/fr/Docs/aircraft/f15c/flight-theory' },
+          { text: 'Tactiques de combat aérien', link: '/fr/Docs/aircraft/f15c/combat-tactics' },
+          { text: 'Dynamique du vol', link: '/fr/Docs/aircraft/f15c/flight-dynamics' },
+          { text: 'Listes de vérification', link: '/fr/Docs/aircraft/f15c/checklists' },
+          { text: 'Annexe : abréviations', link: '/fr/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
         text: 'F-5E',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/fr/aircraft/f5e/introduction' }
+          { text: 'Introduction', link: '/fr/Docs/aircraft/f5e/introduction' }
         ]
       },
       {
         text: 'F-16C',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/fr/aircraft/f16c/introduction' }
+          { text: 'Introduction', link: '/fr/Docs/aircraft/f16c/introduction' }
         ]
       },
       {
         text: 'A-10C',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/fr/aircraft/a10c/introduction' }
+          { text: 'Introduction', link: '/fr/Docs/aircraft/a10c/introduction' }
         ]
       },
       {
         text: 'F-15E',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/fr/aircraft/f15e/introduction' }
+          { text: 'Introduction', link: '/fr/Docs/aircraft/f15e/introduction' }
         ]
       }
     ]
-  },
-  { text: 'Politique de confidentialité', link: '/fr/privacy-policy' }
+  }
 ]
 
 const koNav = [
-  { text: '프로젝트 소개', link: '/ko/about' },
-  { text: '기본 조작', link: '/ko/basics/mobile-platform' },
-  { text: '항공기 모듈', link: '/ko/aircraft/index' },
-  { text: 'FAQ', link: '/ko/faq' }
+  { text: 'Docs', link: '/ko/Docs/' },
+  { text: 'Dev Blog', link: '/ko/blog/' },
+  { text: '지원', link: '/ko/support/' }
 ]
 
 const koSidebar = [
   {
-    text: '프로젝트 소개',
+    text: '기본 조작',
     items: [
-      { text: '게임 포지셔닝 및 개발 현황', link: '/ko/about' }
+      { text: '모바일 플랫폼', link: '/ko/Docs/basics/mobile-platform' },
+      { text: 'VR 플랫폼', link: '/ko/Docs/basics/vr-platform' },
+      { text: '게임 컨트롤러', link: '/ko/Docs/basics/game-controller' }
     ]
   },
   {
-    text: '기본 조작',
+    text: '게임',
     items: [
-      { text: '모바일 플랫폼', link: '/ko/basics/mobile-platform' },
-      { text: 'VR 플랫폼', link: '/ko/basics/vr-platform' },
-      { text: 'Tac 에디터', link: '/ko/basics/tac-editor' }
+      { text: '개요', link: '/ko/Docs/game/index' },
+      { text: '계정 및 프로필', link: '/ko/Docs/game/account-profile' },
+      { text: 'Career XP', link: '/ko/Docs/game/career-xp' },
+      { text: '자격', link: '/ko/Docs/game/qualifications' },
+      { text: '메달', link: '/ko/Docs/game/medals' },
+      { text: '패치', link: '/ko/Docs/game/patches' },
+      { text: 'Tac 에디터', link: '/ko/Docs/basics/tac-editor' }
     ]
   },
   {
@@ -605,59 +712,64 @@ const koSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: '소개', link: '/ko/aircraft/f15c/introduction' },
-          { text: '터치 UI', link: '/ko/aircraft/f15c/touch-ui' },
-          { text: 'HUD', link: '/ko/aircraft/f15c/hud' },
-          { text: '항법', link: '/ko/aircraft/f15c/navigation' },
-          { text: '화기관제 레이더', link: '/ko/aircraft/f15c/fire-control-radar' },
-          { text: 'MPCD', link: '/ko/aircraft/f15c/mpcd' },
-          { text: 'RWR', link: '/ko/aircraft/f15c/rwr' },
-          { text: '무장', link: '/ko/aircraft/f15c/weapons' }
+          { text: '소개', link: '/ko/Docs/aircraft/f15c/introduction' },
+          { text: '터치 UI', link: '/ko/Docs/aircraft/f15c/touch-ui' },
+          { text: '조종석 계기', link: '/ko/Docs/aircraft/f15c/cockpit-instruments' },
+          { text: 'HUD 운용', link: '/ko/Docs/aircraft/f15c/hud-operation' },
+          { text: 'AN/APG-63(V)1 레이더', link: '/ko/Docs/aircraft/f15c/radar' },
+          { text: '방어 시스템', link: '/ko/Docs/aircraft/f15c/defensive-systems' },
+          { text: '공대공 미사일', link: '/ko/Docs/aircraft/f15c/air-to-air-missiles' },
+          { text: '무전 통신', link: '/ko/Docs/aircraft/f15c/radio-communications' },
+          { text: '비행 이론', link: '/ko/Docs/aircraft/f15c/flight-theory' },
+          { text: '공중전 전술', link: '/ko/Docs/aircraft/f15c/combat-tactics' },
+          { text: '비행 역학', link: '/ko/Docs/aircraft/f15c/flight-dynamics' },
+          { text: '체크리스트', link: '/ko/Docs/aircraft/f15c/checklists' },
+          { text: '부록: 약어', link: '/ko/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
         text: 'F-5E',
         collapsed: false,
         items: [
-          { text: '소개', link: '/ko/aircraft/f5e/introduction' }
+          { text: '소개', link: '/ko/Docs/aircraft/f5e/introduction' }
         ]
       },
       {
         text: 'F-16C',
         collapsed: false,
         items: [
-          { text: '소개', link: '/ko/aircraft/f16c/introduction' }
+          { text: '소개', link: '/ko/Docs/aircraft/f16c/introduction' }
         ]
       },
       {
         text: 'A-10C',
         collapsed: false,
         items: [
-          { text: '소개', link: '/ko/aircraft/a10c/introduction' }
+          { text: '소개', link: '/ko/Docs/aircraft/a10c/introduction' }
         ]
       },
       {
         text: 'F-15E',
         collapsed: false,
         items: [
-          { text: '소개', link: '/ko/aircraft/f15e/introduction' }
+          { text: '소개', link: '/ko/Docs/aircraft/f15e/introduction' }
         ]
       }
     ]
-  },
-  { text: '개인정보 처리방침', link: '/ko/privacy-policy' }
+  }
 ]
 
 export default defineConfig({
   title: 'Red Flag Sim',
-  description: '官方文档',
-  base: '/Docs/',
+  description: '官方网站',
+  base: '/',
+  rewrites: docsRewrites,
   locales: {
     root: {
       label: 'English',
       lang: 'en-US',
       title: 'Red Flag Sim',
-      description: 'Official Documentation',
+      description: 'Official Website',
       themeConfig: {
         nav: enNav,
         sidebar: enSidebar,
@@ -675,7 +787,7 @@ export default defineConfig({
       lang: 'zh-CN',
       link: '/zh/',
       title: 'Red Flag Sim',
-      description: '官方文档',
+      description: '官方网站',
       themeConfig: {
         nav: zhNav,
         sidebar: zhSidebar,
@@ -688,12 +800,12 @@ export default defineConfig({
         }
       }
     },
-    zhTW: {
+    'zh-tw': {
       label: '繁體中文',
       lang: 'zh-TW',
       link: '/zh-tw/',
       title: 'Red Flag Sim',
-      description: '官方文件',
+      description: '官方網站',
       themeConfig: {
         nav: zhTwNav,
         sidebar: zhTwSidebar,
@@ -711,7 +823,7 @@ export default defineConfig({
       lang: 'ja-JP',
       link: '/ja/',
       title: 'Red Flag Sim',
-      description: '公式ドキュメント',
+      description: '公式サイト',
       themeConfig: {
         nav: jaNav,
         sidebar: jaSidebar,
@@ -729,7 +841,7 @@ export default defineConfig({
       lang: 'ru-RU',
       link: '/ru/',
       title: 'Red Flag Sim',
-      description: 'Официальная документация',
+      description: 'Официальный сайт',
       themeConfig: {
         nav: ruNav,
         sidebar: ruSidebar,
@@ -747,7 +859,7 @@ export default defineConfig({
       lang: 'de-DE',
       link: '/de/',
       title: 'Red Flag Sim',
-      description: 'Offizielle Dokumentation',
+      description: 'Offizielle Website',
       themeConfig: {
         nav: deNav,
         sidebar: deSidebar,
@@ -765,7 +877,7 @@ export default defineConfig({
       lang: 'es-ES',
       link: '/es/',
       title: 'Red Flag Sim',
-      description: 'Documentación oficial',
+      description: 'Sitio web oficial',
       themeConfig: {
         nav: esNav,
         sidebar: esSidebar,
@@ -783,7 +895,7 @@ export default defineConfig({
       lang: 'fr-FR',
       link: '/fr/',
       title: 'Red Flag Sim',
-      description: 'Documentation officielle',
+      description: 'Site officiel',
       themeConfig: {
         nav: frNav,
         sidebar: frSidebar,
@@ -801,7 +913,7 @@ export default defineConfig({
       lang: 'ko-KR',
       link: '/ko/',
       title: 'Red Flag Sim',
-      description: '공식 문서',
+      description: '공식 웹사이트',
       themeConfig: {
         nav: koNav,
         sidebar: koSidebar,
@@ -819,8 +931,8 @@ export default defineConfig({
     nav: enNav,
     sidebar: enSidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/RedFlagSim/Docs' },
-      { icon: 'instagram', link: 'https://www.instagram.com/carrier_landing_hd/' }
+      { icon: 'instagram', link: 'https://www.instagram.com/carrier_landing_hd/' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@carrierlandinghd3129' }
     ],
     search: {
       provider: 'local'

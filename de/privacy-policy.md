@@ -1,3 +1,11 @@
+---
+title: Datenschutzerklärung
+sidebar: false
+prev: false
+next: false
+pageClass: rfs-legal-page
+---
+
 # Red Flag Sim Datenschutzerklärung
 
 **Datum des Inkrafttretens: 7. Mai 2026**
