@@ -1,7 +1,7 @@
 ---
-title: AN/APG-63(V)1 雷達
+title: AN/APG-63雷達與VSD
 ---
 
-# AN/APG-63(V)1 雷達
+# AN/APG-63雷達與VSD
 
 > 本章架構已建立。完整翻譯內容將在後續文件更新中加入。

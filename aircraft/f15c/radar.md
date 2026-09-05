@@ -1,19 +1,6 @@
-# AN/APG-63(V)1 Radar Operation
-
-The F-15C's AN/APG-63(V)1 is an all-weather pulse-Doppler fire-control radar. It gives the Eagle long-range detection, look-down capability, target tracking, missile support, and close-range automatic acquisition.
-
-![Figure 53. AN/APG-63 radar](/assets/F-15C/Manual/fig-53-apg63-radar.png)
-
-## Radar Principles and Limits
-
-Pulse-Doppler radar separates aircraft from ground clutter by measuring relative motion. A target closing toward or moving away from the F-15C produces a Doppler shift; terrain returns are filtered out as low-relative-speed clutter.
-
-This gives the F-15C strong look-down capability, but it does not make the radar unbeatable.
-
-- **Notching / beaming**: A target flying perpendicular to the radar beam can reduce closure rate toward zero and fall into the Doppler filter.
-- **Ground clutter**: Low-altitude targets force the radar to look down into stronger clutter, reducing sensitivity and track stability.
-- **Sidelobes**: Some radar energy leaks outside the main beam. Guard-channel processing helps reject false returns from those sidelobes.
-- **Gimbal limits**: The antenna has mechanical scan limits. Excessive bank, crank angle, or hard maneuvering can push a target outside the radar field of regard.
+---
+title: AN/APG-63 Radar and VSD
+---
 
 ## Long Range Search
 

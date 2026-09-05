@@ -5,6 +5,7 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:i18n-check": "node scripts/check-i18n-parity.mjs",
+    "docs:hud-i18n-check": "node scripts/check-f15c-hud-locales.mjs",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   }

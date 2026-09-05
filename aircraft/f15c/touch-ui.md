@@ -30,6 +30,7 @@ This page applies to iOS and Android touch devices.
   <a href="#item-11">11 Show MFD</a>
   <a href="#item-12">12 Show Tac Map</a>
   <a href="#item-13">13 Paddle Switch</a>
+  <a href="#item-14">14 Floating MFD</a>
   <a href="#item-15">15 Rudder</a>
   <a href="#item-16">16 Padlock</a>
   <a href="#item-17">17 Camera Switch Menu</a>
@@ -50,6 +51,8 @@ This page applies to iOS and Android touch devices.
 
 <a id="item-1"></a>
 ### 1. Function Panel
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/01-function-panel.png" alt="Function Panel">
 
 Long-press or double-tap to activate the temporary function touch panel. The panel has 4 tabs:
 
@@ -77,6 +80,8 @@ Long-press or double-tap to activate the temporary function touch panel. The pan
 <a id="item-2"></a>
 ### 2. Mode Switch
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/02-mode-switch.png" alt="Mode Switch">
+
 Switch between Navigation mode and AA (air-to-air) mode.
 
 [Back to top](#ui-terms-top)
@@ -84,14 +89,22 @@ Switch between Navigation mode and AA (air-to-air) mode.
 <a id="item-3"></a>
 ### 3. UI Element Edit
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/03-ui-element-edit.png" alt="UI Element Edit">
+
 Enter UI element edit mode. In this mode, selecting a UI element shows a brief function hint. You can move UI elements to your preferred positions, and the system saves them persistently.
 
-![Edit Mode](/assets/F-15C/TouchUI/edit_mode.png)
+To enter quickly, tap an empty area of the screen four times in rapid succession. You can also enter this mode from the main menu.
+
+![UI Element Edit Tips](/assets/F-15C/TouchUI/edit_mode.png)
+
+![UI Element Edit MFD Controls](/assets/F-15C/TouchUI/edit_mode_mfd.png)
 
 [Back to top](#ui-terms-top)
 
 <a id="item-4"></a>
 ### 4. Main Menu
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/04-main-menu.png" alt="Main Menu">
 
 Open the main game menu, including:
 
@@ -99,11 +112,12 @@ Open the main game menu, including:
 - `Preferences`: Open the game preferences UI
 - `Weather / Time`: Open weather and time setup UI
 - `Tac Map`: Open tactical map
-- `Tactical`: Tactical menu
-- `Freeze / Resume`: Pause/resume game
+- `Tactical`: Open the tactical menu to communicate with friendly forces and issue commands to your wingmen
+- `Freeze / Resume`: Toggle the dynamic pause system; it pauses flight dynamics while allowing other components to continue operating
 - `Playback`: Enter replay mode
 - `Restart`: Restart current mission
-- `Calibrate`: Calibrate gyroscope
+- `Calibrate Gyro`: Calibrate the gyroscope
+- `UI Editor`: Enter UI element edit mode
 - `Quit`: Quit current mission
 
 ![Main Menu](/assets/F-15C/TouchUI/main_menu.png)
@@ -113,12 +127,21 @@ Open the main game menu, including:
 <a id="item-5"></a>
 ### 5. Input Indicator
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/05-input-indicator.png" alt="Input Indicator">
+
 Displays current player input and flight-control output data, including pitch, roll, rudder, and throttle. This data is available in replay.
+
+- The diamond represents your control input.
+- The circle represents trim.
+
+When flying the F-15C, the trim circle may move even when you are not making manual trim inputs. This is because the PTC automatically adjusts trim.
 
 [Back to top](#ui-terms-top)
 
 <a id="item-6"></a>
 ### 6. Landing Gear Switch
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/06-landing-gear.png" alt="Landing Gear Switch">
 
 Controls landing gear up/down. Landing gear must be lowered below 250 knots; lowering above 250 knots will damage the gear.
 
@@ -127,12 +150,16 @@ Controls landing gear up/down. Landing gear must be lowered below 250 knots; low
 <a id="item-7"></a>
 ### 7. Flaps Switch
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/07-flaps.png" alt="Flaps Switch">
+
 Controls flap up/down.
 
 [Back to top](#ui-terms-top)
 
 <a id="item-8"></a>
 ### 8. Throttle
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/08-throttle.png" alt="Throttle">
 
 Throttle input range is from idle to max afterburner. Dragging continuously to the right for 2 seconds switches to single-engine throttle control mode.
 
@@ -142,6 +169,8 @@ Throttle input range is from idle to max afterburner. Dragging continuously to t
 
 <a id="item-9"></a>
 ### 9. Throttle Mode Switch
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/09-throttle-mode.png" alt="Throttle Mode Switch">
 
 This is a three-position switch:
 
@@ -153,6 +182,8 @@ This is a three-position switch:
 
 <a id="item-10"></a>
 ### 10. Speed Brake Switch
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/10-speed-brake.png" alt="Speed Brake Switch">
 
 This is a three-position maintained switch:
 
@@ -167,6 +198,8 @@ Its logic is similar to a car power-window switch, but it does not auto-return t
 <a id="item-11"></a>
 ### 11. Show MFD
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/11-show-mfd.png" alt="Show MFD">
+
 In cockpit camera view, holding either of these two buttons locks the camera to the corresponding display. At this time, your right thumb can operate the cursor and other function buttons. The two images below show the corresponding viewing angles.
 
 ![VSD View](/assets/F-15C/TouchUI/vsd_.png)
@@ -178,6 +211,8 @@ In cockpit camera view, holding either of these two buttons locks the camera to 
 <a id="item-12"></a>
 ### 12. Show Tac Map
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/12-show-tac-map.png" alt="Show Tac Map">
+
 Show the runtime tactical map.
 
 ![Runtime Tac Map](/assets/F-15C/TouchUI/runtime_tacmap.png)
@@ -187,12 +222,25 @@ Show the runtime tactical map.
 <a id="item-13"></a>
 ### 13. Paddle Switch
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/13-paddle-switch.png" alt="Paddle Switch">
+
 When autopilot is on, holding this button temporarily disconnects autopilot.
+
+[Back to top](#ui-terms-top)
+
+<a id="item-14"></a>
+### 14. Floating MFD
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/14-floating-mfd.png" alt="Floating MFD">
+
+Displays MFD information in a floating overlay above the flight view, so you can monitor the display without changing the current camera view.
 
 [Back to top](#ui-terms-top)
 
 <a id="item-15"></a>
 ### 15. Rudder
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/15-rudder.png" alt="Rudder">
 
 Drag left/right to control rudder and nosewheel steering. Drag up to control main gear wheel brakes, and the sensor or weapon `cage/uncage` switch.
 
@@ -201,12 +249,16 @@ Drag left/right to control rudder and nosewheel steering. Drag up to control mai
 <a id="item-16"></a>
 ### 16. Padlock
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/16-padlock.png" alt="Padlock">
+
 Used for automatic view lock. If other entities are near your aircraft, holding this button locks view to that entity. If multiple entities exist, hold `padlock` with the right hand and double-tap blank area with the left hand to switch to the next entity.
 
 [Back to top](#ui-terms-top)
 
 <a id="item-17"></a>
 ### 17. Camera Switch Menu
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/17-camera-menu.png" alt="Camera Switch Menu">
 
 Used to switch camera positions:
 
@@ -218,12 +270,16 @@ Used to switch camera positions:
 <a id="item-18"></a>
 ### 18. Cursor
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/18-cursor.png" alt="Cursor">
+
 Controls the cursor on `VSD` and `SIT` screens. Double-tap this button to manually designate a target.
 
 [Back to top](#ui-terms-top)
 
 <a id="item-19"></a>
 ### 19. Castle Switch
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/19-castle-switch.png" alt="Castle Switch">
 
 Used to manage displays and SOI (sensor of interest):
 
@@ -241,6 +297,8 @@ Used to manage displays and SOI (sensor of interest):
 <a id="item-20"></a>
 ### 20. Status Bar
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/20-status-bar.png" alt="Status Bar">
+
 From right to left, the status bar shows:
 
 - Game FPS
@@ -255,6 +313,8 @@ From right to left, the status bar shows:
 <a id="item-21"></a>
 ### 21. Chaff/Flare Release
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/21-chaff-flare.png" alt="Chaff/Flare Release">
+
 Release logic:
 
 - Tap: Release 1 `chaff` and 1 `flare`.
@@ -268,12 +328,16 @@ Release logic:
 <a id="item-22"></a>
 ### 22. Master Arm Switch
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/22-master-arm.png" alt="Master Arm Switch">
+
 Before firing weapons, this switch must be set to ON.
 
 [Back to top](#ui-terms-top)
 
 <a id="item-23"></a>
 ### 23. Gun Trigger
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/23-gun-trigger.png" alt="Gun Trigger">
 
 When the currently selected weapon is gun, tap to fire.
 
@@ -282,12 +346,16 @@ When the currently selected weapon is gun, tap to fire.
 <a id="item-24"></a>
 ### 24. Weapon Select Switch
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/24-weapon-select.png" alt="Weapon Select Switch">
+
 Flick up/down to switch among `AAM` (advanced medium-range missile), `MRM` (medium-range missile), `SRM` (short-range missile), and `GUN`; flick left/right to cycle through missile entities.
 
 [Back to top](#ui-terms-top)
 
 <a id="item-25"></a>
 ### 25. Antenna Elevation
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/25-antenna-elevation.png" alt="Antenna Elevation">
 
 When radar is in LRW/TWS mode, this controls pitch reference for antenna scan.
 
@@ -296,12 +364,16 @@ When radar is in LRW/TWS mode, this controls pitch reference for antenna scan.
 <a id="item-26"></a>
 ### 26. Coolie Switch
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Coolie Switch">
+
 Used for page and display management. In the F-15C workflow, treat the coolie switch as a quick way to move cockpit attention between tactical pages without opening the main menu. Confirm the active display before using cursor or designate commands.
 
 [Back to top](#ui-terms-top)
 
 <a id="item-27"></a>
 ### 27. Weapon Release
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/27-weapon-release.png" alt="Weapon Release">
 
 Releases the currently selected missile or store when master arm is ON and the selected weapon is ready. For air-to-air missiles, confirm target source, range cue, and aircraft attitude before pressing. This button is separate from the gun trigger.
 
@@ -310,7 +382,20 @@ Releases the currently selected missile or store when master arm is ON and the s
 <a id="item-28"></a>
 ### 28. Auto Acquisition Switch
 
-Auto lock switch. Tap to toggle radar mode.
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/28-auto-acquisition.png" alt="Auto Acquisition Switch">
+
+Interaction behavior:
+
+- **Tap:** Toggle the radar between `STBY` and `LRS` modes.
+- **Swipe up:** Cycle through the automatic-acquisition modes in this order: `SS` → `VS` → `BST` → `LR BST` → `SS`.
+- **Swipe up and hold:** Activate `FLOOD` mode.
+
+Automatic-acquisition modes:
+
+1. **`SS` — Supersearch:** Scans a 20° × 20° area within the HUD field of view using a six-bar pattern and automatically locks the first detected target from 500 ft to 10 NM.
+2. **`VS` — Vertical Scan:** Scans from 5° to 55° above the fuselage reference line over 7.5° of azimuth, with automatic lock-on from 500 ft to 10 NM.
+3. **`BST` — Boresight:** Searches along the radar boresight line; place the target inside the 4° HUD steering circle. Acquisition range is 500 ft to 10 NM.
+4. **`LR BST` — Long-Range Boresight:** Searches along the radar boresight line using a 2.5° HUD steering circle, from 3,000 ft to 40 NM.
 
 [Back to top](#ui-terms-top)
 <style scoped>

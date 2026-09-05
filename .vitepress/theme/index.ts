@@ -3,6 +3,7 @@ import { h, onMounted } from 'vue'
 import { useRouter } from 'vitepress'
 import SiteFooter from './components/SiteFooter.vue'
 import WebsiteHome from './components/WebsiteHome.vue'
+import TacInspectorPanel from './components/TacInspectorPanel.vue'
 import './custom.css'
 
 export default {
@@ -14,6 +15,7 @@ export default {
   },
   enhanceApp({ app }) {
     app.component('WebsiteHome', WebsiteHome)
+    app.component('TacInspectorPanel', TacInspectorPanel)
   },
   setup() {
     const router = useRouter()

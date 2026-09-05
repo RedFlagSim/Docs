@@ -30,6 +30,7 @@ Diese Seite gilt für iOS- und Android-Touchgeräte.
   <a href="#item-11">11 MFD anzeigen</a>
   <a href="#item-12">12 Tac Map anzeigen</a>
   <a href="#item-13">13 Paddle-Schalter</a>
+  <a href="#item-14">14 Schwebendes MFD</a>
   <a href="#item-15">15 Seitenruder</a>
   <a href="#item-16">16 Padlock</a>
   <a href="#item-17">17 Kameraumschaltmenü</a>
@@ -50,6 +51,8 @@ Diese Seite gilt für iOS- und Android-Touchgeräte.
 
 <a id="item-1"></a>
 ### 1. Funktionspanel
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/01-function-panel.png" alt="Funktionspanel">
 
 Langes Drücken oder Doppeltippen aktiviert das temporäre Funktions-Touchpanel. Das Panel hat 4 Tabs:
 
@@ -77,6 +80,8 @@ Langes Drücken oder Doppeltippen aktiviert das temporäre Funktions-Touchpanel.
 <a id="item-2"></a>
 ### 2. Modusumschalter
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/02-mode-switch.png" alt="Modusumschalter">
+
 Wechselt zwischen Navigation-Modus und AA-Modus (Luft-Luft).
 
 [Zurück nach oben](#ui-terms-top)
@@ -84,14 +89,22 @@ Wechselt zwischen Navigation-Modus und AA-Modus (Luft-Luft).
 <a id="item-3"></a>
 ### 3. UI-Element bearbeiten
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/03-ui-element-edit.png" alt="UI-Element bearbeiten">
+
 Aktiviert den Bearbeitungsmodus für UI-Elemente. In diesem Modus zeigt die Auswahl eines UI-Elements einen kurzen Funktionshinweis. UI-Elemente können an die gewünschte Position verschoben werden; das System speichert die Position dauerhaft.
 
-![Edit Mode](/assets/F-15C/TouchUI/edit_mode.png)
+Für den Schnellzugriff viermal kurz hintereinander auf einen freien Bereich des Bildschirms tippen. Der Modus kann auch über das Hauptmenü geöffnet werden.
+
+![Hinweise zur Bearbeitung von UI-Elementen](/assets/F-15C/TouchUI/edit_mode.png)
+
+![MFD-Steuerung im UI-Bearbeitungsmodus](/assets/F-15C/TouchUI/edit_mode_mfd.png)
 
 [Zurück nach oben](#ui-terms-top)
 
 <a id="item-4"></a>
 ### 4. Hauptmenü
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/04-main-menu.png" alt="Hauptmenü">
 
 Öffnet das Hauptmenü des Spiels mit folgenden Einträgen:
 
@@ -99,11 +112,12 @@ Aktiviert den Bearbeitungsmodus für UI-Elemente. In diesem Modus zeigt die Ausw
 - `Preferences`: Öffnet die Einstellungs-UI
 - `Weather / Time`: Öffnet die Wetter- und Zeitkonfiguration
 - `Tac Map`: Öffnet die taktische Karte
-- `Tactical`: Taktikmenü
-- `Freeze / Resume`: Spiel pausieren/fortsetzen
+- `Tactical`: Öffnet das Taktikmenü zur Kommunikation mit verbündeten Kräften und zur Erteilung von Befehlen an die Flügelmänner
+- `Freeze / Resume`: Schaltet das dynamische Pausensystem um; es hält die Flugdynamik an, während andere Komponenten weiterarbeiten
 - `Playback`: Wiedergabemodus starten
 - `Restart`: Aktuelle Mission neu starten
-- `Calibrate`: Gyroskop kalibrieren
+- `Calibrate Gyro`: Kalibriert das Gyroskop
+- `UI Editor`: Öffnet den Bearbeitungsmodus für UI-Elemente
 - `Quit`: Aktuelle Mission beenden
 
 ![Main Menu](/assets/F-15C/TouchUI/main_menu.png)
@@ -113,12 +127,21 @@ Aktiviert den Bearbeitungsmodus für UI-Elemente. In diesem Modus zeigt die Ausw
 <a id="item-5"></a>
 ### 5. Eingabeanzeige
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/05-input-indicator.png" alt="Eingabeanzeige">
+
 Zeigt aktuelle Spielereingaben und Flugsteuerungs-Ausgabedaten an, einschließlich Nick, Roll, Seitenruder und Schub. Diese Daten sind in der Wiedergabe verfügbar.
+
+- Die Raute zeigt Ihre Steuereingabe an.
+- Der Kreis zeigt die Trimmung an.
+
+Beim Fliegen der F-15C kann sich der Trimmkreis auch ohne manuelle Trimmeingaben bewegen, da der PTC die Trimmung automatisch anpasst.
 
 [Zurück nach oben](#ui-terms-top)
 
 <a id="item-6"></a>
 ### 6. Fahrwerksschalter
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/06-landing-gear.png" alt="Fahrwerksschalter">
 
 Steuert Ein- und Ausfahren des Fahrwerks. Das Fahrwerk muss unter 250 Knoten ausgefahren werden; über 250 Knoten führt das Ausfahren zu Fahrwerksschäden.
 
@@ -127,12 +150,16 @@ Steuert Ein- und Ausfahren des Fahrwerks. Das Fahrwerk muss unter 250 Knoten aus
 <a id="item-7"></a>
 ### 7. Klappenschalter
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/07-flaps.png" alt="Klappenschalter">
+
 Steuert Ein- und Ausfahren der Klappen.
 
 [Zurück nach oben](#ui-terms-top)
 
 <a id="item-8"></a>
 ### 8. Schubhebel
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/08-throttle.png" alt="Schubhebel">
 
 Der Schubbereich reicht von Leerlauf bis maximalem Nachbrenner. Wird 2 Sekunden lang kontinuierlich nach rechts gezogen, wird auf Einmotor-Schubsteuerung umgeschaltet.
 
@@ -142,6 +169,8 @@ Der Schubbereich reicht von Leerlauf bis maximalem Nachbrenner. Wird 2 Sekunden 
 
 <a id="item-9"></a>
 ### 9. Schubhebel-Modusschalter
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/09-throttle-mode.png" alt="Schubhebel-Modusschalter">
 
 Dieser Schalter hat drei Stellungen:
 
@@ -153,6 +182,8 @@ Dieser Schalter hat drei Stellungen:
 
 <a id="item-10"></a>
 ### 10. Luftbremsenschalter
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/10-speed-brake.png" alt="Luftbremsenschalter">
 
 Dies ist ein rastender Drei-Stellungen-Schalter:
 
@@ -167,6 +198,8 @@ Die Logik ähnelt einem elektrischen Fensterheberschalter im Auto, der Schalter 
 <a id="item-11"></a>
 ### 11. MFD anzeigen
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/11-show-mfd.png" alt="MFD anzeigen">
+
 In der Cockpitkamera fixiert das Gedrückthalten dieser beiden Tasten die Kamera auf das jeweilige Display. Dabei kann der rechte Daumen den Cursor und weitere Funktionsknöpfe bedienen. Die beiden Abbildungen unten zeigen die entsprechenden Blickwinkel.
 
 ![VSD View](/assets/F-15C/TouchUI/vsd_.png)
@@ -178,6 +211,8 @@ In der Cockpitkamera fixiert das Gedrückthalten dieser beiden Tasten die Kamera
 <a id="item-12"></a>
 ### 12. Tac Map anzeigen
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/12-show-tac-map.png" alt="Tac Map anzeigen">
+
 Zeigt die taktische Karte zur Laufzeit an.
 
 ![Runtime Tac Map](/assets/F-15C/TouchUI/runtime_tacmap.png)
@@ -187,12 +222,25 @@ Zeigt die taktische Karte zur Laufzeit an.
 <a id="item-13"></a>
 ### 13. Paddle-Schalter
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/13-paddle-switch.png" alt="Paddle-Schalter">
+
 Wenn der Autopilot aktiv ist, trennt das Gedrückthalten dieser Taste den Autopiloten vorübergehend.
+
+[Zurück nach oben](#ui-terms-top)
+
+<a id="item-14"></a>
+### 14. Schwebendes MFD
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/14-floating-mfd.png" alt="Schwebendes MFD">
+
+Zeigt MFD-Informationen als schwebende Einblendung über der Flugsicht an, damit das Display ohne Wechsel der aktuellen Kameraperspektive überwacht werden kann.
 
 [Zurück nach oben](#ui-terms-top)
 
 <a id="item-15"></a>
 ### 15. Seitenruder
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/15-rudder.png" alt="Seitenruder">
 
 Links/rechts ziehen steuert Seitenruder und Bugradlenkung. Nach oben ziehen steuert die Hauptfahrwerksbremsen sowie den `cage/uncage`-Schalter von Sensoren oder Waffen.
 
@@ -201,12 +249,16 @@ Links/rechts ziehen steuert Seitenruder und Bugradlenkung. Nach oben ziehen steu
 <a id="item-16"></a>
 ### 16. Padlock
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/16-padlock.png" alt="Padlock">
+
 Dient der automatischen Blickverriegelung. Wenn sich andere Einheiten in der Nähe des eigenen Flugzeugs befinden, fixiert Gedrückthalten die Sicht auf diese Einheit. Bei mehreren Einheiten kann mit der rechten Hand `padlock` gehalten und mit der linken Hand doppelt auf eine leere Fläche getippt werden, um zum nächsten Ziel zu wechseln.
 
 [Zurück nach oben](#ui-terms-top)
 
 <a id="item-17"></a>
 ### 17. Kameraumschaltmenü
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/17-camera-menu.png" alt="Kameraumschaltmenü">
 
 Zum Wechseln der Kamerapositionen:
 
@@ -218,12 +270,16 @@ Zum Wechseln der Kamerapositionen:
 <a id="item-18"></a>
 ### 18. Cursor
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/18-cursor.png" alt="Cursor">
+
 Steuert den Cursor auf den `VSD`- und `SIT`-Bildschirmen. Doppeltippen auf diese Taste ermöglicht die manuelle Zielzuweisung.
 
 [Zurück nach oben](#ui-terms-top)
 
 <a id="item-19"></a>
 ### 19. Castle-Schalter
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/19-castle-switch.png" alt="Castle-Schalter">
 
 Dient zur Verwaltung von Displays und SOI (Sensor of Interest):
 
@@ -241,6 +297,8 @@ Dient zur Verwaltung von Displays und SOI (Sensor of Interest):
 <a id="item-20"></a>
 ### 20. Statusleiste
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/20-status-bar.png" alt="Statusleiste">
+
 Die Statusleiste zeigt von rechts nach links folgende Informationen:
 
 - FPS
@@ -255,6 +313,8 @@ Die Statusleiste zeigt von rechts nach links folgende Informationen:
 <a id="item-21"></a>
 ### 21. Chaff/Flare-Ausstoß
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/21-chaff-flare.png" alt="Chaff/Flare-Ausstoß">
+
 Ausstoßlogik:
 
 - Tippen: 1 `chaff` und 1 `flare` ausstoßen.
@@ -268,12 +328,16 @@ Ausstoßlogik:
 <a id="item-22"></a>
 ### 22. Master-Arm-Schalter
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/22-master-arm.png" alt="Master-Arm-Schalter">
+
 Vor dem Waffenabschuss muss dieser Schalter auf ON stehen.
 
 [Zurück nach oben](#ui-terms-top)
 
 <a id="item-23"></a>
 ### 23. Bordkanonen-Abzug
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/23-gun-trigger.png" alt="Bordkanonen-Abzug">
 
 Wenn als aktuelle Waffe die Bordkanone ausgewählt ist, tippen zum Feuern.
 
@@ -282,12 +346,16 @@ Wenn als aktuelle Waffe die Bordkanone ausgewählt ist, tippen zum Feuern.
 <a id="item-24"></a>
 ### 24. Waffenwahlschalter
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/24-weapon-select.png" alt="Waffenwahlschalter">
+
 Durch Hoch-/Runterschalten kann zwischen `AAM` (Advanced Medium-Range Missile), `MRM` (Medium-Range Missile), `SRM` (Short-Range Missile) und `GUN` gewechselt werden; durch Links-/Rechtsschalten wird zwischen den einzelnen Flugkörpern zyklisch gewechselt.
 
 [Zurück nach oben](#ui-terms-top)
 
 <a id="item-25"></a>
 ### 25. Antenna Elevation
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/25-antenna-elevation.png" alt="Antenna Elevation">
 
 Wenn sich das Radar im LRW/TWS-Modus befindet, wird damit der Nick-Referenzwinkel für den Antennenscan angepasst.
 
@@ -296,12 +364,16 @@ Wenn sich das Radar im LRW/TWS-Modus befindet, wird damit der Nick-Referenzwinke
 <a id="item-26"></a>
 ### 26. Coolie-Schalter
 
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Coolie-Schalter">
+
 Wird noch ergänzt.
 
 [Zurück nach oben](#ui-terms-top)
 
 <a id="item-27"></a>
 ### 27. Waffenfreigabe
+
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/27-weapon-release.png" alt="Waffenfreigabe">
 
 Wird noch ergänzt.
 
@@ -310,7 +382,20 @@ Wird noch ergänzt.
 <a id="item-28"></a>
 ### 28. Auto-Acquisition-Schalter
 
-Schalter für automatische Zielerfassung. Tippen, um den Radarmodus umzuschalten.
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/28-auto-acquisition.png" alt="Auto-Acquisition-Schalter">
+
+Bedienung:
+
+- **Tippen:** Schaltet das Radar zwischen `STBY` und `LRS` um.
+- **Nach oben wischen:** Durchläuft die automatischen Erfassungsmodi in dieser Reihenfolge: `SS` → `VS` → `BST` → `LR BST` → `SS`.
+- **Nach oben wischen und halten:** Aktiviert den `FLOOD`-Modus.
+
+Automatische Erfassungsmodi:
+
+1. **`SS` — Supersearch:** Durchsucht mit einem Sechs-Balken-Muster einen Bereich von 20° × 20° im HUD-Sichtfeld und erfasst automatisch das erste erkannte Ziel zwischen 500 ft und 10 NM.
+2. **`VS` — Vertical Scan:** Durchsucht den Bereich von 5° bis 55° oberhalb der Rumpfbezugslinie über 7,5° Azimut; automatische Erfassung zwischen 500 ft und 10 NM.
+3. **`BST` — Boresight:** Sucht entlang der Radarvisierlinie; bringen Sie das Ziel in den 4°-Steuerkreis im HUD. Erfassungsbereich: 500 ft bis 10 NM.
+4. **`LR BST` — Long-Range Boresight:** Sucht entlang der Radarvisierlinie mit einem 2,5°-Steuerkreis im HUD, von 3.000 ft bis 40 NM.
 
 [Zurück nach oben](#ui-terms-top)
 <style scoped>

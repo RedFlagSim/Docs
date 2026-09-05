@@ -1025,3 +1025,96 @@ a.rfs-platform-card:hover {
     transition: none;
   }
 }
+
+.touch-ui-control-thumb {
+  display: block;
+  width: auto;
+  max-width: min(100%, 280px);
+  max-height: 180px;
+  margin: 12px 0 16px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: #080b10;
+  object-fit: contain;
+}
+
+/* Tac Editor uses the same numbered index pattern as Touch UI. */
+.vp-doc .tac-editor-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 12px 0 6px;
+}
+
+.vp-doc .tac-editor-index a {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 999px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  line-height: 1.4;
+  font-size: 13px;
+  transition: background-color .16s ease;
+}
+
+.vp-doc .tac-editor-index a:hover {
+  background: var(--vp-c-bg-elv);
+}
+
+.vp-doc .tac-editor-index a:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 3px;
+}
+
+.vp-doc .hud-scan-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.vp-doc .hud-scan-gallery figure,
+.vp-doc .hud-mode-figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+}
+
+.vp-doc .hud-mode-figure {
+  max-width: 560px;
+  margin: 20px 0;
+}
+
+.vp-doc .hud-scan-gallery img,
+.vp-doc .hud-mode-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.vp-doc .hud-scan-gallery img {
+  aspect-ratio: 1;
+  object-fit: contain;
+  background: #080b10;
+}
+
+.vp-doc .hud-scan-gallery figcaption,
+.vp-doc .hud-mode-figure figcaption {
+  padding: 8px 10px;
+  color: var(--vp-c-text-2);
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+@media (max-width: 640px) {
+  .vp-doc .hud-scan-gallery {
+    grid-template-columns: 1fr;
+  }
+}

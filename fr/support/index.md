@@ -21,7 +21,6 @@ Trouvez de l'aide, envoyez vos commentaires, consultez les informations de confi
 
 ## Canaux officiels
 
-- [GitHub](https://github.com/RedFlagSim/Docs)
 - [Instagram](https://www.instagram.com/carrier_landing_hd/)
 - [YouTube](https://www.youtube.com/@carrierlandinghd3129)
 
