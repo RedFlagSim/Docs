@@ -24,6 +24,8 @@ Motion control needs the roll axis to remain clear and distinguishable. When the
 
 As an alternative to motion control, the mobile version also supports an on-screen virtual joystick. Select the virtual joystick control mode before flight when you want to keep the device stationary.
 
+![Touch virtual joystick: the arrow points to the stick control on the right side of the screen](/assets/mobile-virtual-stick.jpeg)
+
 *   **Pitch Control**: Drag the stick **down** to pull up and **up** to push the nose down.
 *   **Roll Control**: Drag the stick left or right to command the corresponding roll direction.
 *   **Return to Neutral**: Release the stick and it automatically returns to the center position.
@@ -32,8 +34,23 @@ The vertical-grip and calibration requirements above apply only to motion contro
 
 ## Pre-Flight Setup & Precision Tips
 
-1.  **Establish Your Baseline (Calibration)**: Before entering the cockpit or launching a mission, assume your comfortable cockpit seating position, hold the device steadily upright, open the main menu, and tap **"CALIBRATE"** in the main menu. The system will record the current angle as your zero-point neutral baseline.
+1.  **Establish Your Baseline (Calibration)**: After entering the cockpit or before takeoff, assume your comfortable cockpit seating position, hold the device steadily upright, open the main menu, and tap **Calibrate Gyro**. The system will record the current angle as your zero-point neutral baseline.
 
-    ![CALIBRATE location in the main menu](/assets/mobile-main-menu-calibrate-placeholder.png)
+    ![Gyroscope calibration: the Calibrate Gyro option in the main menu](/assets/mobile-gyro-calibration.jpeg)
 
 2.  **Stabilize Your Controls**: During high-precision operations—such as tight formations, aerial refueling, or close-range dogfights—rest your elbows on your knees or armrests. This filters out body tremors and enables sub-degree maneuvering precision.
+
+## Touch UI Edit Mode
+
+**Tap an empty area of the screen four times in rapid succession** to open Touch UI edit mode. You can also select `UI Editor` from the main menu.
+
+![Touch UI edit mode with highlighted control regions and the editing panel](/assets/mobile-ui-editor.jpeg)
+
+In edit mode, you can:
+
+- **Rearrange controls**: Select and move controls to customize the screen layout.
+- **Enter clear mode**: Use `CLEAR MODE` to switch to the transparent presentation.
+- **Adjust overall opacity**: Change the touch UI's overall opacity to reduce obstruction of the flight view.
+- **Configure floating MFDs**: Adjust the size and visibility of floating multifunction displays (MFDs).
+
+For detailed control and editing-panel explanations, see the [F-15C Touch UI documentation](/Docs/aircraft/f15c/touch-ui.html#item-3).

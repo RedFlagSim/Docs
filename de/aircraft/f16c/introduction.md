@@ -1,3 +1,3 @@
 # Einführung
 
-> TODO: Fügen Sie eine Modulübersicht und grundlegende Bedienhinweise hinzu.
+Die Dokumentation für dieses Modul ist noch nicht verfügbar.

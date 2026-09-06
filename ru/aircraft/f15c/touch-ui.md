@@ -359,25 +359,25 @@
 
 当雷达处于 LRW/TWS 模式时，用于调整天线扫描基准的俯仰角度。
 
-[返回顶部](#ui-terms-top)
+[Вернуться наверх](#ui-terms-top)
 
 <a id="item-26"></a>
-### 26. coolie 开关
+### 26. Переключатель Coolie
 
-<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="coolie 开关">
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Переключатель Coolie">
 
-待补充。
+Управляет тактическими страницами и дисплеями без открытия главного меню. Перед перемещением курсора или назначением цели проверьте, какой дисплей активен.
 
-[返回顶部](#ui-terms-top)
+[Вернуться наверх](#ui-terms-top)
 
 <a id="item-27"></a>
-### 27. 武器释放
+### 27. Применение оружия
 
-<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/27-weapon-release.png" alt="武器释放">
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/27-weapon-release.png" alt="Применение оружия">
 
-待补充。
+Запускает выбранную ракету или сбрасывает подвесное вооружение, когда Master Arm включён и оружие готово. Перед пуском ракеты «воздух–воздух» проверьте источник данных о цели, индикацию дальности и положение самолёта. Эта кнопка не управляет пушкой: для стрельбы из пушки используется Gun Trigger.
 
-[返回顶部](#ui-terms-top)
+[Вернуться наверх](#ui-terms-top)
 
 <a id="item-28"></a>
 ### 28. auto acquisition 开关

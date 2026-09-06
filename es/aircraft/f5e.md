@@ -1,3 +1,3 @@
 # F-5E
 
-> TODO: Add localized content for F-5E.
+La documentación de este módulo aún no está disponible.

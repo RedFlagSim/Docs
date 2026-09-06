@@ -359,25 +359,25 @@ F-15C를 조종할 때는 수동으로 트림을 조작하지 않아도 트림�
 
 当雷达处于 LRW/TWS 模式时，用于调整天线扫描基准的俯仰角度。
 
-[返回顶部](#ui-terms-top)
+[맨 위로](#ui-terms-top)
 
 <a id="item-26"></a>
-### 26. coolie 开关
+### 26. Coolie 스위치
 
-<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="coolie 开关">
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Coolie 스위치">
 
-待补充。
+메인 메뉴를 열지 않고 전술 페이지와 디스플레이를 관리합니다. 커서를 조작하거나 표적을 지정하기 전에 현재 활성화된 디스플레이를 확인하세요.
 
-[返回顶部](#ui-terms-top)
+[맨 위로](#ui-terms-top)
 
 <a id="item-27"></a>
-### 27. 武器释放
+### 27. 무장 발사
 
-<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/27-weapon-release.png" alt="武器释放">
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/27-weapon-release.png" alt="무장 발사">
 
-待补充。
+Master Arm이 켜져 있고 선택한 무장이 준비된 상태에서 미사일이나 장착 무장을 발사 또는 투하합니다. 공대공 미사일을 발사하기 전에 표적 정보의 출처, 거리 표시, 항공기 자세를 확인하세요. 이 버튼은 기총 방아쇠와 별개이며, 기총은 Gun Trigger로 발사합니다.
 
-[返回顶部](#ui-terms-top)
+[맨 위로](#ui-terms-top)
 
 <a id="item-28"></a>
 ### 28. auto acquisition 开关

@@ -255,8 +255,6 @@ Package でフライトを編成し、Flight でメンバーと任務を設定�
 - <strong>Take-off Time</strong>：パッケージの離陸時刻。例は 23:03 です。
 - <strong>Time on Target（TOT）</strong>：パッケージの目標到達時刻。例は 23:33 です。
 
-Package と Flight にはそれぞれ時間設定があります。連動の仕組みと時刻の基準は後ほど説明します。
-
 </TacInspectorPanel>
 
 [画面の概要に戻る](#item-3)
@@ -279,8 +277,6 @@ Package 内の Flight を選ぶと、メンバーと任務設定が表示され�
 - <strong>Steer Points</strong>：航路の編集を開きます。航路とステアポイントの詳細は第4部で扱います。
 - <strong>Rebuild</strong>：Flight の Time on Target（TOT、目標到達時刻）を再計算します。
 - <strong>Delete</strong>：Rebuild の下にあり、Flight の定義全体を削除します。機体 Slot 1つだけの削除ではありません。
-
-現在の画像には Rebuild の一部だけが写っており、その下の Delete ボタンは写っていません。
 
 </TacInspectorPanel>
 
@@ -320,8 +316,6 @@ Slot は Flight に属する1機を表します。Flight のメンバー図で�
 - <strong>Spawn Point ID</strong>：出現地点を選択します。例は Auto です。
 - <strong>Initial State</strong>：機体の初期状態の設定を開きます。
 - <strong>Delete</strong>：現在の機体 Slot を削除します。Flight や Package 全体の削除ではありません。
-
-画像は Airbase 選択時のものです。Airborne、Loadout / Livery、Initial State の各画面は後の画像で説明します。
 
 </TacInspectorPanel>
 
@@ -409,7 +403,7 @@ Flight Inspector の Steer Points を選択して、そのフライトのステ�
 - <strong>名前</strong>：上部の 11 はフェンスの名前です。
 - <strong>Geo Fence Role / Shape</strong>：役割は MEZ、形状は Circle です。名前、役割、形状は別の情報です。
 - <strong>Coalition</strong>：フェンスの陣営。例は Red です。
-- <strong>Threat Radius</strong>：円形領域の半径。例は 22.6 ですが、画像に単位は表示されていません。
+- <strong>Threat Radius</strong>：円形領域の半径を設定します。
 - <strong>Delete</strong>：現在のフェンスを削除します。
 
 </TacInspectorPanel>
@@ -427,8 +421,8 @@ Flight Inspector の Steer Points を選択して、そのフライトのステ�
 - <strong>名前 / Geo Fence Role</strong>：名前は MEZ ですが、役割は ROZ です。名前と役割を区別してください。
 - <strong>Shape / Coalition</strong>：例は Polygon と Red です。
 - <strong>左右の矢印と番号</strong>：編集する頂点を選択します。表示されている番号は 0 です。
-- <strong>New Vertice</strong>：頂点を追加します。表記は画面のボタン名に合わせています。
-- <strong>Rotate</strong>：多角形を回転します。刻み幅と角度の規則は後ほど説明します。
+- <strong>New Vertice</strong>：頂点を追加します。
+- <strong>Rotate</strong>：多角形を回転します。
 - <strong>Delete Vertex / Delete</strong>：Delete Vertex は選択した頂点、最下部の Delete はフェンス全体を削除します。
 
 マップ上の位置を変える場合は、第1部の操作を使います。対象を選び、左手で移動ボタンを押し続けながら右手でドラッグします。
@@ -451,7 +445,7 @@ Flight Inspector の Steer Points を選択して、そのフライトのステ�
 
 - <strong>＋</strong>：非プレイヤーユニットを追加します。
 - <strong>一覧の項目</strong>：例は 9K37 Buk np と F-15C np で、地対空ミサイルユニットと独立した航空機を示します。
-- <strong>項目の選択</strong>：そのユニットの Inspector を開きます。個別の NP Unit の設定画面は画像が揃ってから説明します。
+- <strong>項目の選択</strong>：そのユニットの Inspector を開きます。
 
 </TacInspectorPanel>
 
@@ -463,10 +457,10 @@ Flight Inspector の Steer Points を選択して、そのフライトのステ�
 
 ## 第6部：ミッションの設定
 
-この章には、スクリーンショットを用いた詳しい操作説明を順次追加します。
+マップの何もない場所をダブルタップすると、ミッション情報パネルが開きます。
 
-- ミッション情報、シーナリー、天候、時刻
-- 設定の権限と制限
+- [Weather / Time](#item-11-1)：ミッションの天候と時刻を設定します。
+- [Config](#item-11-3)：ミッションのルール、制限、変更権限を設定します。
 
 [ページの先頭に戻る](#tac-editor-top)
 
@@ -474,10 +468,9 @@ Flight Inspector の Steer Points を選択して、そのフライトのステ�
 
 ## 第7部：保存とテスト飛行
 
-この章には、スクリーンショットを用いた詳しい操作説明を順次追加します。
+Flight、機体 Slot、航路を確認してから、保存してテスト飛行を行います。
 
-- 推奨される編集手順
-- File：保存と読み込み
-- Go Fly と飛行前チェック
+- [File](#item-11-2)：ミッションを保存するか、保存済みのミッションを読み込みます。
+- [Go Fly](#item-11-6)：現在のミッションを開始し、設定が意図どおりに動作するか確認します。
 
 [ページの先頭に戻る](#tac-editor-top)

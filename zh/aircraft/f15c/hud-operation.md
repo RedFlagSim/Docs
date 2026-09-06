@@ -23,7 +23,7 @@ HUD 是 F-15C 最重要的飞行与武器显示。它把姿态、导航、空速
 
 航向、空速、高度和迎角标尺上的三角指示符（caret）均用于指示对应参数的当前数值。
 
-![图 38. F-15C HUD 基本符号编号图](/assets/F-15C/Manual/fig-38-hud-basic-symbology.png)
+<img src="/assets/F-15C/Manual/fig-38-hud-basic-symbology.png" alt="图 38. F-15C HUD 基本符号编号图" width="1600" height="898">
 
 ### 符号索引
 
@@ -152,7 +152,7 @@ W 形符号是固定的飞机基准线参考。把它与速度矢量比较，可
 
 ### 无雷达锁定机炮
 
-![机炮图 1：无雷达锁定时的瞄准参考](/assets/F-15C/HUD/gun-no-lock.png)
+<img src="/assets/F-15C/HUD/gun-no-lock.png" alt="机炮图 1：无雷达锁定时的瞄准参考" width="1920" height="1129">
 
 无雷达锁定时，机炮瞄准点按固定 **2000 英尺**的距离计算，表示炮弹飞到该距离时的预计落点；此时并没有雷达提供的实际目标距离。
 
@@ -166,7 +166,7 @@ F-15C 不像 F-16 或 F/A-18 那样，在没有雷达测距信息时显示机炮
 
 选择机炮后，只有雷达处于单目标跟踪（STT）状态且目标在射程内，才显示机炮指引瞄准（Gun Director Sight，GDS）准星。
 
-![机炮图 2：GDS 准星与目标数据，编号 1 至 7](/assets/F-15C/HUD/gun-gds.png)
+<img src="/assets/F-15C/HUD/gun-gds.png" alt="机炮图 2：GDS 准星与目标数据，编号 1 至 7" width="1920" height="1285">
 
 <nav class="term-cloud tac-editor-index" aria-label="GDS 编号索引">
   <a href="#hud-gds-item-1">1. GDS 准星</a>
@@ -246,7 +246,7 @@ HUD 右侧的雷达测距标尺用于读取目标距离。顶部的 `10` 表示�
 
 ### BATR 弹着点提示
 
-![机炮图 3：编号 1 为 BATR 三角标记，编号 2 为目标接近率](/assets/F-15C/HUD/gun-batr.png)
+<img src="/assets/F-15C/HUD/gun-batr.png" alt="机炮图 3：编号 1 为 BATR 三角标记，编号 2 为目标接近率" width="1920" height="1122">
 
 <nav class="term-cloud tac-editor-index" aria-label="BATR 编号索引">
   <a href="#hud-batr-item-1">1. BATR 三角标记</a>
@@ -298,7 +298,7 @@ GDS 准星是开炮时的预测瞄准参考：即使中心瞄准点压住目标�
 
 选择近程导弹（SM）后，HUD 显示 AIM-9 的武器状态和导引头符号。导引头默认处于 Cage（囚笼）模式，指向机头附近。
 
-![图 1 · SM 与 Cage 模式](/assets/F-15C/HUD/aim9-01-caged.png)
+<img src="/assets/F-15C/HUD/aim9-01-caged.png" alt="图 1 · SM 与 Cage 模式" width="1920" height="1007">
 
 <nav class="term-cloud tac-editor-index" aria-label="AIM-9 图 1 编号索引">
   <a href="#hud-aim9-caged-item-1">1. 武器状态 S 2M</a>
@@ -340,7 +340,7 @@ GDS 准星是开炮时的预测瞄准参考：即使中心瞄准点压住目标�
 
 解除囚笼后，导引头进入 Uncage（非囚笼）模式。图中小圆已经离开机头附近，正在跟踪目标。
 
-![图 2 · Uncage 模式](/assets/F-15C/HUD/aim9-02-uncaged.png)
+<img src="/assets/F-15C/HUD/aim9-02-uncaged.png" alt="图 2 · Uncage 模式" width="1920" height="1117">
 
 <nav class="term-cloud tac-editor-index" aria-label="AIM-9 图 2 编号索引">
   <a href="#hud-aim9-uncaged-item-1">1. U：Uncage 状态</a>
@@ -369,7 +369,7 @@ GDS 准星是开炮时的预测瞄准参考：即使中心瞄准点压住目标�
 
 雷达获得主要指定目标（Primary Designated Target，PDT）后，系统可根据目标信息计算导弹的动态发射区（Dynamic Launch Zone，DLZ），并显示 ASE、转向点、目标框和射程标记。图中目标仍在最大射程之外。
 
-![图 3 · PDT 与动态发射区（DLZ）](/assets/F-15C/HUD/aim9-03-dlz.png)
+<img src="/assets/F-15C/HUD/aim9-03-dlz.png" alt="图 3 · PDT 与动态发射区（DLZ）" width="1920" height="1226">
 
 <nav class="term-cloud tac-editor-index" aria-label="AIM-9 图 3 编号索引">
   <a href="#hud-aim9-dlz-item-1">1. ASE 与目标速度向量</a>
@@ -438,7 +438,7 @@ DLZ 下方的标记表示最小射程。目标距离小于 RMin 时，不应发�
 
 目标进入最大射程以内后，ASE 放大，HUD 出现 `IN RNG`。这表示射程条件已允许导弹有机会命中，但不代表红外导引头已经锁定目标。
 
-![图 4 · 进入射程，但导引头仍处于 Cage](/assets/F-15C/HUD/aim9-04-in-range.png)
+<img src="/assets/F-15C/HUD/aim9-04-in-range.png" alt="图 4 · 进入射程，但导引头仍处于 Cage" width="1920" height="1092">
 
 <nav class="term-cloud tac-editor-index" aria-label="AIM-9 图 4 编号索引">
   <a href="#hud-aim9-in-range-item-1">1. 放大的 ASE</a>
@@ -469,7 +469,7 @@ DLZ 下方的标记表示最小射程。目标距离小于 RMin 时，不应发�
 
 已有雷达 PDT 时，解除导引头囚笼，导引头会随动（slave）到该目标的视线方向（LOS）。
 
-![图 5 · Uncage 后随动到 PDT](/assets/F-15C/HUD/aim9-05-slaved.png)
+<img src="/assets/F-15C/HUD/aim9-05-slaved.png" alt="图 5 · Uncage 后随动到 PDT" width="1920" height="1077">
 
 <nav class="term-cloud tac-editor-index" aria-label="AIM-9 图 5 编号索引">
   <a href="#hud-aim9-slaved-item-1">1. 随动到目标 LOS 的导引头</a>
@@ -491,7 +491,7 @@ DLZ 下方的标记表示最小射程。目标距离小于 RMin 时，不应发�
 
 目标进入 RTR 后，TD Box 下方出现三角提示，ASE 会闪烁。这些提示表示当前具备很好的发射条件；仍需保持导引头锁定，并注意 RMin 限制。
 
-![图 6 · 进入 RTR 与近距射程环](/assets/F-15C/HUD/aim9-06-rtr.png)
+<img src="/assets/F-15C/HUD/aim9-06-rtr.png" alt="图 6 · 进入 RTR 与近距射程环" width="1920" height="1138">
 
 <nav class="term-cloud tac-editor-index" aria-label="AIM-9 图 6 编号索引">
   <a href="#hud-aim9-rtr-item-1">1. 近距射程环</a>
@@ -522,7 +522,7 @@ DLZ 下方的标记表示最小射程。目标距离小于 RMin 时，不应发�
 
 目标进入最小射程以内后，ASE 消失，取而代之的是闪烁的 Break X 提示。
 
-![图 7 · 小于最小射程：Break X](/assets/F-15C/HUD/aim9-07-break-x.png)
+<img src="/assets/F-15C/HUD/aim9-07-break-x.png" alt="图 7 · 小于最小射程：Break X" width="1920" height="1204">
 
 <nav class="term-cloud tac-editor-index" aria-label="AIM-9 图 7 编号索引">
   <a href="#hud-aim9-too-close-item-1">1. Break X：距离过近</a>
@@ -554,7 +554,7 @@ DLZ 下方的标记表示最小射程。目标距离小于 RMin 时，不应发�
 #### 图 1 · 正常 HUD 显示
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/aim9-gun-composite.png" alt="SM 机炮合成模式：保留航向、空速和高度标尺，同时显示机炮准星与导弹导引头指向" />
+  <img width="1180" height="1214" src="/assets/F-15C/HUD/aim9-gun-composite.png" alt="SM 机炮合成模式：保留航向、空速和高度标尺，同时显示机炮准星与导弹导引头指向" />
   <figcaption>机炮合成模式：正常 HUD 显示</figcaption>
 </figure>
 
@@ -569,7 +569,7 @@ DLZ 下方的标记表示最小射程。目标距离小于 RMin 时，不应发�
 #### 图 2 · HUD REJ 显示
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/aim9-gun-composite-rej.png" alt="HUD REJ 下的机炮合成模式：航向、空速和高度三个标尺隐藏，机炮准星与目标符号仍显示" />
+  <img width="1270" height="1191" src="/assets/F-15C/HUD/aim9-gun-composite-rej.png" alt="HUD REJ 下的机炮合成模式：航向、空速和高度三个标尺隐藏，机炮准星与目标符号仍显示" />
   <figcaption>HUD REJ：隐藏三个飞行标尺后的机炮合成显示</figcaption>
 </figure>
 
@@ -599,7 +599,7 @@ AIM-7 的大部分 HUD 符号与 [AIM-9M 的介绍](#hud-aim9)相同，包括 AS
 ### 图 1 · 选择 AIM-7 与 12° 照射圆
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/aim7-01-selected.png" alt="选择 AIM-7 后显示的 12° FLOOD 照射参考圆，尚无 FLOOD 模式提示" />
+  <img width="1220" height="1246" src="/assets/F-15C/HUD/aim7-01-selected.png" alt="选择 AIM-7 后显示的 12° FLOOD 照射参考圆，尚无 FLOOD 模式提示" />
   <figcaption>选择 AIM-7：外侧大圆为 FLOOD 照射区域参考</figcaption>
 </figure>
 
@@ -614,7 +614,7 @@ AIM-7 的大部分 HUD 符号与 [AIM-9M 的介绍](#hud-aim9)相同，包括 AS
 ### 图 2 · STT 与发射提示
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/aim7-02-stt.png" alt="AIM-7 STT 模式：外侧 FLOOD 参考圆、内侧 ASE 圆、转向点、TD Box 与 DLZ" />
+  <img width="1188" height="1214" src="/assets/F-15C/HUD/aim7-02-stt.png" alt="AIM-7 STT 模式：外侧 FLOOD 参考圆、内侧 ASE 圆、转向点、TD Box 与 DLZ" />
   <figcaption>STT 下的发射提示：IN RNG，目标距离 9.3 海里</figcaption>
 </figure>
 
@@ -634,7 +634,7 @@ AIM-7 的大部分 HUD 符号与 [AIM-9M 的介绍](#hud-aim9)相同，包括 AS
 ### 图 3 · 进入 RTR
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/aim7-03-rtr.png" alt="AIM-7 目标进入 RTR，TD Box 下方出现三角提示，目标距离 7.4 海里" />
+  <img width="1191" height="1210" src="/assets/F-15C/HUD/aim7-03-rtr.png" alt="AIM-7 目标进入 RTR，TD Box 下方出现三角提示，目标距离 7.4 海里" />
   <figcaption>进入 RTR：目标框下方出现三角提示</figcaption>
 </figure>
 
@@ -649,7 +649,7 @@ AIM-7 的大部分 HUD 符号与 [AIM-9M 的介绍](#hud-aim9)相同，包括 AS
 ### 图 4 · FLOOD 照射模式
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/aim7-04-flood.png" alt="AIM-7 FLOOD 模式：HUD 显示 FLOOD，目标保持在 12° 照射圆内" />
+  <img width="1205" height="1227" src="/assets/F-15C/HUD/aim7-04-flood.png" alt="AIM-7 FLOOD 模式：HUD 显示 FLOOD，目标保持在 12° 照射圆内" />
   <figcaption>FLOOD 模式：用 12° 照射圆持续套住目标</figcaption>
 </figure>
 
@@ -679,7 +679,7 @@ AMRAAM 的 ASE、转向点、TD Box 和 DLZ 读法与前面的 [AIM-9](#hud-aim9
 ### 图 1 · 无 PDT 时的目视发射
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/aim120-01-visual.png" alt="AIM-120 无 PDT 目视模式：虚线 12° 圆环与 VISUAL 提示" />
+  <img width="1103" height="1231" src="/assets/F-15C/HUD/aim120-01-visual.png" alt="AIM-120 无 PDT 目视模式：虚线 12° 圆环与 VISUAL 提示" />
   <figcaption>VISUAL 模式：虚线 12° 圆环为目视发射参考</figcaption>
 </figure>
 
@@ -696,7 +696,7 @@ AMRAAM 的 ASE、转向点、TD Box 和 DLZ 读法与前面的 [AIM-9](#hud-aim9
 ### 图 2 · PDT 与射程提示
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/aim120-02-pdt.png" alt="AIM-120 有 PDT 时的缩小 ASE、转向点、TD Box 和 DLZ，目标距离 40.7 海里" />
+  <img width="1276" height="1369" src="/assets/F-15C/HUD/aim120-02-pdt.png" alt="AIM-120 有 PDT 时的缩小 ASE、转向点、TD Box 和 DLZ，目标距离 40.7 海里" />
   <figcaption>有 PDT 的发射前显示：目标仍在最大射程外</figcaption>
 </figure>
 
@@ -718,7 +718,7 @@ AMRAAM 的 ASE、转向点、TD Box 和 DLZ 读法与前面的 [AIM-9](#hud-aim9
 ### 图 3 · 进入射程
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/aim120-03-in-range.png" alt="AIM-120 进入射程：ASE 放大，HUD 显示 IN RNG 和 R 27.6" />
+  <img width="965" height="1055" src="/assets/F-15C/HUD/aim120-03-in-range.png" alt="AIM-120 进入射程：ASE 放大，HUD 显示 IN RNG 和 R 27.6" />
   <figcaption>进入当前发射范围：IN RNG，目标距离 27.6 海里</figcaption>
 </figure>
 
@@ -733,7 +733,7 @@ ASE 和 DLZ 的判断方式与前面的导弹相同：结合转向点和当前�
 ### 图 4 · 进入 RTR 后的六角提示
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/aim120-04-rtr.png" alt="AIM-120 进入 RTR 后，TD Box 下方显示六角星状提示符" />
+  <img width="968" height="1067" src="/assets/F-15C/HUD/aim120-04-rtr.png" alt="AIM-120 进入 RTR 后，TD Box 下方显示六角星状提示符" />
   <figcaption>进入 RTR：TD Box 下方出现六角提示符</figcaption>
 </figure>
 
@@ -745,9 +745,7 @@ RTR 的含义可参考[不可逃逸射程说明](#hud-aim9-dlz-item-5)。六角�
 
 [返回 AMRAAM 索引](#hud-aim120) · [返回顶部](#hud-page-top)
 
-<a id="hud-auto-acquisition"></a>
-
-## 自动锁定模式
+## 自动锁定模式 {#hud-auto-acquisition}
 
 雷达自动捕获模式用于快速锁定搜索范围内的目标，无需手动移动雷达光标进行指定。SS、VS 和 BST 的自动锁定距离上限均为 10 海里，LR BST 则可自动锁定最远 40 海里内的目标。
 
@@ -769,15 +767,15 @@ HUD 上的大圆表示 20° 搜索范围。在本游戏中，可使用雷达天�
 
 <div class="hud-scan-gallery">
   <figure>
-    <img src="/assets/F-15C/HUD/ss-center.png" alt="SS 超级搜索：搜索圆居中" loading="lazy">
+    <img width="1206" height="1210" src="/assets/F-15C/HUD/ss-center.png" alt="SS 超级搜索：搜索圆居中" loading="lazy">
     <figcaption>居中</figcaption>
   </figure>
   <figure>
-    <img src="/assets/F-15C/HUD/ss-up.png" alt="SS 超级搜索：搜索范围向上偏移 10°" loading="lazy">
+    <img width="1206" height="1214" src="/assets/F-15C/HUD/ss-up.png" alt="SS 超级搜索：搜索范围向上偏移 10°" loading="lazy">
     <figcaption>向上偏移 10°</figcaption>
   </figure>
   <figure>
-    <img src="/assets/F-15C/HUD/ss-down.png" alt="SS 超级搜索：搜索范围向下偏移 10°" loading="lazy">
+    <img width="1225" height="1169" src="/assets/F-15C/HUD/ss-down.png" alt="SS 超级搜索：搜索范围向下偏移 10°" loading="lazy">
     <figcaption>向下偏移 10°</figcaption>
   </figure>
 </div>
@@ -793,7 +791,7 @@ VS 使用两条扫描线（two-bar），在机身基准线（FRL）上方 +5° �
 HUD 上的垂直线表示扫描方向，实际搜索范围会延伸到 HUD 上方。让目标进入这一狭长的扫描区域，雷达可自动锁定 10 海里内的目标。
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/vs.png" alt="VS 垂直扫描：HUD 上方向上的垂直扫描指示线" loading="lazy">
+  <img width="1200" height="1171" src="/assets/F-15C/HUD/vs.png" alt="VS 垂直扫描：HUD 上方向上的垂直扫描指示线" loading="lazy">
   <figcaption>VS 垂直扫描</figcaption>
 </figure>
 
@@ -806,7 +804,7 @@ HUD 上的垂直线表示扫描方向，实际搜索范围会延伸到 HUD 上�
 BST 沿雷达孔径轴线搜索。将目标置于 HUD 的孔径圆内，雷达可自动锁定 10 海里内的目标。
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/bst.png" alt="BST 孔径模式：HUD 中央的孔径搜索圆" loading="lazy">
+  <img width="1232" height="1137" src="/assets/F-15C/HUD/bst.png" alt="BST 孔径模式：HUD 中央的孔径搜索圆" loading="lazy">
   <figcaption>BST 孔径模式</figcaption>
 </figure>
 
@@ -819,7 +817,7 @@ BST 沿雷达孔径轴线搜索。将目标置于 HUD 的孔径圆内，雷达�
 LR BST 的使用方式与 BST 类似，但 HUD 搜索圆更小，自动锁定距离上限增加到 40 海里。将目标保持在小圆内，便可在比 SS、VS 和 BST 更远的距离上自动捕获目标。
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/lr-bst.png" alt="LR BST 远距离孔径模式：HUD 中央较小的搜索圆" loading="lazy">
+  <img width="1202" height="1111" src="/assets/F-15C/HUD/lr-bst.png" alt="LR BST 远距离孔径模式：HUD 中央较小的搜索圆" loading="lazy">
   <figcaption>LR BST 远距离孔径模式</figcaption>
 </figure>
 
@@ -836,7 +834,7 @@ FLOOD 通常配合 AIM-7 半主动雷达制导导弹使用。它向机头前方�
 HUD 显示照射圆和 `FLOOD` 提示。切换到该模式后仍需持续照射目标，并不代表导弹已转为自主制导。
 
 <figure class="hud-mode-figure">
-  <img src="/assets/F-15C/HUD/flood.png" alt="FLOOD 泛指照射模式：HUD 照射圆与 FLOOD 提示" loading="lazy">
+  <img width="1193" height="1140" src="/assets/F-15C/HUD/flood.png" alt="FLOOD 泛指照射模式：HUD 照射圆与 FLOOD 提示" loading="lazy">
   <figcaption>FLOOD 泛指照射</figcaption>
 </figure>
 

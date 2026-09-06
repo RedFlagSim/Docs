@@ -255,8 +255,6 @@ Select a Package at the top of the map to see its flights and package timing. Th
 - <strong>Take-off Time</strong>: The package takeoff time; the example shows 23:03.
 - <strong>Time on Target (TOT)</strong>: The package target arrival time; the example shows 23:33.
 
-Both Package and Flight have timing fields. Their synchronization rules and time reference will be explained later.
-
 </TacInspectorPanel>
 
 [Back to interface overview](#item-3)
@@ -279,8 +277,6 @@ Select a Flight in its Package to view members and flight settings. The example 
 - <strong>Steer Points</strong>: Open flight route editing. Detailed route and steerpoint instructions belong in Part 4.
 - <strong>Rebuild</strong>: Recalculate the Flight's Time on Target (TOT).
 - <strong>Delete</strong>: Located below Rebuild. Delete the entire Flight definition, not just one aircraft Slot.
-
-The current screenshot shows only part of Rebuild and does not show the Delete button below it.
 
 </TacInspectorPanel>
 
@@ -320,8 +316,6 @@ A Slot represents one aircraft in a Flight. Select an aircraft in the Flight mem
 - <strong>Spawn Point ID</strong>: Select the spawn point; the example shows Auto.
 - <strong>Initial State</strong>: Open initial aircraft state settings.
 - <strong>Delete</strong>: Delete the current aircraft Slot, not its whole Flight or Package.
-
-This image shows the Airbase panel. Airborne, Loadout / Livery, and Initial State subpanels will be covered with later screenshots.
 
 </TacInspectorPanel>
 
@@ -452,7 +446,7 @@ Geofences are useful even when they do not enforce gameplay rules. They make the
 - <strong>Name</strong>: 11 at the top is the fence name.
 - <strong>Geo Fence Role / Shape</strong>: The example role is MEZ and the shape is Circle. Name, role, and shape are separate information.
 - <strong>Coalition</strong>: The fence's side; the example shows Red.
-- <strong>Threat Radius</strong>: The circular area's radius; the example shows 22.6. The screenshot does not specify its unit.
+- <strong>Threat Radius</strong>: Set the circular area's radius.
 - <strong>Delete</strong>: Delete the current fence.
 
 </TacInspectorPanel>
@@ -470,8 +464,8 @@ Geofences are useful even when they do not enforce gameplay rules. They make the
 - <strong>Name / Geo Fence Role</strong>: The name is MEZ, but the selected role is ROZ. Do not confuse the name with the role.
 - <strong>Shape / Coalition</strong>: The example shows Polygon and Red.
 - <strong>Arrow buttons and number</strong>: Select the vertex to edit. The displayed vertex number is 0.
-- <strong>New Vertice</strong>: Add a vertex. The label is reproduced as it appears in the interface.
-- <strong>Rotate</strong>: Rotate the polygon. Step size and angle rules will be explained later.
+- <strong>New Vertice</strong>: Add a vertex.
+- <strong>Rotate</strong>: Rotate the polygon.
 - <strong>Delete Vertex / Delete</strong>: Delete Vertex removes the selected vertex; the bottom Delete button removes the entire fence.
 
 To reposition map elements, use the Part 1 gesture: select an element, hold Move with the left hand, and drag with the right.
@@ -494,7 +488,7 @@ Open NP Unit from the mission overview panel to manage units outside the Package
 
 - <strong>＋</strong>: Add a non-player unit.
 - <strong>List entries</strong>: The example lists 9K37 Buk np and F-15C np, showing a SAM unit and an independent aircraft.
-- <strong>Select an entry</strong>: Open that unit's Inspector. Individual NP Unit properties will be covered when screenshots are supplied.
+- <strong>Select an entry</strong>: Open that unit's Inspector.
 
 </TacInspectorPanel>
 
@@ -510,7 +504,6 @@ For aircraft that should fly a route or act as a formation member, prefer packag
 
 ## Part 6: Mission Settings
 
-Detailed, screenshot-based instructions will be added to this part.
 
 ### Mission Structure
 
@@ -553,7 +546,6 @@ Use restrictions to keep a training mission focused. For example, a guns-only me
 
 ## Part 7: Saving and Test Flights
 
-Detailed, screenshot-based instructions will be added to this part.
 
 ### Recommended Workflow
 

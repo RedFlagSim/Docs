@@ -4,4 +4,4 @@ title: 駕駛艙儀表
 
 # 駕駛艙儀表
 
-> 本章架構已建立。完整翻譯內容將在後續文件更新中加入。
+本頁暫無繁體中文版。 [閱讀英文版](/Docs/aircraft/f15c/cockpit-instruments)

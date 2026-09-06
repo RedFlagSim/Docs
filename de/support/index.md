@@ -22,6 +22,6 @@ Hier finden Sie Hilfe, Feedback-Möglichkeiten, Datenschutzinformationen und die
 ## Offizielle Kanäle
 
 - [Instagram](https://www.instagram.com/carrier_landing_hd/)
-- [YouTube](https://www.youtube.com/@carrierlandinghd3129)
+- [YouTube](https://youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA)
 
 Aktuelle Store- und Plattformlinks werden auf der [RedFlagSim-Startseite](/de/) gepflegt.

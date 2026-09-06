@@ -359,25 +359,25 @@
 
 当雷达处于 LRW/TWS 模式时，用于调整天线扫描基准的俯仰角度。
 
-[返回顶部](#ui-terms-top)
+[返回頂部](#ui-terms-top)
 
 <a id="item-26"></a>
-### 26. coolie 开关
+### 26. Coolie 開關
 
-<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="coolie 开关">
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Coolie 開關">
 
-待补充。
+用於管理戰術頁面和顯示器，無須開啟主選單。使用游標或指定目標前，先確認目前啟用的顯示器。
 
-[返回顶部](#ui-terms-top)
+[返回頂部](#ui-terms-top)
 
 <a id="item-27"></a>
-### 27. 武器释放
+### 27. 武器釋放
 
-<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/27-weapon-release.png" alt="武器释放">
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/27-weapon-release.png" alt="武器釋放">
 
-待补充。
+當 Master Arm 開啟且目前武器就緒時，釋放所選導彈或掛載。發射空對空導彈前，應確認目標來源、距離提示與飛機姿態。此按鈕與機砲扳機分開；機砲使用 Gun Trigger 發射。
 
-[返回顶部](#ui-terms-top)
+[返回頂部](#ui-terms-top)
 
 <a id="item-28"></a>
 ### 28. auto acquisition 开关

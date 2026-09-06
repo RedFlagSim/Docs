@@ -255,8 +255,6 @@ Package로 편대를 구성한 다음 Flight에서 구성원과 임무를 설정
 - <strong>Take-off Time</strong>: 패키지 이륙 시각입니다. 예시는 23:03입니다.
 - <strong>Time on Target(TOT)</strong>: 패키지 목표 도착 시각입니다. 예시는 23:33입니다.
 
-Package와 Flight에는 각각 시간 항목이 있습니다. 연동 방식과 시간 기준은 추후 설명합니다.
-
 </TacInspectorPanel>
 
 [화면 개요로 돌아가기](#item-3)
@@ -279,8 +277,6 @@ Package에서 Flight를 선택하면 구성원과 임무 설정이 표시됩니�
 - <strong>Steer Points</strong>: 편대 경로 편집을 엽니다. 경로와 항로점의 자세한 조작은 4부에서 다룹니다.
 - <strong>Rebuild</strong>: Flight의 Time on Target(TOT, 목표 도착 시각)을 다시 계산합니다.
 - <strong>Delete</strong>: Rebuild 아래에 있으며 Flight 정의 전체를 삭제합니다. 항공기 Slot 하나만 삭제하는 기능이 아닙니다.
-
-현재 스크린샷에는 Rebuild의 일부만 보이며, 그 아래 Delete 버튼은 보이지 않습니다.
 
 </TacInspectorPanel>
 
@@ -320,8 +316,6 @@ Slot은 Flight의 항공기 한 대를 나타냅니다. Flight 구성원 그림�
 - <strong>Spawn Point ID</strong>: 스폰 지점을 선택합니다. 예시는 Auto입니다.
 - <strong>Initial State</strong>: 항공기 초기 상태 설정을 엽니다.
 - <strong>Delete</strong>: 현재 항공기 Slot을 삭제합니다. Flight나 Package 전체를 삭제하는 버튼은 아닙니다.
-
-이 이미지는 Airbase 상태입니다. Airborne, Loadout / Livery, Initial State의 하위 화면은 추후 스크린샷으로 설명합니다.
 
 </TacInspectorPanel>
 
@@ -409,7 +403,7 @@ Flight Inspector에서 Steer Points를 선택하여 현재 편대의 항로점�
 - <strong>이름</strong>: 위쪽의 11은 영역 이름입니다.
 - <strong>Geo Fence Role / Shape</strong>: 예시 용도는 MEZ, 모양은 Circle입니다. 이름, 용도, 모양은 별개 정보입니다.
 - <strong>Coalition</strong>: 영역의 진영입니다. 예시는 Red입니다.
-- <strong>Threat Radius</strong>: 원형 영역의 반지름입니다. 값은 22.6이며 스크린샷에 단위는 표시되지 않습니다.
+- <strong>Threat Radius</strong>: 원형 영역의 반지름을 설정합니다.
 - <strong>Delete</strong>: 현재 영역을 삭제합니다.
 
 </TacInspectorPanel>
@@ -427,8 +421,8 @@ Flight Inspector에서 Steer Points를 선택하여 현재 편대의 항로점�
 - <strong>이름 / Geo Fence Role</strong>: 이름은 MEZ이지만 선택한 용도는 ROZ입니다. 이름과 용도를 구분해야 합니다.
 - <strong>Shape / Coalition</strong>: 예시는 Polygon과 Red입니다.
 - <strong>좌우 화살표와 번호</strong>: 편집할 꼭짓점을 선택합니다. 표시된 번호는 0입니다.
-- <strong>New Vertice</strong>: 꼭짓점을 추가합니다. 버튼 이름은 화면 표기를 그대로 사용합니다.
-- <strong>Rotate</strong>: 다각형을 회전합니다. 변화량과 각도 규칙은 추후 설명합니다.
+- <strong>New Vertice</strong>: 꼭짓점을 추가합니다.
+- <strong>Rotate</strong>: 다각형을 회전합니다.
 - <strong>Delete Vertex / Delete</strong>: Delete Vertex는 선택한 꼭짓점, 맨 아래 Delete는 영역 전체를 삭제합니다.
 
 지도 객체의 위치는 1부의 방식으로 변경합니다. 객체를 선택하고 왼손으로 이동 버튼을 누른 채 오른손으로 드래그합니다.
@@ -451,7 +445,7 @@ Flight Inspector에서 Steer Points를 선택하여 현재 편대의 항로점�
 
 - <strong>＋</strong>: 비플레이어 유닛을 추가합니다.
 - <strong>목록 항목</strong>: 예시에는 지대공 미사일 유닛 9K37 Buk np와 독립 항공기 F-15C np가 있습니다.
-- <strong>항목 선택</strong>: 유닛의 Inspector를 엽니다. 개별 NP Unit 속성은 스크린샷을 추가로 받은 후 설명합니다.
+- <strong>항목 선택</strong>: 유닛의 Inspector를 엽니다.
 
 </TacInspectorPanel>
 
@@ -463,10 +457,10 @@ Flight Inspector에서 Steer Points를 선택하여 현재 편대의 항로점�
 
 ## 6부: 임무 설정
 
-이 부분에는 스크린샷을 활용한 자세한 조작 설명이 추가될 예정입니다.
+지도의 빈 곳을 두 번 탭하면 임무 정보 패널이 열립니다.
 
-- 임무 정보, 지역, 날씨 및 시간
-- 설정 권한과 임무 제한
+- [Weather / Time](#item-11-1): 임무의 날씨와 시간을 설정합니다.
+- [Config](#item-11-3): 임무 규칙, 제한 및 설정 변경 권한을 지정합니다.
 
 [맨 위로](#tac-editor-top)
 
@@ -474,10 +468,9 @@ Flight Inspector에서 Steer Points를 선택하여 현재 편대의 항로점�
 
 ## 7부: 저장 및 시험 비행
 
-이 부분에는 스크린샷을 활용한 자세한 조작 설명이 추가될 예정입니다.
+Flight, 항공기 Slot, 비행 경로를 확인한 뒤 저장하고 시험 비행을 진행하세요.
 
-- 권장 편집 순서
-- File: 저장 및 불러오기
-- Go Fly 및 비행 전 점검
+- [File](#item-11-2): 임무를 저장하거나 기존 임무를 불러옵니다.
+- [Go Fly](#item-11-6): 현재 임무를 시작하여 설정이 의도대로 작동하는지 확인합니다.
 
 [맨 위로](#tac-editor-top)

@@ -235,6 +235,10 @@ When autopilot is on, holding this button temporarily disconnects autopilot.
 
 Displays MFD information in a floating overlay above the flight view, so you can monitor the display without changing the current camera view.
 
+You can display up to 3 floating MFDs at once and adjust their size. On large-screen devices such as an iPad, consider displaying multiple MFDs to monitor different information simultaneously.
+
+Floating MFDs remain visible and require continuous rendering, so displaying several at once increases the rendering load. Using multiple floating MFDs simultaneously is not recommended on older or less powerful devices.
+
 [Back to top](#ui-terms-top)
 
 <a id="item-15"></a>

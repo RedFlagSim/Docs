@@ -255,8 +255,6 @@ Sélectionnez un Package en haut de la carte pour voir ses patrouilles et ses ho
 - <strong>Take-off Time</strong>: Heure de décollage du groupe ; l’exemple indique 23:03.
 - <strong>Time on Target (TOT)</strong>: Heure d’arrivée du groupe sur l’objectif ; l’exemple indique 23:33.
 
-Package et Flight disposent chacun de champs horaires. Leur synchronisation et la référence horaire seront expliquées ultérieurement.
-
 </TacInspectorPanel>
 
 [Revenir à la vue d’ensemble](#item-3)
@@ -279,8 +277,6 @@ Sélectionnez un Flight dans le Package pour afficher ses membres et ses réglag
 - <strong>Steer Points</strong>: Ouvrir l’édition de l’itinéraire. Les routes et points de navigation sont détaillés dans la partie 4.
 - <strong>Rebuild</strong>: Recalculer le Time on Target (TOT, heure d’arrivée sur l’objectif) du Flight.
 - <strong>Delete</strong>: Situé sous Rebuild. Supprime toute la définition du Flight, et non un seul Slot d’avion.
-
-La capture actuelle ne montre qu’une partie de Rebuild ; le bouton Delete situé en dessous n’est pas visible.
 
 </TacInspectorPanel>
 
@@ -320,8 +316,6 @@ Un Slot représente un avion d’un Flight. Sélectionnez un avion dans le sché
 - <strong>Spawn Point ID</strong>: Choisir le point d’apparition ; l’exemple indique Auto.
 - <strong>Initial State</strong>: Ouvrir les réglages de l’état initial de l’avion.
 - <strong>Delete</strong>: Supprimer le Slot actuel, et non l’ensemble du Flight ou du Package.
-
-L’image montre les réglages Airbase. Les sous-panneaux Airborne, Loadout / Livery et Initial State seront décrits avec les prochaines captures.
 
 </TacInspectorPanel>
 
@@ -409,7 +403,7 @@ Ouvrez Geo Fence depuis le résumé de mission, puis sélectionnez une zone. Les
 - <strong>Nom</strong>: 11, en haut, est le nom de la zone.
 - <strong>Geo Fence Role / Shape</strong>: Le rôle est MEZ et la forme Circle. Nom, rôle et forme sont des informations distinctes.
 - <strong>Coalition</strong>: Camp de la zone ; ici Red.
-- <strong>Threat Radius</strong>: Rayon de la zone circulaire. La valeur est 22.6 ; aucune unité n’est indiquée dans la capture.
+- <strong>Threat Radius</strong>: Régler le rayon de la zone circulaire.
 - <strong>Delete</strong>: Supprimer la zone actuelle.
 
 </TacInspectorPanel>
@@ -427,8 +421,8 @@ Ouvrez Geo Fence depuis le résumé de mission, puis sélectionnez une zone. Les
 - <strong>Nom / Geo Fence Role</strong>: Le nom est MEZ, mais le rôle sélectionné est ROZ. Ne confondez pas le nom avec le rôle.
 - <strong>Shape / Coalition</strong>: L’exemple indique Polygon et Red.
 - <strong>Flèches et numéro</strong>: Choisir le sommet à modifier. Le numéro affiché est 0.
-- <strong>New Vertice</strong>: Ajouter un sommet. Le libellé reprend celui du bouton dans le jeu.
-- <strong>Rotate</strong>: Faire pivoter le polygone. Le pas et les règles d’angle seront expliqués ultérieurement.
+- <strong>New Vertice</strong>: Ajouter un sommet.
+- <strong>Rotate</strong>: Faire pivoter le polygone.
 - <strong>Delete Vertex / Delete</strong>: Delete Vertex supprime le sommet sélectionné ; le bouton Delete du bas supprime toute la zone.
 
 Pour déplacer un objet sur la carte, utilisez le geste de la partie 1 : sélectionnez-le, maintenez Move de la main gauche et faites glisser de la droite.
@@ -451,7 +445,7 @@ NP Unit dans le résumé de mission ouvre la liste Units pour gérer les unités
 
 - <strong>＋</strong>: Ajouter une unité non-joueur.
 - <strong>Entrées de la liste</strong>: L’exemple montre 9K37 Buk np et F-15C np : une unité de missiles sol-air et un avion indépendant.
-- <strong>Sélection d’une entrée</strong>: Ouvrir l’Inspector de cette unité. Ses propriétés individuelles seront décrites avec les captures correspondantes.
+- <strong>Sélection d’une entrée</strong>: Ouvrir l’Inspector de cette unité.
 
 </TacInspectorPanel>
 
@@ -463,10 +457,10 @@ NP Unit dans le résumé de mission ouvre la liste Units pour gérer les unités
 
 ## Partie 6 : Paramètres de mission
 
-Des instructions détaillées avec captures d’écran seront ajoutées à cette partie.
+Touchez deux fois une zone vide de la carte pour ouvrir le panneau d’informations de mission.
 
-- Informations de mission, région, météo et heure
-- Autorisations et restrictions
+- [Weather / Time](#item-11-1) : régler la météo et l’heure de la mission.
+- [Config](#item-11-3) : définir les règles, les restrictions et les autorisations de modification.
 
 [Retour en haut](#tac-editor-top)
 
@@ -474,10 +468,9 @@ Des instructions détaillées avec captures d’écran seront ajoutées à cette
 
 ## Partie 7 : Sauvegarde et vol d’essai
 
-Des instructions détaillées avec captures d’écran seront ajoutées à cette partie.
+Vérifiez les Flight, les Slot des appareils et les routes avant d’enregistrer la mission et d’effectuer un vol d’essai.
 
-- Ordre d’édition recommandé
-- File : sauvegarder et charger
-- Go Fly et vérifications avant le vol
+- [File](#item-11-2) : enregistrer la mission ou en charger une existante.
+- [Go Fly](#item-11-6) : lancer la mission actuelle pour vérifier que les réglages produisent le résultat attendu.
 
 [Retour en haut](#tac-editor-top)

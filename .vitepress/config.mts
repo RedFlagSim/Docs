@@ -145,6 +145,7 @@ const zhSidebar = [
           { text: '驾驶舱仪表', link: '/zh/Docs/aircraft/f15c/cockpit-instruments' },
           { text: 'HUD 操作', link: '/zh/Docs/aircraft/f15c/hud-operation' },
           { text: 'AN/APG-63雷达和VSD', link: '/zh/Docs/aircraft/f15c/radar' },
+          { text: 'MPCD', link: '/zh/Docs/aircraft/f15c/mpcd' },
           { text: '对抗系统', link: '/zh/Docs/aircraft/f15c/defensive-systems' },
           { text: '附录：缩略词', link: '/zh/Docs/aircraft/f15c/appendix' }
         ]
@@ -879,7 +880,7 @@ export default defineConfig({
     sidebar: enSidebar,
     socialLinks: [
       { icon: 'instagram', link: 'https://www.instagram.com/carrier_landing_hd/' },
-      { icon: 'youtube', link: 'https://www.youtube.com/@carrierlandinghd3129' }
+      { icon: 'youtube', link: 'https://youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA' }
     ],
     search: {
       provider: 'local'

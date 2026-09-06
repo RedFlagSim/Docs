@@ -255,8 +255,6 @@ Tac 編輯器用於建立自訂任務、組織飛行小隊、放置單位和規�
 - <strong>Take-off Time</strong>：任務包起飛時間，圖中為 23:03。
 - <strong>Time on Target（TOT）</strong>：任務包目標抵達時間，圖中為 23:33。
 
-Package 與 Flight 都有時間欄位；連動方式與時間基準將於後續說明。
-
 </TacInspectorPanel>
 
 [返回介面總覽](#item-3)
@@ -279,8 +277,6 @@ Package 與 Flight 都有時間欄位；連動方式與時間基準將於後續�
 - <strong>Steer Points</strong>：進入小隊航點編輯；詳細航線與航點操作放在第四部分。
 - <strong>Rebuild</strong>：重新計算 Flight 的 Time on Target（TOT，目標抵達時間）。
 - <strong>Delete</strong>：位於 Rebuild 下方，用於刪除整個 Flight（飛行小隊）定義，而非只刪除一個飛機 Slot。
-
-目前截圖僅顯示部分 Rebuild 按鈕，未顯示其下方的 Delete 按鈕。
 
 </TacInspectorPanel>
 
@@ -320,8 +316,6 @@ Slot 代表 Flight 中的一架飛機。在 Flight 的成員圖中選擇飛機�
 - <strong>Spawn Point ID</strong>：出生點選擇，圖中顯示 Auto。
 - <strong>Initial State</strong>：進入飛機初始狀態設定。
 - <strong>Delete</strong>：刪除目前飛機 Slot，而非整個 Flight 或 Package。
-
-本圖展示 Airbase 狀態的面板。Airborne、Loadout / Livery 與 Initial State 子面板待後續截圖說明。
 
 </TacInspectorPanel>
 
@@ -409,7 +403,7 @@ Slot 代表 Flight 中的一架飛機。在 Flight 的成員圖中選擇飛機�
 - <strong>名稱</strong>：頂部的 11 是圍欄名稱。
 - <strong>Geo Fence Role / Shape</strong>：用途為 MEZ，形狀為 Circle；名稱、用途與形狀是不同資訊。
 - <strong>Coalition</strong>：圍欄所屬陣營，圖中為 Red。
-- <strong>Threat Radius</strong>：圓形區域半徑，圖中數值為 22.6；截圖未標註單位，此處暫不指定。
+- <strong>Threat Radius</strong>：設定圓形區域的半徑。
 - <strong>Delete</strong>：刪除目前圍欄。
 
 </TacInspectorPanel>
@@ -427,8 +421,8 @@ Slot 代表 Flight 中的一架飛機。在 Flight 的成員圖中選擇飛機�
 - <strong>名稱 / Geo Fence Role</strong>：頂部名稱為 MEZ，但用途選擇 ROZ；不要把名稱當作用途。
 - <strong>Shape / Coalition</strong>：圖中分別為 Polygon 與 Red。
 - <strong>左右箭頭與中間編號</strong>：選擇要編輯的頂點，圖中編號為 0。
-- <strong>New Vertice</strong>：新增頂點；保留介面按鈕原文。
-- <strong>Rotate</strong>：旋轉多邊形；步進與角度規則後續補充。
+- <strong>New Vertice</strong>：新增頂點。
+- <strong>Rotate</strong>：旋轉多邊形。
 - <strong>Delete Vertex / Delete</strong>：Delete Vertex 刪除選中頂點；底部 Delete 刪除整個圍欄。
 
 調整地圖元素位置時，使用第一部分的「選中元素 → 左手按住移動 → 右手拖曳」操作。
@@ -451,7 +445,7 @@ Slot 代表 Flight 中的一架飛機。在 Flight 的成員圖中選擇飛機�
 
 - <strong>＋</strong>：新增非玩家單位。
 - <strong>清單項目</strong>：圖中有 9K37 Buk np 與 F-15C np，分別展示地對空飛彈單位與獨立飛機。
-- <strong>選擇項目</strong>：開啟該單位 Inspector。單個 NP Unit 的屬性面板待補充截圖後說明。
+- <strong>選擇項目</strong>：開啟該單位 Inspector。
 
 </TacInspectorPanel>
 
@@ -463,10 +457,10 @@ Slot 代表 Flight 中的一架飛機。在 Flight 的成員圖中選擇飛機�
 
 ## 第六部分：任務設定
 
-本部分後續將搭配截圖補充詳細操作。
+在地圖空白處按兩下，開啟任務總資訊面板。
 
-- 任務總資訊、場景、天氣與時間
-- 設定權限與任務限制
+- [Weather / Time](#item-11-1)：設定任務的天氣與時間。
+- [Config](#item-11-3)：設定任務規則、限制與權限。
 
 [返回頂部](#tac-editor-top)
 
@@ -474,10 +468,9 @@ Slot 代表 Flight 中的一架飛機。在 Flight 的成員圖中選擇飛機�
 
 ## 第七部分：儲存與試飛
 
-本部分後續將搭配截圖補充詳細操作。
+先確認 Flight、飛機 Slot 與航線，再儲存並試飛。
 
-- 建議編輯流程
-- File：儲存與載入
-- Go Fly 與試飛前檢查
+- [File](#item-11-2)：儲存任務或載入已有任務。
+- [Go Fly](#item-11-6)：啟動目前任務，檢查配置是否符合預期。
 
 [返回頂部](#tac-editor-top)

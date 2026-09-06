@@ -1,3 +1,3 @@
 # F-5E
 
-> TODO: Add localized content for F-5E.
+모듈 문서는 아직 공개되지 않았습니다.

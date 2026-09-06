@@ -255,8 +255,6 @@ Wähle oben auf der Karte ein Package, um seine Flights und Zeitfelder zu sehen.
 - <strong>Take-off Time</strong>: Startzeit des Packages; im Beispiel 23:03.
 - <strong>Time on Target (TOT)</strong>: Zielankunftszeit des Packages; im Beispiel 23:33.
 
-Package und Flight besitzen jeweils Zeitfelder. Ihre Verknüpfung und die Zeitbasis werden später erläutert.
-
 </TacInspectorPanel>
 
 [Zurück zur Oberflächenübersicht](#item-3)
@@ -279,8 +277,6 @@ Wähle einen Flight im Package, um Mitglieder und Einstellungen zu sehen. Das Be
 - <strong>Steer Points</strong>: Routenbearbeitung öffnen. Routen und Wegpunkte werden in Teil 4 erläutert.
 - <strong>Rebuild</strong>: Die Time on Target (TOT, Zielankunftszeit) des Flights neu berechnen.
 - <strong>Delete</strong>: Befindet sich unter Rebuild und löscht die gesamte Flight-Definition, nicht nur einen Flugzeug-Slot.
-
-Der aktuelle Screenshot zeigt nur einen Teil von Rebuild; die darunterliegende Delete-Schaltfläche ist nicht sichtbar.
 
 </TacInspectorPanel>
 
@@ -320,8 +316,6 @@ Ein Slot steht für ein Flugzeug innerhalb eines Flights. Wähle ein Flugzeug in
 - <strong>Spawn Point ID</strong>: Startpunkt auswählen; im Beispiel Auto.
 - <strong>Initial State</strong>: Einstellungen zum Anfangszustand des Flugzeugs öffnen.
 - <strong>Delete</strong>: Den aktuellen Flugzeug-Slot löschen, nicht den gesamten Flight oder das Package.
-
-Das Bild zeigt die Airbase-Einstellungen. Die Unterseiten Airborne, Loadout / Livery und Initial State folgen mit weiteren Screenshots.
 
 </TacInspectorPanel>
 
@@ -409,7 +403,7 @@ Die Entfernungsringe auf der Karte sind um Bullseye zentriert. Die Radien benach
 - <strong>Name</strong>: 11 oben ist der Name des Bereichs.
 - <strong>Geo Fence Role / Shape</strong>: Die Beispielrolle ist MEZ, die Form Circle. Name, Rolle und Form sind verschiedene Angaben.
 - <strong>Coalition</strong>: Seite des Bereichs; im Beispiel Red.
-- <strong>Threat Radius</strong>: Radius des Kreises. Angezeigt wird 22.6; eine Einheit ist im Screenshot nicht angegeben.
+- <strong>Threat Radius</strong>: Radius des Kreises einstellen.
 - <strong>Delete</strong>: Aktuellen Bereich löschen.
 
 </TacInspectorPanel>
@@ -427,8 +421,8 @@ Die Entfernungsringe auf der Karte sind um Bullseye zentriert. Die Radien benach
 - <strong>Name / Geo Fence Role</strong>: Der Name lautet MEZ, die ausgewählte Rolle jedoch ROZ. Name und Rolle sind zu unterscheiden.
 - <strong>Shape / Coalition</strong>: Im Beispiel Polygon und Red.
 - <strong>Pfeile und Nummer</strong>: Den zu bearbeitenden Eckpunkt auswählen. Angezeigt wird Nummer 0.
-- <strong>New Vertice</strong>: Eckpunkt hinzufügen. Die Beschriftung entspricht dem Wortlaut im Spiel.
-- <strong>Rotate</strong>: Polygon drehen. Schrittweite und Winkelregeln werden später erläutert.
+- <strong>New Vertice</strong>: Eckpunkt hinzufügen.
+- <strong>Rotate</strong>: Polygon drehen.
 - <strong>Delete Vertex / Delete</strong>: Delete Vertex löscht den ausgewählten Eckpunkt; Delete ganz unten löscht den gesamten Bereich.
 
 Zum Verschieben auf der Karte gilt die Geste aus Teil 1: Objekt auswählen, Move links gedrückt halten und mit der rechten Hand ziehen.
@@ -451,7 +445,7 @@ NP Unit in der Missionsübersicht öffnet die Liste Units für Einheiten außerh
 
 - <strong>＋</strong>: Nicht-Spieler-Einheit hinzufügen.
 - <strong>Listeneinträge</strong>: 9K37 Buk np und F-15C np zeigen eine Boden-Luft-Raketeneinheit und ein unabhängiges Flugzeug.
-- <strong>Eintrag auswählen</strong>: Inspector dieser Einheit öffnen. Die einzelnen Eigenschaften folgen mit weiteren Screenshots.
+- <strong>Eintrag auswählen</strong>: Inspector dieser Einheit öffnen.
 
 </TacInspectorPanel>
 
@@ -463,10 +457,10 @@ NP Unit in der Missionsübersicht öffnet die Liste Units für Einheiten außerh
 
 ## Teil 6: Missionseinstellungen
 
-Detaillierte Anleitungen mit Screenshots werden in diesem Teil später ergänzt.
+Tippe zweimal auf eine freie Stelle der Karte, um die Missionsübersicht zu öffnen.
 
-- Missionsinformationen, Szenerie, Wetter und Zeit
-- Konfigurationsrechte und Beschränkungen
+- [Weather / Time](#item-11-1): Wetter und Uhrzeit der Mission einstellen.
+- [Config](#item-11-3): Missionsregeln, Beschränkungen und Änderungsrechte festlegen.
 
 [Zurück nach oben](#tac-editor-top)
 
@@ -474,10 +468,9 @@ Detaillierte Anleitungen mit Screenshots werden in diesem Teil später ergänzt.
 
 ## Teil 7: Speichern und Testflug
 
-Detaillierte Anleitungen mit Screenshots werden in diesem Teil später ergänzt.
+Prüfe Flights, Flugzeug-Slots und Routen, bevor du die Mission speicherst und einen Testflug startest.
 
-- Empfohlener Arbeitsablauf
-- File: Speichern und Laden
-- Go Fly und Prüfung vor dem Start
+- [File](#item-11-2): Mission speichern oder eine vorhandene Mission laden.
+- [Go Fly](#item-11-6): Aktuelle Mission starten und prüfen, ob die Einstellungen wie vorgesehen funktionieren.
 
 [Zurück nach oben](#tac-editor-top)

@@ -1,3 +1,3 @@
 # F-5E
 
-> TODO: Add F-5E content.
+Module documentation is not available yet.

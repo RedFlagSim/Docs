@@ -22,6 +22,6 @@ next: false
 ## Официальные каналы
 
 - [Instagram](https://www.instagram.com/carrier_landing_hd/)
-- [YouTube](https://www.youtube.com/@carrierlandinghd3129)
+- [YouTube](https://youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA)
 
 Актуальные ссылки на магазины и платформы размещены на [главной странице RedFlagSim](/ru/).

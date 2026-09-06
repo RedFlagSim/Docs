@@ -4,4 +4,4 @@ title: Flugtheorie
 
 # Flugtheorie
 
-> Die Struktur dieses Kapitels ist vorbereitet. Die vollständige Übersetzung folgt mit zukünftigen Dokumentationsupdates.
+Diese Seite ist noch nicht auf Deutsch verfügbar. [Englische Version lesen](/Docs/aircraft/f15c/flight-theory)

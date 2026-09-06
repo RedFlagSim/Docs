@@ -1,3 +1,3 @@
 # F-5E
 
-> TODO: Add localized content for F-5E.
+模組文件暫未發布。

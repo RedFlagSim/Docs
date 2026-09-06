@@ -22,6 +22,6 @@ Trouvez de l'aide, envoyez vos commentaires, consultez les informations de confi
 ## Canaux officiels
 
 - [Instagram](https://www.instagram.com/carrier_landing_hd/)
-- [YouTube](https://www.youtube.com/@carrierlandinghd3129)
+- [YouTube](https://youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA)
 
 Les liens de disponibilité des plateformes sont maintenus sur la [page d'accueil RedFlagSim](/fr/).

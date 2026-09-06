@@ -4,4 +4,4 @@ title: Sistemas defensivos
 
 # Sistemas defensivos
 
-> La estructura de este capítulo ya está preparada. La traducción completa se añadirá en futuras actualizaciones de la documentación.
+Esta página aún no está disponible en español. [Leer la versión en inglés](/Docs/aircraft/f15c/defensive-systems)

@@ -8,7 +8,12 @@ import { fileURLToPath } from 'node:url'
 const root = fileURLToPath(new URL('../', import.meta.url))
 const locales = ['', 'zh', 'zh-tw', 'ja', 'ko', 'de', 'fr', 'es', 'ru']
 const page = 'aircraft/f15c/hud-operation.md'
-const read = locale => fs.readFileSync(path.join(root, locale, page), 'utf8')
+// Treat VitePress heading IDs and standalone HTML anchors as the same section boundary.
+const normalizeHeadingAnchors = text => text.replace(
+  /^(#{1,6} .+?)\s+\{#([^}\s]+)\}\s*$/gm,
+  (_, heading, id) => `<a id="${id}"></a>\n\n${heading}`
+)
+const read = locale => normalizeHeadingAnchors(fs.readFileSync(path.join(root, locale, page), 'utf8'))
 const collect = (text, pattern) => [...text.matchAll(pattern)].map(match => match[1])
 const anchors = text => collect(text, /<a id="([^"]+)"/g)
 const images = text => collect(text, /(?:src="|\]\()(\/assets\/[^"\)]+)/g)

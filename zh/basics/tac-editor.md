@@ -255,8 +255,6 @@ Tac 编辑器用于创建自定义任务、组织飞行小队、放置单位和�
 - <strong>Take-off Time</strong>：任务包的起飞时间，截图示例为 23:03。
 - <strong>Time on Target（TOT）</strong>：任务包的目标到达时间，截图示例为 23:33。
 
-Package 和 Flight 都有时间字段；它们的联动方式与时间基准将在后续说明。
-
 </TacInspectorPanel>
 
 [返回界面总览](#item-3)
@@ -279,8 +277,6 @@ Package 和 Flight 都有时间字段；它们的联动方式与时间基准将�
 - <strong>Steer Points</strong>：进入小队的航点编辑。航线与航点的详细操作放在第四部分。
 - <strong>Rebuild</strong>：重新计算 Flight 的 Time on Target（TOT，目标到达时间）。
 - <strong>Delete</strong>：位于 Rebuild 下方，用于删除整个 Flight（飞行小队）定义，而不是只删除一个飞机 Slot。
-
-当前截图仅显示部分 Rebuild 按钮，未显示其下方的 Delete 按钮。
 
 </TacInspectorPanel>
 
@@ -320,8 +316,6 @@ Slot 代表 Flight 中的一架飞机。在 Flight 的成员图中选择飞机�
 - <strong>Spawn Point ID</strong>：出生点选择，截图显示 Auto。
 - <strong>Initial State</strong>：进入飞机初始状态设置。
 - <strong>Delete</strong>：删除当前飞机 Slot；不是删除整个 Flight 或 Package。
-
-本图展示 Airbase 状态下的面板。Airborne、Loadout / Livery 和 Initial State 的子面板待后续截图展开。
 
 </TacInspectorPanel>
 
@@ -452,7 +446,7 @@ Flight 航线由 Steerpoints 构成。航线可以表示离场、集合、截击
 - <strong>名称</strong>：顶部的 11 是当前围栏名称。
 - <strong>Geo Fence Role / Shape</strong>：用途示例为 MEZ，形状为 Circle。名称、用途和形状是不同的信息。
 - <strong>Coalition</strong>：围栏所属阵营，截图为 Red。
-- <strong>Threat Radius</strong>：圆形区域的半径，截图数值为 22.6；截图未标注单位，此处暂不指定单位。
+- <strong>Threat Radius</strong>：设置圆形区域的半径。
 - <strong>Delete</strong>：删除当前围栏。
 
 </TacInspectorPanel>
@@ -470,8 +464,8 @@ Flight 航线由 Steerpoints 构成。航线可以表示离场、集合、截击
 - <strong>名称 / Geo Fence Role</strong>：顶部名称是 MEZ，但用途字段选择的是 ROZ；不要把名称当作用途。
 - <strong>Shape / Coalition</strong>：截图分别为 Polygon 和 Red。
 - <strong>左右箭头与中间编号</strong>：选择需要编辑的顶点，截图中显示编号 0。
-- <strong>New Vertice</strong>：添加顶点。这里保留按钮在界面中的原文。
-- <strong>Rotate</strong>：旋转多边形；步进和角度规则后续补充。
+- <strong>New Vertice</strong>：添加顶点。
+- <strong>Rotate</strong>：旋转多边形。
 - <strong>Delete Vertex / Delete</strong>：Delete Vertex 删除选中顶点；底部 Delete 删除整个围栏。
 
 需要在地图上调整元素位置时，使用第一部分介绍的“选中元素 → 左手按住移动 → 右手拖动”操作。
@@ -494,7 +488,7 @@ Flight 航线由 Steerpoints 构成。航线可以表示离场、集合、截击
 
 - <strong>＋</strong>：添加非玩家单位。
 - <strong>列表条目</strong>：截图中有 9K37 Buk np 和 F-15C np，展示了地空导弹单位和独立飞机的列表项。
-- <strong>选择条目</strong>：打开该单位的 Inspector。单个 NP Unit 的属性面板将在补充截图后说明。
+- <strong>选择条目</strong>：打开该单位的 Inspector。
 
 </TacInspectorPanel>
 
@@ -510,7 +504,6 @@ Flight 航线由 Steerpoints 构成。航线可以表示离场、集合、截击
 
 ## 第六部分：任务设置
 
-本部分后续结合截图补充详细操作。
 
 ### 任务结构
 
@@ -553,7 +546,6 @@ Tac 编辑器任务按层级组织：
 
 ## 第七部分：保存与试飞
 
-本部分后续结合截图补充详细操作。
 
 ### 推荐编辑流程
 

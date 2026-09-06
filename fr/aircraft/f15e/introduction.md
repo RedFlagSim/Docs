@@ -1,3 +1,3 @@
 # Introduction
 
-> TODO: Ajoutez une présentation du module et les consignes d'utilisation de base.
+La documentation de ce module n’est pas encore disponible.

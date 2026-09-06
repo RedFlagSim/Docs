@@ -1,5 +1,5 @@
 # Introduction
 
-> TODO: Write the module overview and baseline operating guidance.
+Module documentation is not available yet.
 >
 > Status: Waiting for development.

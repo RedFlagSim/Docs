@@ -359,25 +359,25 @@ F-15C では、手動でトリムを操作していなくても、トリムを�
 
 当雷达处于 LRW/TWS 模式时，用于调整天线扫描基准的俯仰角度。
 
-[返回顶部](#ui-terms-top)
+[ページの先頭に戻る](#ui-terms-top)
 
 <a id="item-26"></a>
-### 26. coolie 开关
+### 26. Coolie スイッチ
 
-<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="coolie 开关">
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Coolie スイッチ">
 
-待补充。
+メインメニューを開かずに、戦術ページとディスプレイを管理します。カーソル操作や目標指定を行う前に、現在アクティブなディスプレイを確認してください。
 
-[返回顶部](#ui-terms-top)
+[ページの先頭に戻る](#ui-terms-top)
 
 <a id="item-27"></a>
-### 27. 武器释放
+### 27. 兵装リリース
 
-<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/27-weapon-release.png" alt="武器释放">
+<img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/27-weapon-release.png" alt="兵装リリース">
 
-待补充。
+Master Arm がオンで、選択した兵装が使用可能な状態のときに、ミサイルや搭載兵装を発射・投下します。空対空ミサイルの発射前には、目標情報の取得元、距離表示、機体姿勢を確認してください。機関砲のトリガーとは別のボタンです。機関砲には Gun Trigger を使用します。
 
-[返回顶部](#ui-terms-top)
+[ページの先頭に戻る](#ui-terms-top)
 
 <a id="item-28"></a>
 ### 28. auto acquisition 开关
