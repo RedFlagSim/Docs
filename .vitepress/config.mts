@@ -888,7 +888,7 @@ export default defineConfig({
     sidebar: enSidebar,
     socialLinks: [
       { icon: 'instagram', link: 'https://www.instagram.com/carrier_landing_hd/' },
-      { icon: 'youtube', link: 'https://youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA' }
+      { icon: 'youtube', link: 'https://www.youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA' }
     ],
     search: {
       provider: 'local'

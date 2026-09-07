@@ -22,6 +22,6 @@ next: false
 ## 公式チャンネル
 
 - [Instagram](https://www.instagram.com/carrier_landing_hd/)
-- [YouTube](https://youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA)
+- [YouTube](https://www.youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA)
 
 ストアの公開状況と各プラットフォームへのリンクは [RedFlagSim ホーム](/ja/)で管理しています。
