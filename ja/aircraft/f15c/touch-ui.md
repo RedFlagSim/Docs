@@ -8,6 +8,9 @@
 
 ![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
 
+- **30** タッチスティック
+- **31** トリム
+
 ### AA Mode
 
 ![AA Mode](/assets/F-15C/TouchUI/aa_mode.png)

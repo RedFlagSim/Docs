@@ -8,6 +8,9 @@ Diese Seite gilt für iOS- und Android-Touchgeräte.
 
 ![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
 
+- **30** Touch-Stick
+- **31** Trimmung
+
 ### AA Mode
 
 ![AA Mode](/assets/F-15C/TouchUI/aa_mode.png)

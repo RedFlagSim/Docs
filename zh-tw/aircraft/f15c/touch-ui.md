@@ -8,6 +8,9 @@
 
 ![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
 
+- **30** 觸控搖桿
+- **31** 修整（trim）
+
 ### AA Mode
 
 ![AA Mode](/assets/F-15C/TouchUI/aa_mode.png)

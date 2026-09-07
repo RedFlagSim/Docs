@@ -8,6 +8,9 @@ Cette page s'applique aux appareils tactiles iOS et Android.
 
 ![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
 
+- **30** joystick tactile
+- **31** trim
+
 ### AA Mode
 
 ![AA Mode](/assets/F-15C/TouchUI/aa_mode.png)

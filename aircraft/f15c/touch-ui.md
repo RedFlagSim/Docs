@@ -8,6 +8,9 @@ This page applies to iOS and Android touch devices.
 
 ![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
 
+- **30** Touch stick
+- **31** Trim
+
 ### AA Mode
 
 ![AA Mode](/assets/F-15C/TouchUI/aa_mode.png)
