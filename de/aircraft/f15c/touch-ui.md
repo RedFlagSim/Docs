@@ -6,7 +6,7 @@ Diese Seite gilt für iOS- und Android-Touchgeräte.
 
 ### Navigation Mode
 
-![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode.png)
+![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
 
 ### AA Mode
 
