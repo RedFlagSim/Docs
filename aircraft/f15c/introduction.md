@@ -1,46 +1,65 @@
-# The Absolute Benchmark of Air Superiority: F-15C Eagle
+# F-15C "Eagle" air superiority fighter
 
 ![F-15C Header](/assets/F-15C/header.jpg)
 
-Step into the cockpit of the most successful heavy air superiority fighter in history. In Red Flag Sim, the F-15C is not just your starting module—it represents the system-level benchmark for all subsequent development. Here, you are not just flying a 3D model; you are commanding a complex mechanical entity where high-fidelity aerodynamics, physical sensors, and intricate tactical logic are tightly interwoven.
+This chapter describes the systems currently implemented in Red Flag Sim for the F-15C and how they are linked together. It is an in-simulator implementation guide and does not replace real flight or maintenance manuals.
 
-## Flight Physics: Beyond the Illusion of "On-Rails" Flight
+## Flight and control states
 
-In Red Flag Sim, flight control is never a simple pre-scripted trajectory animation. Our aerodynamic model, built on real-world wind tunnel data, achieves a 95%+ correlation with actual flight physics:
-*   **Energy Management**: Every push or pull of the stick dynamically shifts the balance between energy and drag.
-*   **Boundary Effects**: During high angle-of-attack (AoA) maneuvering, you will experience authentic wing buffet and stall onset characteristics.
-*   **Dynamic Center of Gravity (CoG)**: Fuel consumption, external tank drops, and weapon releases dynamically alter the aircraft's weight distribution and trim characteristics. You must respect the laws of physics to push this heavy Eagle to its absolute limits.
+Flight state is determined by several parameters at once (indicated airspeed, Mach, altitude, attitude, angle of attack, load factor, and fuel state). HUD references are primary, while cockpit instruments are required for cross-check.
 
-## Fire Control Radar: Mastering the Doppler Interception Workflow
+The units differ by type, so do not read AoA as geometric attitude and do not treat TAS/Mach as interchangeable with IAS.
 
-The AN/APG-63 radar screen is not a magical "blip generator." It is a physical sensor modeled directly on the radar equation and electromagnetic physics:
-*   **Sensor Physics**: Understanding target Radar Cross Section (RCS), ground clutter, and antenna scan limits is essential for survival.
-*   **Tactical Modes**: From Long Range Search (LRS) and Track While Scan (TWS) to Single Target Track (STT), you must master the tactical workflow of each radar sub-mode.
-*   **Counter-Interception**: Adversaries can fly into your "Doppler Notch" to break locks. You must counter this like a real Eagle pilot by dynamically adjusting your heading and beam aspect.
+Relevant pages: [Cockpit Instruments](/Docs/aircraft/f15c/cockpit-instruments.html), [HUD operation](/Docs/aircraft/f15c/hud-operation.html), [Touch UI](/Docs/aircraft/f15c/touch-ui.html).
 
-## Tactical Avionics: Reconstructing High-Altitude Situational Awareness
+## Radar and target data
 
-The pixel-perfect avionics cockpit is designed around the real-world high-pressure workflow of fighter pilots:
-*   **Precision Recreation**: Symbol layout and display logic for the HUD (Head-Up Display), VSD (Vertical Situation Display), and TEWS/RWR (Tactical Electronic Warfare System/Radar Warning Receiver) are meticulously modeled from actual technical manuals.
-*   **Acoustic Awareness**: RWR audio tones (ranging from search sweeps to hard locks) have been engineering-engineered to let you categorize threats and deploy countermeasures purely by ear.
+AN/APG-63 tracking and search are displayed on VSD (Vertical Situation Display). Core modes covered here are Long Range Search (LRS), Track-While-Scan (TWS), Single Target Track (STT), and Close-Range Auto Acquisition.
 
-## Weapons Systems: Decisive Tactics in the "No-Escape Zone"
+LRS is primarily for search, TWS maintains track continuity while scanning, and STT is single-target pursuit mode. Distance scale and antenna elevation define the active coverage; being inside distance scale does not guarantee altitude coverage.
 
-Unlike casual games that rely on a simple "Lock On" prompt, in Red Flag Sim, launching a missile is only the final act of a long tactical interception:
-*   **WEZ (Weapon Employment Zone) Analysis**: You must decode the Dynamic Launch Zone (DLZ) indicators on the HUD, tracking maximum launch range (Rmax) and the critical **No-Escape Range (Rne)**.
-*   **Kinetic Interception**: Altitude differentials, launch velocities, and target aspect angles determine whether your AIM-120 AMRAAM or AIM-9 Sidewinder retains the terminal kinetic energy required to hit. Every launch is a calculated tactical gamble, not a button mash.
+Radar data contributes to HUD target, range, and weapon-display logic. Raw return, track data, and STT lock states differ, so target symbols must be interpreted by mode.
 
-## Pilot Growth: Earn Your Eagle Certification
+Relevant page: [AN/APG-63 Radar and VSD](/Docs/aircraft/f15c/radar.html).
 
-Conquering the F-15C is your rite of passage to becoming a certified combat pilot in Red Flag Sim:
-*   **Structured Curriculum**: Progress from Instrument Flight Rules (IFR) and tactical formation flying to Beyond-Visual-Range (BVR) radar intercepts and Air Combat Maneuvering (ACM).
-*   **Digital Logbook**: Every landing, G-load excursion, and weapon deployment efficiency is tracked by the tactical replay system. Pass the checks to unlock your **F-15C Pilot Certification** and maintain your active "Current" status in the pilot database.
+## Weapons and display behavior
+
+F-15C weapons workflows include cannon, AIM-9, AIM-7, and AIM-120. Shared symbols exist, but launch constraints and guidance readiness differ by weapon and mode.
+
+| Weapon | Typical display and requirements |
+| --- | --- |
+| Cannon | Depending on available ranging data, it supports different pipper references including GDS and post-launch BATR prompts. |
+| AIM-9 | Uses seeker-state guidance; use radar or IR lock state according to current mode and targeting logic. |
+| AIM-7 | In this game, launch requires STT and sustained radar support after release. |
+| AIM-120 | Uses radar-supported launch timing and can also be fired in VISUAL mode when no PDT is available. |
+
+HUD values such as ASE, turn point, and DLZ are dynamic by mode and closure geometry; ASE activation and guidance state should be evaluated before shot decisions.
+
+Relevant pages: [HUD Operation](/Docs/aircraft/f15c/hud-operation.html), [Radar and VSD](/Docs/aircraft/f15c/radar.html).
+
+## Countermeasure and warning systems
+
+TEWS/RWR indicates radar threats and electronic attack activity. RWR symbol distance is relative to threat direction/rate indications, not geometric slant range.
+
+Different warnings represent different cue families (search, track, hard lock, launch-related cues). Infrared warnings are not always represented in the RWR stream. See [Defensive Systems](/Docs/aircraft/f15c/defensive-systems.html).
+
+## Reading order
+
+For first-time onboarding of this aircraft:
+
+1. [Touch UI](/Docs/aircraft/f15c/touch-ui.html)
+2. [Cockpit Instruments](/Docs/aircraft/f15c/cockpit-instruments.html)
+3. [HUD Operation](/Docs/aircraft/f15c/hud-operation.html)
+4. [AN/APG-63 Radar and VSD](/Docs/aircraft/f15c/radar.html)
+5. [Defensive Systems](/Docs/aircraft/f15c/defensive-systems.html)
+
+Acronym references are listed in [Appendix: Acronyms](/Docs/aircraft/f15c/appendix.html).
 
 ## Roadmap
 
-The following F-15C features are planned for future development and are not yet part of the current implementation:
+Current implementation does not yet include:
 
-1. **Cold Start**: Begin with a powered-down aircraft and complete the cockpit preparation, electrical power, engine start, avionics initialization, and preflight checks before taxi.
-2. **Ground Services**: Request and manage refueling, rearming, repairs, external power, and other ground-crew support while parked at a valid service location.
-3. **Ejection System**: Implement the complete emergency ejection sequence, including canopy separation, seat launch, parachute deployment, and post-ejection pilot state.
-4. **Radio Voice System**: Add interactive voice communications with wingmen, AWACS/GCI, air traffic control, and ground crew, including context-aware calls, acknowledgements, and tactical reports.
+1. Cold start from dead-air state
+2. Ground crew service interactions (refuelling, rearm, repair, external power)
+3. Full ejection sequence chain
+4. In-sim interactive radio voice with AWACS, wingmen, ATC, and ground support

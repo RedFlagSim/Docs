@@ -65,13 +65,14 @@ const enSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/Docs/aircraft/f15c/introduction' },
-          { text: 'Touch UI', link: '/Docs/aircraft/f15c/touch-ui' },
-          { text: 'Cockpit Instruments', link: '/Docs/aircraft/f15c/cockpit-instruments' },
-          { text: 'HUD Operation', link: '/Docs/aircraft/f15c/hud-operation' },
-          { text: 'AN/APG-63 Radar and VSD', link: '/Docs/aircraft/f15c/radar' },
-          { text: 'Defensive Systems', link: '/Docs/aircraft/f15c/defensive-systems' },
-          { text: 'Appendix: Acronyms', link: '/Docs/aircraft/f15c/appendix' }
+        { text: 'Introduction', link: '/Docs/aircraft/f15c/introduction' },
+        { text: 'Touch UI', link: '/Docs/aircraft/f15c/touch-ui' },
+        { text: 'Cockpit Instruments', link: '/Docs/aircraft/f15c/cockpit-instruments' },
+        { text: 'HUD Operation', link: '/Docs/aircraft/f15c/hud-operation' },
+        { text: 'AN/APG-63 Radar and VSD', link: '/Docs/aircraft/f15c/radar' },
+        { text: 'MPCD', link: '/Docs/aircraft/f15c/mpcd' },
+        { text: 'Defensive Systems', link: '/Docs/aircraft/f15c/defensive-systems' },
+        { text: 'Appendix: Acronyms', link: '/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
@@ -140,13 +141,13 @@ const zhSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: '简介', link: '/zh/Docs/aircraft/f15c/introduction' },
-          { text: '触摸 UI', link: '/zh/Docs/aircraft/f15c/touch-ui' },
-          { text: '驾驶舱仪表', link: '/zh/Docs/aircraft/f15c/cockpit-instruments' },
-          { text: 'HUD 操作', link: '/zh/Docs/aircraft/f15c/hud-operation' },
-          { text: 'AN/APG-63雷达和VSD', link: '/zh/Docs/aircraft/f15c/radar' },
-          { text: 'MPCD', link: '/zh/Docs/aircraft/f15c/mpcd' },
-          { text: '对抗系统', link: '/zh/Docs/aircraft/f15c/defensive-systems' },
+        { text: '简介', link: '/zh/Docs/aircraft/f15c/introduction' },
+        { text: '触摸 UI', link: '/zh/Docs/aircraft/f15c/touch-ui' },
+        { text: '驾驶舱仪表', link: '/zh/Docs/aircraft/f15c/cockpit-instruments' },
+        { text: 'HUD 操作', link: '/zh/Docs/aircraft/f15c/hud-operation' },
+        { text: 'AN/APG-63雷达和VSD', link: '/zh/Docs/aircraft/f15c/radar' },
+        { text: 'MPCD', link: '/zh/Docs/aircraft/f15c/mpcd' },
+        { text: '对抗系统', link: '/zh/Docs/aircraft/f15c/defensive-systems' },
           { text: '附录：缩略词', link: '/zh/Docs/aircraft/f15c/appendix' }
         ]
       },
@@ -216,13 +217,14 @@ const zhTwSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: '簡介', link: '/zh-tw/Docs/aircraft/f15c/introduction' },
-          { text: '觸控 UI', link: '/zh-tw/Docs/aircraft/f15c/touch-ui' },
-          { text: '駕駛艙儀表', link: '/zh-tw/Docs/aircraft/f15c/cockpit-instruments' },
-          { text: 'HUD 操作', link: '/zh-tw/Docs/aircraft/f15c/hud-operation' },
-          { text: 'AN/APG-63雷達與VSD', link: '/zh-tw/Docs/aircraft/f15c/radar' },
-          { text: '防禦系統', link: '/zh-tw/Docs/aircraft/f15c/defensive-systems' },
-          { text: '附錄：縮寫', link: '/zh-tw/Docs/aircraft/f15c/appendix' }
+        { text: '簡介', link: '/zh-tw/Docs/aircraft/f15c/introduction' },
+        { text: '觸控 UI', link: '/zh-tw/Docs/aircraft/f15c/touch-ui' },
+        { text: '駕駛艙儀表', link: '/zh-tw/Docs/aircraft/f15c/cockpit-instruments' },
+        { text: 'HUD 操作', link: '/zh-tw/Docs/aircraft/f15c/hud-operation' },
+        { text: 'AN/APG-63雷達與VSD', link: '/zh-tw/Docs/aircraft/f15c/radar' },
+        { text: 'MPCD', link: '/zh-tw/Docs/aircraft/f15c/mpcd' },
+        { text: '防禦系統', link: '/zh-tw/Docs/aircraft/f15c/defensive-systems' },
+        { text: '附錄：縮寫', link: '/zh-tw/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
@@ -291,13 +293,14 @@ const jaSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: '概要', link: '/ja/Docs/aircraft/f15c/introduction' },
-          { text: 'タッチ UI', link: '/ja/Docs/aircraft/f15c/touch-ui' },
-          { text: 'コックピット計器', link: '/ja/Docs/aircraft/f15c/cockpit-instruments' },
-          { text: 'HUD 操作', link: '/ja/Docs/aircraft/f15c/hud-operation' },
-          { text: 'AN/APG-63 レーダーとVSD', link: '/ja/Docs/aircraft/f15c/radar' },
-          { text: '防御システム', link: '/ja/Docs/aircraft/f15c/defensive-systems' },
-          { text: '付録：略語', link: '/ja/Docs/aircraft/f15c/appendix' }
+        { text: '概要', link: '/ja/Docs/aircraft/f15c/introduction' },
+        { text: 'タッチ UI', link: '/ja/Docs/aircraft/f15c/touch-ui' },
+        { text: 'コックピット計器', link: '/ja/Docs/aircraft/f15c/cockpit-instruments' },
+        { text: 'HUD 操作', link: '/ja/Docs/aircraft/f15c/hud-operation' },
+        { text: 'AN/APG-63 レーダーとVSD', link: '/ja/Docs/aircraft/f15c/radar' },
+        { text: 'MPCD', link: '/ja/Docs/aircraft/f15c/mpcd' },
+        { text: '防御システム', link: '/ja/Docs/aircraft/f15c/defensive-systems' },
+        { text: '付録：略語', link: '/ja/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
@@ -366,13 +369,14 @@ const ruSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: 'Введение', link: '/ru/Docs/aircraft/f15c/introduction' },
-          { text: 'Сенсорный UI', link: '/ru/Docs/aircraft/f15c/touch-ui' },
-          { text: 'Приборы кабины', link: '/ru/Docs/aircraft/f15c/cockpit-instruments' },
-          { text: 'Работа с HUD', link: '/ru/Docs/aircraft/f15c/hud-operation' },
-          { text: 'РЛС AN/APG-63 и VSD', link: '/ru/Docs/aircraft/f15c/radar' },
-          { text: 'Оборонительные системы', link: '/ru/Docs/aircraft/f15c/defensive-systems' },
-          { text: 'Приложение: сокращения', link: '/ru/Docs/aircraft/f15c/appendix' }
+        { text: 'Введение', link: '/ru/Docs/aircraft/f15c/introduction' },
+        { text: 'Сенсорный UI', link: '/ru/Docs/aircraft/f15c/touch-ui' },
+        { text: 'Приборы кабины', link: '/ru/Docs/aircraft/f15c/cockpit-instruments' },
+        { text: 'Работа с HUD', link: '/ru/Docs/aircraft/f15c/hud-operation' },
+        { text: 'РЛС AN/APG-63 и VSD', link: '/ru/Docs/aircraft/f15c/radar' },
+        { text: 'MPCD', link: '/ru/Docs/aircraft/f15c/mpcd' },
+        { text: 'Оборонительные системы', link: '/ru/Docs/aircraft/f15c/defensive-systems' },
+        { text: 'Приложение: сокращения', link: '/ru/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
@@ -441,13 +445,14 @@ const deSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: 'Einführung', link: '/de/Docs/aircraft/f15c/introduction' },
-          { text: 'Touch UI', link: '/de/Docs/aircraft/f15c/touch-ui' },
-          { text: 'Cockpit-Instrumente', link: '/de/Docs/aircraft/f15c/cockpit-instruments' },
-          { text: 'HUD-Bedienung', link: '/de/Docs/aircraft/f15c/hud-operation' },
-          { text: 'AN/APG-63 Radar und VSD', link: '/de/Docs/aircraft/f15c/radar' },
-          { text: 'Defensivsysteme', link: '/de/Docs/aircraft/f15c/defensive-systems' },
-          { text: 'Anhang: Abkürzungen', link: '/de/Docs/aircraft/f15c/appendix' }
+        { text: 'Einführung', link: '/de/Docs/aircraft/f15c/introduction' },
+        { text: 'Touch UI', link: '/de/Docs/aircraft/f15c/touch-ui' },
+        { text: 'Cockpit-Instrumente', link: '/de/Docs/aircraft/f15c/cockpit-instruments' },
+        { text: 'HUD-Bedienung', link: '/de/Docs/aircraft/f15c/hud-operation' },
+        { text: 'AN/APG-63 Radar und VSD', link: '/de/Docs/aircraft/f15c/radar' },
+        { text: 'MPCD', link: '/de/Docs/aircraft/f15c/mpcd' },
+        { text: 'Defensivsysteme', link: '/de/Docs/aircraft/f15c/defensive-systems' },
+        { text: 'Anhang: Abkürzungen', link: '/de/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
@@ -516,13 +521,14 @@ const esSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: 'Introducción', link: '/es/Docs/aircraft/f15c/introduction' },
-          { text: 'Interfaz táctil', link: '/es/Docs/aircraft/f15c/touch-ui' },
-          { text: 'Instrumentos de cabina', link: '/es/Docs/aircraft/f15c/cockpit-instruments' },
-          { text: 'Operación del HUD', link: '/es/Docs/aircraft/f15c/hud-operation' },
-          { text: 'Radar AN/APG-63 y VSD', link: '/es/Docs/aircraft/f15c/radar' },
-          { text: 'Sistemas defensivos', link: '/es/Docs/aircraft/f15c/defensive-systems' },
-          { text: 'Apéndice: abreviaturas', link: '/es/Docs/aircraft/f15c/appendix' }
+        { text: 'Introducción', link: '/es/Docs/aircraft/f15c/introduction' },
+        { text: 'Interfaz táctil', link: '/es/Docs/aircraft/f15c/touch-ui' },
+        { text: 'Instrumentos de cabina', link: '/es/Docs/aircraft/f15c/cockpit-instruments' },
+        { text: 'Operación del HUD', link: '/es/Docs/aircraft/f15c/hud-operation' },
+        { text: 'Radar AN/APG-63 y VSD', link: '/es/Docs/aircraft/f15c/radar' },
+        { text: 'MPCD', link: '/es/Docs/aircraft/f15c/mpcd' },
+        { text: 'Sistemas defensivos', link: '/es/Docs/aircraft/f15c/defensive-systems' },
+        { text: 'Apéndice: abreviaturas', link: '/es/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
@@ -591,13 +597,14 @@ const frSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/fr/Docs/aircraft/f15c/introduction' },
-          { text: 'Interface tactile', link: '/fr/Docs/aircraft/f15c/touch-ui' },
-          { text: 'Instruments du cockpit', link: '/fr/Docs/aircraft/f15c/cockpit-instruments' },
-          { text: 'Utilisation du HUD', link: '/fr/Docs/aircraft/f15c/hud-operation' },
-          { text: 'Radar AN/APG-63 et VSD', link: '/fr/Docs/aircraft/f15c/radar' },
-          { text: 'Systèmes défensifs', link: '/fr/Docs/aircraft/f15c/defensive-systems' },
-          { text: 'Annexe : abréviations', link: '/fr/Docs/aircraft/f15c/appendix' }
+        { text: 'Introduction', link: '/fr/Docs/aircraft/f15c/introduction' },
+        { text: 'Interface tactile', link: '/fr/Docs/aircraft/f15c/touch-ui' },
+        { text: 'Instruments du cockpit', link: '/fr/Docs/aircraft/f15c/cockpit-instruments' },
+        { text: 'Utilisation du HUD', link: '/fr/Docs/aircraft/f15c/hud-operation' },
+        { text: 'Radar AN/APG-63 et VSD', link: '/fr/Docs/aircraft/f15c/radar' },
+        { text: 'MPCD', link: '/fr/Docs/aircraft/f15c/mpcd' },
+        { text: 'Systèmes défensifs', link: '/fr/Docs/aircraft/f15c/defensive-systems' },
+        { text: 'Annexe : abréviations', link: '/fr/Docs/aircraft/f15c/appendix' }
         ]
       },
       {
@@ -666,13 +673,14 @@ const koSidebar = [
         text: 'F-15C',
         collapsed: false,
         items: [
-          { text: '소개', link: '/ko/Docs/aircraft/f15c/introduction' },
-          { text: '터치 UI', link: '/ko/Docs/aircraft/f15c/touch-ui' },
-          { text: '조종석 계기', link: '/ko/Docs/aircraft/f15c/cockpit-instruments' },
-          { text: 'HUD 운용', link: '/ko/Docs/aircraft/f15c/hud-operation' },
-          { text: 'AN/APG-63 레이더 및 VSD', link: '/ko/Docs/aircraft/f15c/radar' },
-          { text: '방어 시스템', link: '/ko/Docs/aircraft/f15c/defensive-systems' },
-          { text: '부록: 약어', link: '/ko/Docs/aircraft/f15c/appendix' }
+        { text: '소개', link: '/ko/Docs/aircraft/f15c/introduction' },
+        { text: '터치 UI', link: '/ko/Docs/aircraft/f15c/touch-ui' },
+        { text: '조종석 계기', link: '/ko/Docs/aircraft/f15c/cockpit-instruments' },
+        { text: 'HUD 운용', link: '/ko/Docs/aircraft/f15c/hud-operation' },
+        { text: 'AN/APG-63 레이더 및 VSD', link: '/ko/Docs/aircraft/f15c/radar' },
+        { text: 'MPCD', link: '/ko/Docs/aircraft/f15c/mpcd' },
+        { text: '방어 시스템', link: '/ko/Docs/aircraft/f15c/defensive-systems' },
+        { text: '부록: 약어', link: '/ko/Docs/aircraft/f15c/appendix' }
         ]
       },
       {

@@ -233,7 +233,11 @@ Cuando el piloto automático está activado, mantener este botón pulsado descon
 
 <img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/14-floating-mfd.png" alt="MFD flotante">
 
-Muestra la información del MFD en una ventana flotante sobre la vista de vuelo para poder supervisar la pantalla sin cambiar la vista de cámara actual.
+Muestra la información del MFD como una ventana flotante sobre la vista de vuelo, para poder seguirla sin cambiar la perspectiva de cámara actual.
+
+Puedes mostrar hasta 3 MFD flotantes al mismo tiempo y también ajustar su tamaño.
+
+En pantallas grandes como iPad puede ser útil mostrar varios MFD simultáneamente, pero esto aumenta la carga de renderizado. En dispositivos antiguos o con menor rendimiento, se recomienda limitar la cantidad para mantener estabilidad.
 
 [Volver arriba](#ui-terms-top)
 

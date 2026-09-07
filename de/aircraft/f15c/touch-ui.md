@@ -233,7 +233,11 @@ Wenn der Autopilot aktiv ist, trennt das Gedrückthalten dieser Taste den Autopi
 
 <img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/14-floating-mfd.png" alt="Schwebendes MFD">
 
-Zeigt MFD-Informationen als schwebende Einblendung über der Flugsicht an, damit das Display ohne Wechsel der aktuellen Kameraperspektive überwacht werden kann.
+Zeigt MFD-Informationen als schwebendes Fenster über der Flugsicht, damit die Anzeige kontinuierlich geprüft werden kann, ohne den Kamerablick zu wechseln.
+
+Gleichzeitig können bis zu drei schwebende MFDs angezeigt werden und ihre Größe wird anpassbar.
+
+Auf großen Displays wie iPad können mehrere MFDs parallel angezeigt werden. Bei älteren oder schwächeren Geräten kann die zusätzliche Dauer-Renderlast zu einem Performance-Verlust führen, daher ist die Anzahl dort zu begrenzen.
 
 [Zurück nach oben](#ui-terms-top)
 

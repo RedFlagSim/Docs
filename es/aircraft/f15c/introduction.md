@@ -1,37 +1,61 @@
-# El estándar absoluto de superioridad aérea: F-15C Eagle
+# F-15C Eagle, caza de superioridad aérea
 
-![F-15C Cabecera](/assets/F-15C/header.jpg)
+![F-15C Header](/assets/F-15C/header.jpg)
 
-Entra en la cabina del caza pesado de superioridad aérea más exitoso de la historia. En Red Flag Sim, el F-15C no es solo tu módulo inicial: representa el estándar de ingeniería a nivel de sistema para todo el desarrollo posterior. Aquí no estás simplemente volando un modelo 3D; estás al mando de una entidad mecánica compleja donde la aerodinámica de alta fidelidad, los sensores físicos y una intrincada lógica táctica están estrechamente entrelazados.
+Este capítulo resume los sistemas del F-15C implementados en Red Flag Sim: control, instrumentos de cabina, radar, armamento y contramedidas. Es una guía de simulación, no un manual real de aeronave.
 
-## Física de vuelo: Más allá de la ilusión de volar «sobre raíles»
+## Física de vuelo y estados
 
-En Red Flag Sim, el control de vuelo nunca se reduce a una simple animación de trayectoria preestablecida. Nuestro modelo aerodinámico, construido sobre datos reales de túneles de viento, logra una coincidencia superior al 95% con la física de vuelo real:
-*   **Gestión de la energía**: Cada empuje o tirón de la palanca altera dinámicamente la balanza entre la energía cinética y la resistencia aerodinámica.
-*   **Efectos límite**: Durante maniobras con altos ángulos de ataque (AoA), experimentarás sacudidas estructurales reales (buffeting) y señales de entrada en pérdida de las alas (stall).
-*   **Centro de gravedad dinámico**: El consumo de combustible, la eyección de tanques externos y el lanzamiento de armas recalculan en tiempo real la distribución de peso y las características de trimado del avión. Debes respetar las leyes de la física para llevar a este pesado «Eagle» a sus límites absolutos.
+El estado de vuelo depende de varios parámetros combinados: IAS, TAS/Mach, altitud, actitud, AoA, sobrecarga y combustible. El HUD aporta la referencia principal y los instrumentos de cabina permiten validación cruzada.
 
-## Radar de tiro: Domina el flujo de interceptación Doppler
+No todas las unidades son equivalentes: AoA no es simplemente el ángulo geométrico del morro, y IAS/TAS/Mach/G se interpretan con funciones distintas.
 
-La pantalla del radar AN/APG-63 no es un generador «mágico de puntos». Es un sensor físico modelado directamente a partir de la ecuación del radar y la física electromagnética:
-*   **Física del sensor**: Comprender la sección transversal del radar (RCS) del objetivo, el ruido de fondo del suelo (ground clutter) y los límites de escaneo de la antena es fundamental para la supervivencia.
-*   **Modos tácticos**: Desde la búsqueda de largo alcance (LRS) y el rastreo durante el escaneo (TWS) hasta el seguimiento de objetivo único (STT), debes dominar la lógica táctica de cada modo de radar.
-*   **Contramedidas tácticas**: Los adversarios pueden volar en tu «Doppler Notch» (zona ciega Doppler) para romper el bloqueo. Debes contrarrestar esto como un verdadero piloto de F-15C, ajustando dinámicamente tu rumbo y ángulo de aspecto.
+Referencias: [Instrumentos de cabina](/es/Docs/aircraft/f15c/cockpit-instruments.html), [Operación HUD](/es/Docs/aircraft/f15c/hud-operation.html), [Touch UI](/es/Docs/aircraft/f15c/touch-ui.html).
 
-## Aviónica táctica: Reconstrucción de la conciencia situacional
+## Radar e información de blancos
 
-La cabina de aviónica recreada al píxel está diseñada en torno a los flujos de trabajo reales de un piloto de combate bajo estrés extremo:
-*   **Recreación de precisión**: La simbología y lógica de visualización del HUD (pantalla de visualización frontal), VSD (pantalla de situación vertical) y el RWR (receptor de alerta de radar) se modelan directamente a partir de manuales técnicos reales.
-*   **Percepción acústica de amenazas**: Los tonos de advertencia del RWR (desde el barrido de búsqueda hasta el bloqueo de misiles) se reproducen con precisión de ingeniería, lo que te permite clasificar las amenazas y desplegar contramedidas solo por el oído.
+AN/APG-63 se muestra en el VSD. Los modos activos son LRS, TWS, STT y adquisición a corta distancia.
 
-## Sistemas de armas: Decisión fría en la «zona de no escape»
+LRS sirve para buscar, TWS mantiene rastreo durante escaneo y STT realiza seguimiento único. La distancia mostrada no garantiza por sí sola cobertura de elevación.
 
-A diferencia de los juegos arcade que dependen de un simple aviso de bloqueo, en Red Flag Sim el lanzamiento de un misil es solo el paso final de una compleja interceptación táctica:
-*   **Análisis de la zona de empleo (WEZ)**: Debes interpretar los indicadores de la zona de lanzamiento dinámico (DLZ) en el HUD, monitoreando el alcance máximo (Rmax) y la zona crítica de **no escape (Rne)**.
-*   **Interceptación cinética**: Las diferencias de altitud, la velocidad de lanzamiento y el ángulo de aspecto del objetivo determinan si tu AIM-120 AMRAAM o AIM-9 Sidewinder retiene la energía cinética terminal necesaria para impactar. Cada lanzamiento es un cálculo frío, no una simple pulsación de botón.
+Trazas brutas, pistas y lock STT son estados diferentes. Ver [Radar AN/APG-63 y VSD](/es/Docs/aircraft/f15c/radar.html).
 
-## Desarrollo del piloto: Obtén tu certificación de F-15C
+## Armamento y pantallas
 
-Dominar el F-15C es tu examen de madurez para convertirte en un piloto de combate certificado en Red Flag Sim:
-*   **Plan de estudios sistemático**: Progresa desde el vuelo por instrumentos (IFR) y el vuelo táctico en formación hasta interceptaciones de radar BVR (más allá del alcance visual) y el combate aéreo cercano (ACM).
-*   **Historial digital**: Cada uno de tus aterrizajes, excesos de fuerzas G y eficiencia en el uso de armas quedan registrados en el sistema de análisis táctico. Supera las evaluaciones para desbloquear tu **Certificación de Piloto de F-15C** y mantén tu estado activo (Current) en la base de datos de pilotos.
+F-15C soporta cañón, AIM-9, AIM-7 y AIM-120. Los símbolos pueden parecer compartidos, pero los requisitos de enganche varían por arma y modo.
+
+| Arma | Puntos clave |
+| --- | --- |
+| Cañón | Referencias de tiro adaptadas según la fuente de distancia disponible, incluyendo GDS y BATR. |
+| AIM-9 | Seguimiento por buscador con lógica de enganche según el modo de adquisición. |
+| AIM-7 | Requiere STT en esta versión y mantiene iluminación tras el disparo. |
+| AIM-120 | Utiliza condiciones de radar para lanzar y puede pasar a VISUAL sin PDT. |
+
+ASE, punto de viraje y DLZ dependen de geometría y calidad de datos.
+
+Ver también [Operación HUD](/es/Docs/aircraft/f15c/hud-operation.html) y [Radar AN/APG-63 y VSD](/es/Docs/aircraft/f15c/radar.html).
+
+## Contramedidas y advertencia
+
+TEWS/RWR muestra amenazas de radar y perturbación electrónica. La distancia de los símbolos de RWR no es una distancia física directa.
+
+Consulte [Sistemas defensivos](/es/Docs/aircraft/f15c/defensive-systems.html).
+
+## Orden de lectura recomendado
+
+1. [Touch UI](/es/Docs/aircraft/f15c/touch-ui.html)
+2. [Instrumentos de cabina](/es/Docs/aircraft/f15c/cockpit-instruments.html)
+3. [Operación del HUD](/es/Docs/aircraft/f15c/hud-operation.html)
+4. [Radar AN/APG-63 y VSD](/es/Docs/aircraft/f15c/radar.html)
+5. [Sistemas defensivos](/es/Docs/aircraft/f15c/defensive-systems.html)
+
+Abreviaciones: [Apéndice: abreviaturas](/es/Docs/aircraft/f15c/appendix.html).
+
+## Hoja de ruta
+
+Pendiente de implementación:
+
+1. Arranque en frío (arranque completo desde estado apagado)
+2. Servicios de suelo (reabastecimiento, armamento, reparación, energía externa)
+3. Secuencia completa de eyección
+4. Voz táctica interactiva con wingmen/AWACS/GCI/ATC/ground
