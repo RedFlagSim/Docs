@@ -6,10 +6,7 @@
 
 ### Navigation Mode
 
-![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
-
-- **30** 触摸摇杆
-- **31** trim（配平）
+![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode.png)
 
 ### AA Mode
 
@@ -19,36 +16,37 @@
 
 ## UI 编号
 
-<div class="term-cloud">
-  <a href="#item-1">1 功能面板</a>
-  <a href="#item-2">2 模式切换</a>
-  <a href="#item-3">3 UI 元素编辑</a>
-  <a href="#item-4">4 主菜单</a>
-  <a href="#item-5">5 输入指示器</a>
-  <a href="#item-6">6 起落架开关</a>
-  <a href="#item-7">7 襟翼开关</a>
-  <a href="#item-8">8 油门</a>
-  <a href="#item-9">9 油门模式开关</a>
-  <a href="#item-10">10 减速板开关</a>
-  <a href="#item-11">11 显示 MFD</a>
-  <a href="#item-12">12 显示战术地图</a>
-  <a href="#item-13">13 paddle 开关</a>
-  <a href="#item-14">14 浮动 MFD</a>
-  <a href="#item-15">15 舵</a>
-  <a href="#item-16">16 padlock</a>
-  <a href="#item-17">17 相机切换菜单</a>
-  <a href="#item-18">18 Cursor</a>
-  <a href="#item-19">19 castle 开关</a>
-  <a href="#item-20">20 状态栏</a>
-  <a href="#item-21">21 chaff/flare 释放</a>
-  <a href="#item-22">22 主武器开关</a>
-  <a href="#item-23">23 机炮板机</a>
-  <a href="#item-24">24 武器选择开关</a>
-  <a href="#item-25">25 antenna elevation</a>
-  <a href="#item-26">26 coolie 开关</a>
-  <a href="#item-27">27 武器释放</a>
-  <a href="#item-28">28 auto acquisition 开关</a>
-</div>
+| 序号 | 控件 | 简要功能 |
+| --- | --- | --- |
+| 1 | [功能面板](#item-1) | 打开 MAIN、NAV、HUD 和 MISC 功能面板 |
+| 2 | [模式切换](#item-2) | 切换 NAV 导航模式与 AA 空空模式 |
+| 4 | [主菜单](#item-4) | 打开飞机设置、偏好设置和任务选项 |
+| 5 | [输入指示器](#item-5) | 显示操纵输入与配平位置 |
+| 6 | [起落架开关](#item-6) | 控制起落架收放 |
+| 7 | [襟翼开关](#item-7) | 控制襟翼收放 |
+| 8 | [油门](#item-8) | 调整推力；切换至单发动机油门控制 |
+| 9 | [油门模式开关](#item-9) | 选择手动、IAS 跟随或在速迎角油门模式 |
+| 10 | [减速板开关](#item-10) | 控制减速板展开、停止或收回 |
+| 11 | [显示 MFD](#item-11) | 按住时将座舱视角对准 VSD 或 MPCD |
+| 12 | [显示战术地图](#item-12) | 显示飞行中的战术地图 |
+| 13 | [paddle 开关](#item-13) | 按住时暂时断开自动驾驶 |
+| 14 | [浮动 MFD](#item-14) | 显示最多三个浮动 MFD，无需切换视角 |
+| 15 | [舵](#item-15) | 控制方向舵、前轮转向和机轮刹车 |
+| 16 | [padlock](#item-16) | 将视角锁定到附近实体 |
+| 17 | [相机切换菜单](#item-17) | 切换相机视角或打开相机菜单 |
+| 18 | [Cursor](#item-18) | 移动 VSD/SIT 游标并指定目标 |
+| 19 | [castle 开关](#item-19) | 切换当前传感器（SOI）并管理显示页面 |
+| 20 | [状态栏](#item-20) | 显示帧率、风、飞机重量、时间和自动驾驶状态 |
+| 21 | [chaff/flare 释放](#item-21) | 释放箔条和热焰弹 |
+| 22 | [主武器开关](#item-22) | 启用武器发射 |
+| 23 | [机炮板机](#item-23) | 发射当前选中的机炮 |
+| 24 | [武器选择开关](#item-24) | 选择武器类别并轮换所选导弹 |
+| 25 | [antenna elevation](#item-25) | 调整雷达天线俯仰角 |
+| 26 | [coolie 开关](#item-26) | 管理战术页面和显示 |
+| 27 | [武器释放](#item-27) | 释放所选导弹或挂载 |
+| 28 | [auto acquisition 开关](#item-28) | 切换 STBY/LRS、循环自动截获模式或激活 FLOOD |
+| 30 | [触摸摇杆](#item-30) | 控制飞机俯仰和滚转 |
+| 31 | [配平（Trim）](#item-31) | 调整飞机配平 |
 
 ## 详细解释
 
@@ -360,7 +358,7 @@
 [返回顶部](#ui-terms-top)
 
 <a id="item-25"></a>
-### 25. antenna elevation
+### 25. 天线俯仰角
 
 <img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/25-antenna-elevation.png" alt="antenna elevation">
 
@@ -406,34 +404,21 @@
 
 [返回顶部](#ui-terms-top)
 
+<a id="item-30"></a>
+### 30. 触摸摇杆
+
+拖动触摸摇杆，控制飞机的俯仰和滚转。
+
+[返回顶部](#ui-terms-top)
+
+<a id="item-31"></a>
+### 31. 配平（Trim）
+
+用于调整飞机配平（Trim）。
+
+[返回顶部](#ui-terms-top)
+
 <style scoped>
-.term-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 12px 0 6px;
-}
-
-.term-cloud a {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  text-decoration: none;
-  line-height: 1.2;
-  font-size: 13px;
-  transition: border-color .16s ease, background-color .16s ease, transform .16s ease;
-}
-
-.term-cloud a:hover {
-  border-color: var(--vp-c-divider);
-  background: var(--vp-c-bg-elv);
-  transform: translateY(-1px);
-}
-
 .panel-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
