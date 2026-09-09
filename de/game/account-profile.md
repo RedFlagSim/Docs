@@ -1,7 +1,37 @@
-# Konto & Profil
+# Konto und Profil
 
-Dein Profil verbindet Logbook, Ranglisten, Qualifikationen, Medaillen und Career XP mit dem aktuellen Account.
+Dein Red-Flag-Sim-Profil ist die Identität für Fortschritt, Flugbuch, Ranglisten, Qualifikationen und Medaillen.
 
-Du kannst anonym starten, aber für langfristiges Spielen ist ein verknüpfter Unity ID Account sicherer. Das hilft bei Neuinstallation, Gerätewechsel oder späterer Wiederherstellung.
+## Kontoarten
 
-Das Profil kann Pilotname, Rufzeichen, Nation, Rang, Unterlevel, Career XP, gesamte Flugzeit und Aktivitätsverlauf enthalten. Beim Accountwechsel wechselt das Spiel zu den Aufzeichnungen, Qualifikationen und Medaillen dieses Accounts.
+Mit einem anonymen Konto kannst du schnell einsteigen. Es eignet sich zum Ausprobieren, ist aber an den aktuell gespeicherten Kontozustand gebunden.
+
+Für langfristiges Spielen solltest du eine Unity ID verknüpfen oder dich damit anmelden. Bei Neuinstallation, Gerätewechsel oder dauerhaft gleicher Identität ist ein verknüpftes Konto die sicherere Wahl.
+
+## Profilinhalt
+
+- Anzeigename des Piloten.
+- Rufzeichen.
+- Staffel- oder Schwarmangaben.
+- Land.
+- Rang und Unterstufe.
+- Karriere-XP.
+- Gesamte Flugzeit.
+- Anmeldeserie und Aktivitätsverlauf für die Fortschrittsberechnung.
+
+Ranglisten und öffentliche Ansichten verwenden eine verkürzte Fassung, etwa Anzeigename, Rufzeichen, Avatar, Rang, Unterstufe und XP.
+
+## Fortschritt sichern
+
+Der Fortschritt gehört zum angemeldeten Konto. Beim Kontowechsel verwendet das Spiel dessen Profil, Aufzeichnungen, Qualifikationen und Medaillen.
+
+Verknüpfe ein anonymes Konto möglichst vor dem Aufbau langfristigen Fortschritts. Das bewahrt deine Pilotenidentität und erleichtert die spätere Wiederherstellung.
+
+## Aktualisierung des Profils
+
+- Nach der Anmeldung.
+- Beim Öffnen des Flugbuchs.
+- Nach Flügen oder Fertigkeitsereignissen.
+- Nach dem Erhalt von Karriere-XP.
+- Nach Erwerb oder Verlängerung einer Qualifikation.
+- Nach Freischaltung einer Medaille.

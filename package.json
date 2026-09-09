@@ -7,6 +7,7 @@
     "docs:i18n-check": "node scripts/check-i18n-parity.mjs",
     "docs:hud-i18n-check": "node scripts/check-f15c-hud-locales.mjs",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "docs:links-check": "python3 scripts/check-built-links.py"
   }
 }

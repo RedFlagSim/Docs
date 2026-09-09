@@ -1,9 +1,46 @@
 # Patchs
 
-Les patchs sont des objets à collectionner dans le jeu. Ce ne sont ni des qualifications ni des médailles ; une fois obtenus, ils restent dans la collection de votre compte.
+Les patchs sont des objets à collectionner, pas des certifications de compétence ni des médailles de performance. Ils restent dans la collection du compte après obtention.
 
-Dans la culture aéronautique réelle, les patchs apparaissent sur les combinaisons de vol, vestes, casques, sacs d'équipement et murs d'escadron. Ils peuvent représenter une unité, un exercice, un déploiement, une blague interne ou une étape de carrière. L'échange de patchs entre équipages fait aussi partie de cette culture.
+## Culture des patchs
 
-Dans Red Flag Sim, les patchs sont conservés dans la collection de votre compte. Ils peuvent venir d'événements officiels, de récompenses de module, de packs spéciaux, de récompenses de boutique et de futures activités communautaires ou multijoueur.
+Dans l’aviation réelle, les patchs d’escadron font partie du quotidien : combinaisons de vol, vestes, casques, sacs, salles de préparation, tableaux de déploiement et murs d’escadron.
 
-Si vous recevez le même patch plusieurs fois, le jeu peut conserver les exemplaires supplémentaires. Cela prépare de futures fonctions d'exposition, d'échange et de cadeau. Quand le système d'amis sera disponible, l'envoi de patchs entre amis est prévu.
+Ils commémorent souvent :
+
+- Un escadron ou une unité.
+- Un déploiement, un exercice ou un événement.
+- Une plaisanterie partagée ou un thème de cohésion.
+- Une étape de carrière.
+- Un souvenir échangé entre équipages.
+
+Pilotes, mécaniciens, contrôleurs et unités en visite les échangent aussi comme souvenirs ou objets de collection.
+
+## Dans Red Flag Sim
+
+Les patchs reçus restent dans la collection du pilote et peuvent figurer dans le carnet ou de futurs affichages de profil.
+
+Ils peuvent provenir :
+
+- D’événements officiels.
+- De récompenses liées aux modules.
+- De packs spéciaux ou récompenses de boutique.
+- De futures activités communautaires ou multijoueur.
+
+Certains sont courants, d’autres liés à un appareil, un thème d’escadron, un événement ou une période de campagne.
+
+## Doublons
+
+Le jeu peut conserver les exemplaires supplémentaires au lieu de les convertir automatiquement en une autre récompense, afin de permettre de futures fonctions de collection.
+
+## Évolutions prévues
+
+Le système doit progressivement renforcer la collection :
+
+- Afficher les patchs choisis dans les vues du profil.
+- Les afficher dans le carnet et la collection.
+- Proposer des ensembles limités à un événement ou à un escadron.
+- Permettre les cadeaux après l’arrivée du système d’amis.
+- Éventuellement permettre les échanges ou l’exposition des collections.
+
+L’objectif est une collection légère, évoluant avec les événements, les récompenses des modules et les futures fonctions sociales.

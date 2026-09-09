@@ -1,54 +1,42 @@
 ---
-title: Über RedFlagSim
+title: "Über Red Flag Sim"
 sidebar: false
 ---
 
 ![Red Flag Sim](/assets/title_f15c.png)
 
-# Über das Projekt
+# Über Red Flag Sim
 
-## Produktpositionierung
+## Anspruchsvolle Luftfahrt zum Greifen nah
 
-Red Flag Sim ist ein ernsthafter, kompromissloser militärischer Kampfjet-Simulator für Mobil- und VR-Geräte.
+Viele Luftkampfspiele sagen, Fliegen sei einfach. Red Flag Sim sagt, dass es sich lohnt. Simulationstiefe soll keine Einstiegshürde sein, sondern ein Ziel für alle, die den Himmel beherrschen wollen. Dieser anspruchsvolle moderne Kampfflugsimulator für Mobilgeräte und VR verbindet Physik auf militärischem Niveau mit neu gestalteter intuitiver Bedienung. Du fliegst nicht nur ein Modell, sondern betreibst einen Jäger.
 
-Das Projekt reduziert die Simulationstiefe nicht, sondern gestaltet die Interaktion zwischen Spieler und Systemen neu. Im Kern bleibt die physikalische Realitätsnähe auf militärischem Simulatorniveau erhalten, während die Bedienebene gezielt für Touch- und Headset-Geräte optimiert wird. So wird ernsthafte militärische Flugsimulation wirklich zugänglich, erlebbar und nachhaltig vertiefbar.
+## Was macht es realistisch?
 
----
+Physik statt Vorgaben: Jedes Manöver reagiert auf die Atmosphäre. Die Flugmodelle sind bis auf 5 % an reale Windkanaldaten angepasst und berücksichtigen dynamischen Schwerpunkt und Trägheit. Die Reaktion entsteht aus Physik, nicht aus einem Skript.
 
-## Technische Kernmerkmale
+Authentische Pilotenabläufe: Statt vereinfachter Arcade-Steuerung werden reale Flugregelgesetze und Stabilisierung wiedergegeben. Von Radarmodi bis zur Drehzahlreaktion folgt jedes System der Funktionslogik seines realen Gegenstücks.
 
-**Aerodynamische Simulation:** Ein hochpräzises, auf realen Daten basierendes Aerodynamikmodell mit physikalisch korrekter dynamischer Schwerpunkt- und Trägheitskonfiguration. Das Verhalten über die Flugbereichsgrenzen hinweg ist eng an realen Flugzeugen ausgerichtet.
+Tiefe Systemkopplung: Antrieb, Hydraulik, Elektrik und Navigation werden einzeln modelliert und in Echtzeit gekoppelt. Kraftstoffverbrauch und Waffenabwurf verändern das Flugverhalten und verlangen ständige Aufmerksamkeit und Entscheidungen.
 
-**Flugsteuerung und Stabilisierung:** Realistische Flugregelgesetze und Stabilisierungsalgorithmen werden vollständig nachgebildet und liefern ein Steuergefühl sowie Ansprechverhalten nahe am realen Muster statt vereinfachter Arcade-Logik.
+## Der Weg zum Können: lernen, qualifizieren, aktuell bleiben
 
-**Avionik und Anzeigen:** Cockpit-Avionik und Displays werden präzise rekonstruiert; Instrumentenlogik und Informationsdarstellung folgen den realen Betriebsabläufen der jeweiligen Muster.
+Red Flag Sim ist mehr als ein einzelner Einsatz. Strukturierte Ausbildung und Zertifizierung führen von Grundmanövern bis zu komplexen Trägerlandungen und Luftbetankung.
 
-**Waffensysteme:** Hochpräzise Simulation von Waffenfreigabehüllen und Feuerleitsystemen. Lenkflugkörperführung und Bordkanonenballistik werden auf Basis realer physikalischer Parameter berechnet.
+Jede bestandene Qualifikation wird in deiner Pilotenakte vermerkt. Das Spiel verfolgt deinen „Current“-Status und fördert regelmäßiges Üben, damit die Fähigkeiten erhalten bleiben.
 
-**Systemübergreifende Kopplung:** Antrieb, Hydraulik, Elektrik, Navigation, Feuerleitung und weitere Teilsysteme werden unabhängig modelliert und gleichzeitig gekoppelt. Abläufe werden vollständig reproduziert, inklusive plausibler Fehlerlogik.
+## Entwicklungsplan
 
-**Umwelt und Atmosphäre:** Realistische Atmosphärenphysik und hochwertige Szenendarstellung schaffen eine durchgehende, dichte Immersion über den gesamten Flug.
+Wir bringen ernsthafte militärische Flugsimulation auf mehr Plattformen und bewahren ihre Kerntiefe. Aktuelle Meilensteine:
 
----
+- Hochpräzises Kartensystem für schnelle Szenarioerstellung.
+- FLIR-Behälter und Luft-Boden-Radar: vorwärtsblickende Infrarotbilder und Radarkarten für Angriff, Aufklärung und Zielidentifikation.
+- Multiplayer-Kampf: plattformübergreifende Spielersuche und gemeinsame Sitzungen auf unterstützten Plattformen.
+- Tacview-artige Wiederholung: taktische Nachbesprechung von Flugwegen, Gefechten, Waffenstarts und Ergebnissen.
+- Plattformausbau: nach iOS und Android Apple und Meta VR, dann PC und Mac, anschließend Konsolen.
 
-## Entwicklungs-Roadmap
+## Die Mission unterstützen
 
-Die aktuelle Phase konzentriert sich auf Mobil- und VR-Geräte: Optimierung der Interaktionssysteme für Touch und VR sowie Senkung der Lernkurve bei komplexer Systembedienung. Danach folgen schrittweise diese Richtungen:
+Die Entwicklung erfordert langfristigen, intensiven Einsatz. Wenn du anspruchsvolle Simulation für alle zugänglich machen möchtest, helfen Unterstützungsprogramm, technische Rückmeldungen oder das Teilen mit anderen Luftfahrtbegeisterten unmittelbar.
 
-- Aufbau eines globalen Kartensystems
-- Erweiterung um weitere Flugzeugmodule
-- Plattformübergreifende Mehrspieler-Gefechte mit automatischem Matchmaking
-- Plattformübergreifende Veröffentlichung (PC / Mac / Spielkonsolen)
-- Umfassendere, systematische Einsteigerschulung
-
----
-
-## Dieses Projekt unterstützen
-
-Die Entwicklung von Red Flag Sim ist eine langfristige und hochintensive Arbeit. Systemtiefe, Flugzeugerweiterungen, Kartenaufbau, Missionsdesign und Multiplayer-Funktionen hängen stark von kontinuierlichem Einsatz von Zeit und Ressourcen ab.
-
-Wenn du die Richtung des Projekts teilst und eine schnellere Erweiterung um mehr Flugzeugmuster, tiefere Systemdetails und ein vollständigeres Kampferlebnis sehen möchtest, hat deine Unterstützung direkten Einfluss.
-
-Du kannst mitwirken, indem du dem Support-Programm beitrittst, hochwertiges Flug- und Systemfeedback gibst, die Entwicklung kontinuierlich verfolgst oder Red Flag Sim mit weiteren potenziellen Nutzern teilst, die ernsthafte militärische Flugsimulation schätzen.
-
-Das Ziel von Red Flag Sim bleibt unverändert: Auf mehr Plattformen ernsthafte militärische Flugsimulation wirklich zugänglich, erlebbar und nachhaltig vertiefbar zu machen.
+Unser Ziel bleibt: ernsthafte militärische Flugsimulation zugänglich, praktisch erlebbar und dauerhaft vertiefbar zu machen.

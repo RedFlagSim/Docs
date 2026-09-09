@@ -398,6 +398,7 @@ Flight 航线由 Steerpoints 构成。航线可以表示离场、集合、截击
   <a href="#part-5-np-unit-list">NP Unit（非玩家单位）列表</a>
 </div>
 
+<a id="bullseye-and-geofences"></a>
 <a id="牛眼与-geofence"></a>
 
 ### Bullseye

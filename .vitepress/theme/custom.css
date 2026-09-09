@@ -1038,6 +1038,55 @@ a.rfs-platform-card:hover {
   object-fit: contain;
 }
 
+.vp-doc .mpcd-figure {
+  margin: 24px 0;
+}
+
+.vp-doc .mpcd-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.vp-doc .mpcd-figure figcaption,
+.vp-doc .mpcd-control-images figcaption {
+  margin-top: 8px;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.vp-doc .mpcd-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 160px;
+  gap: 24px;
+  align-items: start;
+  margin: 20px 0;
+}
+
+.vp-doc .mpcd-control-images figure {
+  margin: 0 0 16px;
+}
+
+.vp-doc .mpcd-control-images img {
+  max-width: 100%;
+  max-height: 120px;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .vp-doc .mpcd-controls {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .vp-doc .mpcd-control-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
+
 /* Tac Editor uses the same numbered index pattern as Touch UI. */
 .vp-doc .tac-editor-index {
   display: flex;

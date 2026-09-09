@@ -1,11 +1,29 @@
 # Qualifications
 
-Les qualifications montrent que vous avez atteint un niveau requis dans une compétence de vol. Certaines sont permanentes, d'autres ont une durée et peuvent être renouvelées.
+Les qualifications certifient des compétences précises. Elles prouvent que vous avez atteint un niveau requis, par exemple lors d’un atterrissage sur aérodrome ou d’un ravitaillement par perche.
 
-| Qualification | Condition | Durée |
+## Fonctionnement
+
+Le jeu vérifie les performances enregistrées du compte. Si les preuves requises sont présentes, la qualification est ajoutée au carnet de vol.
+
+Certaines sont permanentes, d’autres temporaires. Ces dernières peuvent être renouvelées avant ou après expiration avec un score de renouvellement plus bas.
+
+## Qualifications actives
+
+| Qualification | Obtention | Validité |
 | --- | --- | --- |
-| Pilot Cadet | Se connecter avec un compte joueur authentifié | Permanente |
-| Airfield Landing | Score d'atterrissage 70000+ | 30 jours |
-| Boom Aerial Refueling | Score Boom AAR 70000+ | 30 jours |
+| Élève pilote | Connexion avec un compte joueur authentifié | Permanente |
+| Atterrissage sur aérodrome | Score d’atterrissage de 70000+ | 30 jours |
+| Ravitaillement aérien par perche | Score de ravitaillement de 70000+ | 30 jours |
 
-Airfield Landing et Boom Aerial Refueling peuvent être renouvelées avec 60000+. Certaines qualifications futures, comme Academy, Overhead Break, F-15C weapons, navigation et carrier recovery, peuvent rester verrouillées jusqu'à ce que leur activité soit disponible.
+L’atterrissage et le ravitaillement par perche se renouvellent avec 60000+ points, pendant leur validité ou lorsqu’un renouvellement est nécessaire.
+
+## Qualifications réservées
+
+Des emplacements visibles sont réservés à des activités futures ou non encore raccordées : diplôme d’académie, break à la verticale, armes du F-15C, navigation et retour sur porte-avions.
+
+Un verrouillage peut simplement indiquer que l’entraînement ou son système de score n’est pas encore disponible.
+
+## Où les consulter
+
+Les qualifications figurent dans le carnet de vol. Leur attribution peut déclencher un message immédiat ou une notification rejouée plus tard dans le carnet.

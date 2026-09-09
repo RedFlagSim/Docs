@@ -17,6 +17,18 @@ import twsMissileActiveImage from '/assets/F-15C/Radar/tws-missile-active-number
 import floodVsdImage from '/assets/F-15C/Radar/flood-vsd.png'
 </script>
 
+## Index des modes radar
+
+<div class="term-cloud tac-editor-index">
+  <a href="#radar-lrs">1 Recherche à longue portée (LRS)</a>
+  <a href="#radar-stt">2 Poursuite d’une cible unique (STT)</a>
+  <a href="#radar-tws">3 Poursuite sur balayage (TWS)</a>
+  <a href="#radar-close-range">4 Acquisition automatique rapprochée et Flood</a>
+  <a href="#radar-workflow">5 Procédure pratique</a>
+</div>
+
+<a id="radar-lrs"></a>
+
 ## Recherche à longue portée (LRS)
 
 Le LRS recherche les cibles aériennes éloignées avant le verrouillage et indique leur relèvement et leur distance par rapport à votre avion. Une échelle VSD de **40 à 80 milles nautiques** permet habituellement d’observer les échos lointains ; cette échelle ne garantit pas la détection de toutes les cibles à cette distance.
@@ -222,6 +234,8 @@ La couverture va de **10°** à **120°**. Ce réglage modifie la largeur en azi
 `T 589` indique 589 nœuds de vitesse vraie par rapport à l’air. Cette donnée diffère de la vitesse sol du numéro 7, même si les valeurs sont ici identiques.
 
 [Retour à l’index numéroté](#lrs-index)
+
+<a id="radar-stt"></a>
 
 ## Poursuite d’une cible unique (STT)
 
@@ -455,6 +469,8 @@ Le missile peut manquer de temps pour accélérer. Même en cas d’impact, votr
 
 [Retour à l’index numéroté](#stt-index)
 
+<a id="radar-tws"></a>
+
 ## Poursuite sur balayage (TWS)
 
 TWS maintient plusieurs pistes tout en poursuivant le balayage. Il s’utilise principalement à moins de 40 milles nautiques, surtout pour AIM-120.
@@ -594,6 +610,8 @@ Un symbole vide avec vecteur représente un SDT, désigné mais non PDT courant.
 
 L’étoile à cinq branches est le PDT et sa longue ligne indique la direction de vitesse. La porte l’encadre ici. Les données cible et les calculs d’armes du VSD portent sur ce PDT.
 
+Après la désignation d’un PDT, le curseur l’encadre automatiquement et suit son déplacement. Vous pouvez éloigner le curseur manuellement ; lorsque vous le ramenez à proximité du PDT, il s’y accroche automatiquement et l’encadre de nouveau. Tant que le curseur encadre le PDT, le radar centre sa plage de balayage en azimut sur l’azimut du PDT et sa plage de balayage en site sur son élévation. Dans cet état, certains fichiers de piste situés hors du volume balayé peuvent ne plus être actualisés et être supprimés.
+
 Un seul PDT existe ; les autres cibles désignées restent SDT. La différence est la priorité, pas un verrouillage STT.
 
 [Retour à l’index numéroté](#tws-designated-index)
@@ -722,6 +740,8 @@ Ces temps et progressions reposent sur les conditions au lancement. Manœuvres e
 
 [Retour à l’index numéroté](#tws-missile-active-index)
 
+<a id="radar-close-range"></a>
+
 ## Acquisition automatique rapprochée et Flood
 
 Le balayage automatique et l’illumination Flood se réfèrent à **l’axe longitudinal de l’avion** et suivent son attitude ; LRS et TWS utilisent le **plan horizontal stabilisé par cardan**.
@@ -806,6 +826,8 @@ En Flood, `FLOOD` apparaît en haut à gauche du VSD et la grille disparaît. L�
   </a>
   <figcaption>VSD en Flood (cliquer pour l’original)</figcaption>
 </figure>
+
+<a id="radar-workflow"></a>
 
 ## Procédure pratique
 

@@ -323,6 +323,12 @@ Un Slot representa una aeronave de un Flight. Selecciona una aeronave en el diag
 
 [Volver arriba](#tac-editor-top)
 
+### Tipos de aparición
+
+Airbase usa un aeródromo y estacionamiento; es la opción predeterminada más segura para el jugador. Airborne usa latitud, longitud, altitud, rumbo verdadero y velocidad calibrada. Surface se usa para entidades terrestres, navales e instalaciones.
+
+Surface no está implementado para Slot de aviones normales: utiliza Airbase o Airborne. En vuelo, 0 es el norte verdadero y el rumbo aumenta en sentido horario. En una base, el estacionamiento determina posición, orientación y estado inicial en tierra.
+
 <a id="part-4"></a>
 
 ## Parte 4: Planes de vuelo
@@ -355,6 +361,18 @@ Para una patrulla de cisterna o alerta temprana, coloca dos puntos de tipo Targe
 
 [Volver arriba](#tac-editor-top)
 
+### Rutas y puntos
+
+Las rutas se construyen con puntos para salida, espera, interceptación, objetivo, recuperación o circuitos de entrenamiento.
+
+- Comenzar en la base de salida o punto inicial aéreo.
+- Separar claramente los puntos.
+- Marcar deliberadamente objetivos tácticos y puntos de inicio de ataque.
+- Evitar rutas bajas a través del terreno salvo que sea el objetivo del entrenamiento.
+- Revisar horarios al cambiar distancia o velocidad de crucero.
+
+La navegación y las pantallas del F-15C leen estos datos; unos puntos claros mejoran su uso en cabina.
+
 <a id="part-5"></a>
 
 ## Parte 5: Objetos del mapa
@@ -366,6 +384,8 @@ Para una patrulla de cisterna o alerta temprana, coloca dos puntos de tipo Targe
   <a href="#part-5-np-unit-list">Lista de NP Unit</a>
 </div>
 
+<a id="bullseye-and-geofences"></a>
+
 ### Bullseye
 
 **Bullseye** es un punto de referencia geográfico común para comunicar direcciones y distancias. Los círculos concéntricos amarillos señalan su posición en el mapa.
@@ -375,6 +395,10 @@ Los anillos de distancia del mapa están centrados en Bullseye. Los radios de do
 ### Geo Fence
 
 Abre Geo Fence desde el resumen de la misión y selecciona una zona. Los círculos y polígonos tienen controles de geometría diferentes.
+
+Bullseye es la referencia común de comunicaciones tácticas y aviónica. Sitúalo cerca del área operativa, centro del campo de tiro o referencia conocida.
+
+Las geocercas son superposiciones y límites para zonas de entrenamiento, espacio restringido, anillos de amenaza, objetivos, corredores de entrada/salida y zonas de prohibición de fuego o vuelo. Incluso sin imponer reglas, aclaran la situación táctica.
 
 <a id="part-5-geofence-list"></a>
 
@@ -453,6 +477,8 @@ NP Unit en el resumen de la misión abre la lista Units para gestionar unidades 
 
 [Volver arriba](#tac-editor-top)
 
+Las entidades no jugables fuera de Package/Flight sirven para emplazamientos SAM, unidades terrestres, buques, instalaciones, blancos y aviones independientes. Para seguir una ruta o volar en formación, usa Flight; para objetos estáticos o tácticos del mapa, entidades no jugables.
+
 <a id="part-6"></a>
 
 ## Parte 6: Ajustes de la misión
@@ -464,6 +490,30 @@ Toca dos veces una zona vacía del mapa para abrir el panel de información de l
 
 [Volver arriba](#tac-editor-top)
 
+### Estructura de misión
+
+- Mission: título, dificultad, escenario, tiempo/meteorología, bases azules y rojas, bullseye, restricciones y opciones globales.
+- Package: grupo de una coalición con referencias de despegue y hora sobre objetivo.
+- Flight: formación con indicativo, bando, base, función, ruta, comportamiento IA y Slot.
+- Slot: un avión, incluido el del jugador.
+- Steerpoints: puntos de navegación y planificación temporal.
+- GeoFence: límites tácticos, zonas de entrenamiento o amenaza y referencias.
+- Entidades no jugables: unidades terrestres, navales, instalaciones o aviones independientes ajenos al Package.
+
+El editor guarda un borrador. Go Fly lo clona como instantánea de ejecución antes de cargar la escena World.
+
+### Ajustes de misión
+
+Definen el entorno y los cambios permitidos antes de empezar. El título aparece en el editor y listas. Scenery es el contexto de terreno y bases, de solo lectura en el Inspector. Tiempo y meteorología se aplican al iniciar World. Las bases azules/rojas son valores de nuevos Flight/Slot. Bullseye es la referencia común y los permisos controlan cambios de carga, pintura y tiempo.
+
+Confirma escenario y bases pronto: los valores posteriores, incluidas bases de Flight y puntos generados, dependen de ellos.
+
+### Restricciones de misión
+
+Limitan aeronaves y cargas por generación/época y tipo de arma o guiado, como infrarrojo, radar semiactivo, activo, pasivo y televisión.
+
+Una práctica solo de cañón debe restringir misiles; una lección BVR debe limitar aviones y armas a la configuración prevista.
+
 <a id="part-7"></a>
 
 ## Parte 7: Guardado y vuelo de prueba
@@ -474,3 +524,39 @@ Revisa los Flight, los Slot de las aeronaves y las rutas antes de guardar y real
 - [Go Fly](#item-11-6): iniciar la misión actual y comprobar que la configuración funciona como esperas.
 
 [Volver arriba](#tac-editor-top)
+
+
+### Flujo recomendado
+
+1. Confirmar escenario y bases azules/rojas predeterminadas.
+2. Definir título, nivel, tiempo, meteorología, bullseye y opciones.
+3. Crear Package azules y rojos.
+4. Añadir Flight y asignar funciones.
+5. Añadir Slot y elegir tipo, aparición, pintura, combustible y carga.
+6. Construir rutas con puntos.
+7. Añadir geocercas y entidades no jugables.
+8. Revisar restricciones y acceso del jugador.
+9. Guardar y probar con Go Fly.
+
+Itera en pasos pequeños. Una misión que arranca con una formación del jugador es más fácil de depurar que muchas unidades sin probar.
+
+### Guardar, cargar y Go Fly
+
+Guardar y cargar conserva borradores reutilizables. Prueba después de cambios importantes, especialmente avión, aparición, horarios o restricciones.
+
+Antes de World, el flujo común Go Fly verifica datos presentes, exactamente un avión de jugador identificable, acceso a su módulo, creación de la instantánea y permiso para funciones, variantes y paquetes de pintura no predeterminados.
+
+Si falla, simplifica a un avión jugador, aparición en base, carga y pintura predeterminadas; después añade complejidad gradualmente.
+
+### Lista práctica
+
+- Título y escenario claros.
+- Bases azules/rojas válidas.
+- Bullseye cerca del área táctica.
+- Exactamente un Slot jugador.
+- Aparición del jugador Airbase o Airborne.
+- Cada Flight tiene indicativo, bando, función y ruta.
+- Carga y pintura cumplen los permisos.
+- Geocercas y objetivos visualmente claros.
+- Restricciones acordes al entrenamiento.
+- Al menos una prueba con Go Fly.

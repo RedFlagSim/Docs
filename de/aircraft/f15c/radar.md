@@ -17,6 +17,18 @@ import twsMissileActiveImage from '/assets/F-15C/Radar/tws-missile-active-number
 import floodVsdImage from '/assets/F-15C/Radar/flood-vsd.png'
 </script>
 
+## Übersicht der Radarmodi
+
+<div class="term-cloud tac-editor-index">
+  <a href="#radar-lrs">1 Langstreckensuche (LRS)</a>
+  <a href="#radar-stt">2 Einzelzielverfolgung (STT)</a>
+  <a href="#radar-tws">3 Verfolgung während der Suche (TWS)</a>
+  <a href="#radar-close-range">4 Nahbereichs-Autoerfassung und Flood</a>
+  <a href="#radar-workflow">5 Praktischer Ablauf</a>
+</div>
+
+<a id="radar-lrs"></a>
+
 ## Langstreckensuche (LRS)
 
 LRS sucht vor der Zielaufschaltung nach entfernten Luftzielen und liefert Peilung und Entfernung zum eigenen Flugzeug. Üblich ist eine VSD-Skala von **40–80 Seemeilen**. Das ist der Darstellungsbereich, keine garantierte Erfassungsreichweite für jedes Ziel.
@@ -222,6 +234,8 @@ Der Bereich reicht von **10°** bis **120°**. Dies verändert die Azimutbreite,
 `T 589` bedeutet 589 Knoten wahre Fluggeschwindigkeit relativ zur Luft. Sie unterscheidet sich von der Geschwindigkeit über Grund (7), auch wenn beide hier gleich sind.
 
 [Zurück zum Nummernindex](#lrs-index)
+
+<a id="radar-stt"></a>
 
 ## Einzelzielverfolgung (STT)
 
@@ -455,6 +469,8 @@ Der Flugkörper kann möglicherweise nicht rechtzeitig beschleunigen. Selbst bei
 
 [Zurück zum Nummernindex](#stt-index)
 
+<a id="radar-tws"></a>
+
 ## Verfolgung während der Suche (TWS)
 
 TWS hält mehrere Zielspuren bei fortlaufender Suche. Es arbeitet vorwiegend innerhalb 40 Seemeilen und unterstützt hauptsächlich AIM-120.
@@ -594,6 +610,8 @@ Ein offenes Symbol mit Vektor ist ein SDT: zugewiesen, aber nicht aktuelles PDT.
 
 Der fünfzackige Stern ist das PDT; die lange Linie zeigt die Geschwindigkeitsrichtung. Hier liegt das Tor darüber. VSD-Zieldaten und Waffenberechnungen beziehen sich auf dieses Hauptziel.
 
+Nach der Bestimmung eines PDT umschließt der Cursor das Ziel automatisch und folgt seiner Bewegung. Sie können den Cursor manuell wegbewegen; sobald Sie ihn wieder in die Nähe des PDT bewegen, rastet er automatisch ein und umschließt das Ziel erneut. Solange der Cursor das PDT umschließt, zentriert das Radar seinen Azimut-Suchbereich auf den Azimut des PDT und seinen Elevations-Suchbereich auf dessen Elevation. In diesem Zustand erhalten einige Track-Dateien außerhalb des Suchbereichs möglicherweise keine Aktualisierungen mehr und werden verworfen.
+
 Nur ein PDT ist möglich; die anderen zugewiesenen Ziele bleiben SDTs. Der Unterschied ist Priorität, nicht STT-Aufschaltung.
 
 [Zurück zum Nummernindex](#tws-designated-index)
@@ -722,6 +740,8 @@ Zeit und Fortschritt basieren auf Startbedingungen. Zielmanöver und Gegenmaßna
 
 [Zurück zum Nummernindex](#tws-missile-active-index)
 
+<a id="radar-close-range"></a>
+
 ## Nahbereichs-Autoerfassung und Flood
 
 Autoerfassung und Flood-Beleuchtung beziehen sich auf die **Flugzeuglängsachse** und folgen der Fluglage. LRS und TWS nutzen die **kardanisch stabilisierte Horizontalebene**.
@@ -806,6 +826,8 @@ In Flood erscheint links oben `FLOOD`, das Entfernungsgitter entfällt. Horizont
   </a>
   <figcaption>VSD in Flood (Originalbild anklicken)</figcaption>
 </figure>
+
+<a id="radar-workflow"></a>
 
 ## Praktischer Ablauf
 

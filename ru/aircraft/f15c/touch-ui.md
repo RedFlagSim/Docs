@@ -6,10 +6,7 @@
 
 ### Navigation Mode
 
-![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
-
-- **30** Тач-стик
-- **31** Ручка трима
+![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode.png)
 
 ### AA Mode
 
@@ -19,36 +16,37 @@
 
 ## UI 编号
 
-<div class="term-cloud">
-  <a href="#item-1">1 功能面板</a>
-  <a href="#item-2">2 模式切换</a>
-  <a href="#item-3">3 UI 元素编辑</a>
-  <a href="#item-4">4 主菜单</a>
-  <a href="#item-5">5 输入指示器</a>
-  <a href="#item-6">6 起落架开关</a>
-  <a href="#item-7">7 襟翼开关</a>
-  <a href="#item-8">8 油门</a>
-  <a href="#item-9">9 油门模式开关</a>
-  <a href="#item-10">10 减速板开关</a>
-  <a href="#item-11">11 显示 MFD</a>
-  <a href="#item-12">12 显示战术地图</a>
-  <a href="#item-13">13 paddle 开关</a>
-  <a href="#item-14">14 Плавающий MFD</a>
-  <a href="#item-15">15 舵</a>
-  <a href="#item-16">16 padlock</a>
-  <a href="#item-17">17 相机切换菜单</a>
-  <a href="#item-18">18 Cursor</a>
-  <a href="#item-19">19 castle 开关</a>
-  <a href="#item-20">20 状态栏</a>
-  <a href="#item-21">21 chaff/flare 释放</a>
-  <a href="#item-22">22 主武器开关</a>
-  <a href="#item-23">23 机炮板机</a>
-  <a href="#item-24">24 武器选择开关</a>
-  <a href="#item-25">25 antenna elevation</a>
-  <a href="#item-26">26 coolie 开关</a>
-  <a href="#item-27">27 武器释放</a>
-  <a href="#item-28">28 auto acquisition 开关</a>
-</div>
+| № | Орган управления | Основная функция |
+| --- | --- | --- |
+| 1 | [功能面板](#item-1) | Открыть панели MAIN, NAV, HUD и MISC |
+| 2 | [模式切换](#item-2) | Переключить режимы NAV и AA |
+| 4 | [主菜单](#item-4) | Открыть настройки самолёта, параметры игры и миссии |
+| 5 | [输入指示器](#item-5) | Показать управляющий ввод и положения триммеров |
+| 6 | [起落架开关](#item-6) | Выпустить или убрать шасси |
+| 7 | [襟翼开关](#item-7) | Выпустить или убрать закрылки |
+| 8 | [油门](#item-8) | Регулировать тягу; перейти к управлению одним двигателем |
+| 9 | [油门模式开关](#item-9) | Выбрать ручной режим тяги, удержание IAS или оптимального угла атаки |
+| 10 | [减速板开关](#item-10) | Выпустить, остановить или убрать воздушный тормоз |
+| 11 | [显示 MFD](#item-11) | Удерживать для наведения вида из кабины на VSD или MPCD |
+| 12 | [显示战术地图](#item-12) | Показать тактическую карту в полёте |
+| 13 | [paddle 开关](#item-13) | Удерживать для временного отключения автопилота |
+| 14 | [Плавающий MFD](#item-14) | Показать до трёх плавающих MFD без смены вида |
+| 15 | [舵](#item-15) | Управлять рулём направления, передней стойкой и колёсными тормозами |
+| 16 | [padlock](#item-16) | Зафиксировать взгляд на ближайшем объекте |
+| 17 | [相机切换菜单](#item-17) | Сменить вид или открыть меню камер |
+| 18 | [Cursor](#item-18) | Перемещать курсор VSD/SIT и назначать цели |
+| 19 | [castle 开关](#item-19) | Выбрать активный сенсор (SOI) и управлять страницами дисплеев |
+| 20 | [状态栏](#item-20) | Показать FPS, ветер, массу самолёта, время и состояние автопилота |
+| 21 | [chaff/flare 释放](#item-21) | Выпустить дипольные отражатели и ИК-ловушки |
+| 22 | [主武器开关](#item-22) | Разрешить применение оружия |
+| 23 | [机炮板机](#item-23) | Открыть огонь из выбранной пушки |
+| 24 | [武器选择开关](#item-24) | Выбрать категорию оружия и переключать ракеты |
+| 25 | [antenna elevation](#item-25) | Регулировать угол места антенны радара |
+| 26 | [coolie 开关](#item-26) | Управлять тактическими страницами и дисплеями |
+| 27 | [武器释放](#item-27) | Запустить выбранную ракету или сбросить подвеску |
+| 28 | [auto acquisition 开关](#item-28) | Переключать STBY/LRS, режимы автозахвата или включать FLOOD |
+| 30 | [Тач-стик](#item-30) | Управлять тангажом и креном |
+| 31 | [Триммер](#item-31) | Регулировать триммирование самолёта |
 
 ## 详细解释
 
@@ -406,34 +404,21 @@
 
 [返回顶部](#ui-terms-top)
 
+<a id="item-30"></a>
+### 30. Тач-стик
+
+Перетаскивайте тач-стик для управления тангажом и креном самолёта.
+
+[返回顶部](#ui-terms-top)
+
+<a id="item-31"></a>
+### 31. Триммер
+
+Используйте этот орган управления для регулировки триммирования самолёта.
+
+[返回顶部](#ui-terms-top)
+
 <style scoped>
-.term-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 12px 0 6px;
-}
-
-.term-cloud a {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  text-decoration: none;
-  line-height: 1.2;
-  font-size: 13px;
-  transition: border-color .16s ease, background-color .16s ease, transform .16s ease;
-}
-
-.term-cloud a:hover {
-  border-color: var(--vp-c-divider);
-  background: var(--vp-c-bg-elv);
-  transform: translateY(-1px);
-}
-
 .panel-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

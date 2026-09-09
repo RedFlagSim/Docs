@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useData, withBase } from 'vitepress'
+import { uiForLanguage } from '../../ui-locales'
 
 const { frontmatter, lang } = useData()
 const isHome = computed(() => frontmatter.value.layout === 'home')
@@ -69,12 +70,13 @@ const copies: Record<string, FooterCopy> = {
   }
 }
 
+const ui = computed(() => uiForLanguage(lang.value))
 const copy = computed(() => copies[lang.value] ?? copies['en-US'])
 const groups = computed(() => {
   const prefix = copy.value.prefix
   return [
     {
-      title: 'Docs',
+      title: ui.value.docs,
       links: [
         [copy.value.docs[0], `${prefix}/Docs/basics/mobile-platform`],
         [copy.value.docs[1], `${prefix}/Docs/game/index`],
@@ -83,7 +85,7 @@ const groups = computed(() => {
       ]
     },
     {
-      title: 'Dev Blog',
+      title: ui.value.blog,
       links: [
         [copy.value.blog[0], `${prefix}/blog/`],
         [copy.value.blog[1], `${prefix}/blog/2026-08-11-platform-roadmap`],
@@ -91,7 +93,7 @@ const groups = computed(() => {
       ]
     },
     {
-      title: 'Support',
+      title: ui.value.support,
       links: [
         [copy.value.support[0], `${prefix}/support/`],
         [copy.value.support[1], `${prefix}/feedback`],
@@ -109,7 +111,7 @@ const hrefFor = (href: string) => isAbsolute(href) ? href : withBase(href)
 </script>
 
 <template>
-  <footer v-if="isHome" class="rfs-site-footer" aria-label="Sitemap">
+  <footer v-if="isHome" class="rfs-site-footer" :aria-label="ui.sitemap">
     <div class="rfs-site-footer__container">
       <section v-for="group in groups" :key="group.title" class="rfs-site-footer__group">
         <h2>{{ group.title }}</h2>

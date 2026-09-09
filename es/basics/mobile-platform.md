@@ -2,26 +2,53 @@
 
 Este documento se aplica a dispositivos móviles iOS/Android.
 
-## Regla de oro: Sujeción vertical
+## Regla básica: sujetar la pantalla verticalmente
 
-**Este es el paso esencial para establecer un control preciso de la actitud de vuelo:**
+Este es el paso fundamental para controlar la actitud con precisión:
 
-![Diagrama de postura de sujeción](/assets/tilt-guide.png)
+![Regla básica: sujetar la pantalla verticalmente](/assets/tilt-guide.png)
 
-*   **❌ INCORRECTO**: Sostener el teléfono en posición horizontal o plana. Esto anula los algoritmos de actitud y limita drásticamente el recorrido físico de las muñecas para el control del cabeceo.
-*   **✅ CORRECTO**: Sujeta el dispositivo con ambas manos, manteniendo la pantalla **perpendicular al suelo** (orientada directamente hacia ti).
+- ❌ INCORRECTO: sujetar el teléfono plano u horizontal. En esta posición se acoplan los ejes de alabeo y guiñada, dificultando distinguir con fiabilidad las órdenes de alabeo.
+- ✅ POSICIÓN NORMAL: sujetar el dispositivo con ambas manos y la pantalla perpendicular al suelo, mirando directamente hacia ti.
 
-### ¿Por qué la sujeción debe ser vertical?
-1.  **Alineación biomecánica**: La orientación vertical replica perfectamente el eje de rotación físico de la palanca central o lateral de un caza real.
-2.  **Sincronización del horizonte**: Alínea tus ojos, la pantalla y el horizonte de la cabina virtual dentro del mismo sistema de referencia espacial, minimizando la desorientación espacial (vértigo) durante maniobras con altas fuerzas G.
-3.  **Rango de movimiento óptimo para micro-maniobras**: En esta postura, las muñecas disponen de manera natural del máximo rango fisiológico para las entradas de cabeceo (adelante/atrás) y alabeo (izquierda/derecha).
+### ¿Por qué debe sujetarse verticalmente?
 
-## Lógica de control
+El control por movimiento necesita distinguir claramente el eje de alabeo. Al colocar el dispositivo plano, los ejes de alabeo y guiñada se acoplan durante el cálculo de actitud y el sistema no puede distinguirlos con fiabilidad. Por eso, la posición vertical debe ser la referencia del control por movimiento.
 
-*   **Control de cabeceo (Pitch - Elevadores)**: Inclina la parte superior del teléfono hacia **atrás** (hacia tu cuerpo) para levantar el morro y ascender; inclínala hacia **adelante** (alejándola de tu cuerpo) para bajar el morro y descender.
-*   **Control de alabeo (Roll - Alerones)**: Gira el teléfono a la izquierda o derecha, de forma similar a como giras el volante de un coche.
+## Entradas de control
 
-## Calibración antes del vuelo y consejos de precisión
+- Cabeceo (timón de profundidad): inclina la parte superior del teléfono hacia atrás, hacia el cuerpo, para levantar el morro y ascender; hacia delante, alejándola del cuerpo, para bajar el morro y descender.
+- Alabeo (alerones): gira el teléfono a izquierda o derecha como un volante.
 
-1.  **Establecer el punto cero (Calibración)**: Antes de entrar en la cabina o iniciar una misión, adopta tu posición de asiento más cómoda, sujeta el dispositivo firmemente en vertical y pulsa **"CALIBRATE"**. El sistema registrará el ángulo actual como tu línea base neutral de punto cero.
-2.  **Estabilizar los controles**: Durante operaciones que requieran alta precisión (como vuelo en formación cerrada, repostaje en vuelo o combate cerrado - dogfight), apoya los codos en las rodillas o en los reposabrazos. Esto ayuda a filtrar las vibraciones de las manos y te permite realizar ajustes ultraprecisos a nivel de subgrados.
+## Joystick táctil virtual
+
+La versión móvil también admite un joystick en pantalla como alternativa al control por movimiento. Selecciona ese modo antes del vuelo si deseas mantener el dispositivo quieto.
+
+![Joystick táctil virtual](/assets/mobile-virtual-stick.jpeg)
+
+- Cabeceo: arrastra el joystick hacia abajo para subir el morro y hacia arriba para bajarlo.
+- Alabeo: arrástralo a izquierda o derecha para girar en la dirección correspondiente.
+- Neutro: al soltarlo vuelve automáticamente al centro.
+
+La posición vertical y la calibración solo se requieren con el control por movimiento. Con el joystick táctil puedes sujetar el dispositivo en cualquier posición cómoda para verlo.
+
+## Preparación y consejos de precisión
+
+1. Establecer la referencia (calibración): tras entrar en cabina o antes de despegar, siéntate cómodamente, sujeta el dispositivo vertical y estable, abre el menú principal y pulsa Calibrate Gyro. El ángulo actual se guardará como punto neutro.
+
+    ![Preparación y consejos de precisión](/assets/mobile-gyro-calibration.jpeg)
+
+2. Estabilizar los controles: en formaciones cerradas, reabastecimiento aéreo o combate cercano, apoya los codos en las rodillas o reposabrazos. Así reduces los temblores y puedes lograr una precisión inferior a un grado.
+
+## Modo de edición de la interfaz táctil
+
+Toca rápidamente cuatro veces seguidas una zona vacía de la pantalla para abrir el editor. También puedes elegir `UI Editor` en el menú principal.
+
+![Modo de edición de la interfaz táctil](/assets/mobile-ui-editor.jpeg)
+
+En el editor puedes:
+
+- Reorganizar controles: seleccionarlos y moverlos para personalizar la disposición.
+- Activar la transparencia: usar `CLEAR MODE` para cambiar a la presentación transparente.
+- Ajustar la opacidad general: reducir cuánto obstruye la interfaz la vista de vuelo.
+- Configurar los MFD flotantes: ajustar el tamaño y la visibilidad de las pantallas multifunción. Consulta la [documentación de la interfaz táctil del F-15C](/es/Docs/aircraft/f15c/touch-ui.html#item-3) para los controles y el panel de edición.

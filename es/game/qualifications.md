@@ -1,11 +1,29 @@
-# Calificaciones
+# Cualificaciones
 
-Las calificaciones muestran que alcanzaste un estándar en una habilidad de vuelo concreta. Algunas son permanentes y otras tienen duración y renovación.
+Las cualificaciones certifican habilidades específicas y demuestran que has cumplido un estándar, por ejemplo en un aterrizaje o reabastecimiento por pértiga.
 
-| Calificación | Condición | Duración |
+## Funcionamiento
+
+El juego comprueba los resultados guardados de la cuenta. Si contienen las pruebas requeridas de la habilidad, añade la cualificación al diario de vuelo.
+
+Algunas son permanentes y otras caducan. Las temporales pueden renovarse antes o después de caducar con una puntuación de renovación inferior.
+
+## Cualificaciones activas
+
+| Cualificación | Requisito | Validez |
 | --- | --- | --- |
-| Pilot Cadet | Iniciar sesión con una cuenta autenticada | Permanente |
-| Airfield Landing | Puntuación de aterrizaje 70000+ | 30 días |
-| Boom Aerial Refueling | Puntuación Boom AAR 70000+ | 30 días |
+| Cadete piloto | Acceder con una cuenta de jugador autenticada | Permanente |
+| Aterrizaje en aeródromo | Puntuación de aterrizaje 70000+ | 30 días |
+| Reabastecimiento aéreo por pértiga | Puntuación de reabastecimiento 70000+ | 30 días |
 
-Airfield Landing y Boom Aerial Refueling se pueden renovar con 60000+. Algunas calificaciones futuras, como Academy, Overhead Break, F-15C weapons, navigation y carrier recovery, pueden seguir bloqueadas hasta que su actividad esté disponible.
+Las de aterrizaje y reabastecimiento pueden renovarse con 60000+ puntos, mientras están vigentes o cuando necesitan renovación.
+
+## Cualificaciones reservadas
+
+Algunas entradas visibles están reservadas para actividades futuras o aún no conectadas: graduación de academia, rotura sobre el aeródromo, armas del F-15C, navegación y recuperación en portaaviones.
+
+Si están bloqueadas, puede que el entrenamiento o su puntuación todavía no estén disponibles.
+
+## Dónde verlas
+
+Aparecen en el diario de vuelo. Una nueva cualificación puede mostrar un aviso inmediato o reproducir su notificación después en el diario.

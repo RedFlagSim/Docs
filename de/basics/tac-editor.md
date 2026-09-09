@@ -323,6 +323,12 @@ Ein Slot steht für ein Flugzeug innerhalb eines Flights. Wähle ein Flugzeug in
 
 [Zurück nach oben](#tac-editor-top)
 
+### Startarten
+
+Airbase verwendet Flugplatz und Stellplatz und ist die sicherste Vorgabe für Spieler. Airborne verwendet Breite, Länge, Höhe, rechtweisenden Kurs und kalibrierte Fluggeschwindigkeit. Surface dient Boden-, Wasser- und Anlagenobjekten.
+
+Surface ist für normale Flugzeug-Slots nicht implementiert; nutze Airbase oder Airborne. In der Luft ist 0 geografisch Nord, im Uhrzeigersinn steigend. Am Flugplatz bestimmt der Stellplatz Position, Ausrichtung und anfänglichen Bodenzustand.
+
 <a id="part-4"></a>
 
 ## Teil 4: Flugplanung
@@ -355,6 +361,18 @@ Setze für eine Tanker- oder Frühwarnpatrouille zwei Wegpunkte vom Typ Target a
 
 [Zurück nach oben](#tac-editor-top)
 
+### Routen und Wegpunkte
+
+Routen bestehen aus Wegpunkten für Abflug, Sammelraum, Abfangen, Ziel, Rückkehr oder Trainingsmuster.
+
+- Am Abflugplatz oder Luftstartpunkt beginnen.
+- Klare Abstände verwenden.
+- Taktische Ziele und Angriffsbeginnpunkte bewusst markieren.
+- Tiefe Routen nicht durch Gelände führen, sofern nicht Trainingsziel.
+- Nach Distanz- oder Reisegeschwindigkeitsänderungen Zeiten prüfen.
+
+Navigation und F-15C-Anzeigen lesen die Missionsroute; saubere Wegpunkte verbessern die Bedienbarkeit im Cockpit.
+
 <a id="part-5"></a>
 
 ## Teil 5: Kartenobjekte
@@ -366,6 +384,8 @@ Setze für eine Tanker- oder Frühwarnpatrouille zwei Wegpunkte vom Typ Target a
   <a href="#part-5-np-unit-list">NP-Unit-Liste</a>
 </div>
 
+<a id="bullseye-and-geofences"></a>
+
 ### Bullseye
 
 **Bullseye** ist ein gemeinsamer geografischer Referenzpunkt für Richtungs- und Entfernungsangaben. Die gelben konzentrischen Kreise markieren seine Position auf der Karte.
@@ -375,6 +395,10 @@ Die Entfernungsringe auf der Karte sind um Bullseye zentriert. Die Radien benach
 ### Geo Fence
 
 Öffne Geo Fence in der Missionsübersicht und wähle einen Bereich aus. Kreis und Polygon besitzen unterschiedliche Geometriewerkzeuge.
+
+Bullseye ist die gemeinsame Referenz für taktische Funksprüche und Avionik. Platziere es sinnvoll nahe Einsatzgebiet, Übungsplatzmitte oder bekanntem Merkmal.
+
+Geofences sind Kartenüberlagerungen und Grenzen für Trainingsräume, Sperrgebiete, Bedrohungsringe, Zielgebiete, An-/Abflugkorridore sowie Feuer- oder Flugverbotszonen. Auch ohne erzwungene Spielregeln verdeutlichen sie die Lage.
 
 <a id="part-5-geofence-list"></a>
 
@@ -453,6 +477,8 @@ NP Unit in der Missionsübersicht öffnet die Liste Units für Einheiten außerh
 
 [Zurück nach oben](#tac-editor-top)
 
+Nichtspielerobjekte außerhalb von Package/Flight eignen sich für SAM-Stellungen, Bodeneinheiten, Schiffe, Anlagen, Übungsziele oder unabhängige Flugzeuge. Routen- und Formationsflug gehört bevorzugt in Package-Flights, statische und taktische Kartenobjekte zu Nichtspielerobjekten.
+
 <a id="part-6"></a>
 
 ## Teil 6: Missionseinstellungen
@@ -464,6 +490,30 @@ Tippe zweimal auf eine freie Stelle der Karte, um die Missionsübersicht zu öff
 
 [Zurück nach oben](#tac-editor-top)
 
+### Missionsstruktur
+
+- Mission: Titel, Schwierigkeit, Szenerie, Wetter/Zeit, blaue/rote Basen, Bullseye, Einschränkungen und globale Optionen.
+- Package: Einsatzgruppe einer Koalition mit Start- und Zielzeitreferenzen.
+- Flight: Formation mit Rufzeichen, Seite, Basis, Rolle, Route, KI-Verhalten und Flugzeug-Slots.
+- Slot: ein Flugzeug, einschließlich Spielerflugzeug.
+- Steerpoints: Punkte für Navigation und Zeitplanung.
+- GeoFence: taktische Grenzen, Trainings- und Bedrohungsräume oder Referenzen.
+- Nichtspielerobjekte: Boden-, Wasser-, Anlagen- oder unabhängige Lufteinheiten außerhalb eines Package.
+
+Der Editor speichert einen Entwurf. Go Fly klont ihn vor Laden der World-Szene in einen Laufzeit-Missionsstand.
+
+### Missionseinstellungen
+
+Sie bestimmen Umgebung und erlaubte Änderungen vor dem Start. Der Titel erscheint in Editor und Listen. Scenery ist der Gelände-/Flugplatzkontext und im Inspector schreibgeschützt. Wetter/Zeit gelten beim World-Start. Blaue/rote Basen sind Vorgaben neuer Flights/Slots. Bullseye dient als gemeinsame Referenz; Berechtigungen regeln Änderungen an Beladung, Lackierung und Wetter.
+
+Szenerie und Basen früh festlegen: spätere Vorgaben wie Flight-Basis und erzeugte Wegpunkte hängen davon ab.
+
+### Missionseinschränkungen
+
+Sie begrenzen Flugzeuge und Beladung nach Generation/Epoche und Waffen- oder Lenkungsart, etwa IR, halbaktivem, aktivem, passivem Radar oder TV-Lenkung.
+
+Ein reines Kanonentraining sollte Raketen verbieten; eine BVR-Lektion sollte Flugzeuge und Waffen auf das vorgesehene Setup begrenzen.
+
 <a id="part-7"></a>
 
 ## Teil 7: Speichern und Testflug
@@ -474,3 +524,39 @@ Prüfe Flights, Flugzeug-Slots und Routen, bevor du die Mission speicherst und e
 - [Go Fly](#item-11-6): Aktuelle Mission starten und prüfen, ob die Einstellungen wie vorgesehen funktionieren.
 
 [Zurück nach oben](#tac-editor-top)
+
+
+### Empfohlener Ablauf
+
+1. Szenerie und blaue/rote Standardbasen bestätigen.
+2. Titel, Fähigkeitsstufe, Wetter, Zeit, Bullseye und Optionen einstellen.
+3. Blaue und rote Packages erstellen.
+4. Flights hinzufügen und Rollen zuweisen.
+5. Slots hinzufügen, Typ, Startart, Lackierung, Kraftstoff und Beladung wählen.
+6. Wegpunktrouten bauen.
+7. Geofences und Nichtspielerobjekte ergänzen.
+8. Einschränkungen und Spielerzugriff prüfen.
+9. Speichern und mit Go Fly testen.
+
+In kleinen Schritten arbeiten: Ein funktionierender Spieler-Flight ist leichter zu prüfen als viele ungetestete Einheiten.
+
+### Speichern, Laden und Go Fly
+
+Speichern/Laden bewahrt wiederverwendbare Entwürfe. Nach größeren Änderungen an Flugzeug, Startart, Routenzeit oder Einschränkungen testen.
+
+Vor World prüft der gemeinsame Go-Fly-Startablauf Missionsdaten, genau ein bestimmbares Spielerflugzeug, Modulzugriff, Erstellbarkeit des Missionsstands sowie Freigabe der gewählten Funktionen, Varianten und zusätzlichen Lackierungspakete.
+
+Bei Fehlern vereinfachen: ein Spielerflugzeug, Flugplatzstart, Standardbeladung und -lackierung. Danach Komplexität schrittweise hinzufügen.
+
+### Praktische Checkliste
+
+- Klarer Titel und Szenerie.
+- Gültige blaue/rote Basen.
+- Bullseye nahe dem taktischen Gebiet.
+- Genau ein Spieler-Slot.
+- Spielerstart Airbase oder Airborne.
+- Jeder Flight mit Rufzeichen, Seite, Rolle und Route.
+- Beladung und Lackierung entsprechen Berechtigungen.
+- Geofences und Zielräume gut sichtbar.
+- Einschränkungen passen zum Trainingsziel.
+- Mindestens einmal mit Go Fly getestet.

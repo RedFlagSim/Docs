@@ -17,6 +17,18 @@ import twsMissileActiveImage from '/assets/F-15C/Radar/tws-missile-active-number
 import floodVsdImage from '/assets/F-15C/Radar/flood-vsd.png'
 </script>
 
+## Radar mode index
+
+<div class="term-cloud tac-editor-index">
+  <a href="#radar-lrs">1 Long Range Search (LRS)</a>
+  <a href="#radar-stt">2 Single Target Track (STT)</a>
+  <a href="#radar-tws">3 Track While Scan (TWS)</a>
+  <a href="#radar-close-range">4 Close-range auto acquisition and Flood</a>
+  <a href="#radar-workflow">5 Practical workflow</a>
+</div>
+
+<a id="radar-lrs"></a>
+
 ## Long Range Search (LRS)
 
 LRS searches for distant airborne targets before lock-on, showing their bearing and range relative to ownship for subsequent acquisition and tracking. A VSD display range of **40–80 nautical miles** is commonly used to observe distant returns. This is the display scale, not a guarantee of detection at that range for every target.
@@ -222,6 +234,8 @@ Azimuth coverage ranges from **10°** to **120°**. This changes scan width, not
 `T 589` indicates an ownship true airspeed of 589 knots relative to the surrounding air. This differs from ground speed in item 7, even when the two values happen to match.
 
 [Back to numbered index](#lrs-index)
+
+<a id="radar-stt"></a>
 
 ## Single Target Track (STT)
 
@@ -455,6 +469,8 @@ At very short range, the missile may not accelerate to the required speed in tim
 
 [Back to numbered index](#stt-index)
 
+<a id="radar-tws"></a>
+
 ## Track While Scan (TWS)
 
 TWS maintains multiple target tracks while continuing to scan. It is primarily used within 40 nautical miles and mainly supports AIM-120 employment.
@@ -594,6 +610,8 @@ An open target symbol with a direction vector represents an SDT: designated, but
 
 The five-pointed star is the PDT and its long forward line indicates velocity direction. The gate is over the target in this image. As the primary target of interest and engagement, the PDT is the basis for VSD target data and weapon calculations.
 
+After a PDT is designated, the cursor automatically encloses it and follows its movement. You can move the cursor away manually; when you move it back near the PDT, it automatically snaps onto and encloses the target again. While the cursor encloses the PDT, the radar centers its azimuth scan range on the PDT's azimuth and its elevation scan range on the PDT's elevation. In this state, some track files outside the scanned volume may stop receiving updates and be dropped.
+
 There is only one PDT; other designated targets remain SDTs. The distinction is designation priority, not whether one target is in STT.
 
 [Back to numbered index](#tws-designated-index)
@@ -722,6 +740,8 @@ These time and progress cues are calculated from conditions at launch. Target ma
 
 [Back to numbered index](#tws-missile-active-index)
 
+<a id="radar-close-range"></a>
+
 ## Close-range auto acquisition and Flood
 
 Auto-acquisition scans and Flood illumination are referenced to the **aircraft longitudinal axis** and follow aircraft attitude. LRS and TWS instead reference the **gimbal-stabilized horizontal plane**.
@@ -806,6 +826,8 @@ In Flood, the VSD changes as shown: `FLOOD` appears at the upper left and the ra
   </a>
   <figcaption>VSD in Flood mode (click for original image)</figcaption>
 </figure>
+
+<a id="radar-workflow"></a>
 
 ## Practical workflow
 

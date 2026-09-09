@@ -6,10 +6,7 @@ Diese Seite gilt für iOS- und Android-Touchgeräte.
 
 ### Navigation Mode
 
-![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
-
-- **30** Touch-Stick
-- **31** Trimmung
+![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode.png)
 
 ### AA Mode
 
@@ -19,36 +16,37 @@ Diese Seite gilt für iOS- und Android-Touchgeräte.
 
 ## UI-Nummern
 
-<div class="term-cloud">
-  <a href="#item-1">1 Funktionspanel</a>
-  <a href="#item-2">2 Modusumschalter</a>
-  <a href="#item-3">3 UI-Element bearbeiten</a>
-  <a href="#item-4">4 Hauptmenü</a>
-  <a href="#item-5">5 Eingabeanzeige</a>
-  <a href="#item-6">6 Fahrwerksschalter</a>
-  <a href="#item-7">7 Klappenschalter</a>
-  <a href="#item-8">8 Schubhebel</a>
-  <a href="#item-9">9 Schubhebel-Modusschalter</a>
-  <a href="#item-10">10 Luftbremsenschalter</a>
-  <a href="#item-11">11 MFD anzeigen</a>
-  <a href="#item-12">12 Tac Map anzeigen</a>
-  <a href="#item-13">13 Paddle-Schalter</a>
-  <a href="#item-14">14 Schwebendes MFD</a>
-  <a href="#item-15">15 Seitenruder</a>
-  <a href="#item-16">16 Padlock</a>
-  <a href="#item-17">17 Kameraumschaltmenü</a>
-  <a href="#item-18">18 Cursor</a>
-  <a href="#item-19">19 Castle-Schalter</a>
-  <a href="#item-20">20 Statusleiste</a>
-  <a href="#item-21">21 Chaff/Flare-Ausstoß</a>
-  <a href="#item-22">22 Master-Arm-Schalter</a>
-  <a href="#item-23">23 Bordkanonen-Abzug</a>
-  <a href="#item-24">24 Waffenwahlschalter</a>
-  <a href="#item-25">25 Antenna Elevation</a>
-  <a href="#item-26">26 Coolie-Schalter</a>
-  <a href="#item-27">27 Waffenfreigabe</a>
-  <a href="#item-28">28 Auto-Acquisition-Schalter</a>
-</div>
+| Nr. | Bedienelement | Hauptfunktion |
+| --- | --- | --- |
+| 1 | [Funktionspanel](#item-1) | Funktionsfelder MAIN, NAV, HUD und MISC öffnen |
+| 2 | [Modusumschalter](#item-2) | Zwischen NAV und AA umschalten |
+| 4 | [Hauptmenü](#item-4) | Flugzeugkonfiguration, Einstellungen und Missionsoptionen öffnen |
+| 5 | [Eingabeanzeige](#item-5) | Steuereingaben und Trimmpositionen anzeigen |
+| 6 | [Fahrwerksschalter](#item-6) | Fahrwerk aus- oder einfahren |
+| 7 | [Klappenschalter](#item-7) | Klappen aus- oder einfahren |
+| 8 | [Schubhebel](#item-8) | Schub einstellen; zur Einmotor-Schubsteuerung wechseln |
+| 9 | [Schubhebel-Modusschalter](#item-9) | Manuellen, IAS- oder On-Speed-AoA-Schubmodus wählen |
+| 10 | [Luftbremsenschalter](#item-10) | Luftbremse ausfahren, anhalten oder einfahren |
+| 11 | [MFD anzeigen](#item-11) | Gedrückt halten, um die Cockpitsicht auf VSD oder MPCD zu richten |
+| 12 | [Tac Map anzeigen](#item-12) | Taktische Karte während des Flugs anzeigen |
+| 13 | [Paddle-Schalter](#item-13) | Gedrückt halten, um den Autopiloten vorübergehend zu trennen |
+| 14 | [Schwebendes MFD](#item-14) | Bis zu drei schwebende MFDs ohne Sichtwechsel anzeigen |
+| 15 | [Seitenruder](#item-15) | Seitenruder, Bugradlenkung und Radbremsen steuern |
+| 16 | [Padlock](#item-16) | Kamerasicht auf ein nahes Objekt fixieren |
+| 17 | [Kameraumschaltmenü](#item-17) | Kamerasicht wechseln oder Kameramenü öffnen |
+| 18 | [Cursor](#item-18) | VSD/SIT-Cursor bewegen und Ziele zuweisen |
+| 19 | [Castle-Schalter](#item-19) | Aktiven Sensor (SOI) wählen und Anzeigeseiten verwalten |
+| 20 | [Statusleiste](#item-20) | FPS, Wind, Flugzeuggewicht, Zeit und Autopilotstatus anzeigen |
+| 21 | [Chaff/Flare-Ausstoß](#item-21) | Düppel und Leuchtfackeln ausstoßen |
+| 22 | [Master-Arm-Schalter](#item-22) | Waffenfreigabe aktivieren |
+| 23 | [Bordkanonen-Abzug](#item-23) | Ausgewählte Bordkanone abfeuern |
+| 24 | [Waffenwahlschalter](#item-24) | Waffenkategorie wählen und Flugkörper durchschalten |
+| 25 | [Antenna Elevation](#item-25) | Radarantennenelevation einstellen |
+| 26 | [Coolie-Schalter](#item-26) | Taktische Seiten und Anzeigen verwalten |
+| 27 | [Waffenfreigabe](#item-27) | Ausgewählten Flugkörper oder Außenlast auslösen |
+| 28 | [Auto-Acquisition-Schalter](#item-28) | STBY/LRS umschalten, automatische Erfassungsmodi durchlaufen oder FLOOD aktivieren |
+| 30 | [Touch-Stick](#item-30) | Nick- und Rollbewegungen steuern |
+| 31 | [Trimmung](#item-31) | Flugzeugtrimmung einstellen |
 
 ## Detaillierte Erläuterung
 
@@ -405,34 +403,21 @@ Automatische Erfassungsmodi:
 4. **`LR BST` — Long-Range Boresight:** Sucht entlang der Radarvisierlinie mit einem 2,5°-Steuerkreis im HUD, von 3.000 ft bis 40 NM.
 
 [Zurück nach oben](#ui-terms-top)
+<a id="item-30"></a>
+### 30. Touch-Stick
+
+Ziehen Sie den Touch-Stick, um Nick- und Rollbewegungen des Flugzeugs zu steuern.
+
+[Zurück nach oben](#ui-terms-top)
+
+<a id="item-31"></a>
+### 31. Trimmung
+
+Mit diesem Bedienelement passen Sie die Trimmung des Flugzeugs an.
+
+[Zurück nach oben](#ui-terms-top)
+
 <style scoped>
-.term-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 12px 0 6px;
-}
-
-.term-cloud a {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  text-decoration: none;
-  line-height: 1.2;
-  font-size: 13px;
-  transition: border-color .16s ease, background-color .16s ease, transform .16s ease;
-}
-
-.term-cloud a:hover {
-  border-color: var(--vp-c-divider);
-  background: var(--vp-c-bg-elv);
-  transform: translateY(-1px);
-}
-
 .panel-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

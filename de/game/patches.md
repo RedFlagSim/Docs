@@ -1,9 +1,46 @@
 # Patches
 
-Patches sind sammelbare Spielobjekte. Sie sind keine Qualifikation und keine Medaille; nach dem Erhalt bleiben sie in deiner Account-Sammlung.
+Patches sind Sammelobjekte, keine Fertigkeitsnachweise oder Leistungsmedaillen. Nach Erhalt bleiben sie in der Kontosammlung.
 
-In der echten Luftfahrtkultur erscheinen Patches auf Flight Suits, Jacken, Helmen, Ausrüstungstaschen und in Staffelräumen. Sie können eine Staffel, eine Übung, eine Verlegung, einen internen Witz oder einen Karrieremoment darstellen. Der Austausch von Patches zwischen Besatzungen gehört ebenfalls zur Kultur.
+## Patch-Kultur
 
-In Red Flag Sim werden Patches als Teil deiner Account-Sammlung behalten. Sie können über offizielle Events, Modulbelohnungen, besondere Bundles, Store-Belohnungen und zukünftige Community-Aktivitäten vergeben werden.
+Staffelabzeichen gehören in der realen Luftfahrt zum Alltag. Man sieht sie an Fluganzügen, Jacken, Helmen, Ausrüstungstaschen, Bereitschaftsräumen, Einsatztafeln und Staffelwänden.
 
-Wenn du denselben Patch mehrfach erhältst, kann ein zusätzlicher Besitz erhalten bleiben. Das schafft Raum für zukünftige Funktionen wie Sammlungsschau, Austausch und Geschenke. Sobald das Freundessystem verfügbar ist, ist auch das Verschenken von Patches an Freunde geplant.
+Sie erinnern häufig an:
+
+- Eine Staffel oder Einheit.
+- Einen Einsatz, eine Übung oder ein Ereignis.
+- Einen gemeinsamen Witz oder ein Motiv zur Stärkung des Zusammenhalts.
+- Einen Karrieremeilenstein.
+- Zwischen Besatzungen getauschte Andenken.
+
+Auch Piloten, Wartungspersonal, Fluglotsen und besuchende Einheiten tauschen Patches als Andenken oder Sammelstücke.
+
+## Patches in Red Flag Sim
+
+Erhaltene Patches bleiben Teil deiner Pilotensammlung und können im Flugbuch oder in zukünftigen Profilansichten erscheinen.
+
+Mögliche Quellen:
+
+- Offizielle Veranstaltungen.
+- Modulbezogene Belohnungen.
+- Spezialpakete oder Shop-Belohnungen.
+- Zukünftige Community- oder Multiplayer-Aktivitäten.
+
+Manche sind häufig, andere an Flugzeuge, Staffelthemen, Veranstaltungen oder Kampagnenzeiträume gebunden.
+
+## Doppelte Patches
+
+Weitere Exemplare können als zusätzlicher Besitz erhalten bleiben, statt automatisch in andere Belohnungen umgewandelt zu werden. So bleibt Raum für zukünftige Sammelfunktionen.
+
+## Geplante Entwicklung
+
+Die Sammlung soll schrittweise ausgebaut werden:
+
+- Ausgewählte Patches in Profilansichten zeigen.
+- Patches in Flugbuch und Sammlung anzeigen.
+- Zeitlich begrenzte Veranstaltungs- oder Staffelsets anbieten.
+- Geschenke nach Einführung des Freundesystems ermöglichen.
+- Möglicherweise Tausch und Sammlungspräsentation ermöglichen.
+
+Ziel ist ein leichtgewichtiges Sammelsystem, das mit Veranstaltungen, Modulbelohnungen und zukünftigen sozialen Funktionen wächst.

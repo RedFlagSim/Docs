@@ -1,0 +1,54 @@
+{
+  "sourcePages": 43,
+  "locales": {
+    "zh": {
+      "missing": [],
+      "placeholders": [],
+      "identicalEnglish": [],
+      "differences": []
+    },
+    "zh-tw": {
+      "missing": [],
+      "placeholders": [],
+      "identicalEnglish": [],
+      "differences": []
+    },
+    "ja": {
+      "missing": [],
+      "placeholders": [],
+      "identicalEnglish": [],
+      "differences": []
+    },
+    "ko": {
+      "missing": [],
+      "placeholders": [],
+      "identicalEnglish": [],
+      "differences": []
+    },
+    "ru": {
+      "missing": [],
+      "placeholders": [],
+      "identicalEnglish": [],
+      "differences": []
+    },
+    "de": {
+      "missing": [],
+      "placeholders": [],
+      "identicalEnglish": [],
+      "differences": []
+    },
+    "es": {
+      "missing": [],
+      "placeholders": [],
+      "identicalEnglish": [],
+      "differences": []
+    },
+    "fr": {
+      "missing": [],
+      "placeholders": [],
+      "identicalEnglish": [],
+      "differences": []
+    }
+  },
+  "note": "Structural differences are review candidates, not proof of mistranslation. Matching structure does not prove semantic equivalence. Internal private notes and asset README files excluded."
+}

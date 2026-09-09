@@ -17,6 +17,18 @@ import twsMissileActiveImage from '/assets/F-15C/Radar/tws-missile-active-number
 import floodVsdImage from '/assets/F-15C/Radar/flood-vsd.png'
 </script>
 
+## 雷達模式總索引
+
+<div class="term-cloud tac-editor-index">
+  <a href="#radar-lrs">1 遠距搜索（LRS）</a>
+  <a href="#radar-stt">2 單目標跟蹤（STT）</a>
+  <a href="#radar-tws">3 邊掃描邊跟蹤（TWS）</a>
+  <a href="#radar-close-range">4 近距自動捕獲與 Flood 模式</a>
+  <a href="#radar-workflow">5 實用流程</a>
+</div>
+
+<a id="radar-lrs"></a>
+
 ## 遠距搜索（LRS）
 
 LRS（遠距搜索）用於在尚未鎖定目標時搜索遠距離空中目標，瞭解目標相對本機的方位和距離，為後續截獲與跟蹤提供參考。通常可將 VSD 顯示範圍設為 **40～80 海裡**，以觀察較遠區域的雷達回波；這裡指的是顯示範圍，並不表示雷達對所有目標都能達到這一探測距離。
@@ -222,6 +234,8 @@ Bullseye（牛眼）是報告方位和距離時使用的統一參考點。截獲
 `T 589` 表示本機真空速為 589 節，即相對於周圍空氣的速度。它與編號 7 的地速是不同參數，即使本圖中讀數相同，也不能混用。
 
 [返回編號索引](#lrs-index)
+
+<a id="radar-stt"></a>
 
 ## 單目標跟蹤（STT）
 
@@ -455,6 +469,8 @@ ASE 圓放大後，仍需結合轉向點、射程和所選導彈的制導要求�
 
 [返回編號索引](#stt-index)
 
+<a id="radar-tws"></a>
+
 ## 邊掃描邊跟蹤（TWS）
 
 TWS（邊掃描邊跟蹤）在繼續掃描的同時維護多個目標航跡，主要工作在 40 海裡以內，主要服務於 AIM-120 導彈的使用。
@@ -594,6 +610,8 @@ TWS 中需要區分未指定目標、首要指定目標和次要指定目標。�
 
 五角星表示 PDT（首要指定目標），前方長線表示目標的速度方向。圖中截獲門位於該目標處。PDT 是當前主要關注和交戰的目標，VSD 上的目標數據及武器解算圍繞它顯示。
 
+指定 PDT 後，游標會自動套住 PDT 並隨其移動，也可以手動將游標移開。游標再次移動到 PDT 附近時，會自動吸附並重新套住。游標套住 PDT 後，雷達掃描方位角範圍會以 PDT 的方位為中心，掃描俯仰角範圍也會以 PDT 的俯仰角為中心。此時，位於掃描區域之外的部分追蹤檔案可能因無法繼續更新而被丟棄。
+
 同一時刻只有一個 PDT；其他已指定目標作為 SDT 保留。PDT 與 SDT 的區別在於指定優先級，不表示其中一個目標已被 STT 鎖定。
 
 [返回圖 2 編號索引](#tws-designated-index)
@@ -722,6 +740,8 @@ AIM-120 激活自身雷達後，會主動捕獲目標。若發射時目標已經
 
 [返回編號索引](#tws-missile-active-index)
 
+<a id="radar-close-range"></a>
+
 ## 近距自動捕獲與 Flood 模式
 
 在近距自動捕獲與 Flood 模式下，天線掃描或照射的基準是**飛機縱軸**，隨本機姿態變化；前面的 LRS 和 TWS 模式則以**雲台維持的水平面**為天線掃描基準。
@@ -806,6 +826,8 @@ LR BST（遠距離孔徑模式）的使用方式與孔徑模式類似，但 HUD 
   </a>
   <figcaption>Flood 模式下的 VSD（點擊查看原圖）</figcaption>
 </figure>
+
+<a id="radar-workflow"></a>
 
 ## 實用流程
 

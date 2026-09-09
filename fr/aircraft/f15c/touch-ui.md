@@ -6,10 +6,7 @@ Cette page s'applique aux appareils tactiles iOS et Android.
 
 ### Navigation Mode
 
-![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
-
-- **30** joystick tactile
-- **31** trim
+![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode.png)
 
 ### AA Mode
 
@@ -19,36 +16,37 @@ Cette page s'applique aux appareils tactiles iOS et Android.
 
 ## Index UI
 
-<div class="term-cloud">
-  <a href="#item-1">1 Panneau de fonctions</a>
-  <a href="#item-2">2 Sélecteur de mode</a>
-  <a href="#item-3">3 Édition des éléments UI</a>
-  <a href="#item-4">4 Menu principal</a>
-  <a href="#item-5">5 Indicateur d'entrée</a>
-  <a href="#item-6">6 Interrupteur du train d'atterrissage</a>
-  <a href="#item-7">7 Interrupteur des volets</a>
-  <a href="#item-8">8 Manette des gaz</a>
-  <a href="#item-9">9 Sélecteur de mode de gaz</a>
-  <a href="#item-10">10 Interrupteur d'aérofrein</a>
-  <a href="#item-11">11 Afficher MFD</a>
-  <a href="#item-12">12 Afficher la carte tactique</a>
-  <a href="#item-13">13 Interrupteur paddle</a>
-  <a href="#item-14">14 MFD flottant</a>
-  <a href="#item-15">15 Gouverne de direction</a>
-  <a href="#item-16">16 Padlock</a>
-  <a href="#item-17">17 Menu de changement de caméra</a>
-  <a href="#item-18">18 Cursor</a>
-  <a href="#item-19">19 Interrupteur castle</a>
-  <a href="#item-20">20 Barre d'état</a>
-  <a href="#item-21">21 Libération chaff/flare</a>
-  <a href="#item-22">22 Interrupteur master arm</a>
-  <a href="#item-23">23 Détente canon</a>
-  <a href="#item-24">24 Sélecteur d'arme</a>
-  <a href="#item-25">25 Antenna Elevation</a>
-  <a href="#item-26">26 Interrupteur coolie</a>
-  <a href="#item-27">27 Largage arme</a>
-  <a href="#item-28">28 Interrupteur auto acquisition</a>
-</div>
+| N° | Commande | Fonction principale |
+| --- | --- | --- |
+| 1 | [Panneau de fonctions](#item-1) | Ouvrir les panneaux MAIN, NAV, HUD et MISC |
+| 2 | [Sélecteur de mode](#item-2) | Basculer entre NAV et AA |
+| 4 | [Menu principal](#item-4) | Ouvrir la configuration de l’avion, les préférences et les options de mission |
+| 5 | [Indicateur d'entrée](#item-5) | Afficher les entrées de commande et les positions du trim |
+| 6 | [Interrupteur du train d'atterrissage](#item-6) | Sortir ou rentrer le train d’atterrissage |
+| 7 | [Interrupteur des volets](#item-7) | Sortir ou rentrer les volets |
+| 8 | [Manette des gaz](#item-8) | Régler la poussée ; passer à la commande d’un seul moteur |
+| 9 | [Sélecteur de mode de gaz](#item-9) | Choisir les gaz manuels, le suivi IAS ou l’AoA optimal |
+| 10 | [Interrupteur d'aérofrein](#item-10) | Déployer, arrêter ou rentrer l’aérofrein |
+| 11 | [Afficher MFD](#item-11) | Maintenir pour centrer la vue du cockpit sur le VSD ou le MPCD |
+| 12 | [Afficher la carte tactique](#item-12) | Afficher la carte tactique en vol |
+| 13 | [Interrupteur paddle](#item-13) | Maintenir pour déconnecter temporairement le pilote automatique |
+| 14 | [MFD flottant](#item-14) | Afficher jusqu’à trois MFD flottants sans changer de vue |
+| 15 | [Gouverne de direction](#item-15) | Commander la direction, la roue avant et les freins de roues |
+| 16 | [Padlock](#item-16) | Verrouiller la vue sur une entité proche |
+| 17 | [Menu de changement de caméra](#item-17) | Changer de vue ou ouvrir le menu des caméras |
+| 18 | [Cursor](#item-18) | Déplacer le curseur VSD/SIT et désigner des cibles |
+| 19 | [Interrupteur castle](#item-19) | Choisir le capteur actif (SOI) et gérer les pages d’affichage |
+| 20 | [Barre d'état](#item-20) | Afficher FPS, vent, masse de l’avion, heure et état du pilote automatique |
+| 21 | [Libération chaff/flare](#item-21) | Larguer des paillettes et des leurres thermiques |
+| 22 | [Interrupteur master arm](#item-22) | Autoriser le tir des armes |
+| 23 | [Détente canon](#item-23) | Tirer avec le canon sélectionné |
+| 24 | [Sélecteur d'arme](#item-24) | Choisir la catégorie d’arme et faire défiler les missiles |
+| 25 | [Antenna Elevation](#item-25) | Régler l’élévation de l’antenne radar |
+| 26 | [Interrupteur coolie](#item-26) | Gérer les pages et affichages tactiques |
+| 27 | [Largage arme](#item-27) | Lancer le missile ou larguer la charge sélectionnée |
+| 28 | [Interrupteur auto acquisition](#item-28) | Basculer STBY/LRS, parcourir les modes d’acquisition automatique ou activer FLOOD |
+| 30 | [Joystick tactile](#item-30) | Commander le tangage et le roulis |
+| 31 | [Trim](#item-31) | Régler le trim de l’avion |
 
 ## Explication détaillée
 
@@ -405,34 +403,21 @@ Modes d'acquisition automatique :
 4. **`LR BST` — Long-Range Boresight :** Recherche le long de l'axe de visée radar avec un cercle directeur de 2,5° dans le HUD, de 3 000 ft à 40 NM.
 
 [Retour en haut](#ui-terms-top)
+<a id="item-30"></a>
+### 30. Joystick tactile
+
+Faites glisser le joystick tactile pour contrôler le tangage et le roulis de l’avion.
+
+[Retour en haut](#ui-terms-top)
+
+<a id="item-31"></a>
+### 31. Trim
+
+Utilisez cette commande pour régler le trim de l’avion.
+
+[Retour en haut](#ui-terms-top)
+
 <style scoped>
-.term-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 12px 0 6px;
-}
-
-.term-cloud a {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  text-decoration: none;
-  line-height: 1.2;
-  font-size: 13px;
-  transition: border-color .16s ease, background-color .16s ease, transform .16s ease;
-}
-
-.term-cloud a:hover {
-  border-color: var(--vp-c-divider);
-  background: var(--vp-c-bg-elv);
-  transform: translateY(-1px);
-}
-
 .panel-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

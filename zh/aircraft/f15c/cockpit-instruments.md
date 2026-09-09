@@ -1,125 +1,248 @@
 # F-15C 驾驶舱仪表
 
-F-15C 的驾驶舱围绕三个核心战斗参考组织：HUD、垂直态势显示器（VSD）和战术电子战系统（TEWS）显示器。发动机、导航、燃油、武器和对抗相关仪表布置在主面板下方和两侧，便于飞行员在保持外部观察的同时完成状态交叉检查。
+F-15C 座舱以 HUD、垂直态势显示器（VSD）与战术电子战系统（TEWS）显示器为三个战斗参考。发动机、导航、燃油、武器与对抗仪表配置在其周围及下方，让飞行员专注战斗时仍能交叉检查飞机状态。
 
-![图 20. F-15C 驾驶舱面板](/assets/F-15C/Manual/fig-20-cockpit-panel.png)
+![F-15C 驾驶舱仪表](/assets/F-15C/Manual/fig-20-cockpit-panel.png)
 
-## 面板编号
+<a id="cockpit-instrument-index"></a>
+
+## 座舱面板索引
 
 | 编号 | 仪表 | 主要用途 |
 | --- | --- | --- |
-| 1 | 多功能彩色显示器（MPCD） | 武器、机炮、对抗和外挂油箱状态 |
-| 2 | 指示空速和马赫数表 | 指示空速与马赫数 |
-| 3 | 垂直态势显示器（VSD） | 雷达、数据链和目标信息 |
-| 4 | 姿态指引指示器（ADI） | 俯仰、坡度、转弯和侧滑 |
-| 5 | 垂直速度表（VVI） | 爬升或下降率 |
-| 6 | 气压高度表 | 气压高度 |
-| 7 | 风扇涡轮入口温度表（FTIT） | 发动机温度 |
-| 8 | 转速表 | 发动机转速百分比 |
-| 9 | 战术电子战系统（TEWS）显示器 | 雷达告警和 ECM 状态 |
-| 10 | 油量指示器 | 内油、外挂油箱和总油量 |
-| 11 | 箔条和红外干扰弹指示灯 | 对抗投放和低余量提示 |
-| 12 | 起落架手柄 | 起落架收放命令 |
-| 13 | 起落架位置指示器 | 起落架锁定状态 |
-| 14 | 迎角表 | 机动和着陆迎角参考 |
-| 15 | 加速度计 | 当前和记录过载 |
-| 16 | 水平状态仪（HSI） | 航向、航线、方位和航点距离 |
-| 17 | 航空时钟 | 时间参考 |
-| 18 | 发动机燃油流量表 | 单发燃油流量 |
-| 19 | 发动机喷口位置表 | 尾喷口开度 |
-| 20 | 座舱压力表 | 等效座舱高度 |
-| 21 | 告警灯面板 | 系统告警 |
+| 1 | [多用途彩色显示器／武器控制面板](#instrument-1) | 武器、机炮、对抗措施与副油箱状态 |
+| 2 | [指示空速与马赫数](#instrument-2) | 节为单位的指示空速与马赫数 |
+| 3 | [垂直态势显示器（VSD）](#instrument-3) | 雷达、资料链与目标资讯 |
+| 4 | [姿态指引仪（ADI）](#instrument-4) | 俯仰、坡度、转弯与侧滑 |
+| 5 | [垂直速度指示器（VVI）](#instrument-5) | 爬升或下降率 |
+| 6 | [气压高度表](#instrument-6) | 英尺气压高度 |
+| 7 | [风扇涡轮入口温度（FTIT）](#instrument-7) | 发动机温度 |
+| 8 | [转速表](#instrument-8) | 转速百分比 |
+| 9 | [战术电子战系统（TEWS）](#instrument-9) | 雷达告警与干扰状态 |
+| 10 | [燃油量](#instrument-10) | 内部、外部与总燃油 |
+| 11 | [干扰丝与热焰弹指示器](#instrument-11) | 施放与低余量 |
+| 12 | [起落架手柄](#instrument-12) | 起落架控制 |
+| 13 | [起落架位置指示器](#instrument-13) | 起落架放下锁定 |
+| 14 | [攻角指示器](#instrument-14) | 机动与降落攻角单位 |
+| 15 | [加速度计](#instrument-15) | 目前与记录的过载 |
+| 16 | [水平态势指示器（HSI）](#instrument-16) | 航向、航道、方位与导航点距离 |
+| 17 | [机上时钟](#instrument-17) | 时间 |
+| 18 | [发动机燃油流量](#instrument-18) | 各发动机燃油流量 |
+| 19 | [发动机喷嘴位置](#instrument-19) | 喷嘴开度 |
+| 20 | [座舱压力表](#instrument-20) | 等效座舱高度 |
+| 21 | [警告灯面板](#instrument-21) | 系统警告 |
+| 22 | [紧急抛弃按钮](#instrument-22) | 紧急抛弃合适外挂物 |
+| 23 | [导航模式选择器](#instrument-23) | 选择 NAV、TCN、ILS/NAV 或 ILS/TCN |
+| 24 | [液压压力指示器](#instrument-24) | PC1、PC2 与公用液压 |
+| 25 | [发动机油压指示器](#instrument-25) | 左右发动机油压 |
 
-## 主要战斗显示器
+## 战斗显示器
 
-### 垂直态势显示器
+<a id="instrument-3"></a>
 
-VSD 是 F-15C 的雷达显示器，用于显示雷达搜索范围、目标回波、锁定状态以及超视距交战需要的目标数据。
+### 垂直态势显示器（VSD）
 
-![图 21. VSD](/assets/F-15C/Manual/fig-21-vsd.png)
+VSD 是 F-15C 的雷达显示器，呈现搜寻空域、目标回波、锁定状态及超视距作战所需目标细节。操作与符号见雷达章节。
 
-### 战术电子战系统显示器
+![垂直态势显示器（VSD）](/assets/F-15C/Manual/fig-21-vsd.png)
 
-TEWS 显示器提供雷达告警信息。威胁会围绕本机符号显示，并根据威胁程度、信号强度和导弹发射状态进行优先级排序。
+<a id="instrument-9"></a>
 
-![图 22. TEWS 显示器](/assets/F-15C/Manual/fig-22-tews-display.png)
+### 战术电子战系统（TEWS）
 
-### MPCD / 武器控制面板
+TEWS 是雷达告警显示器，在本机符号周围呈现雷达辐射源，优先标示最危险的威胁，并显示飞弹发射提示与电子干扰状态。
 
-MPCD 显示外挂油箱、武器类别、导弹就绪状态、机炮弹药以及箔条/红外干扰弹余量。
+![战术电子战系统（TEWS）](/assets/F-15C/Manual/fig-22-tews-display.png)
 
-![图 23. MPCD 武器控制面板](/assets/F-15C/Manual/fig-23-mpcd-weapons-panel.png)
+<a id="instrument-1"></a>
 
-`L`、`C`、`R` 分别代表左、中、右外挂油箱位置。安装油箱时显示 `FUEL`，无油箱时显示 `PYLON`。机炮弹药位于左侧，开火时通常以 10 发为单位递减。`SRM` 表示近距导弹，`MRM` 表示中距导弹；被选中的导弹显示 `RDY`，同类未选导弹显示 `STBY`。
+### 多用途彩色显示器／武器控制面板
+
+#### SIT 态势显示
+
+SIT 以俯视方式呈现战场，透过资料链显示本机、友机与敌机。也能显示多种地理围栏、罗盘、Zulu 时间与牛眼座标。游标可随动 VSD，也可解除随动后独立操作。
+
+![SIT 态势显示](/assets/F-15C/Manual/fig-23-mpcd-sit-display.png)
+
+#### AA 武器状态面板
+
+![AA 武器状态面板](/assets/F-15C/Manual/fig-23-mpcd-weapons-panel.png)
+
+AA 页面显示外挂油箱、武器类别、机炮弹药及箔条和红外干扰弹余量。`FUEL` 表示已安装油箱，`PYLON` 表示空挂架。武器选择和完整显示说明见 [MPCD 章节](/zh/Docs/aircraft/f15c/mpcd.html)。
 
 ## 飞行仪表
 
-### 指示空速和马赫数表
+<a id="instrument-12"></a>
 
-该仪表显示 50 到 1000 节范围内的指示空速，并在速度较高时提供马赫数读数。
+### 起落架手柄
 
-![图 24. 指示空速和马赫数表](/assets/F-15C/Manual/fig-24-airspeed-mach-indicator.png)
+起落架手柄控制起落架放下与收起。
 
-### 迎角表
+<a id="instrument-13"></a>
 
-迎角表使用 F-15 的迎角单位，并不等同于几何角度。着陆时通常应保持约 20 到 22 个迎角单位。
+### 起落架位置指示器
 
-![图 25. 迎角表](/assets/F-15C/Manual/fig-25-aoa-indicator.png)
+指示器确认起落架已放下并锁定。
+
+<a id="instrument-2"></a>
+
+### 指示空速与马赫数
+
+空速与马赫数仪位于 MPCD 右侧，固定刻度显示 50 至 1000 节指示空速。约 200 节以上时马赫指针才具有实用参考价值。
+
+![指示空速与马赫数](/assets/F-15C/Cockpit/indicated-airspeed-mach.png)
+
+<a id="instrument-14"></a>
+
+### 攻角指示器
+
+攻角以 F-15 单位显示，而非几何角度。用于进场、低速机动与大攻角恢复。正常降落目标约为 20 至 22 单位。
+
+![攻角指示器](/assets/F-15C/Manual/fig-25-aoa-indicator.png)
+
+<a id="instrument-15"></a>
 
 ### 加速度计
 
-加速度计显示当前过载，并记录飞行中达到的最大正/负过载。激烈机动后应检查该仪表。
+显示目前过载，并记录本次出击最大正、负过载。剧烈机动后可用于交叉检查结构承受的负荷。
 
-![图 26. 加速度计](/assets/F-15C/Manual/fig-26-accelerometer.png)
+![加速度计](/assets/F-15C/Cockpit/accelerometer.png)
 
-### 姿态指引指示器
+### 中央 ADI、HSI 与邻近控制项
 
-ADI 显示俯仰和坡度。俯仰刻度为 5 度，坡度刻度为 10 度，下方的转弯/侧滑指示用于判断转弯是否协调。
+![中央 ADI、HSI 与邻近控制项](/assets/F-15C/Cockpit/adi-hsi-emergency-jettison-steering-mode.png)
 
-![图 27. ADI](/assets/F-15C/Manual/fig-27-adi.png)
+<a id="instrument-4"></a>
 
-### 水平状态仪
+#### 姿态指引仪（ADI）
 
-HSI 显示本机航向、选定航线、航线偏差、选定航点方位以及到航点的距离。
+ADI 提供主要俯仰与坡度参考。旋转球面俯仰刻度每 5 度一格，坡度每 10 度一格，每 30 度有较大标记。垂直与水平指令杆依所选导航来源提供引导，下方转弯与侧滑指示协助协调转弯。仪表旁的选择器可在功能可用时选择 INS 或 AHRS 姿态来源。
 
-![图 28. HSI](/assets/F-15C/Manual/fig-28-hsi.png)
+<a id="instrument-16"></a>
 
-### 气压高度表
+#### 水平态势指示器（HSI）
 
-气压高度表结合指针和数字计数器显示高度。压力设定变化会影响指示高度。
+HSI 以平面图呈现导航态势。旋转罗盘卡将本机航向置于顶部标记下方；航道箭头与偏差杆显示所选航道及横向误差。左上计数器显示海里距离，右上显示所选航道。COURSE SET 与 HEADING SET 旋钮调整对应参考。ILS 进场时，航道偏差须搭配 ADI 与 HUD 引导使用。
 
-![图 29. 气压高度表](/assets/F-15C/Manual/fig-29-barometric-altimeter.png)
+<a id="instrument-22"></a>
 
-### 垂直速度表
+#### 紧急抛弃按钮
 
-垂直速度表以每分钟千英尺为单位显示爬升或下降率。指针顺时针表示爬升，逆时针表示下降。
+ADI 紧邻左侧有带护罩的黄黑色 <strong>PUSH TO JETT</strong> 按钮，可紧急抛弃符合条件的外挂物。仅在需要立即减轻负载时使用；实际抛弃项目依目前配置与任务规则而定。
 
-![图 30. 垂直速度表](/assets/F-15C/Manual/fig-30-vertical-velocity-indicator.png)
+<a id="instrument-23"></a>
 
-## 发动机和燃油仪表
+#### 导航模式选择器
 
-![图 31. 转速表](/assets/F-15C/Manual/fig-31-tachometer.png)
+紧急抛弃按钮下方的选择器，决定 HSI、ADI 与 HUD 引导资讯的导航来源：
 
-![图 32. FTIT 表](/assets/F-15C/Manual/fig-32-ftit-indicator.png)
+- <strong>NAV：</strong>航线与导航点引导。
+- <strong>TCN：</strong>TACAN 方位、距离与所选航道引导。
+- <strong>ILS NAV：</strong>ILS 航向道、下滑道结合 NAV 引导。
+- <strong>ILS TCN：</strong>ILS 结合 TACAN 引导。
 
-![图 33. 发动机燃油流量表](/assets/F-15C/Manual/fig-33-fuel-flow-indicator.png)
+<a id="instrument-17"></a>
 
-![图 34. 发动机喷口位置表](/assets/F-15C/Manual/fig-34-nozzle-position-indicator.png)
+### 机上时钟
 
-转速表用于检查发动机启动、滑行和起飞功率状态。FTIT 表显示发动机温度，指针进入红区表示温度过高。燃油流量表显示每台发动机的耗油率，喷口位置表显示尾喷口开度。
+提供座舱时间参考，显示 Zulu 时间，用于任务计时及导航交叉检查。
 
-### 油量指示器
+![机上时钟](/assets/F-15C/Cockpit/aircraft-clock.png)
 
-油量指示器显示内油、外挂油箱和总油量。
+### 高度表与垂直速度仪表
 
-![图 35. 油量指示器](/assets/F-15C/Manual/fig-35-fuel-quantity-indicator.png)
+![高度表与垂直速度仪表](/assets/F-15C/Cockpit/altimeter-vvi.png)
 
-## 压力和对抗指示
+<a id="instrument-6"></a>
 
-座舱压力表显示等效座舱高度。如果座舱压力下降并接近 10000 英尺等效高度，应尽快下降。
+#### 气压高度表
 
-![图 36. 座舱压力表](/assets/F-15C/Manual/fig-36-cabin-pressure-gauge.png)
+滚筒与指针以英尺显示高度。滚筒给出主要数值，指针提供细部读值。使用气压旋钮设定所需当地高度表气压；设定错误会造成指示高度错误。
 
-箔条和红外干扰弹指示灯会在投放时短暂闪烁，余量过低时点亮最小量告警。
+<a id="instrument-5"></a>
 
-![图 37. 箔条和红外干扰弹指示灯](/assets/F-15C/Manual/fig-37-chaff-flare-indicators.png)
+#### 垂直速度指示器（VVI）
+
+VVI 以每分钟千英尺显示爬升或下降率。顺时针为爬升，逆时针为下降。
+
+## 发动机与燃油仪表
+
+### 发动机转速与温度
+
+![发动机转速与温度](/assets/F-15C/Cockpit/tachometer-ftit.png)
+
+<a id="instrument-8"></a>
+
+#### 转速表
+
+成对转速表显示左右发动机 0 至 110% 转速。启动、滑行、起飞检查与油门交叉检查时，应同时读取指针与计数器。
+
+<a id="instrument-7"></a>
+
+#### 风扇涡轮入口温度（FTIT）
+
+成对 FTIT 表显示 0 至 1400 °C 涡轮温度。指针提供连续读值，计数器方便确认。异常高值代表涡轮过热，应立即注意。
+
+### 燃油流量与排气喷嘴位置
+
+![燃油流量与排气喷嘴位置](/assets/F-15C/Cockpit/fuel-flow-nozzle-position.png)
+
+<a id="instrument-18"></a>
+
+#### 发动机燃油流量
+
+显示供给发动机的总燃油流量，包含后燃器流量，单位为磅／小时。搭配油量显示监控消耗，辨认发动机或燃油系统的异常行为。
+
+<a id="instrument-19"></a>
+
+#### 发动机喷嘴位置
+
+喷嘴表以完全开启为基准显示开度百分比。开度会随发动机功率与后燃器运作而改变。
+
+### 液压与发动机油压
+
+![液压与发动机油压](/assets/F-15C/Cockpit/hydraulic-oil-pressure.png)
+
+<a id="instrument-24"></a>
+
+#### 液压压力指示器
+
+三个表显示 <strong>PC1</strong>、<strong>PC2</strong> 与 <strong>UTIL</strong> 的 0 至 4000 psi 压力。PC1、PC2 供应飞控，公用系统供应起落架、煞车、前轮转向等设备。正常压力约 3000 psi；明显下降或归零可协助辨认受影响的系统。
+
+<a id="instrument-25"></a>
+
+#### 发动机油压指示器
+
+下方两表显示左右发动机 0 至 100 psi 油压。比较两具发动机，并将低读值与对应注意灯交叉检查。
+
+<a id="instrument-10"></a>
+
+### 燃油量
+
+指针以千磅显示内部总油量。上方计数器显示总燃油，下方 LEFT、RIGHT 计数器及选择器用于查看个别油箱与检查指示器。
+
+![燃油量](/assets/F-15C/Cockpit/fuel-quantity.png)
+
+## 压力与对抗措施
+
+<a id="instrument-20"></a>
+
+### 座舱压力表
+
+显示等效座舱高度。损坏或增压失效使座舱高度接近 10000 英尺时，应立即下降。
+
+![座舱压力表](/assets/F-15C/Cockpit/cabin-pressure.png)
+
+<a id="instrument-11"></a>
+
+### 干扰丝与热焰弹指示器
+
+施放时指示灯闪烁约三秒。对抗措施剩余数量极低时，最低余量警告灯会亮起。
+
+![干扰丝与热焰弹指示器](/assets/F-15C/Cockpit/chaff-flare-indicators.png)
+
+<a id="instrument-21"></a>
+
+### 警告灯面板
+
+显示飞机各系统警告。

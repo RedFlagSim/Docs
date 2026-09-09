@@ -1,8 +1,25 @@
 # Systèmes de jeu
 
-Red Flag Sim enregistre la progression de votre pilote dans le compte joueur. Le profil, Career XP, les qualifications et les médailles font partie de votre historique à long terme, pas seulement d'une notification locale après un vol.
+Red Flag Sim conserve la progression du pilote dans le compte joueur. Le profil, le Career XP, les qualifications et les médailles suivent le compte plutôt qu’un seul appareil.
 
-Le jeu conserve le nom du pilote, l'indicatif, le pays, le rang, le sous-niveau, le XP, le temps de vol total, les qualifications, les médailles et les patchs à collectionner. Si la synchronisation est retardée, une récompense peut apparaître plus tard lorsque la progression est mise à jour.
+## Données enregistrées
+
+- Profil : nom du pilote, indicatif, pays, grade, sous-niveau, XP et temps de vol.
+- Career XP : progression acquise par le vol, l’entraînement, le combat, les atterrissages, le ravitaillement, la connexion quotidienne, les qualifications et les médailles.
+- Qualifications : certifications temporaires ou permanentes de compétences, comme l’atterrissage sur aérodrome ou le ravitaillement par perche.
+- Médailles : succès permanents liés au temps de vol, aux grades, au combat, aux atterrissages et au ravitaillement.
+- Patchs : objets à collectionner enregistrés sur le compte.
+
+## Conservation de la progression
+
+Le jeu ne se limite pas à un message local ou à l’écran d’une session. Chaque score, vol, qualification ou médaille est vérifié par rapport à la progression du compte et enregistré dans l’historique du joueur.
+
+- Les récompenses appartiennent au compte connecté.
+- La progression peut être actualisée à l’ouverture du jeu ou du carnet de vol.
+- Une interruption de connexion peut retarder la notification ; la synchronisation du relevé permet de rattraper la mise à jour.
+- Certaines futures médailles ou certifications restent verrouillées jusqu’à l’ouverture de l’activité correspondante.
+
+## Pour en savoir plus
 
 - [Compte et profil](/fr/Docs/game/account-profile)
 - [Career XP](/fr/Docs/game/career-xp)

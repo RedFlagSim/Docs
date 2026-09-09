@@ -17,6 +17,18 @@ import twsMissileActiveImage from '/assets/F-15C/Radar/tws-missile-active-number
 import floodVsdImage from '/assets/F-15C/Radar/flood-vsd.png'
 </script>
 
+## レーダーモード総索引
+
+<div class="term-cloud tac-editor-index">
+  <a href="#radar-lrs">1 長距離捜索（LRS）</a>
+  <a href="#radar-stt">2 単一目標追尾（STT）</a>
+  <a href="#radar-tws">3 捜索中追尾（TWS）</a>
+  <a href="#radar-close-range">4 近距離自動捕捉とFlood</a>
+  <a href="#radar-workflow">5 操作の流れ</a>
+</div>
+
+<a id="radar-lrs"></a>
+
 ## 長距離捜索（LRS）
 
 LRSはロック前の遠方の航空目標を捜索し、自機からの方位と距離を表示します。通常は **40～80海里** のVSD表示レンジを使用します。これは表示範囲であり、すべての目標をその距離で探知できるという意味ではありません。
@@ -222,6 +234,8 @@ Bullseyeは方位と距離を報告する共通基準です。ゲート座標は
 `T 589` は周囲の空気に対する真対気速度589ノットです。番号7の対地速度とは異なり、数値が同じでも混同しないでください。
 
 [番号索引に戻る](#lrs-index)
+
+<a id="radar-stt"></a>
 
 ## 単一目標追尾（STT）
 
@@ -455,6 +469,8 @@ ASE、ドット、最小射程を確認し、AIM-7に必要な追尾・照射を
 
 [番号索引に戻る](#stt-index)
 
+<a id="radar-tws"></a>
+
 ## 捜索中追尾（TWS）
 
 TWSは走査を続けながら複数の航跡を維持します。主に40海里以内で使用し、主にAIM-120を支援します。
@@ -594,6 +610,8 @@ TWSで発射できる相手は現在のPDTだけです。PDTを切り替えて�
 
 五芒星がPDT、前方の長線が速度方向です。図ではゲートがその上にあります。VSDの目標データと兵器計算は主目標であるPDTを基準にします。
 
+PDTを指定すると、カーソルは自動的にPDTを囲み、その移動に追従します。カーソルは手動で離すことができ、再びPDTの近くへ動かすと自動的に吸着して囲み直します。カーソルがPDTを囲んでいる間、レーダーの方位走査範囲はPDTの方位を中心とし、仰角走査範囲もPDTの仰角を中心とします。この状態では、走査範囲外にある一部のトラック・ファイルが更新されなくなり、破棄される場合があります。
+
 PDTは1つで、ほかの指定目標はSDTです。優先順位の違いでありSTTロックの有無ではありません。
 
 [番号索引に戻る](#tws-designated-index)
@@ -722,6 +740,8 @@ Xは目標の五芒星へ移動し、飛行進行を示します。事前計算�
 
 [番号索引に戻る](#tws-missile-active-index)
 
+<a id="radar-close-range"></a>
+
 ## 近距離自動捕捉とFlood
 
 自動捕捉の走査とFlood照射は **機体縦軸** を基準に姿勢へ追従します。LRS・TWSは **ジンバルで水平を維持した面** を基準とします。
@@ -806,6 +826,8 @@ VSD左上に `FLOOD` が現れ距離グリッドが消えます。水平線、�
   </a>
   <figcaption>FloodのVSD（クリックで原寸）</figcaption>
 </figure>
+
+<a id="radar-workflow"></a>
 
 ## 操作の流れ
 

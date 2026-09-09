@@ -1,9 +1,38 @@
 # Médailles
 
-Les médailles sont des accomplissements permanents. Une médaille obtenue n'expire pas.
+Les médailles sont des succès permanents. Contrairement aux qualifications temporaires, elles n’expirent pas.
 
-Vous pouvez gagner des médailles pour le temps de vol, Career XP, la progression de rang, le combat air-air, les impacts de missiles ou canon, les bombes larguées, les atterrissages et Boom AAR.
+## Obtention
 
-Exemples : première sortie enregistrée, 10/50/100/500 heures de vol, première victoire aérienne, atterrissage avec score élevé ou jalons de ravitaillement.
+Elles récompensent les étapes atteintes par la progression enregistrée. Le contrôle peut avoir lieu après un vol, une mise à jour, une connexion ou l’ouverture du carnet.
 
-Certaines médailles sont réservées à de futures activités, comme les attaques roquettes, frappes navales, appontages ou scores spéciaux de précision.
+Catégories actuelles :
+
+- Temps de vol.
+- Career XP.
+- Progression des grades.
+- Résultats de combat aérien.
+- Impacts de missiles et de canon.
+- Largages de bombes.
+- Performances et nombre d’atterrissages sur aérodrome.
+- Performances et nombre de ravitaillements par perche.
+
+## Exemples
+
+- Première sortie enregistrée terminée.
+- 10, 50, 100 ou 500 heures de vol.
+- Grandes étapes de Career XP.
+- Promotion à un grade supérieur.
+- Première victoire aérienne.
+- Score d’atterrissage élevé.
+- Étapes de ravitaillement par perche.
+
+## Familles réservées
+
+Certaines concernent des activités pas encore entièrement disponibles : passes roquettes, frappes navales, appontages ou scores spéciaux de frappe de précision.
+
+Elles peuvent rester verrouillées jusqu’à l’activation de l’activité et du calcul de score correspondants.
+
+## Notifications
+
+Un message discret peut apparaître au déverrouillage. Si vous le manquez, le carnet peut rejouer ultérieurement les notifications en attente.

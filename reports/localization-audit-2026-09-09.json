@@ -1,0 +1,1136 @@
+{
+  "sourcePages": 43,
+  "locales": {
+    "zh": {
+      "missing": [
+        "api-examples.md",
+        "markdown-examples.md"
+      ],
+      "placeholders": [],
+      "identicalEnglish": [],
+      "differences": [
+        {
+          "page": "aircraft/f15c/air-to-air-missiles.md",
+          "changes": {
+            "headings": {
+              "en": 13,
+              "localized": 7
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15c/appendix.md",
+          "changes": {
+            "tables": {
+              "en": 60,
+              "localized": 56
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15c/cockpit-instruments.md",
+          "changes": {
+            "headings": {
+              "en": 38,
+              "localized": 36
+            },
+            "images": {
+              "missing": [
+                "/assets/F-15C/Manual/fig-23-mpcd-sit-display.png"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15c/combat-tactics.md",
+          "changes": {
+            "headings": {
+              "en": 14,
+              "localized": 11
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15c/defensive-systems.md",
+          "changes": {
+            "headings": {
+              "en": 10,
+              "localized": 8
+            },
+            "tables": {
+              "en": 45,
+              "localized": 37
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15c/flight-dynamics.md",
+          "changes": {
+            "headings": {
+              "en": 11,
+              "localized": 10
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15c/flight-theory.md",
+          "changes": {
+            "headings": {
+              "en": 8,
+              "localized": 7
+            }
+          }
+        },
+        {
+          "page": "basics/tac-editor.md",
+          "changes": {
+            "anchors": {
+              "missing": [
+                "bullseye-and-geofences"
+              ],
+              "extra": [
+                "牛眼与-geofence"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "zh-tw": {
+      "missing": [
+        "api-examples.md",
+        "markdown-examples.md"
+      ],
+      "placeholders": [
+        "aircraft/f15c/air-to-air-missiles.md",
+        "aircraft/f15c/appendix.md",
+        "aircraft/f15c/checklists.md",
+        "aircraft/f15c/cockpit-instruments.md",
+        "aircraft/f15c/combat-tactics.md",
+        "aircraft/f15c/flight-dynamics.md",
+        "aircraft/f15c/flight-theory.md",
+        "aircraft/f15c/radio-communications.md"
+      ],
+      "identicalEnglish": [],
+      "differences": [
+        {
+          "page": "basics/mobile-platform.md",
+          "changes": {
+            "headings": {
+              "en": 7,
+              "localized": 5
+            },
+            "images": {
+              "missing": [
+                "/assets/mobile-gyro-calibration.jpeg",
+                "/assets/mobile-ui-editor.jpeg",
+                "/assets/mobile-virtual-stick.jpeg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/tac-editor.md",
+          "changes": {
+            "headings": {
+              "en": 45,
+              "localized": 37
+            },
+            "anchors": {
+              "missing": [
+                "bullseye-and-geofences"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "blog/2026-08-10-website-structure.md",
+          "changes": {
+            "headings": {
+              "en": 3,
+              "localized": 2
+            }
+          }
+        },
+        {
+          "page": "blog/index.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 4
+            }
+          }
+        },
+        {
+          "page": "game/account-profile.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/career-xp.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 3
+            },
+            "tables": {
+              "en": 10,
+              "localized": 0
+            }
+          }
+        },
+        {
+          "page": "game/index.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 2
+            }
+          }
+        },
+        {
+          "page": "game/medals.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/patches.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/qualifications.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 2
+            }
+          }
+        }
+      ]
+    },
+    "ja": {
+      "missing": [
+        "api-examples.md",
+        "markdown-examples.md"
+      ],
+      "placeholders": [
+        "aircraft/f15c/air-to-air-missiles.md",
+        "aircraft/f15c/appendix.md",
+        "aircraft/f15c/checklists.md",
+        "aircraft/f15c/cockpit-instruments.md",
+        "aircraft/f15c/combat-tactics.md",
+        "aircraft/f15c/flight-dynamics.md",
+        "aircraft/f15c/flight-theory.md",
+        "aircraft/f15c/radio-communications.md"
+      ],
+      "identicalEnglish": [],
+      "differences": [
+        {
+          "page": "about.md",
+          "changes": {
+            "headings": {
+              "en": 6,
+              "localized": 5
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15e/introduction.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            },
+            "images": {
+              "missing": [
+                "/assets/title-placeholder.svg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/mobile-platform.md",
+          "changes": {
+            "headings": {
+              "en": 7,
+              "localized": 5
+            },
+            "images": {
+              "missing": [
+                "/assets/mobile-gyro-calibration.jpeg",
+                "/assets/mobile-ui-editor.jpeg",
+                "/assets/mobile-virtual-stick.jpeg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/tac-editor.md",
+          "changes": {
+            "headings": {
+              "en": 45,
+              "localized": 37
+            },
+            "anchors": {
+              "missing": [
+                "bullseye-and-geofences"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "blog/2026-08-10-website-structure.md",
+          "changes": {
+            "headings": {
+              "en": 3,
+              "localized": 2
+            }
+          }
+        },
+        {
+          "page": "blog/index.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 4
+            }
+          }
+        },
+        {
+          "page": "game/account-profile.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/career-xp.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            },
+            "tables": {
+              "en": 10,
+              "localized": 0
+            }
+          }
+        },
+        {
+          "page": "game/index.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/medals.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/patches.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/qualifications.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        }
+      ]
+    },
+    "ko": {
+      "missing": [
+        "api-examples.md",
+        "markdown-examples.md"
+      ],
+      "placeholders": [
+        "aircraft/f15c/air-to-air-missiles.md",
+        "aircraft/f15c/appendix.md",
+        "aircraft/f15c/checklists.md",
+        "aircraft/f15c/cockpit-instruments.md",
+        "aircraft/f15c/combat-tactics.md",
+        "aircraft/f15c/flight-dynamics.md",
+        "aircraft/f15c/flight-theory.md",
+        "aircraft/f15c/radio-communications.md"
+      ],
+      "identicalEnglish": [],
+      "differences": [
+        {
+          "page": "about.md",
+          "changes": {
+            "headings": {
+              "en": 6,
+              "localized": 5
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15e/introduction.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            },
+            "images": {
+              "missing": [
+                "/assets/title-placeholder.svg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/mobile-platform.md",
+          "changes": {
+            "headings": {
+              "en": 7,
+              "localized": 5
+            },
+            "images": {
+              "missing": [
+                "/assets/mobile-gyro-calibration.jpeg",
+                "/assets/mobile-ui-editor.jpeg",
+                "/assets/mobile-virtual-stick.jpeg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/tac-editor.md",
+          "changes": {
+            "headings": {
+              "en": 45,
+              "localized": 37
+            },
+            "anchors": {
+              "missing": [
+                "bullseye-and-geofences"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "blog/2026-08-10-website-structure.md",
+          "changes": {
+            "headings": {
+              "en": 3,
+              "localized": 2
+            }
+          }
+        },
+        {
+          "page": "blog/index.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 4
+            }
+          }
+        },
+        {
+          "page": "game/account-profile.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/career-xp.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            },
+            "tables": {
+              "en": 10,
+              "localized": 0
+            }
+          }
+        },
+        {
+          "page": "game/index.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/medals.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/patches.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/qualifications.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        }
+      ]
+    },
+    "ru": {
+      "missing": [
+        "api-examples.md",
+        "markdown-examples.md"
+      ],
+      "placeholders": [
+        "aircraft/f15c/air-to-air-missiles.md",
+        "aircraft/f15c/appendix.md",
+        "aircraft/f15c/checklists.md",
+        "aircraft/f15c/cockpit-instruments.md",
+        "aircraft/f15c/combat-tactics.md",
+        "aircraft/f15c/flight-dynamics.md",
+        "aircraft/f15c/flight-theory.md",
+        "aircraft/f15c/radar.md",
+        "aircraft/f15c/radio-communications.md"
+      ],
+      "identicalEnglish": [],
+      "differences": [
+        {
+          "page": "about.md",
+          "changes": {
+            "headings": {
+              "en": 6,
+              "localized": 5
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15e/introduction.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            },
+            "images": {
+              "missing": [
+                "/assets/title-placeholder.svg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/mobile-platform.md",
+          "changes": {
+            "headings": {
+              "en": 7,
+              "localized": 5
+            },
+            "images": {
+              "missing": [
+                "/assets/mobile-gyro-calibration.jpeg",
+                "/assets/mobile-ui-editor.jpeg",
+                "/assets/mobile-virtual-stick.jpeg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/tac-editor.md",
+          "changes": {
+            "headings": {
+              "en": 45,
+              "localized": 37
+            },
+            "anchors": {
+              "missing": [
+                "bullseye-and-geofences"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "blog/2026-08-10-website-structure.md",
+          "changes": {
+            "headings": {
+              "en": 3,
+              "localized": 2
+            }
+          }
+        },
+        {
+          "page": "blog/index.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 4
+            }
+          }
+        },
+        {
+          "page": "game/account-profile.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/career-xp.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            },
+            "tables": {
+              "en": 10,
+              "localized": 0
+            }
+          }
+        },
+        {
+          "page": "game/index.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/medals.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/patches.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/qualifications.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        }
+      ]
+    },
+    "de": {
+      "missing": [
+        "api-examples.md",
+        "markdown-examples.md"
+      ],
+      "placeholders": [
+        "aircraft/f15c/air-to-air-missiles.md",
+        "aircraft/f15c/appendix.md",
+        "aircraft/f15c/checklists.md",
+        "aircraft/f15c/cockpit-instruments.md",
+        "aircraft/f15c/combat-tactics.md",
+        "aircraft/f15c/flight-dynamics.md",
+        "aircraft/f15c/flight-theory.md",
+        "aircraft/f15c/radio-communications.md"
+      ],
+      "identicalEnglish": [],
+      "differences": [
+        {
+          "page": "about.md",
+          "changes": {
+            "headings": {
+              "en": 6,
+              "localized": 5
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15e/introduction.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            },
+            "images": {
+              "missing": [
+                "/assets/title-placeholder.svg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/mobile-platform.md",
+          "changes": {
+            "headings": {
+              "en": 7,
+              "localized": 5
+            },
+            "images": {
+              "missing": [
+                "/assets/mobile-gyro-calibration.jpeg",
+                "/assets/mobile-ui-editor.jpeg",
+                "/assets/mobile-virtual-stick.jpeg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/tac-editor.md",
+          "changes": {
+            "headings": {
+              "en": 45,
+              "localized": 37
+            },
+            "anchors": {
+              "missing": [
+                "bullseye-and-geofences"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "blog/2026-08-10-website-structure.md",
+          "changes": {
+            "headings": {
+              "en": 3,
+              "localized": 2
+            }
+          }
+        },
+        {
+          "page": "blog/index.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 4
+            }
+          }
+        },
+        {
+          "page": "game/account-profile.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/career-xp.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            },
+            "tables": {
+              "en": 10,
+              "localized": 0
+            }
+          }
+        },
+        {
+          "page": "game/index.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/medals.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/patches.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/qualifications.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        }
+      ]
+    },
+    "es": {
+      "missing": [
+        "api-examples.md",
+        "markdown-examples.md"
+      ],
+      "placeholders": [
+        "aircraft/f15c/air-to-air-missiles.md",
+        "aircraft/f15c/appendix.md",
+        "aircraft/f15c/checklists.md",
+        "aircraft/f15c/cockpit-instruments.md",
+        "aircraft/f15c/combat-tactics.md",
+        "aircraft/f15c/flight-dynamics.md",
+        "aircraft/f15c/flight-theory.md",
+        "aircraft/f15c/radio-communications.md"
+      ],
+      "identicalEnglish": [],
+      "differences": [
+        {
+          "page": "about.md",
+          "changes": {
+            "headings": {
+              "en": 6,
+              "localized": 5
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15e/introduction.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            },
+            "images": {
+              "missing": [
+                "/assets/title-placeholder.svg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/mobile-platform.md",
+          "changes": {
+            "headings": {
+              "en": 7,
+              "localized": 5
+            },
+            "images": {
+              "missing": [
+                "/assets/mobile-gyro-calibration.jpeg",
+                "/assets/mobile-ui-editor.jpeg",
+                "/assets/mobile-virtual-stick.jpeg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/tac-editor.md",
+          "changes": {
+            "headings": {
+              "en": 45,
+              "localized": 37
+            },
+            "anchors": {
+              "missing": [
+                "bullseye-and-geofences"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "blog/2026-08-10-website-structure.md",
+          "changes": {
+            "headings": {
+              "en": 3,
+              "localized": 2
+            }
+          }
+        },
+        {
+          "page": "blog/index.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 4
+            }
+          }
+        },
+        {
+          "page": "game/account-profile.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/career-xp.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            },
+            "tables": {
+              "en": 10,
+              "localized": 0
+            }
+          }
+        },
+        {
+          "page": "game/index.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/medals.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/patches.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/qualifications.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        }
+      ]
+    },
+    "fr": {
+      "missing": [
+        "api-examples.md",
+        "markdown-examples.md"
+      ],
+      "placeholders": [
+        "aircraft/f15c/air-to-air-missiles.md",
+        "aircraft/f15c/appendix.md",
+        "aircraft/f15c/checklists.md",
+        "aircraft/f15c/cockpit-instruments.md",
+        "aircraft/f15c/combat-tactics.md",
+        "aircraft/f15c/flight-dynamics.md",
+        "aircraft/f15c/flight-theory.md",
+        "aircraft/f15c/radio-communications.md"
+      ],
+      "identicalEnglish": [],
+      "differences": [
+        {
+          "page": "about.md",
+          "changes": {
+            "headings": {
+              "en": 6,
+              "localized": 5
+            }
+          }
+        },
+        {
+          "page": "aircraft/f15e/introduction.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            },
+            "images": {
+              "missing": [
+                "/assets/title-placeholder.svg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/mobile-platform.md",
+          "changes": {
+            "headings": {
+              "en": 7,
+              "localized": 5
+            },
+            "images": {
+              "missing": [
+                "/assets/mobile-gyro-calibration.jpeg",
+                "/assets/mobile-ui-editor.jpeg",
+                "/assets/mobile-virtual-stick.jpeg"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "basics/tac-editor.md",
+          "changes": {
+            "headings": {
+              "en": 45,
+              "localized": 37
+            },
+            "anchors": {
+              "missing": [
+                "bullseye-and-geofences"
+              ],
+              "extra": []
+            }
+          }
+        },
+        {
+          "page": "blog/2026-08-10-website-structure.md",
+          "changes": {
+            "headings": {
+              "en": 3,
+              "localized": 2
+            }
+          }
+        },
+        {
+          "page": "blog/index.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 4
+            }
+          }
+        },
+        {
+          "page": "game/account-profile.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/career-xp.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            },
+            "tables": {
+              "en": 10,
+              "localized": 0
+            }
+          }
+        },
+        {
+          "page": "game/index.md",
+          "changes": {
+            "headings": {
+              "en": 4,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/medals.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/patches.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        },
+        {
+          "page": "game/qualifications.md",
+          "changes": {
+            "headings": {
+              "en": 5,
+              "localized": 1
+            }
+          }
+        }
+      ]
+    }
+  },
+  "note": "Structural differences are review candidates, not proof of mistranslation. Matching structure does not prove semantic equivalence. Internal private notes and asset README files excluded."
+}

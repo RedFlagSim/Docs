@@ -1,9 +1,38 @@
 # Medaillen
 
-Medaillen sind dauerhafte Erfolge. Eine freigeschaltete Medaille läuft nicht ab.
+Medaillen sind dauerhafte Erfolge. Anders als befristete Qualifikationen verfallen sie nicht.
 
-Medaillen können durch Flugzeit, Career XP, Rangfortschritt, Luftkampf, Raketen- und Kanonentreffer, Bombenabwürfe, Landungen und Boom AAR verdient werden.
+## Erwerb
 
-Beispiele sind der erste aufgezeichnete Flug, 10/50/100/500 Flugstunden, der erste Luftsieg, eine hohe Landewertung oder Luftbetankungs-Meilensteine.
+Medaillen werden für Meilensteine im gespeicherten Kontofortschritt verliehen. Die Prüfung kann nach Flügen, Datenaktualisierungen, Anmeldung oder beim Öffnen des Flugbuchs erfolgen.
 
-Einige Medaillen sind für spätere Aktivitäten reserviert, etwa Raketenangriffe, Schiffsangriffe, Carrier Landings oder besondere Präzisionsangriffe.
+Aktuelle Kategorien:
+
+- Flugzeit.
+- Karriere-XP.
+- Rangaufstieg.
+- Luftkampfergebnisse.
+- Raketen- und Kanonentreffer.
+- Bombenabwürfe.
+- Leistung und Anzahl der Flugplatzlandungen.
+- Leistung und Anzahl der Boom-Luftbetankungen.
+
+## Beispiele
+
+- Erster abgeschlossener aufgezeichneter Einsatz.
+- 10, 50, 100 oder 500 Flugstunden.
+- Wichtige Karriere-XP-Meilensteine.
+- Höhere Ränge.
+- Erster Luftsieg.
+- Hohe Landewertung.
+- Boom-Betankungsmeilensteine.
+
+## Reservierte Medaillenfamilien
+
+Einige sind für noch nicht vollständig verfügbare Aktivitäten vorbereitet: ungelenkte Raketenangriffe, Schiffsangriffe, Trägerlandungen oder besondere Präzisionsangriffswertungen.
+
+Sie können gesperrt bleiben, bis Aktivität und Wertungssystem verfügbar sind.
+
+## Meldungen
+
+Bei Freischaltung kann eine kurze Meldung erscheinen. Verpasste, noch ausstehende Medaillenmeldungen können später im Flugbuch erneut angezeigt werden.

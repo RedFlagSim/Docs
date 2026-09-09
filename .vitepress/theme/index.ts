@@ -38,21 +38,21 @@ export default {
         let target = ''
         
         if (userLang.startsWith('zh-tw') || userLang.startsWith('zh-hk') || userLang.startsWith('zh-mo')) {
-          target = base + 'zh-tw/'
+          target = '/zh-tw' + base
         } else if (userLang.startsWith('zh')) {
-          target = base + 'zh/'
+          target = '/zh' + base
         } else if (userLang.startsWith('ja')) {
-          target = base + 'ja/'
+          target = '/ja' + base
         } else if (userLang.startsWith('ko')) {
-          target = base + 'ko/'
+          target = '/ko' + base
         } else if (userLang.startsWith('ru')) {
-          target = base + 'ru/'
+          target = '/ru' + base
         } else if (userLang.startsWith('de')) {
-          target = base + 'de/'
+          target = '/de' + base
         } else if (userLang.startsWith('es')) {
-          target = base + 'es/'
+          target = '/es' + base
         } else if (userLang.startsWith('fr')) {
-          target = base + 'fr/'
+          target = '/fr' + base
         }
 
         // 如果匹配到语言且不是当前路径，则跳转

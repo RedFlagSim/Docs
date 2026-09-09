@@ -1,3 +1,4 @@
+import { localeUi, searchLocales } from './ui-locales'
 
 import { defineConfig } from 'vitepress'
 
@@ -32,8 +33,8 @@ const docsRewrites = {
 }
 
 const enNav = [
-  { text: 'Docs', link: '/Docs/' },
-  { text: 'Dev Blog', link: '/blog/' },
+  { text: "Docs", link: '/Docs/' },
+  { text: "Dev Blog", link: '/blog/' },
   { text: 'Support', link: '/support/' }
 ]
 
@@ -69,6 +70,7 @@ const enSidebar = [
         { text: 'Touch UI', link: '/Docs/aircraft/f15c/touch-ui' },
         { text: 'Cockpit Instruments', link: '/Docs/aircraft/f15c/cockpit-instruments' },
         { text: 'HUD Operation', link: '/Docs/aircraft/f15c/hud-operation' },
+        { text: 'HMD', link: '/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63 Radar and VSD', link: '/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/Docs/aircraft/f15c/mpcd' },
         { text: 'Defensive Systems', link: '/Docs/aircraft/f15c/defensive-systems' },
@@ -108,8 +110,8 @@ const enSidebar = [
 ]
 
 const zhNav = [
-  { text: 'Docs', link: '/zh/Docs/' },
-  { text: 'Dev Blog', link: '/zh/blog/' },
+  { text: "文档", link: '/zh/Docs/' },
+  { text: "开发日志", link: '/zh/blog/' },
   { text: '支持', link: '/zh/support/' }
 ]
 
@@ -145,6 +147,7 @@ const zhSidebar = [
         { text: '触摸 UI', link: '/zh/Docs/aircraft/f15c/touch-ui' },
         { text: '驾驶舱仪表', link: '/zh/Docs/aircraft/f15c/cockpit-instruments' },
         { text: 'HUD 操作', link: '/zh/Docs/aircraft/f15c/hud-operation' },
+        { text: '头盔显示器（HMD）', link: '/zh/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63雷达和VSD', link: '/zh/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/zh/Docs/aircraft/f15c/mpcd' },
         { text: '对抗系统', link: '/zh/Docs/aircraft/f15c/defensive-systems' },
@@ -184,8 +187,8 @@ const zhSidebar = [
 ]
 
 const zhTwNav = [
-  { text: 'Docs', link: '/zh-tw/Docs/' },
-  { text: 'Dev Blog', link: '/zh-tw/blog/' },
+  { text: "文件", link: '/zh-tw/Docs/' },
+  { text: "開發日誌", link: '/zh-tw/blog/' },
   { text: '支援', link: '/zh-tw/support/' }
 ]
 
@@ -221,6 +224,7 @@ const zhTwSidebar = [
         { text: '觸控 UI', link: '/zh-tw/Docs/aircraft/f15c/touch-ui' },
         { text: '駕駛艙儀表', link: '/zh-tw/Docs/aircraft/f15c/cockpit-instruments' },
         { text: 'HUD 操作', link: '/zh-tw/Docs/aircraft/f15c/hud-operation' },
+        { text: 'HMD', link: '/zh-tw/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63雷達與VSD', link: '/zh-tw/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/zh-tw/Docs/aircraft/f15c/mpcd' },
         { text: '防禦系統', link: '/zh-tw/Docs/aircraft/f15c/defensive-systems' },
@@ -260,8 +264,8 @@ const zhTwSidebar = [
 ]
 
 const jaNav = [
-  { text: 'Docs', link: '/ja/Docs/' },
-  { text: 'Dev Blog', link: '/ja/blog/' },
+  { text: "ドキュメント", link: '/ja/Docs/' },
+  { text: "開発ブログ", link: '/ja/blog/' },
   { text: 'サポート', link: '/ja/support/' }
 ]
 
@@ -297,6 +301,7 @@ const jaSidebar = [
         { text: 'タッチ UI', link: '/ja/Docs/aircraft/f15c/touch-ui' },
         { text: 'コックピット計器', link: '/ja/Docs/aircraft/f15c/cockpit-instruments' },
         { text: 'HUD 操作', link: '/ja/Docs/aircraft/f15c/hud-operation' },
+        { text: 'HMD', link: '/ja/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63 レーダーとVSD', link: '/ja/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/ja/Docs/aircraft/f15c/mpcd' },
         { text: '防御システム', link: '/ja/Docs/aircraft/f15c/defensive-systems' },
@@ -336,8 +341,8 @@ const jaSidebar = [
 ]
 
 const ruNav = [
-  { text: 'Docs', link: '/ru/Docs/' },
-  { text: 'Dev Blog', link: '/ru/blog/' },
+  { text: "Документация", link: '/ru/Docs/' },
+  { text: "Блог разработки", link: '/ru/blog/' },
   { text: 'Поддержка', link: '/ru/support/' }
 ]
 
@@ -373,6 +378,7 @@ const ruSidebar = [
         { text: 'Сенсорный UI', link: '/ru/Docs/aircraft/f15c/touch-ui' },
         { text: 'Приборы кабины', link: '/ru/Docs/aircraft/f15c/cockpit-instruments' },
         { text: 'Работа с HUD', link: '/ru/Docs/aircraft/f15c/hud-operation' },
+        { text: 'HMD', link: '/ru/Docs/aircraft/f15c/hmd' },
         { text: 'РЛС AN/APG-63 и VSD', link: '/ru/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/ru/Docs/aircraft/f15c/mpcd' },
         { text: 'Оборонительные системы', link: '/ru/Docs/aircraft/f15c/defensive-systems' },
@@ -412,8 +418,8 @@ const ruSidebar = [
 ]
 
 const deNav = [
-  { text: 'Docs', link: '/de/Docs/' },
-  { text: 'Dev Blog', link: '/de/blog/' },
+  { text: "Dokumentation", link: '/de/Docs/' },
+  { text: "Entwicklerblog", link: '/de/blog/' },
   { text: 'Support', link: '/de/support/' }
 ]
 
@@ -449,6 +455,7 @@ const deSidebar = [
         { text: 'Touch UI', link: '/de/Docs/aircraft/f15c/touch-ui' },
         { text: 'Cockpit-Instrumente', link: '/de/Docs/aircraft/f15c/cockpit-instruments' },
         { text: 'HUD-Bedienung', link: '/de/Docs/aircraft/f15c/hud-operation' },
+        { text: 'HMD', link: '/de/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63 Radar und VSD', link: '/de/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/de/Docs/aircraft/f15c/mpcd' },
         { text: 'Defensivsysteme', link: '/de/Docs/aircraft/f15c/defensive-systems' },
@@ -488,8 +495,8 @@ const deSidebar = [
 ]
 
 const esNav = [
-  { text: 'Docs', link: '/es/Docs/' },
-  { text: 'Dev Blog', link: '/es/blog/' },
+  { text: "Documentación", link: '/es/Docs/' },
+  { text: "Blog de desarrollo", link: '/es/blog/' },
   { text: 'Soporte', link: '/es/support/' }
 ]
 
@@ -525,6 +532,7 @@ const esSidebar = [
         { text: 'Interfaz táctil', link: '/es/Docs/aircraft/f15c/touch-ui' },
         { text: 'Instrumentos de cabina', link: '/es/Docs/aircraft/f15c/cockpit-instruments' },
         { text: 'Operación del HUD', link: '/es/Docs/aircraft/f15c/hud-operation' },
+        { text: 'HMD', link: '/es/Docs/aircraft/f15c/hmd' },
         { text: 'Radar AN/APG-63 y VSD', link: '/es/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/es/Docs/aircraft/f15c/mpcd' },
         { text: 'Sistemas defensivos', link: '/es/Docs/aircraft/f15c/defensive-systems' },
@@ -564,8 +572,8 @@ const esSidebar = [
 ]
 
 const frNav = [
-  { text: 'Docs', link: '/fr/Docs/' },
-  { text: 'Dev Blog', link: '/fr/blog/' },
+  { text: "Documentation", link: '/fr/Docs/' },
+  { text: "Blog de développement", link: '/fr/blog/' },
   { text: 'Support', link: '/fr/support/' }
 ]
 
@@ -601,6 +609,7 @@ const frSidebar = [
         { text: 'Interface tactile', link: '/fr/Docs/aircraft/f15c/touch-ui' },
         { text: 'Instruments du cockpit', link: '/fr/Docs/aircraft/f15c/cockpit-instruments' },
         { text: 'Utilisation du HUD', link: '/fr/Docs/aircraft/f15c/hud-operation' },
+        { text: 'HMD', link: '/fr/Docs/aircraft/f15c/hmd' },
         { text: 'Radar AN/APG-63 et VSD', link: '/fr/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/fr/Docs/aircraft/f15c/mpcd' },
         { text: 'Systèmes défensifs', link: '/fr/Docs/aircraft/f15c/defensive-systems' },
@@ -640,8 +649,8 @@ const frSidebar = [
 ]
 
 const koNav = [
-  { text: 'Docs', link: '/ko/Docs/' },
-  { text: 'Dev Blog', link: '/ko/blog/' },
+  { text: "문서", link: '/ko/Docs/' },
+  { text: "개발 블로그", link: '/ko/blog/' },
   { text: '지원', link: '/ko/support/' }
 ]
 
@@ -677,6 +686,7 @@ const koSidebar = [
         { text: '터치 UI', link: '/ko/Docs/aircraft/f15c/touch-ui' },
         { text: '조종석 계기', link: '/ko/Docs/aircraft/f15c/cockpit-instruments' },
         { text: 'HUD 운용', link: '/ko/Docs/aircraft/f15c/hud-operation' },
+        { text: 'HMD', link: '/ko/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63 레이더 및 VSD', link: '/ko/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/ko/Docs/aircraft/f15c/mpcd' },
         { text: '방어 시스템', link: '/ko/Docs/aircraft/f15c/defensive-systems' },
@@ -716,6 +726,7 @@ const koSidebar = [
 ]
 
 export default defineConfig({
+  srcExclude: ['private/**', 'reports/**', '**/README.md'],
   title: 'Red Flag Sim',
   description: '官方网站',
   base: '/',
@@ -727,6 +738,7 @@ export default defineConfig({
       title: 'Red Flag Sim',
       description: 'Official Website',
       themeConfig: {
+        ...localeUi('en'),
         nav: enNav,
         sidebar: enSidebar,
         lastUpdated: {
@@ -745,6 +757,7 @@ export default defineConfig({
       title: 'Red Flag Sim',
       description: '官方网站',
       themeConfig: {
+        ...localeUi('zh'),
         nav: zhNav,
         sidebar: zhSidebar,
         lastUpdated: {
@@ -763,6 +776,7 @@ export default defineConfig({
       title: 'Red Flag Sim',
       description: '官方網站',
       themeConfig: {
+        ...localeUi('zh-tw'),
         nav: zhTwNav,
         sidebar: zhTwSidebar,
         lastUpdated: {
@@ -781,6 +795,7 @@ export default defineConfig({
       title: 'Red Flag Sim',
       description: '公式サイト',
       themeConfig: {
+        ...localeUi('ja'),
         nav: jaNav,
         sidebar: jaSidebar,
         lastUpdated: {
@@ -799,6 +814,7 @@ export default defineConfig({
       title: 'Red Flag Sim',
       description: 'Официальный сайт',
       themeConfig: {
+        ...localeUi('ru'),
         nav: ruNav,
         sidebar: ruSidebar,
         lastUpdated: {
@@ -817,6 +833,7 @@ export default defineConfig({
       title: 'Red Flag Sim',
       description: 'Offizielle Website',
       themeConfig: {
+        ...localeUi('de'),
         nav: deNav,
         sidebar: deSidebar,
         lastUpdated: {
@@ -835,6 +852,7 @@ export default defineConfig({
       title: 'Red Flag Sim',
       description: 'Sitio web oficial',
       themeConfig: {
+        ...localeUi('es'),
         nav: esNav,
         sidebar: esSidebar,
         lastUpdated: {
@@ -853,6 +871,7 @@ export default defineConfig({
       title: 'Red Flag Sim',
       description: 'Site officiel',
       themeConfig: {
+        ...localeUi('fr'),
         nav: frNav,
         sidebar: frSidebar,
         lastUpdated: {
@@ -871,6 +890,7 @@ export default defineConfig({
       title: 'Red Flag Sim',
       description: '공식 웹사이트',
       themeConfig: {
+        ...localeUi('ko'),
         nav: koNav,
         sidebar: koSidebar,
         lastUpdated: {
@@ -891,7 +911,8 @@ export default defineConfig({
       { icon: 'youtube', link: 'https://www.youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA' }
     ],
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: { locales: searchLocales }
     }
   }
 })

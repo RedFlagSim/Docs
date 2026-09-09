@@ -6,10 +6,7 @@ Esta página aplica a dispositivos táctiles iOS y Android.
 
 ### Navigation Mode
 
-![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
-
-- **30** Stick táctil
-- **31** Trim
+![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode.png)
 
 ### AA Mode
 
@@ -19,36 +16,37 @@ Esta página aplica a dispositivos táctiles iOS y Android.
 
 ## Índice de UI
 
-<div class="term-cloud">
-  <a href="#item-1">1 Panel de funciones</a>
-  <a href="#item-2">2 Conmutador de modo</a>
-  <a href="#item-3">3 Edición de elementos UI</a>
-  <a href="#item-4">4 Menú principal</a>
-  <a href="#item-5">5 Indicador de entrada</a>
-  <a href="#item-6">6 Conmutador de tren de aterrizaje</a>
-  <a href="#item-7">7 Conmutador de flaps</a>
-  <a href="#item-8">8 Acelerador</a>
-  <a href="#item-9">9 Conmutador de modo de acelerador</a>
-  <a href="#item-10">10 Conmutador de aerofreno</a>
-  <a href="#item-11">11 Mostrar MFD</a>
-  <a href="#item-12">12 Mostrar mapa táctico</a>
-  <a href="#item-13">13 Conmutador paddle</a>
-  <a href="#item-14">14 MFD flotante</a>
-  <a href="#item-15">15 Timón</a>
-  <a href="#item-16">16 Padlock</a>
-  <a href="#item-17">17 Menú de cambio de cámara</a>
-  <a href="#item-18">18 Cursor</a>
-  <a href="#item-19">19 Conmutador castle</a>
-  <a href="#item-20">20 Barra de estado</a>
-  <a href="#item-21">21 Liberación de chaff/flare</a>
-  <a href="#item-22">22 Conmutador master arm</a>
-  <a href="#item-23">23 Gatillo del cañón</a>
-  <a href="#item-24">24 Conmutador de selección de arma</a>
-  <a href="#item-25">25 Antenna Elevation</a>
-  <a href="#item-26">26 Conmutador coolie</a>
-  <a href="#item-27">27 Liberación de arma</a>
-  <a href="#item-28">28 Conmutador auto acquisition</a>
-</div>
+| N.º | Control | Función principal |
+| --- | --- | --- |
+| 1 | [Panel de funciones](#item-1) | Abrir los paneles MAIN, NAV, HUD y MISC |
+| 2 | [Conmutador de modo](#item-2) | Alternar entre NAV y AA |
+| 4 | [Menú principal](#item-4) | Abrir la configuración del avión, preferencias y opciones de misión |
+| 5 | [Indicador de entrada](#item-5) | Mostrar las entradas de control y las posiciones de trim |
+| 6 | [Conmutador de tren de aterrizaje](#item-6) | Extender o retraer el tren de aterrizaje |
+| 7 | [Conmutador de flaps](#item-7) | Extender o retraer los flaps |
+| 8 | [Acelerador](#item-8) | Ajustar el empuje; cambiar al control de un solo motor |
+| 9 | [Conmutador de modo de acelerador](#item-9) | Seleccionar acelerador manual, seguimiento de IAS o AoA óptimo |
+| 10 | [Conmutador de aerofreno](#item-10) | Extender, detener o retraer el aerofreno |
+| 11 | [Mostrar MFD](#item-11) | Mantener pulsado para enfocar la vista de cabina en el VSD o MPCD |
+| 12 | [Mostrar mapa táctico](#item-12) | Mostrar el mapa táctico durante el vuelo |
+| 13 | [Conmutador paddle](#item-13) | Mantener pulsado para desconectar temporalmente el piloto automático |
+| 14 | [MFD flotante](#item-14) | Ver hasta tres MFD flotantes sin cambiar de vista |
+| 15 | [Timón](#item-15) | Controlar el timón, la dirección de la rueda de morro y los frenos |
+| 16 | [Padlock](#item-16) | Fijar la vista en una entidad cercana |
+| 17 | [Menú de cambio de cámara](#item-17) | Cambiar de vista o abrir el menú de cámaras |
+| 18 | [Cursor](#item-18) | Mover el cursor VSD/SIT y designar objetivos |
+| 19 | [Conmutador castle](#item-19) | Seleccionar el sensor activo (SOI) y gestionar las páginas |
+| 20 | [Barra de estado](#item-20) | Mostrar FPS, viento, peso del avión, hora y estado del piloto automático |
+| 21 | [Liberación de chaff/flare](#item-21) | Lanzar chaff y bengalas |
+| 22 | [Conmutador master arm](#item-22) | Habilitar el disparo de armas |
+| 23 | [Gatillo del cañón](#item-23) | Disparar el cañón seleccionado |
+| 24 | [Conmutador de selección de arma](#item-24) | Seleccionar categorías de armas y alternar misiles |
+| 25 | [Antenna Elevation](#item-25) | Ajustar la elevación de la antena radar |
+| 26 | [Conmutador coolie](#item-26) | Gestionar páginas y pantallas tácticas |
+| 27 | [Liberación de arma](#item-27) | Lanzar el misil o la carga seleccionados |
+| 28 | [Conmutador auto acquisition](#item-28) | Alternar STBY/LRS, recorrer modos de adquisición automática o activar FLOOD |
+| 30 | [Stick táctil](#item-30) | Controlar el cabeceo y el alabeo |
+| 31 | [Trim](#item-31) | Ajustar la compensación del avión |
 
 ## Explicación detallada
 
@@ -405,34 +403,21 @@ Modos de adquisición automática:
 4. **`LR BST` — Long-Range Boresight:** Busca a lo largo de la línea de mira del radar con un círculo director de 2,5° en el HUD, desde 3.000 ft hasta 40 NM.
 
 [Volver arriba](#ui-terms-top)
+<a id="item-30"></a>
+### 30. Stick táctil
+
+Arrastra el stick táctil para controlar el cabeceo y el alabeo del avión.
+
+[Volver arriba](#ui-terms-top)
+
+<a id="item-31"></a>
+### 31. Trim
+
+Utiliza este control para ajustar la compensación (trim) del avión.
+
+[Volver arriba](#ui-terms-top)
+
 <style scoped>
-.term-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 12px 0 6px;
-}
-
-.term-cloud a {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  text-decoration: none;
-  line-height: 1.2;
-  font-size: 13px;
-  transition: border-color .16s ease, background-color .16s ease, transform .16s ease;
-}
-
-.term-cloud a:hover {
-  border-color: var(--vp-c-divider);
-  background: var(--vp-c-bg-elv);
-  transform: translateY(-1px);
-}
-
 .panel-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

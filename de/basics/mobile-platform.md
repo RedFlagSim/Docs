@@ -1,27 +1,54 @@
-# Handbuch für die mobile Steuerung
+# Pilotenhandbuch für Mobilgeräte
 
-Dieses Dokument gilt für iOS/Android-Mobilgeräte.
+Dieses Dokument gilt für iOS-/Android-Mobilgeräte.
 
-## Kernregel: Vertikale Haltung
+## Grundregel: Bildschirm senkrecht halten
 
-**Dies ist der entscheidende Schritt zur Etablierung einer präzisen Fluglageregelung:**
+Dies ist die Grundlage für eine präzise Fluglagesteuerung:
 
-![Diagramm zur Gerätehaltung](/assets/tilt-guide.png)
+![Grundregel: Bildschirm senkrecht halten](/assets/tilt-guide.png)
 
-*   **❌ FALSCH**: Das Smartphone flach oder horizontal halten. Dies deaktiviert die Lageberechnungsalgorithmen und schränkt den physischen Bewegungsspielraum Ihrer Handgelenke für die Nicksteuerung drastisch ein.
-*   **✅ RICHTIG**: Halten Sie das Gerät mit beiden Händen und achten Sie darauf, dass der Bildschirm **senkrecht zum Boden** steht (direkt zu Ihnen zeigt).
+- ❌ FALSCH: Das Telefon flach oder waagerecht halten. Dabei koppeln Roll- und Gierachse, sodass Rolleingaben nicht zuverlässig unterschieden werden können.
+- ✅ STANDARD: Das Gerät mit beiden Händen halten; der Bildschirm steht senkrecht zum Boden und zeigt direkt zu dir.
 
-### Warum ist die vertikale Haltung zwingend erforderlich?
-1.  **Biomechanische Ausrichtung**: Die vertikale Ausrichtung bildet die physische Rotationsachse des Steuerknüppels (Center Stick oder Side Stick) eines echten Kampfflugzeugs perfekt nach.
-2.  **Horizont-Synchronisation**: Sie hält Ihre Augen, den Bildschirm und den künstlichen Horizont im Cockpit im selben räumlichen Bezugssystem. Dies minimiert die räumliche Desorientierung (Vertigo) bei Manövern mit hoher G-Belastung.
-3.  **Optimaler Spielraum für Mikro-Mögligkeiten**: In dieser Haltung verfügen Ihre Handgelenke ganz natürlich über den maximalen Bewegungsbereich für Vorwärts-/Rückwärts- (Nicken) und Links-/Rechtskurven-Eingaben (Rollen).
+### Warum muss das Gerät senkrecht stehen?
 
-## Steuerungslogik
+Die Bewegungssteuerung muss die Rollachse eindeutig erkennen können. Liegt das Gerät flach, koppeln Roll- und Gierachse bei der Lageberechnung. Das System kann dann nicht zuverlässig zwischen Rollen und Gieren unterscheiden. Die aufrechte Haltung ist daher die Ausgangslage für die Bewegungssteuerung.
 
-*   **Nicksteuerung (Pitch - Höhenruder)**: Neigen Sie die Oberseite des Telefons nach **hinten** (zu Ihrem Körper hin), um die Nase hochzuziehen (Steigen); neigen Sie sie nach **vorne** (vom Körper weg), um die Nase zu drücken (Sinken).
-*   **Rollsteuerung (Roll - Querruder)**: Drehen Sie das Smartphone nach links oder rechts, ähnlich wie beim Drehen eines Lenkrads.
+## Steuereingaben
 
-## Vorflug-Kalibrierung und Präzisionstipps
+- Nicken (Höhenruder): Die Oberkante nach hinten zum Körper neigen, um die Nase anzuheben und zu steigen; nach vorn vom Körper weg neigen, um die Nase zu senken und abzutauchen.
+- Rollen (Querruder): Das Telefon wie ein Lenkrad nach links oder rechts drehen.
 
-1.  **Nullpunkt festlegen (Kalibrierung)**: Nehmen Sie vor dem Betreten des Cockpits oder dem Starten einer Mission Ihre bequemste Sitzposition ein, halten Sie das Gerät ruhig in vertikaler Position und tippen Sie auf **"CALIBRATE"**. Das System speichert den aktuellen Winkel als neutralen Nullpunkt.
-2.  **Steuerung stabilisieren**: Stützen Sie bei Präzisionsmanövern – wie engem Formationsflug, Luftbetankung oder Dogfights – Ihre Ellbogen auf den Knien oder Armlehnen ab. Dies filtert unwillkürliche Körperbewegungen heraus und ermöglicht hochpräzise Manöver im Sub-Grad-Bereich.
+## Virtueller Touch-Joystick
+
+Alternativ zur Bewegungssteuerung unterstützt die mobile Version einen virtuellen Joystick auf dem Bildschirm. Wähle diesen Steuerungsmodus vor dem Flug, wenn du das Gerät ruhig halten möchtest.
+
+![Virtueller Touch-Joystick](/assets/mobile-virtual-stick.jpeg)
+
+- Nicken: Den Stick nach unten ziehen, um die Nase anzuheben, oder nach oben, um sie zu senken.
+- Rollen: Den Stick für die entsprechende Rollrichtung nach links oder rechts ziehen.
+- Neutralstellung: Beim Loslassen kehrt der Stick automatisch in die Mitte zurück.
+
+Die senkrechte Haltung und Kalibrierung sind nur für die Bewegungssteuerung erforderlich. Beim virtuellen Touch-Joystick kannst du das Gerät in jeder angenehmen Betrachtungsposition halten.
+
+## Vorbereitung und Präzisionstipps
+
+1. Ausgangslage festlegen (Kalibrierung): Nach dem Einsteigen oder vor dem Start bequem sitzen, das Gerät aufrecht ruhig halten und im Hauptmenü Calibrate Gyro antippen. Der aktuelle Winkel wird als neutraler Nullpunkt gespeichert.
+
+    ![Vorbereitung und Präzisionstipps](/assets/mobile-gyro-calibration.jpeg)
+
+2. Steuerung stabilisieren: Bei engen Formationen, Luftbetankung oder Nahluftkampf die Ellbogen auf Knien oder Armlehnen abstützen. Das filtert Körperzittern und ermöglicht Steuerbewegungen von weniger als einem Grad.
+
+## Touch-UI-Bearbeitungsmodus
+
+Tippe viermal schnell hintereinander auf eine freie Bildschirmstelle, um den Bearbeitungsmodus zu öffnen. Alternativ wähle `UI Editor` im Hauptmenü.
+
+![Touch-UI-Bearbeitungsmodus](/assets/mobile-ui-editor.jpeg)
+
+Im Bearbeitungsmodus kannst du:
+
+- Bedienelemente neu anordnen: Elemente auswählen und verschieben, um das Layout anzupassen.
+- Transparente Darstellung wählen: Mit `CLEAR MODE` zur transparenten Ansicht wechseln.
+- Gesamte Deckkraft anpassen: Die Sichtbehinderung durch die Touch-UI verringern.
+- Schwebende MFDs konfigurieren: Größe und Sichtbarkeit der Multifunktionsdisplays anpassen. Details zu Bedienelementen und Bearbeitungsbereich stehen in der [F-15C-Touch-UI-Dokumentation](/de/Docs/aircraft/f15c/touch-ui.html#item-3).

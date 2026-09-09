@@ -6,10 +6,7 @@
 
 ### Navigation Mode
 
-![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
-
-- **30** 터치 스틱
-- **31** 트림
+![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode.png)
 
 ### AA Mode
 
@@ -19,36 +16,37 @@
 
 ## UI 编号
 
-<div class="term-cloud">
-  <a href="#item-1">1 功能面板</a>
-  <a href="#item-2">2 模式切换</a>
-  <a href="#item-3">3 UI 元素编辑</a>
-  <a href="#item-4">4 主菜单</a>
-  <a href="#item-5">5 输入指示器</a>
-  <a href="#item-6">6 起落架开关</a>
-  <a href="#item-7">7 襟翼开关</a>
-  <a href="#item-8">8 油门</a>
-  <a href="#item-9">9 油门模式开关</a>
-  <a href="#item-10">10 减速板开关</a>
-  <a href="#item-11">11 显示 MFD</a>
-  <a href="#item-12">12 显示战术地图</a>
-  <a href="#item-13">13 paddle 开关</a>
-  <a href="#item-14">14 플로팅 MFD</a>
-  <a href="#item-15">15 舵</a>
-  <a href="#item-16">16 padlock</a>
-  <a href="#item-17">17 相机切换菜单</a>
-  <a href="#item-18">18 Cursor</a>
-  <a href="#item-19">19 castle 开关</a>
-  <a href="#item-20">20 状态栏</a>
-  <a href="#item-21">21 chaff/flare 释放</a>
-  <a href="#item-22">22 主武器开关</a>
-  <a href="#item-23">23 机炮板机</a>
-  <a href="#item-24">24 武器选择开关</a>
-  <a href="#item-25">25 antenna elevation</a>
-  <a href="#item-26">26 coolie 开关</a>
-  <a href="#item-27">27 武器释放</a>
-  <a href="#item-28">28 auto acquisition 开关</a>
-</div>
+| 번호 | 조작부 | 주요 기능 |
+| --- | --- | --- |
+| 1 | [功能面板](#item-1) | MAIN, NAV, HUD, MISC 기능 패널 열기 |
+| 2 | [模式切换](#item-2) | NAV 및 AA 모드 전환 |
+| 4 | [主菜单](#item-4) | 항공기 설정, 환경 설정 및 임무 옵션 열기 |
+| 5 | [输入指示器](#item-5) | 조종 입력 및 트림 위치 표시 |
+| 6 | [起落架开关](#item-6) | 착륙 장치 전개 및 수납 |
+| 7 | [襟翼开关](#item-7) | 플랩 전개 및 수납 |
+| 8 | [油门](#item-8) | 추력 조정 및 단일 엔진 스로틀 조작으로 전환 |
+| 9 | [油门模式开关](#item-9) | 수동, IAS 추종 또는 적정 받음각 스로틀 모드 선택 |
+| 10 | [减速板开关](#item-10) | 스피드 브레이크 전개, 정지 및 수납 |
+| 11 | [显示 MFD](#item-11) | 길게 눌러 조종석 시점을 VSD 또는 MPCD로 이동 |
+| 12 | [显示战术地图](#item-12) | 비행 중 전술 지도 표시 |
+| 13 | [paddle 开关](#item-13) | 누르는 동안 자동 조종 장치 일시 해제 |
+| 14 | [플로팅 MFD](#item-14) | 시점 변경 없이 최대 3개의 플로팅 MFD 표시 |
+| 15 | [舵](#item-15) | 방향타, 앞바퀴 조향 및 휠 브레이크 조작 |
+| 16 | [padlock](#item-16) | 가까운 개체에 시점 고정 |
+| 17 | [相机切换菜单](#item-17) | 카메라 시점 전환 또는 카메라 메뉴 열기 |
+| 18 | [Cursor](#item-18) | VSD/SIT 커서 조작 및 표적 지정 |
+| 19 | [castle 开关](#item-19) | 활성 센서(SOI) 선택 및 표시 페이지 관리 |
+| 20 | [状态栏](#item-20) | FPS, 바람, 항공기 중량, 시간 및 자동 조종 상태 표시 |
+| 21 | [chaff/flare 释放](#item-21) | 채프 및 플레어 방출 |
+| 22 | [主武器开关](#item-22) | 무장 발사 활성화 |
+| 23 | [机炮板机](#item-23) | 선택된 기관포 발사 |
+| 24 | [武器选择开关](#item-24) | 무장 종류 선택 및 미사일 전환 |
+| 25 | [antenna elevation](#item-25) | 레이더 안테나 고각 조정 |
+| 26 | [coolie 开关](#item-26) | 전술 페이지 및 화면 관리 |
+| 27 | [武器释放](#item-27) | 선택된 미사일 발사 또는 탑재물 투하 |
+| 28 | [auto acquisition 开关](#item-28) | STBY/LRS 전환, 자동 획득 모드 순환 및 FLOOD 활성화 |
+| 30 | [터치 스틱](#item-30) | 항공기 피치 및 롤 조종 |
+| 31 | [트림](#item-31) | 항공기 트림 조정 |
 
 ## 详细解释
 
@@ -406,34 +404,21 @@ Master Arm이 켜져 있고 선택한 무장이 준비된 상태에서 미사일
 
 [返回顶部](#ui-terms-top)
 
+<a id="item-30"></a>
+### 30. 터치 스틱
+
+터치 스틱을 드래그하여 항공기의 피치와 롤을 조종합니다.
+
+[返回顶部](#ui-terms-top)
+
+<a id="item-31"></a>
+### 31. 트림
+
+항공기의 트림을 조정하는 조작부입니다.
+
+[返回顶部](#ui-terms-top)
+
 <style scoped>
-.term-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 12px 0 6px;
-}
-
-.term-cloud a {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  text-decoration: none;
-  line-height: 1.2;
-  font-size: 13px;
-  transition: border-color .16s ease, background-color .16s ease, transform .16s ease;
-}
-
-.term-cloud a:hover {
-  border-color: var(--vp-c-divider);
-  background: var(--vp-c-bg-elv);
-  transform: translateY(-1px);
-}
-
 .panel-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

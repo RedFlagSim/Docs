@@ -6,10 +6,7 @@ This page applies to iOS and Android touch devices.
 
 ### Navigation Mode
 
-![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
-
-- **30** Touch stick
-- **31** Trim
+![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode.png)
 
 ### AA Mode
 
@@ -19,36 +16,37 @@ This page applies to iOS and Android touch devices.
 
 ## UI Index
 
-<div class="term-cloud">
-  <a href="#item-1">1 Function Panel</a>
-  <a href="#item-2">2 Mode Switch</a>
-  <a href="#item-3">3 UI Element Edit</a>
-  <a href="#item-4">4 Main Menu</a>
-  <a href="#item-5">5 Input Indicator</a>
-  <a href="#item-6">6 Landing Gear Switch</a>
-  <a href="#item-7">7 Flaps Switch</a>
-  <a href="#item-8">8 Throttle</a>
-  <a href="#item-9">9 Throttle Mode Switch</a>
-  <a href="#item-10">10 Speed Brake Switch</a>
-  <a href="#item-11">11 Show MFD</a>
-  <a href="#item-12">12 Show Tac Map</a>
-  <a href="#item-13">13 Paddle Switch</a>
-  <a href="#item-14">14 Floating MFD</a>
-  <a href="#item-15">15 Rudder</a>
-  <a href="#item-16">16 Padlock</a>
-  <a href="#item-17">17 Camera Switch Menu</a>
-  <a href="#item-18">18 Cursor</a>
-  <a href="#item-19">19 Castle Switch</a>
-  <a href="#item-20">20 Status Bar</a>
-  <a href="#item-21">21 Chaff/Flare Release</a>
-  <a href="#item-22">22 Master Arm Switch</a>
-  <a href="#item-23">23 Gun Trigger</a>
-  <a href="#item-24">24 Weapon Select Switch</a>
-  <a href="#item-25">25 Antenna Elevation</a>
-  <a href="#item-26">26 Coolie Switch</a>
-  <a href="#item-27">27 Weapon Release</a>
-  <a href="#item-28">28 Auto Acquisition Switch</a>
-</div>
+| No. | Control | Primary use |
+| --- | --- | --- |
+| 1 | [Function Panel](#item-1) | Open the MAIN, NAV, HUD, and MISC function panels |
+| 2 | [Mode Switch](#item-2) | Switch between NAV and AA modes |
+| 4 | [Main Menu](#item-4) | Open aircraft setup, preferences, and mission options |
+| 5 | [Input Indicator](#item-5) | Show control inputs and trim positions |
+| 6 | [Landing Gear Switch](#item-6) | Extend or retract the landing gear |
+| 7 | [Flaps Switch](#item-7) | Extend or retract the flaps |
+| 8 | [Throttle](#item-8) | Adjust thrust; switch to single-engine throttle control |
+| 9 | [Throttle Mode Switch](#item-9) | Select manual, IAS-follow, or on-speed AoA throttle mode |
+| 10 | [Speed Brake Switch](#item-10) | Extend, stop, or retract the speed brake |
+| 11 | [Show MFD](#item-11) | Hold to focus the cockpit view on the VSD or MPCD |
+| 12 | [Show Tac Map](#item-12) | Show the in-flight tactical map |
+| 13 | [Paddle Switch](#item-13) | Hold to temporarily disconnect autopilot |
+| 14 | [Floating MFD](#item-14) | Monitor up to three floating MFDs without changing view |
+| 15 | [Rudder](#item-15) | Control rudder, nosewheel steering, and wheel brakes |
+| 16 | [Padlock](#item-16) | Lock the camera view onto a nearby entity |
+| 17 | [Camera Switch Menu](#item-17) | Cycle camera views or open the camera menu |
+| 18 | [Cursor](#item-18) | Move the VSD/SIT cursor and designate targets |
+| 19 | [Castle Switch](#item-19) | Select the active sensor (SOI) and manage display pages |
+| 20 | [Status Bar](#item-20) | Show FPS, wind, aircraft weight, time, and autopilot status |
+| 21 | [Chaff/Flare Release](#item-21) | Release chaff and flares |
+| 22 | [Master Arm Switch](#item-22) | Enable weapon firing |
+| 23 | [Gun Trigger](#item-23) | Fire the selected gun |
+| 24 | [Weapon Select Switch](#item-24) | Select weapon categories and cycle missiles |
+| 25 | [Antenna Elevation](#item-25) | Adjust radar antenna elevation |
+| 26 | [Coolie Switch](#item-26) | Manage tactical pages and displays |
+| 27 | [Weapon Release](#item-27) | Release the selected missile or store |
+| 28 | [Auto Acquisition Switch](#item-28) | Toggle STBY/LRS, cycle auto-acquisition modes, or activate FLOOD |
+| 30 | [Touch stick](#item-30) | Control aircraft pitch and roll |
+| 31 | [Trim](#item-31) | Adjust aircraft trim |
 
 ## Detailed Explanation
 
@@ -405,34 +403,21 @@ Automatic-acquisition modes:
 4. **`LR BST` — Long-Range Boresight:** Searches along the radar boresight line using a 2.5° HUD steering circle, from 3,000 ft to 40 NM.
 
 [Back to top](#ui-terms-top)
+<a id="item-30"></a>
+### 30. Touch stick
+
+Drag the touch stick to control aircraft pitch and roll.
+
+[Back to top](#ui-terms-top)
+
+<a id="item-31"></a>
+### 31. Trim
+
+Use this control to adjust aircraft trim.
+
+[Back to top](#ui-terms-top)
+
 <style scoped>
-.term-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 12px 0 6px;
-}
-
-.term-cloud a {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  text-decoration: none;
-  line-height: 1.2;
-  font-size: 13px;
-  transition: border-color .16s ease, background-color .16s ease, transform .16s ease;
-}
-
-.term-cloud a:hover {
-  border-color: var(--vp-c-divider);
-  background: var(--vp-c-bg-elv);
-  transform: translateY(-1px);
-}
-
 .panel-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

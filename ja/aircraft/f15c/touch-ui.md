@@ -6,10 +6,7 @@
 
 ### Navigation Mode
 
-![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode_copy.png)
-
-- **30** タッチスティック
-- **31** トリム
+![Navigation Mode](/assets/F-15C/TouchUI/navigation_mode.png)
 
 ### AA Mode
 
@@ -19,36 +16,37 @@
 
 ## UI 编号
 
-<div class="term-cloud">
-  <a href="#item-1">1 功能面板</a>
-  <a href="#item-2">2 模式切换</a>
-  <a href="#item-3">3 UI 元素编辑</a>
-  <a href="#item-4">4 主菜单</a>
-  <a href="#item-5">5 输入指示器</a>
-  <a href="#item-6">6 起落架开关</a>
-  <a href="#item-7">7 襟翼开关</a>
-  <a href="#item-8">8 油门</a>
-  <a href="#item-9">9 油门模式开关</a>
-  <a href="#item-10">10 减速板开关</a>
-  <a href="#item-11">11 显示 MFD</a>
-  <a href="#item-12">12 显示战术地图</a>
-  <a href="#item-13">13 paddle 开关</a>
-  <a href="#item-14">14 フローティング MFD</a>
-  <a href="#item-15">15 舵</a>
-  <a href="#item-16">16 padlock</a>
-  <a href="#item-17">17 相机切换菜单</a>
-  <a href="#item-18">18 Cursor</a>
-  <a href="#item-19">19 castle 开关</a>
-  <a href="#item-20">20 状态栏</a>
-  <a href="#item-21">21 chaff/flare 释放</a>
-  <a href="#item-22">22 主武器开关</a>
-  <a href="#item-23">23 机炮板机</a>
-  <a href="#item-24">24 武器选择开关</a>
-  <a href="#item-25">25 antenna elevation</a>
-  <a href="#item-26">26 coolie 开关</a>
-  <a href="#item-27">27 武器释放</a>
-  <a href="#item-28">28 auto acquisition 开关</a>
-</div>
+| 番号 | 操作部 | 主な機能 |
+| --- | --- | --- |
+| 1 | [功能面板](#item-1) | MAIN・NAV・HUD・MISC の機能パネルを開く |
+| 2 | [模式切换](#item-2) | NAV と AA モードを切り替える |
+| 4 | [主菜单](#item-4) | 機体設定、環境設定、ミッションのオプションを開く |
+| 5 | [输入指示器](#item-5) | 操縦入力とトリム位置を表示する |
+| 6 | [起落架开关](#item-6) | 着陸装置を上げ下げする |
+| 7 | [襟翼开关](#item-7) | フラップを上げ下げする |
+| 8 | [油门](#item-8) | 推力を調整し、単発エンジンのスロットル操作に切り替える |
+| 9 | [油门模式开关](#item-9) | 手動・IAS 追従・適正迎角のスロットルモードを選ぶ |
+| 10 | [减速板开关](#item-10) | スピードブレーキを展開・停止・格納する |
+| 11 | [显示 MFD](#item-11) | 長押しで座席視点を VSD または MPCD に向ける |
+| 12 | [显示战术地图](#item-12) | 飛行中の戦術マップを表示する |
+| 13 | [paddle 开关](#item-13) | 押している間、オートパイロットを一時解除する |
+| 14 | [フローティング MFD](#item-14) | 視点を変えずに最大 3 つのフローティング MFD を表示する |
+| 15 | [舵](#item-15) | ラダー、前輪操向、車輪ブレーキを操作する |
+| 16 | [padlock](#item-16) | 近くの機体などに視点を固定する |
+| 17 | [相机切换菜单](#item-17) | カメラ視点を切り替えるかカメラメニューを開く |
+| 18 | [Cursor](#item-18) | VSD/SIT カーソルを操作して目標を指定する |
+| 19 | [castle 开关](#item-19) | 操作対象センサー（SOI）と表示ページを切り替える |
+| 20 | [状态栏](#item-20) | FPS、風、機体重量、時刻、オートパイロット状態を表示する |
+| 21 | [chaff/flare 释放](#item-21) | チャフとフレアを放出する |
+| 22 | [主武器开关](#item-22) | 武器の発射を有効にする |
+| 23 | [机炮板机](#item-23) | 選択中の機関砲を発射する |
+| 24 | [武器选择开关](#item-24) | 武器カテゴリーと選択ミサイルを切り替える |
+| 25 | [antenna elevation](#item-25) | レーダーアンテナの仰角を調整する |
+| 26 | [coolie 开关](#item-26) | 戦術ページと表示を管理する |
+| 27 | [武器释放](#item-27) | 選択中のミサイルや搭載物を発射・投下する |
+| 28 | [auto acquisition 开关](#item-28) | STBY/LRS、自動捕捉モード、FLOOD を切り替える |
+| 30 | [タッチスティック](#item-30) | 機体のピッチとロールを操作する |
+| 31 | [トリム](#item-31) | 機体のトリムを調整する |
 
 ## 详细解释
 
@@ -406,34 +404,21 @@ Master Arm がオンで、選択した兵装が使用可能な状態のときに
 
 [返回顶部](#ui-terms-top)
 
+<a id="item-30"></a>
+### 30. タッチスティック
+
+タッチスティックをドラッグして、機体のピッチとロールを操作します。
+
+[返回顶部](#ui-terms-top)
+
+<a id="item-31"></a>
+### 31. トリム
+
+機体のトリムを調整するための操作部です。
+
+[返回顶部](#ui-terms-top)
+
 <style scoped>
-.term-cloud {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 12px 0 6px;
-}
-
-.term-cloud a {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 10px;
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 999px;
-  background: var(--vp-c-bg-soft);
-  color: var(--vp-c-text-1);
-  text-decoration: none;
-  line-height: 1.2;
-  font-size: 13px;
-  transition: border-color .16s ease, background-color .16s ease, transform .16s ease;
-}
-
-.term-cloud a:hover {
-  border-color: var(--vp-c-divider);
-  background: var(--vp-c-bg-elv);
-  transform: translateY(-1px);
-}
-
 .panel-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

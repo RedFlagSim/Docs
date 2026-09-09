@@ -1,51 +1,94 @@
+<script setup>
+import rwrSearchImage from '/assets/F-15C/RWR/search-new-signal.png'
+import rwrLockImage from '/assets/F-15C/RWR/lock-priority.png'
+import rwrThreatImage from '/assets/F-15C/RWR/threat-levels.png'
+</script>
+
 # F-15C Defensive Systems
 
 The F-15C defensive suite combines active electronic countermeasures, passive radar warning, and expendable chaff and flares. The pilot's task is to understand what the threat display is saying, decide whether to jam, and dispense the correct countermeasure while maneuvering.
 
-## Electronic Countermeasures
+<a id="rwr"></a>
 
-The AN/ALQ-135 is the Eagle's internal jammer. It can degrade hostile radar search, track, and missile guidance, but it also announces that the aircraft is emitting.
+## Tactical Electronic Warfare System (TEWS)
 
-![Figure 62. ECM indication on the TEWS display](/assets/F-15C/Manual/fig-62-ecm-tews-indicator.png)
+TEWS uses the AN/ALR-56C radar warning receiver to detect radar emissions from aircraft, ships, and ground systems. The receiver is passive, so it does not reveal the F-15C by transmitting.
 
-The TEWS shows jammer state in the center of the display:
+The TEWS display is centered on the ownship symbol. A signal's angular position represents its bearing relative to your aircraft. **Its distance from the center represents threat level, not actual range.**
 
-- A flashing open `X` indicates the jammer is starting or actively cycling.
-- A steady open `X` indicates the jammer is operating.
+<div class="term-cloud tac-editor-index">
+  <a href="#rwr-search">1 Search radars and new signals</a>
+  <a href="#rwr-lock">2 Lock-on and highest-priority threat</a>
+  <a href="#rwr-threat-levels">3 Three threat levels</a>
+  <a href="#rwr-audio">4 Audio warnings</a>
+</div>
 
-Use ECM deliberately. Jamming can reduce enemy engagement quality, but hostile aircraft may use Home On Jam (HOJ) techniques against the jamming source.
+Click a screenshot below to view it at its original resolution.
 
-## Radar Warning Receiver
+<a id="rwr-search"></a>
 
-The AN/ALR-56C warning receiver detects radar emissions from aircraft, ships, and ground systems. It is passive, so it does not reveal the F-15C by transmitting.
+### 1. Search radars and new signals
 
-The TEWS display is centered on the aircraft symbol. Threat position around the circle represents bearing relative to the aircraft. Distance from the center is not physical range; it reflects threat priority and signal strength.
+<a :href="rwrSearchImage" target="_blank" rel="noopener">
+  <img :src="rwrSearchImage" alt="TEWS image 1: SS and SD search radar signals, with a semicircle above a newly detected signal" loading="lazy" />
+</a>
 
-![Figure 63. TEWS threat symbols](/assets/F-15C/Manual/fig-63-tews-threat-symbols.png)
+| Symbol in image 1 | Meaning |
+| --- | --- |
+| `SS` | Search radar. |
+| `SD` | Search radar of the SA-11 Buk surface-to-air missile system. |
+| Semicircle above a symbol | A newly detected signal. The `SD` with a semicircle on the right is a new search-radar signal. |
 
-Threat priority is influenced by:
+The semicircle marks a new signal; a full circle marks the lock-on state described below.
 
-- Whether the emitter is searching, tracking, or supporting a weapon.
-- Emitter category, such as airborne radar, long-range SAM, medium-range SAM, short-range SAM, early warning radar, or AWACS.
-- Signal strength and recent activity.
-- Missile launch indications.
+<a id="rwr-lock"></a>
 
-## Missile Launch Warnings
+### 2. Lock-on and highest-priority threat
 
-The TEWS changes threat symbology when a radar-guided missile is launched.
+<a :href="rwrLockImage" target="_blank" rel="noopener">
+  <img :src="rwrLockImage" alt="TEWS image 2: two circled SA-11 fire-control radar signals, with an additional diamond around the right-hand signal" loading="lazy" />
+</a>
 
-![Figure 64. Active radar missile warning](/assets/F-15C/Manual/fig-64-tews-active-missile-warning.png)
+| Symbol in image 2 | Meaning |
+| --- | --- |
+| `11` | Fire-control radar of the SA-11 Buk surface-to-air missile system. |
+| Full circle around a signal | The radar is locking onto your aircraft. |
+| Diamond | The target assessed by the system as the highest-priority threat. |
 
-Common warning states:
+Both `11` symbols are circled, meaning that both systems have locked onto your aircraft. The right-hand `11` also has a diamond: the system judges it to be the greatest current threat.
 
-| State | Typical indication | Pilot response |
+<a id="rwr-threat-levels"></a>
+
+### 3. Three threat levels
+
+<a :href="rwrThreatImage" target="_blank" rel="noopener">
+  <img :src="rwrThreatImage" alt="TEWS image 3: locked threats in the inner zone, a new unlocked 11 on the left in the middle zone, and search signals in the outer zone" loading="lazy" />
+</a>
+
+TEWS assigns signals to three radial zones according to threat level, from the center outward:
+
+| Display zone | Threat level | Examples |
 | --- | --- | --- |
-| Search | Intermittent radar warning | Build situational awareness; do not overreact |
-| Lock / STT | More urgent tone and prioritized symbol | Prepare to defend, notch, jam, or shoot first |
-| Missile launch | Flashing missile/launch indication | Defend immediately with maneuver and countermeasures |
-| Active missile | Standalone missile symbol such as `M` | Treat as immediate terminal threat |
+| Innermost | High | Radars locking onto your aircraft, missiles, and other high-priority threats. |
+| Middle | Medium | Detected fire-control radars that have not locked onto your aircraft. |
+| Outermost | Low | The least threatening signals, such as the search radars in this example. |
 
-Infrared missiles normally do not create RWR warnings. Visual lookout and flare discipline remain essential in close combat.
+The new `11` on the left of image 3 has a semicircle above it, identifying a new signal. This fire-control radar has not yet locked onto your aircraft, so it is classified as a medium threat and appears in the middle zone.
+
+**A symbol closer to the center indicates a higher threat level, not a physically closer emitter.** Read its bearing, emitter type, and lock-on markings together to assess the threat.
+
+<a id="rwr-audio"></a>
+
+### 4. Audio warnings
+
+TEWS uses distinct sounds for scans, new signals, lock-on, and missile launches:
+
+| Event | Audio cue | Associated display |
+| --- | --- | --- |
+| A radar scans your aircraft | A single scan tone. | The corresponding radar signal. |
+| A new signal appears | A distinctive, slightly higher-pitched tone repeated 3 times. | A semicircle appears above the signal. |
+| A fire-control radar locks onto your aircraft | A continuously repeating scan tone. | A full circle appears around the signal. |
+| A radar-guided missile is launched at your aircraft | 4 rapid, high-pitched missile-launch warning tones. | The corresponding signal's circle flashes at the same time. |
 
 ## Common TEWS Symbols
 

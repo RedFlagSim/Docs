@@ -17,6 +17,18 @@ import twsMissileActiveImage from '/assets/F-15C/Radar/tws-missile-active-number
 import floodVsdImage from '/assets/F-15C/Radar/flood-vsd.png'
 </script>
 
+## Índice de modos de radar
+
+<div class="term-cloud tac-editor-index">
+  <a href="#radar-lrs">1 Búsqueda de largo alcance (LRS)</a>
+  <a href="#radar-stt">2 Seguimiento de un solo blanco (STT)</a>
+  <a href="#radar-tws">3 Seguimiento durante exploración (TWS)</a>
+  <a href="#radar-close-range">4 Adquisición automática cercana y Flood</a>
+  <a href="#radar-workflow">5 Flujo práctico</a>
+</div>
+
+<a id="radar-lrs"></a>
+
 ## Búsqueda de largo alcance (LRS)
 
 LRS busca blancos aéreos lejanos antes del bloqueo e indica su marcación y distancia respecto al avión propio. Normalmente se usa una escala VSD de **40–80 millas náuticas**. Esta es la distancia representada, no una garantía de detección de cualquier blanco a ese alcance.
@@ -222,6 +234,8 @@ La cobertura varía entre **10°** y **120°**. Se ajusta anchura azimutal, no l
 `T 589` indica 589 nudos de velocidad verdadera respecto al aire. Es distinta de la velocidad sobre el suelo del número 7 aunque las cifras coincidan.
 
 [Volver al índice numerado](#lrs-index)
+
+<a id="radar-stt"></a>
 
 ## Seguimiento de un solo blanco (STT)
 
@@ -455,6 +469,8 @@ El misil puede no tener tiempo de acelerar suficientemente. Incluso al impactar,
 
 [Volver al índice numerado](#stt-index)
 
+<a id="radar-tws"></a>
+
 ## Seguimiento durante exploración (TWS)
 
 TWS mantiene varias pistas mientras explora. Opera principalmente dentro de 40 millas náuticas y sirve sobre todo a AIM-120.
@@ -594,6 +610,8 @@ El símbolo vacío con vector es un SDT, designado pero no PDT actual. El juego 
 
 La estrella de cinco puntas es el PDT y su línea larga indica dirección de velocidad. Aquí la puerta lo encierra. Sus datos son la base de las lecturas de blanco y solución de armas del VSD.
 
+Después de designar un PDT, el cursor lo encierra automáticamente y sigue su movimiento. Puede alejar el cursor manualmente; al volver a moverlo cerca del PDT, se ajusta automáticamente y vuelve a encerrarlo. Mientras el cursor encierra el PDT, el radar centra el alcance de exploración en azimut sobre el azimut del PDT y el alcance de exploración en elevación sobre su elevación. En este estado, algunos archivos de seguimiento situados fuera del volumen explorado pueden dejar de actualizarse y ser descartados.
+
 Solo hay un PDT; los demás designados son SDT. La diferencia es prioridad, no bloqueo STT.
 
 [Volver al índice numerado](#tws-designated-index)
@@ -722,6 +740,8 @@ Las indicaciones se calculan con las condiciones al lanzar. Maniobras y contrame
 
 [Volver al índice numerado](#tws-missile-active-index)
 
+<a id="radar-close-range"></a>
+
 ## Adquisición automática cercana y Flood
 
 Exploración automática e iluminación Flood usan el **eje longitudinal del avión** y siguen su actitud. LRS y TWS usan el **plano horizontal estabilizado por cardán**.
@@ -806,6 +826,8 @@ En Flood aparece `FLOOD` arriba a la izquierda del VSD y desaparece la cuadrícu
   </a>
   <figcaption>VSD en Flood (pulse para el original)</figcaption>
 </figure>
+
+<a id="radar-workflow"></a>
 
 ## Flujo práctico
 

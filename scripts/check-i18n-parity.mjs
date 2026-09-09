@@ -1,9 +1,10 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import { execFileSync } from 'node:child_process'
 
 const ROOT = process.cwd()
-const SOURCE_DIRS = ['basics', 'aircraft', 'game', 'blog', 'support']
-const SOURCE_ROOT_FILES = ['index.md', 'about.md', 'faq.md', 'feedback.md', 'privacy-policy.md']
+const SOURCE_DIRS = ['Docs', 'basics', 'aircraft', 'game', 'blog', 'support']
+const SOURCE_ROOT_FILES = ['index.md', 'about.md', 'faq.md', 'feedback.md', 'privacy-policy.md', 'api-examples.md', 'markdown-examples.md']
 const LOCALES = ['zh', 'zh-tw', 'ja', 'ru', 'de', 'es', 'fr', 'ko']
 
 function walkMarkdownFiles(relDir) {
@@ -57,3 +58,5 @@ if (missing.length > 0) {
 }
 
 console.log(`i18n parity check passed. Verified ${sourceFiles.length} source pages across locales: ${LOCALES.join(', ')}`)
+
+execFileSync('python3', ['scripts/audit-localization.py', '--check'], { stdio: 'inherit' })

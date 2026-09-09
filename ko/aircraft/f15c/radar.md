@@ -17,6 +17,18 @@ import twsMissileActiveImage from '/assets/F-15C/Radar/tws-missile-active-number
 import floodVsdImage from '/assets/F-15C/Radar/flood-vsd.png'
 </script>
 
+## 레이더 모드 전체 색인
+
+<div class="term-cloud tac-editor-index">
+  <a href="#radar-lrs">1 장거리 탐색(LRS)</a>
+  <a href="#radar-stt">2 단일 표적 추적(STT)</a>
+  <a href="#radar-tws">3 탐색 중 추적(TWS)</a>
+  <a href="#radar-close-range">4 근거리 자동 포착과 Flood</a>
+  <a href="#radar-workflow">5 운용 순서</a>
+</div>
+
+<a id="radar-lrs"></a>
+
 ## 장거리 탐색(LRS)
 
 LRS는 포착 전에 원거리 공중 표적을 탐색하여 자기를 기준으로 한 방위와 거리를 표시합니다. 보통 VSD 표시 범위를 **40–80해리**로 설정해 원거리 반사파를 관찰합니다. 이는 표시 축척이며, 모든 표적을 해당 거리에서 탐지한다는 뜻은 아닙니다.
@@ -222,6 +234,8 @@ Bullseye는 방위와 거리를 보고하는 공통 기준점입니다. 게이�
 `T 589`는 주위 공기를 기준으로 한 자기의 진대기속도 589노트입니다. 7번의 지상속도와는 다른 값이며, 이 그림에서는 우연히 같습니다.
 
 [번호 색인으로 돌아가기](#lrs-index)
+
+<a id="radar-stt"></a>
 
 ## 단일 표적 추적(STT)
 
@@ -455,6 +469,8 @@ ASE는 허용 조향 오차(Allowable Steering Error)입니다. 원이 확대되
 
 [번호 색인으로 돌아가기](#stt-index)
 
+<a id="radar-tws"></a>
+
 ## 탐색 중 추적(TWS)
 
 TWS는 스캔을 계속하면서 여러 표적의 추적을 유지합니다. 주로 40해리 이내에서 사용하며 AIM-120 운용을 지원합니다.
@@ -594,6 +610,8 @@ TWS에서는 현재 PDT에만 무장을 발사할 수 있습니다. AIM-120은 P
 
 오각별은 PDT이며 앞으로 뻗은 긴 선은 속도 방향입니다. 이 그림에서는 게이트가 표적 위에 있습니다. PDT는 VSD 표적 자료와 무장 계산의 기준이 되는 주 관찰·교전 표적입니다.
 
+PDT를 지정하면 커서가 자동으로 PDT를 감싸고 그 움직임을 따라갑니다. 커서를 수동으로 떼어낼 수 있으며, 다시 PDT 근처로 이동하면 자동으로 달라붙어 PDT를 다시 감쌉니다. 커서가 PDT를 감싸는 동안 레이더의 방위각 스캔 범위는 PDT의 방위각을 중심으로 하고, 고각 스캔 범위도 PDT의 고각을 중심으로 합니다. 이 상태에서는 스캔 범위 밖의 일부 트랙 파일이 더 이상 갱신되지 않아 삭제될 수 있습니다.
+
 PDT는 하나뿐이며 나머지 지정 표적은 SDT입니다. 이는 지정 우선순위의 구분이지 STT 여부의 구분이 아닙니다.
 
 [번호 색인으로 돌아가기](#tws-designated-index)
@@ -722,6 +740,8 @@ X는 표적의 오각별을 향해 움직여 미사일의 접근을 나타냅니
 
 [번호 색인으로 돌아가기](#tws-missile-active-index)
 
+<a id="radar-close-range"></a>
+
 ## 근거리 자동 포착과 Flood
 
 자동 포착 스캔과 Flood 조명은 **항공기 세로축**을 기준으로 하며 항공기 자세를 따릅니다. LRS와 TWS는 **짐벌로 수평 안정화된 평면**을 기준으로 합니다.
@@ -806,6 +826,8 @@ Flood의 VSD는 다음과 같이 바뀝니다. 왼쪽 위에 `FLOOD`가 표시�
   </a>
   <figcaption>Flood 모드 VSD(클릭하여 원본 보기)</figcaption>
 </figure>
+
+<a id="radar-workflow"></a>
 
 ## 운용 순서
 
