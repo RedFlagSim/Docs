@@ -73,6 +73,7 @@ const enSidebar = [
         { text: 'HMD', link: '/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63 Radar and VSD', link: '/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/Docs/aircraft/f15c/mpcd' },
+        { text: 'Navigation', link: '/Docs/aircraft/f15c/navigation' },
         { text: 'Defensive Systems', link: '/Docs/aircraft/f15c/defensive-systems' },
         { text: 'Appendix: Acronyms', link: '/Docs/aircraft/f15c/appendix' }
         ]
@@ -150,6 +151,7 @@ const zhSidebar = [
         { text: '头盔显示器（HMD）', link: '/zh/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63雷达和VSD', link: '/zh/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/zh/Docs/aircraft/f15c/mpcd' },
+        { text: '导航', link: '/zh/Docs/aircraft/f15c/navigation' },
         { text: '对抗系统', link: '/zh/Docs/aircraft/f15c/defensive-systems' },
           { text: '附录：缩略词', link: '/zh/Docs/aircraft/f15c/appendix' }
         ]
@@ -227,6 +229,7 @@ const zhTwSidebar = [
         { text: 'HMD', link: '/zh-tw/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63雷達與VSD', link: '/zh-tw/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/zh-tw/Docs/aircraft/f15c/mpcd' },
+        { text: '導航', link: '/zh-tw/Docs/aircraft/f15c/navigation' },
         { text: '防禦系統', link: '/zh-tw/Docs/aircraft/f15c/defensive-systems' },
         { text: '附錄：縮寫', link: '/zh-tw/Docs/aircraft/f15c/appendix' }
         ]
@@ -304,6 +307,7 @@ const jaSidebar = [
         { text: 'HMD', link: '/ja/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63 レーダーとVSD', link: '/ja/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/ja/Docs/aircraft/f15c/mpcd' },
+        { text: '航法', link: '/ja/Docs/aircraft/f15c/navigation' },
         { text: '防御システム', link: '/ja/Docs/aircraft/f15c/defensive-systems' },
         { text: '付録：略語', link: '/ja/Docs/aircraft/f15c/appendix' }
         ]
@@ -381,6 +385,7 @@ const ruSidebar = [
         { text: 'HMD', link: '/ru/Docs/aircraft/f15c/hmd' },
         { text: 'РЛС AN/APG-63 и VSD', link: '/ru/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/ru/Docs/aircraft/f15c/mpcd' },
+        { text: 'Навигация', link: '/ru/Docs/aircraft/f15c/navigation' },
         { text: 'Оборонительные системы', link: '/ru/Docs/aircraft/f15c/defensive-systems' },
         { text: 'Приложение: сокращения', link: '/ru/Docs/aircraft/f15c/appendix' }
         ]
@@ -458,6 +463,7 @@ const deSidebar = [
         { text: 'HMD', link: '/de/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63 Radar und VSD', link: '/de/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/de/Docs/aircraft/f15c/mpcd' },
+        { text: 'Navigation', link: '/de/Docs/aircraft/f15c/navigation' },
         { text: 'Defensivsysteme', link: '/de/Docs/aircraft/f15c/defensive-systems' },
         { text: 'Anhang: Abkürzungen', link: '/de/Docs/aircraft/f15c/appendix' }
         ]
@@ -535,6 +541,7 @@ const esSidebar = [
         { text: 'HMD', link: '/es/Docs/aircraft/f15c/hmd' },
         { text: 'Radar AN/APG-63 y VSD', link: '/es/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/es/Docs/aircraft/f15c/mpcd' },
+        { text: 'Navegación', link: '/es/Docs/aircraft/f15c/navigation' },
         { text: 'Sistemas defensivos', link: '/es/Docs/aircraft/f15c/defensive-systems' },
         { text: 'Apéndice: abreviaturas', link: '/es/Docs/aircraft/f15c/appendix' }
         ]
@@ -612,6 +619,7 @@ const frSidebar = [
         { text: 'HMD', link: '/fr/Docs/aircraft/f15c/hmd' },
         { text: 'Radar AN/APG-63 et VSD', link: '/fr/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/fr/Docs/aircraft/f15c/mpcd' },
+        { text: 'Navigation', link: '/fr/Docs/aircraft/f15c/navigation' },
         { text: 'Systèmes défensifs', link: '/fr/Docs/aircraft/f15c/defensive-systems' },
         { text: 'Annexe : abréviations', link: '/fr/Docs/aircraft/f15c/appendix' }
         ]
@@ -689,6 +697,7 @@ const koSidebar = [
         { text: 'HMD', link: '/ko/Docs/aircraft/f15c/hmd' },
         { text: 'AN/APG-63 레이더 및 VSD', link: '/ko/Docs/aircraft/f15c/radar' },
         { text: 'MPCD', link: '/ko/Docs/aircraft/f15c/mpcd' },
+        { text: '항법', link: '/ko/Docs/aircraft/f15c/navigation' },
         { text: '방어 시스템', link: '/ko/Docs/aircraft/f15c/defensive-systems' },
         { text: '부록: 약어', link: '/ko/Docs/aircraft/f15c/appendix' }
         ]
