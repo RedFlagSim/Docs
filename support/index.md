@@ -21,7 +21,7 @@ Find help, send feedback, review privacy information, or follow RedFlagSim throu
 
 ## Official Channels
 
-- [Instagram](https://www.instagram.com/carrier_landing_hd/)
+- [Instagram](https://www.instagram.com/redflagsim/)
 - [YouTube](https://www.youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA)
 
 Store availability and current platform links are maintained on the [RedFlagSim home page](/).

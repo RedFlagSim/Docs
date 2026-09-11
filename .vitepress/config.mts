@@ -916,7 +916,7 @@ export default defineConfig({
     nav: enNav,
     sidebar: enSidebar,
     socialLinks: [
-      { icon: 'instagram', link: 'https://www.instagram.com/carrier_landing_hd/' },
+      { icon: 'instagram', link: 'https://www.instagram.com/redflagsim/' },
       { icon: 'youtube', link: 'https://www.youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA' }
     ],
     search: {

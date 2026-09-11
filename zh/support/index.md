@@ -21,7 +21,7 @@ next: false
 
 ## 官方渠道
 
-- [Instagram](https://www.instagram.com/carrier_landing_hd/)
+- [Instagram](https://www.instagram.com/redflagsim/)
 - [YouTube](https://www.youtube.com/channel/UC65kVO7otf4-oSQJ1ISTQhA)
 
 商店状态和当前平台链接统一维护在 [RedFlagSim 首页](/zh/)。
