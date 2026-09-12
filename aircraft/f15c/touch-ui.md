@@ -42,7 +42,7 @@ This page applies to iOS and Android touch devices.
 | 23 | [Gun Trigger](#item-23) | Fire the selected gun |
 | 24 | [Weapon Select Switch](#item-24) | Select weapon categories and cycle missiles |
 | 25 | [Antenna Elevation](#item-25) | Adjust radar antenna elevation |
-| 26 | [Coolie Switch](#item-26) | Manage tactical pages and displays |
+| 26 | [Coolie Switch](#item-26) | Manage track designations and PDT in TWS mode |
 | 27 | [Weapon Release](#item-27) | Release the selected missile or store |
 | 28 | [Auto Acquisition Switch](#item-28) | Toggle STBY/LRS, cycle auto-acquisition modes, or activate FLOOD |
 | 30 | [Touch stick](#item-30) | Control aircraft pitch and roll |
@@ -371,7 +371,10 @@ When radar is in LRW/TWS mode, this controls pitch reference for antenna scan.
 
 <img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Coolie Switch">
 
-Used for page and display management. In the F-15C workflow, treat the coolie switch as a quick way to move cockpit attention between tactical pages without opening the main menu. Confirm the active display before using cursor or designate commands.
+In TWS mode, the Coolie switch controls track designations and the primary designated target (PDT).
+
+- **Up:** Automatically designate all track files and assign a PDT, or cycle the PDT through all track files.
+- **Down:** Cancel all designations.
 
 [Back to top](#ui-terms-top)
 

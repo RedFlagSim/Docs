@@ -42,7 +42,7 @@
 | 23 | [机炮板机](#item-23) | 發射目前選取的機炮 |
 | 24 | [武器选择开关](#item-24) | 選擇武器類別並輪換所選飛彈 |
 | 25 | [antenna elevation](#item-25) | 調整雷達天線俯仰角 |
-| 26 | [coolie 开关](#item-26) | 管理戰術頁面和顯示 |
+| 26 | [Coolie 開關](#item-26) | 在 TWS 模式下管理追蹤指定與 PDT |
 | 27 | [武器释放](#item-27) | 釋放所選飛彈或掛載 |
 | 28 | [auto acquisition 开关](#item-28) | 切換 STBY/LRS、循環自動截獲模式或啟用 FLOOD |
 | 30 | [觸控搖桿](#item-30) | 控制飛機俯仰和滾轉 |
@@ -371,7 +371,10 @@
 
 <img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Coolie 開關">
 
-用於管理戰術頁面和顯示器，無須開啟主選單。使用游標或指定目標前，先確認目前啟用的顯示器。
+在 TWS 模式下，Coolie 開關用於管理追蹤檔案的指定與主要指定目標（PDT）。
+
+- **向上：** 自動指定全部追蹤檔案並自動指定 PDT，或在全部追蹤檔案中循環指定 PDT。
+- **向下：** 取消全部指定。
 
 [返回頂部](#ui-terms-top)
 

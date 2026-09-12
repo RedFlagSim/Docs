@@ -42,7 +42,7 @@
 | 23 | [机炮板机](#item-23) | 发射当前选中的机炮 |
 | 24 | [武器选择开关](#item-24) | 选择武器类别并轮换所选导弹 |
 | 25 | [antenna elevation](#item-25) | 调整雷达天线俯仰角 |
-| 26 | [coolie 开关](#item-26) | 管理战术页面和显示 |
+| 26 | [Coolie 开关](#item-26) | TWS 模式下管理跟踪指定和 PDT |
 | 27 | [武器释放](#item-27) | 释放所选导弹或挂载 |
 | 28 | [auto acquisition 开关](#item-28) | 切换 STBY/LRS、循环自动截获模式或激活 FLOOD |
 | 30 | [触摸摇杆](#item-30) | 控制飞机俯仰和滚转 |
@@ -371,7 +371,10 @@
 
 <img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Coolie 开关">
 
-用于页面和显示器管理。在 F-15C 工作流中，可以把 Coolie 开关理解为快速切换座舱注意力的控件，用来在不打开主菜单的情况下管理战术页面。使用光标或指定目标前，先确认当前激活的是哪块显示器。
+在 TWS 模式下，Coolie 开关用于管理跟踪档案的指定和主要指定目标（PDT）。
+
+- **向上：** 自动指定全部跟踪档案并自动指定 PDT，或在全部跟踪档案中循环指定 PDT。
+- **向下：** 取消全部指定。
 
 [返回顶部](#ui-terms-top)
 

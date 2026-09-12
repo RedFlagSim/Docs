@@ -42,7 +42,7 @@ Diese Seite gilt für iOS- und Android-Touchgeräte.
 | 23 | [Bordkanonen-Abzug](#item-23) | Ausgewählte Bordkanone abfeuern |
 | 24 | [Waffenwahlschalter](#item-24) | Waffenkategorie wählen und Flugkörper durchschalten |
 | 25 | [Antenna Elevation](#item-25) | Radarantennenelevation einstellen |
-| 26 | [Coolie-Schalter](#item-26) | Taktische Seiten und Anzeigen verwalten |
+| 26 | [Coolie-Schalter](#item-26) | Zielzuweisungen und PDT im TWS-Modus verwalten |
 | 27 | [Waffenfreigabe](#item-27) | Ausgewählten Flugkörper oder Außenlast auslösen |
 | 28 | [Auto-Acquisition-Schalter](#item-28) | STBY/LRS umschalten, automatische Erfassungsmodi durchlaufen oder FLOOD aktivieren |
 | 30 | [Touch-Stick](#item-30) | Nick- und Rollbewegungen steuern |
@@ -371,7 +371,10 @@ Wenn sich das Radar im LRW/TWS-Modus befindet, wird damit der Nick-Referenzwinke
 
 <img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Coolie-Schalter">
 
-Wird noch ergänzt.
+Im TWS-Modus steuert der Coolie-Schalter die Zuweisung von Tracks und des primär zugewiesenen Ziels (PDT).
+
+- **Nach oben:** Alle Tracks automatisch zuweisen und ein PDT automatisch auswählen oder das PDT der Reihe nach durch alle Tracks schalten.
+- **Nach unten:** Alle Zuweisungen aufheben.
 
 [Zurück nach oben](#ui-terms-top)
 

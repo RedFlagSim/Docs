@@ -42,7 +42,7 @@ Cette page s'applique aux appareils tactiles iOS et Android.
 | 23 | [Détente canon](#item-23) | Tirer avec le canon sélectionné |
 | 24 | [Sélecteur d'arme](#item-24) | Choisir la catégorie d’arme et faire défiler les missiles |
 | 25 | [Antenna Elevation](#item-25) | Régler l’élévation de l’antenne radar |
-| 26 | [Interrupteur coolie](#item-26) | Gérer les pages et affichages tactiques |
+| 26 | [Interrupteur coolie](#item-26) | Gérer les désignations et le PDT en mode TWS |
 | 27 | [Largage arme](#item-27) | Lancer le missile ou larguer la charge sélectionnée |
 | 28 | [Interrupteur auto acquisition](#item-28) | Basculer STBY/LRS, parcourir les modes d’acquisition automatique ou activer FLOOD |
 | 30 | [Joystick tactile](#item-30) | Commander le tangage et le roulis |
@@ -371,7 +371,10 @@ Lorsque le radar est en mode LRW/TWS, permet d'ajuster l'angle de tangage de ré
 
 <img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Interrupteur coolie">
 
-À compléter.
+En mode TWS, l’interrupteur coolie gère la désignation des pistes et de la cible désignée principale (PDT).
+
+- **Vers le haut :** Désigne automatiquement toutes les pistes et sélectionne un PDT, ou fait passer le PDT successivement parmi toutes les pistes.
+- **Vers le bas :** Annule toutes les désignations.
 
 [Retour en haut](#ui-terms-top)
 

@@ -42,7 +42,7 @@ Esta página aplica a dispositivos táctiles iOS y Android.
 | 23 | [Gatillo del cañón](#item-23) | Disparar el cañón seleccionado |
 | 24 | [Conmutador de selección de arma](#item-24) | Seleccionar categorías de armas y alternar misiles |
 | 25 | [Antenna Elevation](#item-25) | Ajustar la elevación de la antena radar |
-| 26 | [Conmutador coolie](#item-26) | Gestionar páginas y pantallas tácticas |
+| 26 | [Conmutador coolie](#item-26) | Gestionar designaciones y PDT en modo TWS |
 | 27 | [Liberación de arma](#item-27) | Lanzar el misil o la carga seleccionados |
 | 28 | [Conmutador auto acquisition](#item-28) | Alternar STBY/LRS, recorrer modos de adquisición automática o activar FLOOD |
 | 30 | [Stick táctil](#item-30) | Controlar el cabeceo y el alabeo |
@@ -371,7 +371,10 @@ Cuando el radar está en modo LRW/TWS, se usa para ajustar el ángulo de referen
 
 <img class="touch-ui-control-thumb" src="/assets/F-15C/TouchUI/controls/26-coolie-switch.png" alt="Conmutador coolie">
 
-Pendiente.
+En modo TWS, el conmutador coolie controla la designación de las pistas y el objetivo designado principal (PDT).
+
+- **Arriba:** Designa automáticamente todas las pistas y asigna un PDT, o alterna el PDT entre todas las pistas.
+- **Abajo:** Cancela todas las designaciones.
 
 [Volver arriba](#ui-terms-top)
 
