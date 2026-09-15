@@ -357,7 +357,7 @@ const content = computed(() => ({
       title: 'iOS / iPadOS',
       detail: '',
       action: copy.value.appStore,
-      href: 'https://apps.apple.com/us/app/carrier-landing-hd/id1176797391'
+      href: 'https://apps.apple.com/app/red-flag-sim/id6740720825'
     },
     {
       mark: 'A',
